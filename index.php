@@ -1,17 +1,17 @@
 <?php
 /**
- * Front to the WordPress application. This file doesn't do anything, but loads
- * wp-blog-header.php which does and tells WordPress to load the theme.
+ * Front to the paCMec application. This file doesn't do anything, but loads
+ * mt-blog-header.php which does and tells paCMec to load the theme.
  *
- * @package WordPress
+ * @package paCMec
  */
 
 /**
- * Tells WordPress to load the WordPress theme and output it.
+ * Tells paCMec to load the paCMec theme and output it.
  *
  * @var bool
  */
-define( 'WP_USE_THEMES', true );
+define( 'MT_USE_THEMES', true );
 
-/** Loads the WordPress Environment and Template */
-require __DIR__ . '/wp-blog-header.php';
+/** Loads the paCMec Environment and Template */
+require __DIR__ . '/mt-blog-header.php';

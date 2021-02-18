@@ -1,0 +1,24 @@
+{
+	"apiVersion": 2,
+	"name": "core/columns",
+	"category": "design",
+	"attributes": {
+		"verticalAlignment": {
+			"type": "string"
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false,
+		"color": {
+			"gradients": true,
+			"link": true
+		}
+	},
+	"editorStyle": "mt-block-columns-editor",
+	"style": "mt-block-columns"
+}

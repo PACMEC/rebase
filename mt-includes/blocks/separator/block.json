@@ -1,0 +1,19 @@
+{
+	"apiVersion": 2,
+	"name": "core/separator",
+	"category": "design",
+	"attributes": {
+		"color": {
+			"type": "string"
+		},
+		"customColor": {
+			"type": "string"
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"align": ["center","wide","full"]
+	},
+	"editorStyle": "mt-block-separator-editor",
+	"style": "mt-block-separator"
+}

@@ -1,0 +1,784 @@
+
+@import 'variables';
+@import 'mixins';
+
+@function url-friendly-colour( $color ) {
+	@return '%23' + str-slice( '#{ $color }', 2, -1 );
+}
+
+body {
+	background: $body-background;
+}
+
+
+/* Links */
+
+a {
+	color: $link;
+
+	&:hover,
+	&:active,
+	&:focus {
+		color: $link-focus;
+	}
+}
+
+#post-body .misc-pub-post-status:before,
+#post-body #visibility:before,
+.curtime #timestamp:before,
+#post-body .misc-pub-revisions:before,
+span.mt-media-buttons-icon:before {
+	color: currentColor;
+}
+
+.mt-core-ui .button-link {
+	color: $link;
+
+	&:hover,
+	&:active,
+	&:focus {
+		color: $link-focus;
+	}
+}
+
+.media-modal .delete-attachment,
+.media-modal .trash-attachment,
+.media-modal .untrash-attachment,
+.mt-core-ui .button-link-delete {
+	color: #a00;
+}
+
+.media-modal .delete-attachment:hover,
+.media-modal .trash-attachment:hover,
+.media-modal .untrash-attachment:hover,
+.media-modal .delete-attachment:focus,
+.media-modal .trash-attachment:focus,
+.media-modal .untrash-attachment:focus,
+.mt-core-ui .button-link-delete:hover,
+.mt-core-ui .button-link-delete:focus {
+	color: #dc3232;
+}
+
+/* Forms */
+
+input[type=checkbox]:checked::before {
+	content: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27#{url-friendly-colour($form-checked)}%27%2F%3E%3C%2Fsvg%3E");
+}
+
+input[type=radio]:checked::before {
+	background: $form-checked;
+}
+
+.mt-core-ui input[type="reset"]:hover,
+.mt-core-ui input[type="reset"]:active {
+	color: $link-focus;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="color"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="email"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus,
+input[type="checkbox"]:focus,
+input[type="radio"]:focus,
+select:focus,
+textarea:focus {
+	border-color: $highlight-color;
+	box-shadow: 0 0 0 1px $highlight-color;
+}
+
+
+/* Core UI */
+
+.mt-core-ui {
+
+	.button {
+		border-color: #7e8993;
+		color: #32373c;
+	}
+
+	.button.hover,
+	.button:hover,
+	.button.focus,
+	.button:focus {
+		border-color: darken( #7e8993, 5% );
+		color: darken( #32373c, 5% );
+	}
+
+	.button.focus,
+	.button:focus {
+		border-color: #7e8993;
+		color: darken( #32373c, 5% );
+		box-shadow: 0 0 0 1px #32373c;
+	}
+
+	.button:active {
+		border-color: #7e8993;
+		color: darken( #32373c, 5% );
+		box-shadow: none;
+	}
+
+	.button.active,
+	.button.active:focus,
+	.button.active:hover {
+		border-color: $button-color;
+		color: darken( #32373c, 5% );
+		box-shadow: inset 0 2px 5px -3px $button-color;
+	}
+
+	.button.active:focus {
+		box-shadow: 0 0 0 1px #32373c;
+	}
+
+	@if ( $low-contrast-theme != "true" ) {
+		.button,
+		.button-secondary {
+			color: $highlight-color;
+			border-color: $highlight-color;
+		}
+
+		.button.hover,
+		.button:hover,
+		.button-secondary:hover{
+			border-color: darken($highlight-color, 10);
+			color: darken($highlight-color, 10);
+		}
+
+		.button.focus,
+		.button:focus,
+		.button-secondary:focus {
+			border-color: lighten($highlight-color, 10);
+			color: darken($highlight-color, 20);;
+			box-shadow: 0 0 0 1px lighten($highlight-color, 10);
+		}
+
+		.button-primary {
+			&:hover {
+				color: #fff;
+			}
+		}
+	}
+
+	.button-primary {
+		@include button( $button-color );
+	}
+
+	.button-group > .button.active {
+		border-color: $button-color;
+	}
+
+	.mt-ui-primary {
+		color: $text-color;
+		background-color: $base-color;
+	}
+	.mt-ui-text-primary {
+		color: $base-color;
+	}
+
+	.mt-ui-highlight {
+		color: $menu-highlight-text;
+		background-color: $menu-highlight-background;
+	}
+	.mt-ui-text-highlight {
+		color: $menu-highlight-background;
+	}
+
+	.mt-ui-notification {
+		color: $menu-bubble-text;
+		background-color: $menu-bubble-background;
+	}
+	.mt-ui-text-notification {
+		color: $menu-bubble-background;
+	}
+
+	.mt-ui-text-icon {
+		color: $menu-icon;
+	}
+}
+
+
+/* List tables */
+@if $low-contrast-theme == "true" {
+	.wrap .page-title-action:hover {
+		color: $menu-text;
+		background-color: $menu-background;
+	}
+} @else {
+	.wrap .page-title-action,
+	.wrap .page-title-action:active {
+		border: 1px solid $highlight-color;
+		color: $highlight-color;
+	}
+
+	.wrap .page-title-action:hover {
+		color: darken($highlight-color, 10);
+		border-color: darken($highlight-color, 10);
+	}
+
+	.wrap .page-title-action:focus {
+		border-color: lighten($highlight-color, 10);
+		color: darken($highlight-color, 20);;
+		box-shadow: 0 0 0 1px lighten($highlight-color, 10);
+	}
+}
+
+.view-switch a.current:before {
+	color: $menu-background;
+}
+
+.view-switch a:hover:before {
+	color: $menu-bubble-background;
+}
+
+
+/* Admin Menu */
+
+#adminmenuback,
+#adminmenuwrap,
+#adminmenu {
+	background: $menu-background;
+}
+
+#adminmenu a {
+	color: $menu-text;
+}
+
+#adminmenu div.mt-menu-image:before {
+	color: $menu-icon;
+}
+
+#adminmenu a:hover,
+#adminmenu li.menu-top:hover,
+#adminmenu li.opensub > a.menu-top,
+#adminmenu li > a.menu-top:focus {
+	color: $menu-highlight-text;
+	background-color: $menu-highlight-background;
+}
+
+#adminmenu li.menu-top:hover div.mt-menu-image:before,
+#adminmenu li.opensub > a.menu-top div.mt-menu-image:before {
+	color: $menu-highlight-icon;
+}
+
+
+/* Active tabs use a bottom border color that matches the page background color. */
+
+.about-wrap .nav-tab-active,
+.nav-tab-active,
+.nav-tab-active:hover {
+	background-color: $body-background;
+	border-bottom-color: $body-background;
+}
+
+
+/* Admin Menu: submenu */
+
+#adminmenu .mt-submenu,
+#adminmenu .mt-has-current-submenu .mt-submenu,
+#adminmenu .mt-has-current-submenu.opensub .mt-submenu,
+.folded #adminmenu .mt-has-current-submenu .mt-submenu,
+#adminmenu a.mt-has-current-submenu:focus + .mt-submenu {
+	background: $menu-submenu-background;
+}
+
+#adminmenu li.mt-has-submenu.mt-not-current-submenu.opensub:hover:after {
+	border-right-color: $menu-submenu-background;
+}
+
+#adminmenu .mt-submenu .mt-submenu-head {
+	color: $menu-submenu-text;
+}
+
+#adminmenu .mt-submenu a,
+#adminmenu .mt-has-current-submenu .mt-submenu a,
+.folded #adminmenu .mt-has-current-submenu .mt-submenu a,
+#adminmenu a.mt-has-current-submenu:focus + .mt-submenu a,
+#adminmenu .mt-has-current-submenu.opensub .mt-submenu a {
+	color: $menu-submenu-text;
+
+	&:focus, &:hover {
+		color: $menu-submenu-focus-text;
+	}
+}
+
+
+/* Admin Menu: current */
+
+#adminmenu .mt-submenu li.current a,
+#adminmenu a.mt-has-current-submenu:focus + .mt-submenu li.current a,
+#adminmenu .mt-has-current-submenu.opensub .mt-submenu li.current a {
+	color: $menu-submenu-current-text;
+
+	&:hover, &:focus {
+		color: $menu-submenu-focus-text;
+	}
+}
+
+ul#adminmenu a.mt-has-current-submenu:after,
+ul#adminmenu > li.current > a.current:after {
+    border-right-color: $body-background;
+}
+
+#adminmenu li.current a.menu-top,
+#adminmenu li.mt-has-current-submenu a.mt-has-current-submenu,
+#adminmenu li.mt-has-current-submenu .mt-submenu .mt-submenu-head,
+.folded #adminmenu li.current.menu-top {
+	color: $menu-current-text;
+	background: $menu-current-background;
+}
+
+#adminmenu li.mt-has-current-submenu div.mt-menu-image:before,
+#adminmenu a.current:hover div.mt-menu-image:before,
+#adminmenu li.current div.mt-menu-image:before,
+#adminmenu li.mt-has-current-submenu a:focus div.mt-menu-image:before,
+#adminmenu li.mt-has-current-submenu.opensub div.mt-menu-image:before,
+#adminmenu li:hover div.mt-menu-image:before,
+#adminmenu li a:focus div.mt-menu-image:before,
+#adminmenu li.opensub div.mt-menu-image:before {
+	color: $menu-current-icon;
+}
+
+
+/* Admin Menu: bubble */
+
+#adminmenu .awaiting-mod,
+#adminmenu .update-plugins {
+	color: $menu-bubble-text;
+	background: $menu-bubble-background;
+}
+
+#adminmenu li.current a .awaiting-mod,
+#adminmenu li a.mt-has-current-submenu .update-plugins,
+#adminmenu li:hover a .awaiting-mod,
+#adminmenu li.menu-top:hover > a .update-plugins {
+	color: $menu-bubble-current-text;
+	background: $menu-bubble-current-background;
+}
+
+
+/* Admin Menu: collapse button */
+
+#collapse-button {
+    color: $menu-collapse-text;
+}
+
+#collapse-button:hover,
+#collapse-button:focus {
+    color: $menu-submenu-focus-text;
+}
+
+/* Admin Bar */
+
+#mtadminbar {
+	color: $menu-text;
+	background: $menu-background;
+}
+
+#mtadminbar .ab-item,
+#mtadminbar a.ab-item,
+#mtadminbar > #mt-toolbar span.ab-label,
+#mtadminbar > #mt-toolbar span.noticon {
+	color: $menu-text;
+}
+
+#mtadminbar .ab-icon,
+#mtadminbar .ab-icon:before,
+#mtadminbar .ab-item:before,
+#mtadminbar .ab-item:after {
+	color: $menu-icon;
+}
+
+#mtadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item,
+#mtadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus,
+#mtadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus,
+#mtadminbar.nojs .ab-top-menu > li.menupop:hover > .ab-item,
+#mtadminbar .ab-top-menu > li.menupop.hover > .ab-item {
+	color: $menu-submenu-focus-text;
+	background: $menu-submenu-background;
+}
+
+#mtadminbar:not(.mobile) > #mt-toolbar li:hover span.ab-label,
+#mtadminbar:not(.mobile) > #mt-toolbar li.hover span.ab-label,
+#mtadminbar:not(.mobile) > #mt-toolbar a:focus span.ab-label {
+	color: $menu-submenu-focus-text;
+}
+
+#mtadminbar:not(.mobile) li:hover .ab-icon:before,
+#mtadminbar:not(.mobile) li:hover .ab-item:before,
+#mtadminbar:not(.mobile) li:hover .ab-item:after,
+#mtadminbar:not(.mobile) li:hover #adminbarsearch:before {
+	color: $menu-submenu-focus-text;
+}
+
+
+/* Admin Bar: submenu */
+
+#mtadminbar .menupop .ab-sub-wrapper {
+	background: $menu-submenu-background;
+}
+
+#mtadminbar .quicklinks .menupop ul.ab-sub-secondary,
+#mtadminbar .quicklinks .menupop ul.ab-sub-secondary .ab-submenu {
+	background: $menu-submenu-background-alt;
+}
+
+#mtadminbar .ab-submenu .ab-item,
+#mtadminbar .quicklinks .menupop ul li a,
+#mtadminbar .quicklinks .menupop.hover ul li a,
+#mtadminbar.nojs .quicklinks .menupop:hover ul li a {
+	color: $menu-submenu-text;
+}
+
+#mtadminbar .quicklinks li .blavatar,
+#mtadminbar .menupop .menupop > .ab-item:before {
+	color: $menu-icon;
+}
+
+#mtadminbar .quicklinks .menupop ul li a:hover,
+#mtadminbar .quicklinks .menupop ul li a:focus,
+#mtadminbar .quicklinks .menupop ul li a:hover strong,
+#mtadminbar .quicklinks .menupop ul li a:focus strong,
+#mtadminbar .quicklinks .ab-sub-wrapper .menupop.hover > a,
+#mtadminbar .quicklinks .menupop.hover ul li a:hover,
+#mtadminbar .quicklinks .menupop.hover ul li a:focus,
+#mtadminbar.nojs .quicklinks .menupop:hover ul li a:hover,
+#mtadminbar.nojs .quicklinks .menupop:hover ul li a:focus,
+#mtadminbar li:hover .ab-icon:before,
+#mtadminbar li:hover .ab-item:before,
+#mtadminbar li a:focus .ab-icon:before,
+#mtadminbar li .ab-item:focus:before,
+#mtadminbar li .ab-item:focus .ab-icon:before,
+#mtadminbar li.hover .ab-icon:before,
+#mtadminbar li.hover .ab-item:before,
+#mtadminbar li:hover #adminbarsearch:before,
+#mtadminbar li #adminbarsearch.adminbar-focused:before {
+	color: $menu-submenu-focus-text;
+}
+
+#mtadminbar .quicklinks li a:hover .blavatar,
+#mtadminbar .quicklinks li a:focus .blavatar,
+#mtadminbar .quicklinks .ab-sub-wrapper .menupop.hover > a .blavatar,
+#mtadminbar .menupop .menupop > .ab-item:hover:before,
+#mtadminbar.mobile .quicklinks .ab-icon:before,
+#mtadminbar.mobile .quicklinks .ab-item:before {
+	color: $menu-submenu-focus-text;
+}
+
+#mtadminbar.mobile .quicklinks .hover .ab-icon:before,
+#mtadminbar.mobile .quicklinks .hover .ab-item:before {
+	color: $menu-icon;
+}
+
+
+/* Admin Bar: search */
+
+#mtadminbar #adminbarsearch:before {
+	color: $menu-icon;
+}
+
+#mtadminbar > #mt-toolbar > #mt-admin-bar-top-secondary > #mt-admin-bar-search #adminbarsearch input.adminbar-input:focus {
+	color: $menu-text;
+	background: $adminbar-input-background;
+}
+
+/* Admin Bar: recovery mode */
+
+#mtadminbar #mt-admin-bar-recovery-mode {
+	color: $adminbar-recovery-exit-text;
+	background-color: $adminbar-recovery-exit-background;
+}
+
+#mtadminbar #mt-admin-bar-recovery-mode .ab-item,
+#mtadminbar #mt-admin-bar-recovery-mode a.ab-item {
+	color: $adminbar-recovery-exit-text;
+}
+
+#mtadminbar .ab-top-menu > #mt-admin-bar-recovery-mode.hover >.ab-item,
+#mtadminbar.nojq .quicklinks .ab-top-menu > #mt-admin-bar-recovery-mode > .ab-item:focus,
+#mtadminbar:not(.mobile) .ab-top-menu > #mt-admin-bar-recovery-mode:hover > .ab-item,
+#mtadminbar:not(.mobile) .ab-top-menu > #mt-admin-bar-recovery-mode > .ab-item:focus {
+	color: $adminbar-recovery-exit-text;
+	background-color: $adminbar-recovery-exit-background-alt;
+}
+
+/* Admin Bar: my account */
+
+#mtadminbar .quicklinks li#mt-admin-bar-my-account.with-avatar > a img {
+	border-color: $adminbar-avatar-frame;
+	background-color: $adminbar-avatar-frame;
+}
+
+#mtadminbar #mt-admin-bar-user-info .display-name {
+	color: $menu-text;
+}
+
+#mtadminbar #mt-admin-bar-user-info a:hover .display-name {
+	color: $menu-submenu-focus-text;
+}
+
+#mtadminbar #mt-admin-bar-user-info .username {
+	color: $menu-submenu-text;
+}
+
+
+/* Pointers */
+
+.mt-pointer .mt-pointer-content h3 {
+	background-color: $highlight-color;
+	border-color: darken( $highlight-color, 5% );
+}
+
+.mt-pointer .mt-pointer-content h3:before {
+	color: $highlight-color;
+}
+
+.mt-pointer.mt-pointer-top .mt-pointer-arrow,
+.mt-pointer.mt-pointer-top .mt-pointer-arrow-inner,
+.mt-pointer.mt-pointer-undefined .mt-pointer-arrow,
+.mt-pointer.mt-pointer-undefined .mt-pointer-arrow-inner {
+	border-bottom-color: $highlight-color;
+}
+
+
+/* Media */
+
+.media-item .bar,
+.media-progress-bar div {
+	background-color: $highlight-color;
+}
+
+.details.attachment {
+	box-shadow:
+		inset 0 0 0 3px #fff,
+		inset 0 0 0 7px $highlight-color;
+}
+
+.attachment.details .check {
+	background-color: $highlight-color;
+	box-shadow: 0 0 0 1px #fff, 0 0 0 2px $highlight-color;
+}
+
+.media-selection .attachment.selection.details .thumbnail {
+	box-shadow: 0 0 0 1px #fff, 0 0 0 3px $highlight-color;
+}
+
+
+/* Themes */
+
+.theme-browser .theme.active .theme-name,
+.theme-browser .theme.add-new-theme a:hover:after,
+.theme-browser .theme.add-new-theme a:focus:after {
+	background: $highlight-color;
+}
+
+.theme-browser .theme.add-new-theme a:hover span:after,
+.theme-browser .theme.add-new-theme a:focus span:after {
+	color: $highlight-color;
+}
+
+.theme-section.current,
+.theme-filter.current {
+	border-bottom-color: $menu-background;
+}
+
+body.more-filters-opened .more-filters {
+	color: $menu-text;
+	background-color: $menu-background;
+}
+
+body.more-filters-opened .more-filters:before {
+	color: $menu-text;
+}
+
+body.more-filters-opened .more-filters:hover,
+body.more-filters-opened .more-filters:focus {
+	background-color: $menu-highlight-background;
+	color: $menu-highlight-text;
+}
+
+body.more-filters-opened .more-filters:hover:before,
+body.more-filters-opened .more-filters:focus:before {
+	color: $menu-highlight-text;
+}
+
+/* Widgets */
+
+.widgets-chooser li.widgets-chooser-selected {
+	background-color: $menu-highlight-background;
+	color: $menu-highlight-text;
+}
+
+.widgets-chooser li.widgets-chooser-selected:before,
+.widgets-chooser li.widgets-chooser-selected:focus:before {
+	color: $menu-highlight-text;
+}
+
+
+/* Nav Menus */
+
+.nav-menus-php .item-edit:focus:before {
+	box-shadow:
+		0 0 0 1px lighten($button-color, 10),
+		0 0 2px 1px $button-color;
+}
+
+
+/* Responsive Component */
+
+div#mt-responsive-toggle a:before {
+	color: $menu-icon;
+}
+
+.mt-responsive-open div#mt-responsive-toggle a {
+	// ToDo: make inset border
+	border-color: transparent;
+	background: $menu-highlight-background;
+}
+
+.mt-responsive-open #mtadminbar #mt-admin-bar-menu-toggle a {
+	background: $menu-submenu-background;
+}
+
+.mt-responsive-open #mtadminbar #mt-admin-bar-menu-toggle .ab-icon:before {
+	color: $menu-icon;
+}
+
+/* TinyMCE */
+
+.mce-container.mce-menu .mce-menu-item:hover,
+.mce-container.mce-menu .mce-menu-item.mce-selected,
+.mce-container.mce-menu .mce-menu-item:focus,
+.mce-container.mce-menu .mce-menu-item-normal.mce-active,
+.mce-container.mce-menu .mce-menu-item-preview.mce-active {
+	background: $highlight-color;
+}
+
+/* Customizer */
+.mt-core-ui {
+	#customize-controls .control-section:hover > .accordion-section-title,
+	#customize-controls .control-section .accordion-section-title:hover,
+	#customize-controls .control-section.open .accordion-section-title,
+	#customize-controls .control-section .accordion-section-title:focus {
+		color: $link;
+		border-left-color: $button-color;
+	}
+
+	.customize-controls-close:focus,
+	.customize-controls-close:hover,
+	.customize-controls-preview-toggle:focus,
+	.customize-controls-preview-toggle:hover {
+		color: $link;
+		border-top-color: $button-color;
+	}
+
+	.customize-panel-back:hover,
+	.customize-panel-back:focus,
+	.customize-section-back:hover,
+	.customize-section-back:focus {
+		color: $link;
+		border-left-color: $button-color;
+	}
+
+	.customize-screen-options-toggle:hover,
+	.customize-screen-options-toggle:active,
+	.customize-screen-options-toggle:focus,
+	.active-menu-screen-options .customize-screen-options-toggle,
+	#customize-controls .customize-info.open.active-menu-screen-options .customize-help-toggle:hover,
+	#customize-controls .customize-info.open.active-menu-screen-options .customize-help-toggle:active,
+	#customize-controls .customize-info.open.active-menu-screen-options .customize-help-toggle:focus {
+		color: $link;
+	}
+
+	.customize-screen-options-toggle:focus:before,
+	#customize-controls .customize-info .customize-help-toggle:focus:before,
+	&.mt-customizer button:focus .toggle-indicator:before,
+	.menu-item-bar .item-delete:focus:before,
+	#available-menu-items .item-add:focus:before,
+	#customize-save-button-wrapper .save:focus,
+	#publish-settings:focus {
+		box-shadow:
+			0 0 0 1px lighten($button-color, 10),
+			0 0 2px 1px $button-color;
+	}
+
+	#customize-controls .customize-info.open .customize-help-toggle,
+	#customize-controls .customize-info .customize-help-toggle:focus,
+	#customize-controls .customize-info .customize-help-toggle:hover {
+		color: $link;
+	}
+
+	.control-panel-themes .customize-themes-section-title:focus,
+	.control-panel-themes .customize-themes-section-title:hover {
+		border-left-color: $button-color;
+		color: $link;
+	}
+
+	.control-panel-themes .theme-section .customize-themes-section-title.selected:after {
+		background: $button-color;
+	}
+
+	.control-panel-themes .customize-themes-section-title.selected {
+		color: $link;
+	}
+
+	#customize-theme-controls .control-section:hover > .accordion-section-title:after,
+	#customize-theme-controls .control-section .accordion-section-title:hover:after,
+	#customize-theme-controls .control-section.open .accordion-section-title:after,
+	#customize-theme-controls .control-section .accordion-section-title:focus:after,
+	#customize-outer-theme-controls .control-section:hover > .accordion-section-title:after,
+	#customize-outer-theme-controls .control-section .accordion-section-title:hover:after,
+	#customize-outer-theme-controls .control-section.open .accordion-section-title:after,
+	#customize-outer-theme-controls .control-section .accordion-section-title:focus:after {
+		color: $link;
+	}
+
+	.customize-control .attachment-media-view .button-add-media:focus {
+		background-color: #fbfbfc;
+		border-color: $button-color;
+		border-style: solid;
+		box-shadow: 0 0 0 1px $button-color;
+		outline: 2px solid transparent;
+	}
+
+	.mt-full-overlay-footer .devices button:focus,
+	.mt-full-overlay-footer .devices button.active:hover {
+		border-bottom-color: $button-color;
+	}
+
+	.mt-full-overlay-footer .devices button:hover:before,
+	.mt-full-overlay-footer .devices button:focus:before {
+		color: $button-color;
+	}
+
+	.mt-full-overlay .collapse-sidebar:hover,
+	.mt-full-overlay .collapse-sidebar:focus {
+		color: $button-color;
+	}
+
+	.mt-full-overlay .collapse-sidebar:hover .collapse-sidebar-arrow,
+	.mt-full-overlay .collapse-sidebar:focus .collapse-sidebar-arrow {
+		box-shadow:
+			0 0 0 1px lighten($button-color, 10),
+			0 0 2px 1px $button-color;
+	}
+
+	&.mt-customizer .theme-overlay .theme-header .close:focus,
+	&.mt-customizer .theme-overlay .theme-header .close:hover,
+	&.mt-customizer .theme-overlay .theme-header .right:focus,
+	&.mt-customizer .theme-overlay .theme-header .right:hover,
+	&.mt-customizer .theme-overlay .theme-header .left:focus,
+	&.mt-customizer .theme-overlay .theme-header .left:hover {
+		border-bottom-color: $button-color;
+		color: $link;
+	}
+}

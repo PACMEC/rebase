@@ -1,0 +1,1084 @@
+#mtadminbar * {
+	height: auto;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	position: static;
+	text-shadow: none;
+	text-transform: none;
+	letter-spacing: normal;
+	font-size: 13px;
+	font-weight: 400;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	line-height: 2.46153846;
+	border-radius: 0;
+	box-sizing: content-box;
+	transition: none;
+	-webkit-font-smoothing: subpixel-antialiased; /* Prevent Safari from switching to standard antialiasing on hover */
+	-moz-osx-font-smoothing: auto; /* Prevent Firefox from inheriting from themes that use other values */
+}
+
+.rtl #mtadminbar * {
+	font-family: Tahoma, sans-serif;
+}
+
+html:lang(he-il) .rtl #mtadminbar * {
+	font-family: Arial, sans-serif;
+}
+
+#mtadminbar .ab-empty-item {
+	cursor: default;
+}
+
+#mtadminbar .ab-empty-item,
+#mtadminbar a.ab-item,
+#mtadminbar > #mt-toolbar span.ab-label,
+#mtadminbar > #mt-toolbar span.noticon {
+	color: #f0f0f1;
+}
+
+#mtadminbar #mt-admin-bar-site-name a.ab-item,
+#mtadminbar #mt-admin-bar-my-sites a.ab-item {
+	white-space: nowrap;
+}
+
+#mtadminbar ul li:before,
+#mtadminbar ul li:after {
+	content: normal;
+}
+
+#mtadminbar a,
+#mtadminbar a:hover,
+#mtadminbar a img,
+#mtadminbar a img:hover {
+	border: none;
+	text-decoration: none;
+	background: none;
+}
+
+#mtadminbar a:focus,
+#mtadminbar a:active,
+#mtadminbar input[type="text"],
+#mtadminbar input[type="password"],
+#mtadminbar input[type="number"],
+#mtadminbar input[type="search"],
+#mtadminbar input[type="email"],
+#mtadminbar input[type="url"],
+#mtadminbar select,
+#mtadminbar textarea,
+#mtadminbar div {
+	box-shadow: none;
+}
+
+#mtadminbar a:focus {
+	/* Inherits transparent outline only visible in Windows High Contrast mode */
+	outline-offset: -1px;
+}
+
+#mtadminbar {
+	direction: ltr;
+	color: #c3c4c7;
+	font-size: 13px;
+	font-weight: 400;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	line-height: 2.46153846;
+	height: 32px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-width: 600px; /* match the min-width of the body in mt-admin/css/common.css */
+	z-index: 99999;
+	background: #1d2327;
+}
+
+#mtadminbar .ab-sub-wrapper,
+#mtadminbar ul,
+#mtadminbar ul li {
+	background: none;
+	clear: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-indent: 0;
+	z-index: 99999;
+}
+
+#mtadminbar ul#mt-admin-bar-root-default>li {
+	margin-right: 0;
+}
+
+#mtadminbar .quicklinks ul {
+	text-align: left;
+}
+
+#mtadminbar li {
+	float: left;
+}
+
+#mtadminbar .ab-empty-item {
+	outline: none;
+}
+
+#mtadminbar .quicklinks .ab-top-secondary > li {
+	float: right;
+}
+
+#mtadminbar .quicklinks a,
+#mtadminbar .quicklinks .ab-empty-item,
+#mtadminbar .shortlink-input {
+	height: 32px;
+	display: block;
+	padding: 0 10px;
+	margin: 0;
+}
+
+#mtadminbar .quicklinks > ul > li > a {
+	padding: 0 8px 0 7px;
+}
+
+#mtadminbar .menupop .ab-sub-wrapper,
+#mtadminbar .shortlink-input {
+	margin: 0;
+	padding: 0;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+	background: #2c3338;
+	display: none;
+	position: absolute;
+	float: none;
+}
+
+#mtadminbar .ab-top-menu > .menupop > .ab-sub-wrapper {
+	min-width: 100%;
+}
+
+#mtadminbar .ab-top-secondary .menupop .ab-sub-wrapper {
+	right: 0;
+	left: auto;
+}
+
+#mtadminbar .ab-submenu {
+	padding: 6px 0;
+}
+
+#mtadminbar .selected .shortlink-input {
+	display: block;
+}
+
+#mtadminbar .quicklinks .menupop ul li {
+	float: none;
+}
+
+#mtadminbar .quicklinks .menupop ul li a strong {
+	font-weight: 600;
+}
+
+#mtadminbar .quicklinks .menupop ul li .ab-item,
+#mtadminbar .quicklinks .menupop ul li a strong,
+#mtadminbar .quicklinks .menupop.hover ul li .ab-item,
+#mtadminbar.nojs .quicklinks .menupop:hover ul li .ab-item,
+#mtadminbar .shortlink-input {
+	line-height: 2;
+	height: 26px;
+	white-space: nowrap;
+	min-width: 140px;
+}
+
+#mtadminbar .shortlink-input {
+	width: 200px;
+}
+
+#mtadminbar.nojs li:hover > .ab-sub-wrapper,
+#mtadminbar li.hover > .ab-sub-wrapper {
+	display: block;
+}
+
+#mtadminbar .menupop li:hover > .ab-sub-wrapper,
+#mtadminbar .menupop li.hover > .ab-sub-wrapper {
+	margin-left: 100%;
+	margin-top: -32px;
+}
+
+#mtadminbar .ab-top-secondary .menupop li:hover > .ab-sub-wrapper,
+#mtadminbar .ab-top-secondary .menupop li.hover > .ab-sub-wrapper {
+	margin-left: 0;
+	left: inherit;
+	right: 100%;
+}
+
+#mtadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus,
+#mtadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus,
+#mtadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item,
+#mtadminbar .ab-top-menu > li.hover > .ab-item {
+	background: #2c3338;
+	color: #72aee6;
+}
+
+#mtadminbar:not(.mobile) > #mt-toolbar li:hover span.ab-label,
+#mtadminbar > #mt-toolbar li.hover span.ab-label,
+#mtadminbar:not(.mobile) > #mt-toolbar a:focus span.ab-label {
+	color: #72aee6;
+}
+
+#mtadminbar > #mt-toolbar > #mt-admin-bar-root-default .ab-icon,
+#mtadminbar .ab-icon,
+#mtadminbar .ab-item:before,
+.mt-admin-bar-arrow {
+	position: relative;
+	float: left;
+	font: normal 20px/1 dashicons;
+	speak: never;
+	padding: 4px 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-image: none !important;
+	margin-right: 6px;
+}
+
+#mtadminbar .ab-icon:before,
+#mtadminbar .ab-item:before,
+#mtadminbar #adminbarsearch:before {
+	color: #a7aaad;
+	color: rgba(240, 246, 252, 0.6);
+}
+
+#mtadminbar .ab-icon:before,
+#mtadminbar .ab-item:before,
+#mtadminbar #adminbarsearch:before {
+	position: relative;
+	transition: all .1s ease-in-out;
+}
+
+#mtadminbar .ab-label {
+	display: inline-block;
+	height: 32px;
+}
+
+#mtadminbar .ab-submenu .ab-item {
+	color: #c3c4c7;
+	color: rgba(240, 246, 252, 0.7);
+}
+
+#mtadminbar .quicklinks .menupop ul li a,
+#mtadminbar .quicklinks .menupop ul li a strong,
+#mtadminbar .quicklinks .menupop.hover ul li a,
+#mtadminbar.nojs .quicklinks .menupop:hover ul li a {
+	color: #c3c4c7;
+	color: rgba(240, 246, 252, 0.7);
+}
+
+#mtadminbar .quicklinks .menupop ul li a:hover,
+#mtadminbar .quicklinks .menupop ul li a:focus,
+#mtadminbar .quicklinks .menupop ul li a:hover strong,
+#mtadminbar .quicklinks .menupop ul li a:focus strong,
+#mtadminbar .quicklinks .ab-sub-wrapper .menupop.hover > a,
+#mtadminbar .quicklinks .menupop.hover ul li a:hover,
+#mtadminbar .quicklinks .menupop.hover ul li a:focus,
+#mtadminbar .quicklinks .menupop.hover ul li div[tabindex]:hover,
+#mtadminbar .quicklinks .menupop.hover ul li div[tabindex]:focus,
+#mtadminbar.nojs .quicklinks .menupop:hover ul li a:hover,
+#mtadminbar.nojs .quicklinks .menupop:hover ul li a:focus,
+#mtadminbar li:hover .ab-icon:before,
+#mtadminbar li:hover .ab-item:before,
+#mtadminbar li a:focus .ab-icon:before,
+#mtadminbar li .ab-item:focus:before,
+#mtadminbar li .ab-item:focus .ab-icon:before,
+#mtadminbar li.hover .ab-icon:before,
+#mtadminbar li.hover .ab-item:before,
+#mtadminbar li:hover #adminbarsearch:before,
+#mtadminbar li #adminbarsearch.adminbar-focused:before {
+	color: #72aee6;
+}
+
+#mtadminbar.mobile .quicklinks .ab-icon:before,
+#mtadminbar.mobile .quicklinks .ab-item:before {
+	color: #c3c4c7;
+}
+
+#mtadminbar.mobile .quicklinks .hover .ab-icon:before,
+#mtadminbar.mobile .quicklinks .hover .ab-item:before {
+	color: #72aee6;
+}
+
+#mtadminbar .menupop .menupop > .ab-item .mt-admin-bar-arrow:before,
+#mtadminbar .ab-top-secondary .menupop .menupop > .ab-item:before {
+	position: absolute;
+	font: normal 17px/1 dashicons;
+	speak: never;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#mtadminbar .menupop .menupop > .ab-item {
+	display: block;
+	padding-right: 2em;
+}
+
+#mtadminbar .menupop .menupop > .ab-item .mt-admin-bar-arrow:before {
+	top: 1px;
+	right: 10px;
+	padding: 4px 0;
+	content: "\f139";
+	color: inherit;
+}
+
+#mtadminbar .ab-top-secondary .menupop .menupop > .ab-item {
+	padding-left: 2em;
+	padding-right: 1em;
+}
+
+#mtadminbar .ab-top-secondary .menupop .menupop > .ab-item .mt-admin-bar-arrow:before {
+	top: 1px;
+	left: 6px;
+	content: "\f141";
+}
+
+#mtadminbar .quicklinks .menupop ul.ab-sub-secondary {
+	display: block;
+	position: relative;
+	right: auto;
+	margin: 0;
+	box-shadow: none;
+}
+
+#mtadminbar .quicklinks .menupop ul.ab-sub-secondary,
+#mtadminbar .quicklinks .menupop ul.ab-sub-secondary .ab-submenu {
+	background: #3c434a;
+}
+
+#mtadminbar .quicklinks .menupop .ab-sub-secondary > li > a:hover,
+#mtadminbar .quicklinks .menupop .ab-sub-secondary > li .ab-item:focus a {
+	color: #72aee6;
+}
+
+#mtadminbar .quicklinks a span#ab-updates {
+	background: #f0f0f1;
+	color: #2c3338;
+	display: inline;
+	padding: 2px 5px;
+	font-size: 10px;
+	font-weight: 600;
+	border-radius: 10px;
+}
+
+#mtadminbar .quicklinks a:hover span#ab-updates {
+	background: #fff;
+	color: #000;
+}
+
+#mtadminbar .ab-top-secondary {
+	float: right;
+}
+
+#mtadminbar ul li:last-child,
+#mtadminbar ul li:last-child .ab-item {
+	box-shadow: none;
+}
+
+/**
+ * Recovery Mode
+ */
+#mtadminbar #mt-admin-bar-recovery-mode {
+	color: #fff;
+	background-color: #d63638;
+}
+
+#mtadminbar .ab-top-menu > #mt-admin-bar-recovery-mode.hover >.ab-item,
+#mtadminbar.nojq .quicklinks .ab-top-menu > #mt-admin-bar-recovery-mode > .ab-item:focus,
+#mtadminbar:not(.mobile) .ab-top-menu > #mt-admin-bar-recovery-mode:hover > .ab-item,
+#mtadminbar:not(.mobile) .ab-top-menu > #mt-admin-bar-recovery-mode > .ab-item:focus {
+	color: #fff;
+	background-color: #d63638;
+}
+
+/**
+ * My Account
+ */
+#mt-admin-bar-my-account > ul {
+	min-width: 198px;
+}
+
+#mt-admin-bar-my-account > .ab-item:before {
+	content: "\f110";
+	top: 2px;
+	float: right;
+	margin-left: 6px;
+	margin-right: 0;
+}
+
+#mt-admin-bar-my-account.with-avatar > .ab-item:before {
+	display: none;
+	content: none;
+}
+
+#mt-admin-bar-my-account.with-avatar > ul {
+	min-width: 270px;
+}
+
+#mtadminbar #mt-admin-bar-user-actions > li {
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+#mtadminbar #mt-admin-bar-user-actions.ab-submenu {
+	padding: 6px 0 12px;
+}
+
+#mtadminbar #mt-admin-bar-my-account.with-avatar #mt-admin-bar-user-actions > li {
+	margin-left: 88px;
+}
+
+#mtadminbar #mt-admin-bar-user-info {
+	margin-top: 6px;
+	margin-bottom: 15px;
+	height: auto;
+	background: none;
+}
+
+#mt-admin-bar-user-info .avatar {
+	position: absolute;
+	left: -72px;
+	top: 4px;
+	width: 64px;
+	height: 64px;
+}
+
+#mtadminbar #mt-admin-bar-user-info a {
+	background: none;
+	height: auto;
+}
+
+#mtadminbar #mt-admin-bar-user-info span {
+	background: none;
+	padding: 0;
+	height: 18px;
+}
+
+#mtadminbar #mt-admin-bar-user-info .display-name,
+#mtadminbar #mt-admin-bar-user-info .username {
+	display: block;
+}
+
+#mtadminbar #mt-admin-bar-user-info .username {
+	color: #a7aaad;
+	font-size: 11px;
+}
+
+#mtadminbar #mt-admin-bar-my-account.with-avatar > .ab-empty-item img,
+#mtadminbar #mt-admin-bar-my-account.with-avatar > a img {
+	width: auto;
+	height: 16px;
+	padding: 0;
+	border: 1px solid #8c8f94;
+	background: #f0f0f1;
+	line-height: 1.84615384;
+	vertical-align: middle;
+	margin: -4px 0 0 6px;
+	float: none;
+	display: inline;
+}
+
+/**
+ * MT Logo
+ */
+#mtadminbar #mt-admin-bar-mt-logo > .ab-item .ab-icon {
+	width: 15px;
+	height: 20px;
+	margin-right: 0;
+	padding: 6px 0 5px;
+}
+
+#mtadminbar #mt-admin-bar-mt-logo > .ab-item {
+	padding: 0 7px;
+}
+
+#mtadminbar #mt-admin-bar-mt-logo > .ab-item .ab-icon:before {
+	content: "\f120";
+	top: 2px;
+}
+
+/*
+ * My Sites & Site Title
+ */
+#mtadminbar .quicklinks li .blavatar {
+	display: inline-block;
+	vertical-align: middle;
+	font: normal 16px/1 dashicons !important;
+	speak: never;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #f0f0f1;
+}
+
+#mtadminbar .quicklinks li a:hover .blavatar,
+#mtadminbar .quicklinks li a:focus .blavatar,
+#mtadminbar .quicklinks .ab-sub-wrapper .menupop.hover > a .blavatar {
+	color: #72aee6;
+}
+
+#mtadminbar .quicklinks li .blavatar:before {
+	content: "\f120";
+	height: 16px;
+	width: 16px;
+	display: inline-block;
+	margin: 0 8px 2px -2px;
+}
+
+#mtadminbar #mt-admin-bar-appearance {
+	margin-top: -12px;
+}
+
+#mtadminbar #mt-admin-bar-my-sites > .ab-item:before,
+#mtadminbar #mt-admin-bar-site-name > .ab-item:before {
+	content: "\f541";
+	top: 2px;
+}
+
+#mtadminbar #mt-admin-bar-customize > .ab-item:before {
+	content: "\f540";
+	top: 2px;
+}
+
+
+#mtadminbar #mt-admin-bar-edit > .ab-item:before {
+	content: "\f464";
+	top: 2px;
+}
+
+#mtadminbar #mt-admin-bar-site-name > .ab-item:before {
+	content: "\f226";
+}
+
+.mt-admin #mtadminbar #mt-admin-bar-site-name > .ab-item:before {
+	content: "\f102";
+}
+
+
+
+/**
+ * Comments
+ */
+#mtadminbar #mt-admin-bar-comments .ab-icon {
+	margin-right: 6px;
+}
+
+#mtadminbar #mt-admin-bar-comments .ab-icon:before {
+	content: "\f101";
+	top: 3px;
+}
+
+#mtadminbar #mt-admin-bar-comments .count-0 {
+	opacity: .5;
+}
+
+/**
+ * New Content
+ */
+#mtadminbar #mt-admin-bar-new-content .ab-icon:before {
+	content: "\f132";
+	top: 4px;
+}
+
+/**
+ * Updates
+ */
+#mtadminbar #mt-admin-bar-updates .ab-icon:before {
+	content: "\f463";
+	top: 2px;
+}
+
+#mtadminbar #mt-admin-bar-updates.spin .ab-icon:before {
+	display: inline-block;
+	animation: rotation 2s infinite linear;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	#mtadminbar #mt-admin-bar-updates.spin .ab-icon:before {
+		animation: none;
+	}
+}
+
+/**
+ * Search
+ */
+
+#mtadminbar #mt-admin-bar-search .ab-item {
+	padding: 0;
+	background: transparent;
+}
+
+#mtadminbar #adminbarsearch {
+	position: relative;
+	height: 32px;
+	padding: 0 2px;
+	z-index: 1;
+}
+
+#mtadminbar #adminbarsearch:before {
+	position: absolute;
+	top: 6px;
+	left: 5px;
+	z-index: 20;
+	font: normal 20px/1 dashicons !important;
+	content: "\f179";
+	speak: never;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* The admin bar search field needs to reset many styles that might be inherited from the active Theme CSS. See ticket #40313. */
+#mtadminbar > #mt-toolbar > #mt-admin-bar-top-secondary > #mt-admin-bar-search #adminbarsearch input.adminbar-input {
+	display: inline-block;
+	float: none;
+	position: relative;
+	z-index: 30;
+	font-size: 13px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	line-height: 1.84615384;
+	text-indent: 0;
+	height: 24px;
+	width: 24px;
+	max-width: none;
+	padding: 0 3px 0 24px;
+	margin: 0;
+	color: #c3c4c7;
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	outline: none;
+	cursor: pointer;
+	box-shadow: none;
+	box-sizing: border-box;
+	transition-duration: 400ms;
+	transition-property: width, background;
+	transition-timing-function: ease;
+}
+
+#mtadminbar > #mt-toolbar > #mt-admin-bar-top-secondary > #mt-admin-bar-search #adminbarsearch input.adminbar-input:focus {
+	z-index: 10;
+	color: #000;
+	width: 200px;
+	background-color: rgba(255, 255, 255, 0.9);
+	cursor: text;
+	border: 0;
+}
+
+#mtadminbar #adminbarsearch .adminbar-button {
+	display: none;
+}
+
+/**
+ * Customize support classes
+ */
+.no-customize-support .hide-if-no-customize,
+.customize-support .hide-if-customize,
+.no-customize-support #mtadminbar .hide-if-no-customize,
+.no-customize-support.mt-core-ui .hide-if-no-customize,
+.no-customize-support .mt-core-ui .hide-if-no-customize,
+.customize-support #mtadminbar .hide-if-customize,
+.customize-support.mt-core-ui .hide-if-customize,
+.customize-support .mt-core-ui .hide-if-customize {
+	display: none;
+}
+
+/* Skip link */
+#mtadminbar .screen-reader-text,
+#mtadminbar .screen-reader-text span {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+#mtadminbar .screen-reader-shortcut {
+	position: absolute;
+	top: -1000em;
+}
+
+#mtadminbar .screen-reader-shortcut:focus {
+	left: 6px;
+	top: 7px;
+	height: auto;
+	width: auto;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 15px 23px 14px;
+	background: #f0f0f1;
+	color: #2271b1;
+	z-index: 100000;
+	line-height: normal;
+	text-decoration: none;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 782px) {
+	/* Toolbar Touchification*/
+	html #mtadminbar {
+		height: 46px;
+		min-width: 240px; /* match the min-width of the body in mt-admin/css/common.css */
+	}
+
+	#mtadminbar * {
+		font-size: 14px;
+		font-weight: 400;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+		line-height: 2.28571428;
+	}
+
+	#mtadminbar .quicklinks > ul > li > a,
+	#mtadminbar .quicklinks .ab-empty-item {
+		padding: 0;
+		height: 46px;
+		line-height: 3.28571428;
+		width: auto;
+	}
+
+	#mtadminbar .ab-icon {
+		font: 40px/1 dashicons !important;
+		margin: 0;
+		padding: 0;
+		width: 52px;
+		height: 46px;
+		text-align: center;
+	}
+
+	#mtadminbar .ab-icon:before {
+		text-align: center;
+	}
+
+	#mtadminbar .ab-submenu {
+		padding: 0;
+	}
+
+	#mtadminbar #mt-admin-bar-site-name a.ab-item,
+	#mtadminbar #mt-admin-bar-my-sites a.ab-item,
+	#mtadminbar #mt-admin-bar-my-account a.ab-item {
+		text-overflow: clip;
+	}
+
+	#mtadminbar .quicklinks .menupop ul li .ab-item,
+	#mtadminbar .quicklinks .menupop ul li a strong,
+	#mtadminbar .quicklinks .menupop.hover ul li .ab-item,
+	#mtadminbar.nojs .quicklinks .menupop:hover ul li .ab-item,
+	#mtadminbar .shortlink-input {
+	    line-height: 1.6;
+	}
+
+	#mtadminbar .ab-label {
+		display: none;
+	}
+
+	#mtadminbar .menupop li:hover > .ab-sub-wrapper,
+	#mtadminbar .menupop li.hover > .ab-sub-wrapper {
+		margin-top: -46px;
+	}
+
+	#mtadminbar .ab-top-menu .menupop .ab-sub-wrapper .menupop > .ab-item {
+		padding-right: 30px;
+	}
+
+	#mtadminbar .menupop .menupop > .ab-item:before {
+		top: 10px;
+		right: 6px;
+	}
+
+	#mtadminbar .ab-top-menu > .menupop > .ab-sub-wrapper .ab-item {
+		font-size: 16px;
+		padding: 8px 16px;
+	}
+
+	#mtadminbar .ab-top-menu > .menupop > .ab-sub-wrapper a:empty {
+		display: none;
+	}
+
+	/* MT logo */
+	#mtadminbar #mt-admin-bar-mt-logo > .ab-item {
+		padding: 0;
+	}
+
+	#mtadminbar #mt-admin-bar-mt-logo > .ab-item .ab-icon {
+		padding: 0;
+		width: 52px;
+		height: 46px;
+		text-align: center;
+		vertical-align: top;
+	}
+
+	#mtadminbar #mt-admin-bar-mt-logo > .ab-item .ab-icon:before {
+		font: 28px/1 dashicons !important;
+		top: -3px;
+	}
+
+	#mtadminbar .ab-icon,
+	#mtadminbar .ab-item:before {
+		padding: 0;
+	}
+
+	/* My Sites and "Site Title" menu */
+	#mtadminbar #mt-admin-bar-my-sites > .ab-item,
+	#mtadminbar #mt-admin-bar-site-name > .ab-item,
+	#mtadminbar #mt-admin-bar-customize > .ab-item,
+	#mtadminbar #mt-admin-bar-edit > .ab-item,
+	#mtadminbar #mt-admin-bar-my-account > .ab-item {
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		width: 52px;
+		padding: 0;
+		color: #a7aaad; /* @todo not needed? this text is hidden */
+		position: relative;
+	}
+
+	#mtadminbar > #mt-toolbar > #mt-admin-bar-root-default .ab-icon,
+	#mtadminbar .ab-icon,
+	#mtadminbar .ab-item:before {
+		padding: 0;
+		margin-right: 0;
+	}
+
+	#mtadminbar #mt-admin-bar-edit > .ab-item:before,
+	#mtadminbar #mt-admin-bar-my-sites > .ab-item:before,
+	#mtadminbar #mt-admin-bar-site-name > .ab-item:before,
+	#mtadminbar #mt-admin-bar-customize > .ab-item:before,
+	#mtadminbar #mt-admin-bar-my-account > .ab-item:before {
+		display: block;
+		text-indent: 0;
+		font: normal 32px/1 dashicons;
+		speak: never;
+		top: 7px;
+		width: 52px;
+		text-align: center;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	#mtadminbar #mt-admin-bar-appearance {
+		margin-top: 0;
+	}
+
+	#mtadminbar .quicklinks li .blavatar:before {
+		display: none;
+	}
+
+	/* Search */
+	#mtadminbar #mt-admin-bar-search {
+		display: none;
+	}
+
+	/* New Content */
+	#mtadminbar #mt-admin-bar-new-content .ab-icon:before {
+		top: 0;
+		line-height: 1.33333333;
+		height: 46px !important;
+		text-align: center;
+		width: 52px;
+		display: block;
+	}
+
+	/* Updates */
+	#mtadminbar #mt-admin-bar-updates {
+		text-align: center;
+	}
+
+	#mtadminbar #mt-admin-bar-updates .ab-icon:before {
+		top: 3px;
+	}
+
+	/* Comments */
+	#mtadminbar #mt-admin-bar-comments .ab-icon {
+		margin: 0;
+	}
+
+	#mtadminbar #mt-admin-bar-comments .ab-icon:before {
+		display: block;
+		font-size: 34px;
+		height: 46px;
+		line-height: 1.38235294;
+		top: 0;
+	}
+
+	/* My Account */
+	#mtadminbar #mt-admin-bar-my-account > a {
+		position: relative;
+		white-space: nowrap;
+		text-indent: 150%; /* More than 100% indention is needed since this element has padding */
+		width: 28px;
+		padding: 0 10px;
+		overflow: hidden; /* Prevent link text from forcing horizontal scrolling on mobile */
+	}
+
+	#mtadminbar .quicklinks li#mt-admin-bar-my-account.with-avatar > a img {
+		position: absolute;
+		top: 13px;
+		right: 10px;
+		width: 26px;
+		height: 26px;
+	}
+
+	#mtadminbar #mt-admin-bar-user-actions.ab-submenu {
+		padding: 0;
+	}
+
+	#mtadminbar #mt-admin-bar-user-actions.ab-submenu img.avatar {
+		display: none;
+	}
+
+	#mtadminbar #mt-admin-bar-my-account.with-avatar #mt-admin-bar-user-actions > li {
+		margin: 0;
+	}
+
+	#mtadminbar #mt-admin-bar-user-info .display-name {
+		height: auto;
+		font-size: 16px;
+		line-height: 1.5;
+		color: #f0f0f1;
+	}
+
+	#mtadminbar #mt-admin-bar-user-info a {
+		padding-top: 4px;
+	}
+
+	#mtadminbar #mt-admin-bar-user-info .username {
+		line-height: 0.8 !important;
+		margin-bottom: -2px;
+	}
+
+	/* Show only default top level items */
+	#mt-toolbar > ul > li {
+		display: none;
+	}
+
+	#mtadminbar li#mt-admin-bar-menu-toggle,
+	#mtadminbar li#mt-admin-bar-mt-logo,
+	#mtadminbar li#mt-admin-bar-my-sites,
+	#mtadminbar li#mt-admin-bar-updates,
+	#mtadminbar li#mt-admin-bar-site-name,
+	#mtadminbar li#mt-admin-bar-customize,
+	#mtadminbar li#mt-admin-bar-new-content,
+	#mtadminbar li#mt-admin-bar-edit,
+	#mtadminbar li#mt-admin-bar-comments,
+	#mtadminbar li#mt-admin-bar-my-account {
+		display: block;
+	}
+
+	/* Allow dropdown list items to appear normally */
+	#mtadminbar li:hover ul li,
+	#mtadminbar li.hover ul li,
+	#mtadminbar li:hover ul li:hover ul li {
+		display: list-item;
+	}
+
+	/* Override default min-width so dropdown lists aren't stretched
+		to 100% viemtort width at responsive sizes. */
+	#mtadminbar .ab-top-menu > .menupop > .ab-sub-wrapper {
+		min-width: -webkit-fit-content;
+		min-width: -moz-fit-content;
+		min-width: fit-content;
+	}
+
+	#mtadminbar ul#mt-admin-bar-root-default > li {
+		margin-right: 0;
+	}
+
+	/* Experimental fix for touch toolbar dropdown positioning */
+	#mtadminbar .ab-top-menu,
+	#mtadminbar .ab-top-secondary,
+	#mtadminbar #mt-admin-bar-mt-logo,
+	#mtadminbar #mt-admin-bar-my-sites,
+	#mtadminbar #mt-admin-bar-site-name,
+	#mtadminbar #mt-admin-bar-updates,
+	#mtadminbar #mt-admin-bar-comments,
+	#mtadminbar #mt-admin-bar-new-content,
+	#mtadminbar #mt-admin-bar-edit,
+	#mtadminbar #mt-admin-bar-my-account {
+		position: static;
+	}
+
+	#mtadminbar #mt-admin-bar-my-account {
+		float: right;
+	}
+
+	.network-admin #mtadminbar ul#mt-admin-bar-top-secondary > li#mt-admin-bar-my-account {
+		margin-right: 0;
+	}
+
+	/* Realign arrows on taller responsive submenus */
+
+	#mtadminbar .ab-top-secondary .menupop .menupop > .ab-item:before {
+		top: 10px;
+		left: 0;
+	}
+}
+
+/* Smartphone */
+@media screen and (max-width: 600px) {
+	#mtadminbar {
+		position: absolute;
+	}
+
+	#mt-responsive-overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 400;
+	}
+
+	#mtadminbar .ab-top-menu > .menupop > .ab-sub-wrapper {
+		width: 100%;
+		left: 0;
+	}
+
+	#mtadminbar .menupop .menupop > .ab-item:before {
+		display: none;
+	}
+
+	#mtadminbar #mt-admin-bar-mt-logo.menupop .ab-sub-wrapper {
+		margin-left: 0;
+	}
+
+	#mtadminbar .ab-top-menu > .menupop li > .ab-sub-wrapper {
+		margin: 0;
+		width: 100%;
+		top: auto;
+		left: auto;
+		position: relative;
+	}
+
+	#mtadminbar .ab-top-menu > .menupop li > .ab-sub-wrapper .ab-item {
+		font-size: 16px;
+		padding: 6px 15px 19px 30px;
+	}
+
+	#mtadminbar li:hover ul li ul li {
+		display: list-item;
+	}
+
+	#mtadminbar li#mt-admin-bar-mt-logo,
+	#mtadminbar li#mt-admin-bar-updates {
+		display: none;
+	}
+
+	/* Make submenus full-width at this size */
+
+	#mtadminbar .ab-top-menu > .menupop li > .ab-sub-wrapper {
+		position: static;
+		box-shadow: none;
+	}
+}
+
+/* Very narrow screens */
+@media screen and (max-width: 400px) {
+	#mtadminbar li#mt-admin-bar-comments {
+		display: none;
+	}
+}

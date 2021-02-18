@@ -1,0 +1,45 @@
+.mt-block-navigation {
+
+	.mt-block-navigation__container {
+		background: var(--global--color-background);
+		padding: 0;
+	}
+
+	.mt-block-navigation-link {
+
+		.mt-block-navigation-link__content {
+			padding: var(--primary-nav--padding);
+		}
+
+		.mt-block-navigation-link__label {
+			font-family: var(--primary-nav--font-family);
+			font-size: var(--primary-nav--font-size);
+			font-weight: var(--primary-nav--font-weight);
+		}
+	}
+
+	.has-child {
+
+		.mt-block-navigation__container {
+			box-shadow: var(--global--elevation);
+		}
+	}
+
+	&:not(.has-text-color) {
+
+		.mt-block-navigation-link {
+
+			> a {
+
+				&:hover,
+				&:focus {
+					color: var(--primary-nav--color-link-hover);
+				}
+			}
+		}
+
+		.mt-block-navigation-link__content {
+			color: currentColor;
+		}
+	}
+}

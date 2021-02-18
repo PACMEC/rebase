@@ -1,0 +1,19 @@
+.mt-block-social-links {
+
+	a:focus {
+		color: var(--global--color-primary);
+	}
+
+	&.is-style-twentytwentyone-social-icons-color {
+
+		a {
+			color: var(--global--color-primary);
+		}
+
+		.mt-social-link,
+		&.has-icon-background-color.has-icon-background-color .mt-social-link {
+			background: none;
+		}
+
+	}
+}

@@ -1,0 +1,406 @@
+/*
+Theme Name: Twenty Eleven
+Description: Used to style blocks.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 General Block Styles
+2.0 Blocks - Common Blocks
+3.0 Blocks - Formatting
+4.0 Blocks - Layout Elements
+5.0 Blocks - Widgets
+6.0 Blocks - Colors
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 General Block Styles
+--------------------------------------------------------------*/
+
+figure[class^="mt-block-"] {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* Captions */
+
+[class^="mt-block-"] figcaption {
+	font-family: Georgia, serif;
+	font-size: 12px;
+}
+
+[class^="mt-block-"]:not(.mt-block-gallery) figcaption {
+	color: #666;
+	margin-bottom: 1.625em;
+	max-width: 96%;
+	max-width: calc( 100% - 18px );
+	padding: 3px 0 5px 40px;
+	position: relative;
+	text-align: left;
+}
+
+[class^="mt-block-"]:not(.mt-block-gallery) figcaption:before {
+	color: #666;
+	content: '\2014';
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 5px;
+	position: absolute;
+	left: 10px;
+	top: 0;
+}
+
+.rtl [class^="mt-block-"]:not(.mt-block-gallery) figcaption {
+	padding-left: 0;
+	padding-right: 40px;
+	text-align: right;
+}
+
+.rtl [class^="mt-block-"]:not(.mt-block-gallery) figcaption:before {
+	left: 0;
+	margin-left: 5px;
+	margin-right: 0;
+	right: 10px;
+}
+
+/*--------------------------------------------------------------
+2.0 Blocks - Common Blocks
+--------------------------------------------------------------*/
+
+/* Paragraph */
+
+p.has-drop-cap:not(:focus)::first-letter {
+	font-size: 5em;
+	margin-top: 0.1em;
+}
+
+/* Gallery */
+
+.mt-block-gallery {
+	margin: 0 0 1.625em;
+}
+
+.mt-block-gallery .blocks-gallery-item figcaption {
+	margin-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.mt-block-gallery .blocks-gallery-item img {
+	border: 0;
+	padding: 0;
+}
+
+/* Quote */
+
+.mt-block-quote {
+	margin: 0 3em;
+}
+
+.mt-block-quote:not(.is-large):not(.is-style-large) {
+	border: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.mt-block-quote.is-large p,
+.mt-block-quote.is-style-large p {
+	font-size: 20px;
+}
+
+.mt-block-quote cite {
+	color: #666;
+	font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+
+.mt-block-quote.is-large cite,
+.mt-block-quote.is-style-large cite {
+	font-size: 16px;
+}
+
+/* Audio */
+
+.mt-block-audio audio {
+	display: block;
+	width: 100%;
+}
+
+/* Cover */
+
+.mt-block-cover-image.aligncenter,
+.mt-block-cover.aligncenter {
+	clear: both;
+	display: flex;
+}
+
+.mt-block-cover-image.alignleft,
+.mt-block-cover.alignleft {
+	margin-right: 1.625em;
+}
+
+.mt-block-cover-image.alignright,
+.mt-block-cover.alignright {
+	margin-left: 1.625em;
+}
+
+/* File */
+
+.mt-block-file .mt-block-file__button {
+	background: #222;
+	border: none;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	color: #eee;
+	cursor: pointer;
+	font-size: 15px;
+	padding: 5px 22px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+}
+
+.mt-block-file .mt-block-file__button:active {
+	background: #1982d1;
+	color: #bfddf3;
+}
+
+.rtl .mt-block-file * + .mt-block-file__button {
+	margin-left: 0.75em;
+	margin-right: 0;
+}
+
+/*--------------------------------------------------------------
+3.0 Blocks - Formatting
+--------------------------------------------------------------*/
+
+/* Code */
+
+.mt-block-code {
+	background-color: transparent;
+	border: 0;
+	padding: 0;
+}
+
+/* Pullquote */
+
+.mt-block-pullquote__citation,
+.mt-block-pullquote cite,
+.mt-block-pullquote footer {
+	color: #141412;
+}
+
+.mt-block-pullquote.alignleft {
+	margin-right: 1.625em;
+}
+
+.mt-block-pullquote.alignright {
+	margin-left: 1.625em;
+}
+
+/* Table */
+
+.mt-block-table {
+	border-bottom: 1px solid #ddd;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+
+.mt-block-table th {
+	border: 0;
+	font-weight: bold;
+	padding: 6px 10px 6px 0;
+	text-transform: uppercase;
+}
+
+.mt-block-table td {
+	border: 0;
+	border-top: 1px solid #ddd;
+	padding: 6px 10px 6px 0;
+}
+
+/*--------------------------------------------------------------
+4.0 Blocks - Layout Elements
+--------------------------------------------------------------*/
+
+/* Buttons */
+
+.mt-block-button .mt-block-button__link {
+	-webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	cursor: pointer;
+	font-size: 15px;
+	margin: 20px 0;
+	padding: 5px 22px;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+}
+
+.is-style-outline .mt-block-button__link:not(.has-text-color) {
+	color: #222;
+	text-shadow: none;
+}
+
+.mt-block-button__link,
+.mt-block-button .mt-block-button__link:hover,
+.mt-block-button .is-style-outline .mt-block-button__link:hover {
+	background: #222;
+	color: #eee;
+}
+
+.mt-block-button__link:active {
+	background: #1982d1;
+	color: #bfddf3;
+}
+
+/* Separator */
+
+.mt-block-separator {
+	border: 0;
+	max-width: 100px;
+}
+
+.mt-block-separator.is-style-wide {
+	max-width: 100%;
+}
+
+/* Media & Text */
+
+.mt-block-media-text {
+	margin-bottom: 1.625em;
+}
+
+.mt-block-media-text *:last-child {
+	margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+5.0 Blocks - Widgets
+--------------------------------------------------------------*/
+
+/* Archives, Categories & Latest Posts */
+
+.mt-block-archives.aligncenter,
+.mt-block-categories.aligncenter,
+.mt-block-latest-posts.aligncenter {
+	list-style-position: inside;
+	margin-left: 2.5em;
+	text-align: center;
+}
+
+.rtl .mt-block-archives.aligncenter,
+.rtl .mt-block-categories.aligncenter,
+.rtl .mt-block-latest-posts.aligncenter {
+	margin-left: 0;
+	margin-right: 2.5em;
+}
+
+/* Latest Comments */
+
+.mt-block-latest-comments {
+	margin: 0;
+	padding: 0;
+}
+
+.mt-block-latest-comments .avatar,
+.mt-block-latest-comments__comment-avatar {
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 2px #ccc;
+	-moz-box-shadow: 0 1px 2px #ccc;
+	box-shadow: 0 1px 2px #ccc;
+}
+
+.mt-block-latest-comments__comment,
+.mt-block-latest-comments__comment-excerpt,
+.mt-block-latest-comments__comment-excerpt p {
+	font-size: 15px;
+}
+
+.mt-block-latest-comments__comment-excerpt p:last-child {
+	margin-bottom: 0;
+}
+
+.mt-block-latest-comments__comment-meta,
+.mt-block-latest-comments__comment-date {
+	color: #666;
+	font-size: 12px;
+	line-height: 2.2em;
+}
+
+.mt-block-latest-comments__comment-meta a {
+	font-weight: bold;
+}
+
+.mt-block-latest-comments .mt-block-latest-comments__comment {
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin: 0 0 2.625em;
+	position: relative;
+}
+
+/* Latest Posts */
+
+.mt-block-latest-posts.is-grid {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*--------------------------------------------------------------
+6.0 Blocks - Colors
+--------------------------------------------------------------*/
+
+.has-blue-color {
+	color: #1982d1;
+}
+
+.has-blue-background-color {
+	background-color: #1982d1;
+}
+
+.has-black-color {
+	color: #000;
+}
+
+.has-black-background-color {
+	background-color: #000;
+}
+
+.has-dark-gray-color {
+	color: #373737;
+}
+
+.has-dark-gray-background-color {
+	background-color: #373737;
+}
+
+.has-medium-gray-color {
+	color: #666;
+}
+
+.has-medium-gray-background-color {
+	background-color: #666;
+}
+
+.has-light-gray-color {
+	color: #e2e2e2;
+}
+
+.has-light-gray-background-color {
+	background-color: #e2e2e2;
+}
+
+.has-white-color {
+	color: #fff;
+}
+
+.has-white-background-color {
+	background-color: #fff;
+}

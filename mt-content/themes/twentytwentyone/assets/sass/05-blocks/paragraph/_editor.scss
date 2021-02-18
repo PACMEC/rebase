@@ -1,0 +1,7 @@
+p {
+	line-height: var(--mt--typography--line-height, var(--global--line-height-body));
+
+	&.has-background {
+		padding: var(--global--spacing-unit);
+	}
+}

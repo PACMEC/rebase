@@ -1,0 +1,13 @@
+.mt-block-file {
+
+	// Undo Gutenberg hover defaults
+	a.mt-block-file__button:active,
+	a.mt-block-file__button:focus,
+	a.mt-block-file__button:hover {
+		opacity: inherit;
+	}
+
+	a.mt-block-file__button {
+		display: inline-block;
+	}
+}
