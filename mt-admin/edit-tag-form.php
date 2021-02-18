@@ -45,7 +45,7 @@ if ( 'category' === $taxonomy ) {
 }
 
 /**
- * Use with caution, see https://developer.managertechnology.org/reference/functions/mt_reset_vars/
+ * Use with caution, see https://developer.managertechnology.com.co/pacmec/reference/functions/mt_reset_vars/
  */
 mt_reset_vars( array( 'mt_http_referer' ) );
 

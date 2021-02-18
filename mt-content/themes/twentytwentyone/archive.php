@@ -2,7 +2,7 @@
 /**
  * The template for displaying archive pages
  *
- * @link https://developer.managertechnology.org/themes/basics/template-hierarchy/
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/template-hierarchy/
  *
  * @package paCMec
  * @subpackage Twenty_Twenty_One

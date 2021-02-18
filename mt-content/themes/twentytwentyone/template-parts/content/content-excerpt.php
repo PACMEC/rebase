@@ -2,7 +2,7 @@
 /**
  * Template part for displaying post archives and search results
  *
- * @link https://developer.managertechnology.org/themes/basics/template-hierarchy/
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/template-hierarchy/
  *
  * @package paCMec
  * @subpackage Twenty_Twenty_One

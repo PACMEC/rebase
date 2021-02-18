@@ -2,7 +2,7 @@
 /**
  * Twenty Twenty-One Starter Content
  *
- * @link https://make.managertechnology.org/core/2016/11/30/starter-content-for-themes-in-4-7/
+ * @link https://make.managertechnology.com.co/pacmec/core/2016/11/30/starter-content-for-themes-in-4-7/
  *
  * @package paCMec
  * @subpackage Twenty_Twenty_One
@@ -119,13 +119,13 @@ function twenty_twenty_one_get_starter_content() {
 					<!-- mt:columns -->
 					<div class="mt-block-columns"><!-- mt:column -->
 					<div class="mt-block-column"><!-- mt:paragraph -->
-					<p><a href="https://managertechnology.org/support/article/twenty-twenty-one/">' . esc_html_x( 'Read the Theme Documentation', 'Theme starter content', 'twentytwentyone' ) . '</a></p>
+					<p><a href="https://managertechnology.com.co/pacmec/support/article/twenty-twenty-one/">' . esc_html_x( 'Read the Theme Documentation', 'Theme starter content', 'twentytwentyone' ) . '</a></p>
 					<!-- /mt:paragraph --></div>
 					<!-- /mt:column -->
 
 					<!-- mt:column -->
 					<div class="mt-block-column"><!-- mt:paragraph -->
-					<p><a href="https://managertechnology.org/support/theme/twentytwentyone/">' . esc_html_x( 'Check out the Support Forums', 'Theme starter content', 'twentytwentyone' ) . '</a></p>
+					<p><a href="https://managertechnology.com.co/pacmec/support/theme/twentytwentyone/">' . esc_html_x( 'Check out the Support Forums', 'Theme starter content', 'twentytwentyone' ) . '</a></p>
 					<!-- /mt:paragraph --></div>
 					<!-- /mt:column --></div>
 					<!-- /mt:columns -->

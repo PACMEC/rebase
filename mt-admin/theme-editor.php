@@ -40,7 +40,7 @@ get_current_screen()->add_help_tab(
 				'<p>' . sprintf(
 					/* translators: %s: Link to documentation on child themes. */
 					__( 'Upgrading to a newer version of the same theme will override changes made here. To avoid this, consider creating a <a href="%s">child theme</a> instead.' ),
-					__( 'https://developer.managertechnology.org/themes/advanced-topics/child-themes/' )
+					__( 'https://developer.managertechnology.com.co/pacmec/themes/advanced-topics/child-themes/' )
 				) . '</p>' .
 				( is_network_admin() ? '<p>' . __( 'Any edits to files from this screen will be reflected on all sites in the network.' ) . '</p>' : '' ),
 	)
@@ -48,11 +48,11 @@ get_current_screen()->add_help_tab(
 
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://developer.managertechnology.org/themes/">Documentation on Theme Development</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/article/using-themes/">Documentation on Using Themes</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/article/editing-files/">Documentation on Editing Files</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://developer.managertechnology.org/themes/basics/template-tags/">Documentation on Template Tags</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/">Support</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://developer.managertechnology.com.co/pacmec/themes/">Documentation on Theme Development</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/using-themes/">Documentation on Using Themes</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/editing-files/">Documentation on Editing Files</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://developer.managertechnology.com.co/pacmec/themes/basics/template-tags/">Documentation on Template Tags</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>'
 );
 
 mt_reset_vars( array( 'action', 'error', 'file', 'theme' ) );
@@ -292,7 +292,7 @@ else :
 			<div id="documentation" class="hide-if-no-js">
 				<label for="docs-list"><?php _e( 'Documentation:' ); ?></label>
 				<?php echo $docs_select; ?>
-				<input disabled id="docs-lookup" type="button" class="button" value="<?php esc_attr_e( 'Look Up' ); ?>" onclick="if ( '' != jQuery('#docs-list').val() ) { window.open( 'https://api.managertechnology.org/core/handbook/1.0/?function=' + escape( jQuery( '#docs-list' ).val() ) + '&amp;locale=<?php echo urlencode( get_user_locale() ); ?>&amp;version=<?php echo urlencode( get_bloginfo( 'version' ) ); ?>&amp;redirect=true'); }" />
+				<input disabled id="docs-lookup" type="button" class="button" value="<?php esc_attr_e( 'Look Up' ); ?>" onclick="if ( '' != jQuery('#docs-list').val() ) { window.open( 'https://api.managertechnology.com.co/pacmec/core/handbook/1.0/?function=' + escape( jQuery( '#docs-list' ).val() ) + '&amp;locale=<?php echo urlencode( get_user_locale() ); ?>&amp;version=<?php echo urlencode( get_bloginfo( 'version' ) ); ?>&amp;redirect=true'); }" />
 			</div>
 		<?php endif; ?>
 
@@ -320,7 +320,7 @@ else :
 					printf(
 						/* translators: %s: Documentation URL. */
 						__( 'You need to make this file writable before you can save your changes. See <a href="%s">Changing File Permissions</a> for more information.' ),
-						__( 'https://managertechnology.org/support/article/changing-file-permissions/' )
+						__( 'https://managertechnology.com.co/pacmec/support/article/changing-file-permissions/' )
 					);
 					?>
 				</p>
@@ -365,7 +365,7 @@ if ( ! in_array( 'theme_editor_notice', $dismissed_pointers, true ) ) :
 							printf(
 								/* translators: %s: Link to documentation on child themes. */
 								__( 'If you need to tweak more than your theme&#8217;s CSS, you might want to try <a href="%s">making a child theme</a>.' ),
-								esc_url( __( 'https://developer.managertechnology.org/themes/advanced-topics/child-themes/' ) )
+								esc_url( __( 'https://developer.managertechnology.com.co/pacmec/themes/advanced-topics/child-themes/' ) )
 							);
 							echo '</p>';
 						}

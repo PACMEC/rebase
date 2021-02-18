@@ -845,18 +845,18 @@ class MT_Http {
 	 * Determines whether an HTTP API request to the given URL should be blocked.
 	 *
 	 * Those who are behind a proxy and want to prevent access to certain hosts may do so. This will
-	 * prevent plugins from working and core functionality, if you don't include `api.managertechnology.org`.
+	 * prevent plugins from working and core functionality, if you don't include `api.managertechnology.com.co/pacmec`.
 	 *
 	 * You block external URL requests by defining `MT_HTTP_BLOCK_EXTERNAL` as true in your `mt-config.php`
 	 * file and this will only allow localhost and your site to make requests. The constant
 	 * `MT_ACCESSIBLE_HOSTS` will allow additional hosts to go through for requests. The format of the
 	 * `MT_ACCESSIBLE_HOSTS` constant is a comma separated list of hostnames to allow, wildcard domains
-	 * are supported, eg `*.managertechnology.org` will allow for all subdomains of `managertechnology.org` to be contacted.
+	 * are supported, eg `*.managertechnology.com.co/pacmec` will allow for all subdomains of `managertechnology.com.co/pacmec` to be contacted.
 	 *
 	 * @since 2.8.0
 	 *
-	 * @link https://core.trac.managertechnology.org/ticket/8927 Allow preventing external requests.
-	 * @link https://core.trac.managertechnology.org/ticket/14636 Allow wildcard domains in MT_ACCESSIBLE_HOSTS
+	 * @link https://core.trac.managertechnology.com.co/pacmec/ticket/8927 Allow preventing external requests.
+	 * @link https://core.trac.managertechnology.com.co/pacmec/ticket/14636 Allow wildcard domains in MT_ACCESSIBLE_HOSTS
 	 *
 	 * @param string $uri URI of url.
 	 * @return bool True to block, false to allow.

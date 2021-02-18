@@ -25,17 +25,17 @@
  * <li>MT_PROXY_PASSWORD - Proxy password, if it requires authentication.</li>
  * <li>MT_PROXY_BYPASS_HOSTS - Will prevent the hosts in this list from going through the proxy.
  * You do not need to have localhost and the site host in this list, because they will not be passed
- * through the proxy. The list should be presented in a comma separated list, wildcards using * are supported, eg. *.managertechnology.org</li>
+ * through the proxy. The list should be presented in a comma separated list, wildcards using * are supported, eg. *.managertechnology.com.co/pacmec</li>
  * </ol>
  *
  * An example can be as seen below.
  *
  *     define('MT_PROXY_HOST', '192.168.84.101');
  *     define('MT_PROXY_PORT', '8080');
- *     define('MT_PROXY_BYPASS_HOSTS', 'localhost, www.example.com, *.managertechnology.org');
+ *     define('MT_PROXY_BYPASS_HOSTS', 'localhost, www.example.com, *.managertechnology.com.co/pacmec');
  *
- * @link https://core.trac.managertechnology.org/ticket/4011 Proxy support ticket in paCMec.
- * @link https://core.trac.managertechnology.org/ticket/14636 Allow wildcard domains in MT_PROXY_BYPASS_HOSTS
+ * @link https://core.trac.managertechnology.com.co/pacmec/ticket/4011 Proxy support ticket in paCMec.
+ * @link https://core.trac.managertechnology.com.co/pacmec/ticket/14636 Allow wildcard domains in MT_PROXY_BYPASS_HOSTS
  *
  * @since 2.8.0
  */

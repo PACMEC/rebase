@@ -842,7 +842,7 @@ var DEFAULT_HEADERS = {
   // The backend uses the Accept header as a condition for considering an
   // incoming request as a REST request.
   //
-  // See: https://core.trac.managertechnology.org/ticket/44534
+  // See: https://core.trac.managertechnology.com.co/pacmec/ticket/44534
   Accept: 'application/json, */*;q=0.1'
 };
 /**

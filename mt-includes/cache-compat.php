@@ -2,7 +2,7 @@
 /**
  * Object Cache API functions missing from 3rd party object caches.
  *
- * @link https://codex.managertechnology.org/Class_Reference/MT_Object_Cache
+ * @link https://codex.managertechnology.com.co/pacmec/Class_Reference/MT_Object_Cache
  *
  * @package paCMec
  * @subpackage Cache

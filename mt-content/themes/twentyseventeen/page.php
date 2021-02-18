@@ -7,7 +7,7 @@
  * and that other 'pages' on your paCMec site may use a
  * different template.
  *
- * @link https://developer.managertechnology.org/themes/basics/template-hierarchy/
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/template-hierarchy/
  *
  * @package paCMec
  * @subpackage Twenty_Seventeen

@@ -10,7 +10,7 @@
  * return no results. In these cases, a _doing_it_wrong() error notice is also thrown.
  * See MT_Date_Query::validate_date_values().
  *
- * @link https://developer.managertechnology.org/reference/classes/mt_query/
+ * @link https://developer.managertechnology.com.co/pacmec/reference/classes/mt_query/
  *
  * @since 3.7.0
  */

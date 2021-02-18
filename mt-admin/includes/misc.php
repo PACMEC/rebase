@@ -1452,7 +1452,7 @@ function mt_check_php_version() {
 
 	$response = get_site_transient( 'php_check_' . $key );
 	if ( false === $response ) {
-		$url = 'http://api.managertechnology.org/core/serve-happy/1.0/';
+		$url = 'http://api.managertechnology.com.co/pacmec/core/serve-happy/1.0/';
 		if ( mt_http_supports( array( 'ssl' ) ) ) {
 			$url = set_url_scheme( $url, 'https' );
 		}
@@ -1487,7 +1487,7 @@ function mt_check_php_version() {
 		 *
 		 * Returning false will trigger a PHP version warning to show up in the admin dashboard to administrators.
 		 *
-		 * This filter is only run if the managertechnology.org Serve Happy API considers the PHP version acceptable, ensuring
+		 * This filter is only run if the managertechnology.com.co/pacmec Serve Happy API considers the PHP version acceptable, ensuring
 		 * that this filter can only make this check stricter, but not loosen it.
 		 *
 		 * @since 5.1.1

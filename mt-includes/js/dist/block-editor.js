@@ -7035,7 +7035,7 @@ var withInspectorControl = Object(external_mt_compose_["createHigherOrderCompone
         className: "html-anchor-control",
         label: Object(external_mt_i18n_["__"])('HTML anchor'),
         help: Object(external_mt_element_["createElement"])(external_mt_element_["Fragment"], null, Object(external_mt_i18n_["__"])('Enter a word or two — without spaces — to make a unique web address just for this block, called an “anchor.” Then, you’ll be able to link directly to this section of your page.'), Object(external_mt_element_["createElement"])(external_mt_components_["ExternalLink"], {
-          href: 'https://managertechnology.org/support/article/page-jumps/'
+          href: 'https://managertechnology.com.co/pacmec/support/article/page-jumps/'
         }, Object(external_mt_i18n_["__"])('Learn more about anchors'))),
         value: props.attributes.anchor || '',
         valuePlaceholder: !isWeb ? Object(external_mt_i18n_["__"])('Add an anchor') : null,
@@ -22893,7 +22893,7 @@ function useIsAccessibleToolbar(ref) {
     if (!onlyToolbarItem) {
       external_mt_deprecated_default()('Using custom components as toolbar controls', {
         alternative: 'ToolbarItem or ToolbarButton components',
-        link: 'https://developer.managertechnology.org/block-editor/components/toolbar-button/#inside-blockcontrols'
+        link: 'https://developer.managertechnology.com.co/pacmec/block-editor/components/toolbar-button/#inside-blockcontrols'
       });
     }
 

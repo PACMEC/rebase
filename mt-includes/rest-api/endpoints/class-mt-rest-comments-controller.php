@@ -265,7 +265,7 @@ class MT_REST_Comments_Controller extends MT_REST_Controller {
 		 *
 		 * @since 4.7.0
 		 *
-		 * @link https://developer.managertechnology.org/reference/classes/mt_comment_query/
+		 * @link https://developer.managertechnology.com.co/pacmec/reference/classes/mt_comment_query/
 		 *
 		 * @param array           $prepared_args Array of arguments for MT_Comment_Query.
 		 * @param MT_REST_Request $request       The current request.

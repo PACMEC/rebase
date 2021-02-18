@@ -21,7 +21,7 @@ header( 'Content-Type: text/html; charset=utf-8' );
 	<?php mt_admin_css( 'install', true ); ?>
 </head>
 <body class="mt-core-ui">
-<p id="logo"><a href="<?php echo esc_url( __( 'https://managertechnology.org/' ) ); ?>"><?php _e( 'paCMec' ); ?></a></p>
+<p id="logo"><a href="<?php echo esc_url( __( 'https://managertechnology.com.co/pacmec/' ) ); ?>"><?php _e( 'paCMec' ); ?></a></p>
 
 <?php
 
@@ -64,7 +64,7 @@ if ( ! defined( 'MT_ALLOW_REPAIR' ) || ! MT_ALLOW_REPAIR ) {
 		echo '<h2 class="screen-reader-text">' . __( 'Check secret keys' ) . '</h2>';
 
 		/* translators: 1: mt-config.php, 2: Secret key service URL. */
-		echo '<p>' . sprintf( __( 'While you are editing your %1$s file, take a moment to make sure you have all 8 keys and that they are unique. You can generate these using the <a href="%2$s">paCMec.org secret key service</a>.' ), '<code>mt-config.php</code>', 'https://api.managertechnology.org/secret-key/1.1/salt/' ) . '</p>';
+		echo '<p>' . sprintf( __( 'While you are editing your %1$s file, take a moment to make sure you have all 8 keys and that they are unique. You can generate these using the <a href="%2$s">paCMec.org secret key service</a>.' ), '<code>mt-config.php</code>', 'https://api.managertechnology.com.co/pacmec/secret-key/1.1/salt/' ) . '</p>';
 	}
 } elseif ( isset( $_GET['repair'] ) ) {
 
@@ -144,7 +144,7 @@ if ( ! defined( 'MT_ALLOW_REPAIR' ) || ! MT_ALLOW_REPAIR ) {
 		printf(
 			/* translators: %s: URL to "Fixing paCMec" forum. */
 			'<p>' . __( 'Some database problems could not be repaired. Please copy-and-paste the following list of errors to the <a href="%s">paCMec support forums</a> to get additional assistance.' ) . '</p>',
-			__( 'https://managertechnology.org/support/forum/how-to-and-troubleshooting' )
+			__( 'https://managertechnology.com.co/pacmec/support/forum/how-to-and-troubleshooting' )
 		);
 		$problem_output = '';
 		foreach ( $problems as $table => $problem ) {

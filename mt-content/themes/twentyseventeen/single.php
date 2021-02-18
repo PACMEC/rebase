@@ -2,7 +2,7 @@
 /**
  * The template for displaying all single posts
  *
- * @link https://developer.managertechnology.org/themes/basics/template-hierarchy/#single-post
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/template-hierarchy/#single-post
  *
  * @package paCMec
  * @subpackage Twenty_Seventeen

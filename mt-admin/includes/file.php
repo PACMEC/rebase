@@ -321,7 +321,7 @@ function mt_print_file_editor_templates() {
 					printf(
 						/* translators: %s: Documentation URL. */
 						__( 'You need to make this file writable before you can save your changes. See <a href="%s">Changing File Permissions</a> for more information.' ),
-						__( 'https://managertechnology.org/support/article/changing-file-permissions/' )
+						__( 'https://managertechnology.com.co/pacmec/support/article/changing-file-permissions/' )
 					);
 					?>
 				</p>
@@ -1139,7 +1139,7 @@ function download_url( $url, $timeout = 300, $signature_verification = false ) {
 		 *
 		 * @param string[] $hostnames List of hostnames.
 		 */
-		$signed_hostnames       = apply_filters( 'mt_signature_hosts', array( 'managertechnology.org', 'downloads.managertechnology.org', 's.w.org' ) );
+		$signed_hostnames       = apply_filters( 'mt_signature_hosts', array( 'managertechnology.com.co/pacmec', 'downloads.managertechnology.com.co/pacmec', 's.w.org' ) );
 		$signature_verification = in_array( parse_url( $url, PHP_URL_HOST ), $signed_hostnames, true );
 	}
 
@@ -1921,7 +1921,7 @@ function MT_Filesystem( $args = false, $context = false, $allow_relaxed_file_own
  * The return value can be overridden by defining the `FS_METHOD` constant in `mt-config.php`,
  * or filtering via {@see 'filesystem_method'}.
  *
- * @link https://managertechnology.org/support/article/editing-mt-config-php/#managertechnology-upgrade-constants
+ * @link https://managertechnology.com.co/pacmec/support/article/editing-mt-config-php/#managertechnology-upgrade-constants
  *
  * Plugins may define a custom transport handler, See MT_Filesystem().
  *
@@ -2016,7 +2016,7 @@ function get_filesystem_method( $args = array(), $context = '', $allow_relaxed_f
  *
  * All chosen/entered details are saved, excluding the password.
  *
- * Hostnames may be in the form of hostname:portnumber (eg: managertechnology.org:2467)
+ * Hostnames may be in the form of hostname:portnumber (eg: managertechnology.com.co/pacmec:2467)
  * to specify an alternate FTP/SSH port.
  *
  * Plugins may override this form by returning true|false via the {@see 'request_filesystem_credentials'} filter.
@@ -2238,7 +2238,7 @@ function request_filesystem_credentials( $form_post, $type = '', $error = false,
 </p>
 <label for="hostname">
 	<span class="field-title"><?php _e( 'Hostname' ); ?></span>
-	<input name="hostname" type="text" id="hostname" aria-describedby="request-filesystem-credentials-desc" class="code" placeholder="<?php esc_attr_e( 'example: www.managertechnology.org' ); ?>" value="<?php echo $hostname_value; ?>"<?php disabled( defined( 'FTP_HOST' ) ); ?> />
+	<input name="hostname" type="text" id="hostname" aria-describedby="request-filesystem-credentials-desc" class="code" placeholder="<?php esc_attr_e( 'example: www.managertechnology.com.co/pacmec' ); ?>" value="<?php echo $hostname_value; ?>"<?php disabled( defined( 'FTP_HOST' ) ); ?> />
 </label>
 <div class="ftp-username">
 	<label for="username">
@@ -2375,7 +2375,7 @@ function mt_opcache_invalidate( $filepath, $force = false ) {
 	 * For more details, see:
 	 * - https://www.php.net/manual/en/opcache.configuration.php
 	 * - https://www.php.net/manual/en/reserved.variables.server.php
-	 * - https://core.trac.managertechnology.org/ticket/36455
+	 * - https://core.trac.managertechnology.com.co/pacmec/ticket/36455
 	 */
 	if ( null === $can_invalidate
 		&& function_exists( 'opcache_invalidate' )

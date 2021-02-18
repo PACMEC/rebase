@@ -2077,7 +2077,7 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
  * Object whose keys are the names of block attributes, where each value
  * represents the meta key to which the block attribute is intended to save.
  *
- * @see https://developer.managertechnology.org/reference/functions/register_meta/
+ * @see https://developer.managertechnology.com.co/pacmec/reference/functions/register_meta/
  *
  * @typedef {Object<string,string>} MTMetaAttributeMapping
  */
@@ -7745,7 +7745,7 @@ function PostExcerpt(_ref) {
     },
     value: excerpt
   }), Object(external_mt_element_["createElement"])(external_mt_components_["ExternalLink"], {
-    href: Object(external_mt_i18n_["__"])('https://managertechnology.org/support/article/excerpt/')
+    href: Object(external_mt_i18n_["__"])('https://managertechnology.com.co/pacmec/support/article/excerpt/')
   }, Object(external_mt_i18n_["__"])('Learn more about manual excerpts')));
 }
 
@@ -8648,7 +8648,7 @@ function PostLockedModal() {
         xhr.send(data);
       }
     } // Details on these events on the Heartbeat API docs
-    // https://developer.managertechnology.org/plugins/javascript/heartbeat-api/
+    // https://developer.managertechnology.com.co/pacmec/plugins/javascript/heartbeat-api/
 
 
     Object(external_mt_hooks_["addAction"])('heartbeat.send', hookName, sendPostLock);

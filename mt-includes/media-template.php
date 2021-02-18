@@ -233,9 +233,9 @@ function mt_print_media_templates() {
 				<p>
 				<?php
 					printf(
-						/* translators: %s: https://apps.managertechnology.org/ */
+						/* translators: %s: https://apps.managertechnology.com.co/pacmec/ */
 						__( 'The web browser on your device cannot be used to upload files. You may be able to use the <a href="%s">native app for your device</a> instead.' ),
-						'https://apps.managertechnology.org/'
+						'https://apps.managertechnology.com.co/pacmec/'
 					);
 				?>
 				</p>

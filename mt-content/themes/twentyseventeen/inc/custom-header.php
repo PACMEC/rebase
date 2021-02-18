@@ -2,7 +2,7 @@
 /**
  * Custom header implementation
  *
- * @link https://codex.managertechnology.org/Custom_Headers
+ * @link https://codex.managertechnology.com.co/pacmec/Custom_Headers
  *
  * @package paCMec
  * @subpackage Twenty_Seventeen

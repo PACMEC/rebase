@@ -197,7 +197,7 @@ function mt_register_script( $handle, $src, $deps = array(), $ver = false, $in_f
  *     }
  *
  * @see MT_Scripts::localize()
- * @link https://core.trac.managertechnology.org/ticket/11520
+ * @link https://core.trac.managertechnology.com.co/pacmec/ticket/11520
  * @global MT_Scripts $mt_scripts The MT_Scripts object for printing scripts.
  *
  * @since 2.2.0
@@ -375,7 +375,7 @@ function mt_dequeue_script( $handle ) {
  * Determines whether a script has been added to the queue.
  *
  * For more information on this and similar theme functions, check out
- * the {@link https://developer.managertechnology.org/themes/basics/conditional-tags/
+ * the {@link https://developer.managertechnology.com.co/pacmec/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
  * @since 2.8.0

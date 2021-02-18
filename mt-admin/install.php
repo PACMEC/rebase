@@ -13,12 +13,12 @@ if ( false ) {
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Error: PHP is not running</title>
+	<title>Error: PHP no se está ejecutando</title>
 </head>
 <body class="mt-core-ui">
-	<p id="logo"><a href="https://managertechnology.org/">paCMec</a></p>
-	<h1>Error: PHP is not running</h1>
-	<p>paCMec requires that your web server is running PHP. Your server does not have PHP installed, or PHP is turned off.</p>
+	<p id="logo"><a href="https://managertechnology.com.co/pacmec/">paCMec</a></p>
+	<h1>Error: PHP no se está ejecutando</h1>
+	<p>paCMec requiere que su servidor web esté ejecutando PHP. Su servidor no tiene PHP instalado o PHP está desactivado.</p>
 </body>
 </html>
 	<?php
@@ -70,7 +70,7 @@ function display_header( $body_classes = '' ) {
 	<meta name="viemtort" content="width=device-width" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="robots" content="noindex,nofollow" />
-	<title><?php _e( 'paCMec &rsaquo; Installation' ); ?></title>
+	<title><?php _e( 'Instalación &rsaquo; paCMec' ); ?></title>
 	<?php mt_admin_css( 'install', true ); ?>
 </head>
 <body class="mt-core-ui<?php echo $body_classes; ?>">
@@ -105,26 +105,26 @@ function display_setup_form( $error = null ) {
 
 	if ( ! is_null( $error ) ) {
 		?>
-<h1><?php _ex( 'Welcome', 'Howdy' ); ?></h1>
+<h1><?php _ex( 'Bienvenid@', 'Hola' ); ?></h1>
 <p class="message"><?php echo $error; ?></p>
 <?php } ?>
 <form id="setup" method="post" action="install.php?step=2" novalidate="novalidate">
 	<table class="form-table" role="presentation">
 		<tr>
-			<th scope="row"><label for="weblog_title"><?php _e( 'Site Title' ); ?></label></th>
+			<th scope="row"><label for="weblog_title"><?php _e( 'Título del sitio' ); ?></label></th>
 			<td><input name="weblog_title" type="text" id="weblog_title" size="25" value="<?php echo esc_attr( $weblog_title ); ?>" /></td>
 		</tr>
 		<tr>
-			<th scope="row"><label for="user_login"><?php _e( 'Username' ); ?></label></th>
+			<th scope="row"><label for="user_login"><?php _e( 'Nombre de usuario' ); ?></label></th>
 			<td>
 			<?php
 			if ( $user_table ) {
-				_e( 'User(s) already exists.' );
+				_e( 'El usuario ya existe.' );
 				echo '<input name="user_name" type="hidden" value="admin" />';
 			} else {
 				?>
 				<input name="user_name" type="text" id="user_login" size="25" value="<?php echo esc_attr( sanitize_user( $user_name, true ) ); ?>" />
-				<p><?php _e( 'Usernames can have only alphanumeric characters, spaces, underscores, hyphens, periods, and the @ symbol.' ); ?></p>
+				<p><?php _e( 'Los nombres de usuario solo pueden tener caracteres alfanuméricos, espacios, guiones bajos, guiones, puntos y el símbolo @.' ); ?></p>
 				<?php
 			}
 			?>
@@ -134,29 +134,29 @@ function display_setup_form( $error = null ) {
 		<tr class="form-field form-required user-pass1-wrap">
 			<th scope="row">
 				<label for="pass1">
-					<?php _e( 'Password' ); ?>
+					<?php _e( 'Contraseña' ); ?>
 				</label>
 			</th>
 			<td>
 				<div class="mt-pwd">
 					<?php $initial_password = isset( $_POST['admin_password'] ) ? stripslashes( $_POST['admin_password'] ) : mt_generate_password( 18 ); ?>
 					<input type="password" name="admin_password" id="pass1" class="regular-text" autocomplete="off" data-reveal="1" data-pw="<?php echo esc_attr( $initial_password ); ?>" aria-describedby="pass-strength-result" />
-					<button type="button" class="button mt-hide-pw hide-if-no-js" data-start-masked="<?php echo (int) isset( $_POST['admin_password'] ); ?>" data-toggle="0" aria-label="<?php esc_attr_e( 'Hide password' ); ?>">
+					<button type="button" class="button mt-hide-pw hide-if-no-js" data-start-masked="<?php echo (int) isset( $_POST['admin_password'] ); ?>" data-toggle="0" aria-label="<?php esc_attr_e( 'Contraseña oculta' ); ?>">
 						<span class="dashicons dashicons-hidden"></span>
-						<span class="text"><?php _e( 'Hide' ); ?></span>
+						<span class="text"><?php _e( 'Esconder' ); ?></span>
 					</button>
 					<div id="pass-strength-result" aria-live="polite"></div>
 				</div>
 				<p><span class="description important hide-if-no-js">
-				<strong><?php _e( 'Important:' ); ?></strong>
+				<strong><?php _e( 'Importante:' ); ?></strong>
 				<?php /* translators: The non-breaking space prevents 1Password from thinking the text "log in" should trigger a password save prompt. */ ?>
-				<?php _e( 'You will need this password to log&nbsp;in. Please store it in a secure location.' ); ?></span></p>
+				<?php _e( 'Necesitará esta contraseña para iniciar sesión &nbsp;. Guárdelo en un lugar seguro.' ); ?></span></p>
 			</td>
 		</tr>
 		<tr class="form-field form-required user-pass2-wrap hide-if-js">
 			<th scope="row">
-				<label for="pass2"><?php _e( 'Repeat Password' ); ?>
-					<span class="description"><?php _e( '(required)' ); ?></span>
+				<label for="pass2"><?php _e( 'Repite la contraseña' ); ?>
+					<span class="description"><?php _e( '(requerido)' ); ?></span>
 				</label>
 			</th>
 			<td>
@@ -164,47 +164,47 @@ function display_setup_form( $error = null ) {
 			</td>
 		</tr>
 		<tr class="pw-weak">
-			<th scope="row"><?php _e( 'Confirm Password' ); ?></th>
+			<th scope="row"><?php _e( 'confirmar Contraseña' ); ?></th>
 			<td>
 				<label>
 					<input type="checkbox" name="pw_weak" class="pw-checkbox" />
-					<?php _e( 'Confirm use of weak password' ); ?>
+					<?php _e( 'Confirmar el uso de una contraseña débil' ); ?>
 				</label>
 			</td>
 		</tr>
 		<?php endif; ?>
 		<tr>
-			<th scope="row"><label for="admin_email"><?php _e( 'Your Email' ); ?></label></th>
+			<th scope="row"><label for="admin_email"><?php _e( 'Tu correo electrónico' ); ?></label></th>
 			<td><input name="admin_email" type="email" id="admin_email" size="25" value="<?php echo esc_attr( $admin_email ); ?>" />
-			<p><?php _e( 'Double-check your email address before continuing.' ); ?></p></td>
+			<p><?php _e( 'Vuelva a verificar su dirección de correo electrónico antes de continuar.' ); ?></p></td>
 		</tr>
 		<tr>
-			<th scope="row"><?php has_action( 'blog_privacy_selector' ) ? _e( 'Site visibility' ) : _e( 'Search engine visibility' ); ?></th>
+			<th scope="row"><?php has_action( 'blog_privacy_selector' ) ? _e( 'Visibilidad del sitio' ) : _e( 'Visibilidad del motor de búsqueda' ); ?></th>
 			<td>
 				<fieldset>
-					<legend class="screen-reader-text"><span><?php has_action( 'blog_privacy_selector' ) ? _e( 'Site visibility' ) : _e( 'Search engine visibility' ); ?> </span></legend>
+					<legend class="screen-reader-text"><span><?php has_action( 'blog_privacy_selector' ) ? _e( 'Visibilidad del sitio' ) : _e( 'Visibilidad del motor de búsqueda' ); ?> </span></legend>
 					<?php
 					if ( has_action( 'blog_privacy_selector' ) ) {
 						?>
 						<input id="blog-public" type="radio" name="blog_public" value="1" <?php checked( 1, $blog_public ); ?> />
-						<label for="blog-public"><?php _e( 'Allow search engines to index this site' ); ?></label><br/>
+						<label for="blog-public"><?php _e( 'Permitir al motor de busqueda indexar ese sitio' ); ?></label><br/>
 						<input id="blog-norobots" type="radio" name="blog_public" value="0" <?php checked( 0, $blog_public ); ?> />
-						<label for="blog-norobots"><?php _e( 'Discourage search engines from indexing this site' ); ?></label>
-						<p class="description"><?php _e( 'Note: Neither of these options blocks access to your site &mdash; it is up to search engines to honor your request.' ); ?></p>
+						<label for="blog-norobots"><?php _e( 'Evite que los motores de búsqueda indexen este sitio' ); ?></label>
+						<p class="description"><?php _e( 'Nota: Ninguna de estas opciones bloquea el acceso a su sitio & mdash; Depende de los motores de búsqueda cumplir con su solicitud.' ); ?></p>
 						<?php
 						/** This action is documented in mt-admin/options-reading.php */
 						do_action( 'blog_privacy_selector' );
 					} else {
 						?>
 						<label for="blog_public"><input name="blog_public" type="checkbox" id="blog_public" value="0" <?php checked( 0, $blog_public ); ?> />
-						<?php _e( 'Discourage search engines from indexing this site' ); ?></label>
-						<p class="description"><?php _e( 'It is up to search engines to honor this request.' ); ?></p>
+						<?php _e( 'Evite que los motores de búsqueda indexen este sitio' ); ?></label>
+						<p class="description"><?php _e( 'Depende de los motores de búsqueda cumplir con esta solicitud.' ); ?></p>
 					<?php } ?>
 				</fieldset>
 			</td>
 		</tr>
 	</table>
-	<p class="step"><?php submit_button( __( 'Install paCMec' ), 'large', 'Submit', false, array( 'id' => 'submit' ) ); ?></p>
+	<p class="step"><?php submit_button( __( 'Instalar paCMec' ), 'large', 'Submit', false, array( 'id' => 'submit' ) ); ?></p>
 	<input type="hidden" name="language" value="<?php echo isset( $_REQUEST['language'] ) ? esc_attr( $_REQUEST['language'] ) : ''; ?>" />
 </form>
 	<?php
@@ -214,9 +214,9 @@ function display_setup_form( $error = null ) {
 if ( is_blog_installed() ) {
 	display_header();
 	die(
-		'<h1>' . __( 'Already Installed' ) . '</h1>' .
-		'<p>' . __( 'You appear to have already installed paCMec. To reinstall please clear your old database tables first.' ) . '</p>' .
-		'<p class="step"><a href="' . esc_url( mt_login_url() ) . '" class="button button-large">' . __( 'Log In' ) . '</a></p>' .
+		'<h1>' . __( 'Ya instalado' ) . '</h1>' .
+		'<p>' . __( 'Parece que ya ha instalado paCMan. Para instalar, primero borre las tablas de su base de datos anterior.' ) . '</p>' .
+		'<p class="step"><a href="' . esc_url( mt_login_url() ) . '" class="button button-large">' . __( 'Iniciar sesión' ) . '</a></p>' .
 		'</body></html>'
 	);
 }
@@ -235,13 +235,13 @@ $mysql_compat  = version_compare( $mysql_version, $required_mysql_version, '>=' 
 
 $version_url = sprintf(
 	/* translators: %s: paCMec version. */
-	esc_url( __( 'https://managertechnology.org/support/managertechnology-version/version-%s/' ) ),
+	esc_url( __( 'https://managertechnology.com.co/pacmec/support/managertechnology-version/version-%s/' ) ),
 	sanitize_title( $mt_version )
 );
 
 /* translators: %s: URL to Update PHP page. */
 $php_update_message = '</p><p>' . sprintf(
-	__( '<a href="%s">Learn more about updating PHP</a>.' ),
+	__( '<a href="%s">Más información sobre cómo actualizar PHP</a>.' ),
 	esc_url( mt_get_update_php_url() )
 );
 
@@ -284,16 +284,16 @@ if ( ! $mysql_compat && ! $php_compat ) {
 
 if ( ! $mysql_compat || ! $php_compat ) {
 	display_header();
-	die( '<h1>' . __( 'Requirements Not Met' ) . '</h1><p>' . $compat . '</p></body></html>' );
+	die( '<h1>' . __( 'Requisitos no cumplidos' ) . '</h1><p>' . $compat . '</p></body></html>' );
 }
 
 if ( ! is_string( $mtdb->base_prefix ) || '' === $mtdb->base_prefix ) {
 	display_header();
 	die(
-		'<h1>' . __( 'Configuration Error' ) . '</h1>' .
+		'<h1>' . __( 'Error de configuración' ) . '</h1>' .
 		'<p>' . sprintf(
 			/* translators: %s: mt-config.php */
-			__( 'Your %s file has an empty database table prefix, which is not supported.' ),
+			__( 'Su archivo %s tiene un prefijo de tabla de base de datos vacío, que no es compatible.' ),
 			'<code>mt-config.php</code>'
 		) . '</p></body></html>'
 	);
@@ -303,10 +303,10 @@ if ( ! is_string( $mtdb->base_prefix ) || '' === $mtdb->base_prefix ) {
 if ( defined( 'DO_NOT_UPGRADE_GLOBAL_TABLES' ) ) {
 	display_header();
 	die(
-		'<h1>' . __( 'Configuration Error' ) . '</h1>' .
+		'<h1>' . __( 'Error de configuración' ) . '</h1>' .
 		'<p>' . sprintf(
 			/* translators: %s: DO_NOT_UPGRADE_GLOBAL_TABLES */
-			__( 'The constant %s cannot be defined when installing paCMec.' ),
+			__( 'La constante %s no se puede definir al instalar paCMec.' ),
 			'<code>DO_NOT_UPGRADE_GLOBAL_TABLES</code>'
 		) . '</p></body></html>'
 	);
@@ -354,11 +354,11 @@ switch ( $step ) {
 
 		display_header();
 		?>
-<h1><?php _ex( 'Welcome', 'Howdy' ); ?></h1>
+<h1><?php _ex( 'Bienvenid@', 'Hola' ); ?></h1>
 <p><?php _e( 'Welcome to the famous five-minute paCMec installation process! Just fill in the information below and you&#8217;ll be on your way to using the most extendable and powerful personal publishing platform in the world.' ); ?></p>
 
-<h2><?php _e( 'Information needed' ); ?></h2>
-<p><?php _e( 'Please provide the following information. Don&#8217;t worry, you can always change these settings later.' ); ?></p>
+<h2><?php _e( 'Información necesaria' ); ?></h2>
+<p><?php _e( 'Por favor provea la siguiente información. No se preocupe, siempre puede cambiar esta configuración más tarde.' ); ?></p>
 
 		<?php
 		display_setup_form();
@@ -368,7 +368,7 @@ switch ( $step ) {
 			$loaded_language      = $language;
 			$GLOBALS['mt_locale'] = new MT_Locale();
 		} else {
-			$loaded_language = 'en_US';
+			$loaded_language = 'es_CO';
 		}
 
 		if ( ! empty( $mtdb->error ) ) {
@@ -390,22 +390,22 @@ switch ( $step ) {
 		$error = false;
 		if ( empty( $user_name ) ) {
 			// TODO: Poka-yoke.
-			display_setup_form( __( 'Please provide a valid username.' ) );
+			display_setup_form( __( 'Proporcione un nombre de usuario válido.' ) );
 			$error = true;
 		} elseif ( sanitize_user( $user_name, true ) !== $user_name ) {
-			display_setup_form( __( 'The username you provided has invalid characters.' ) );
+			display_setup_form( __( 'El nombre de usuario que proporcionó tiene caracteres no válidos.' ) );
 			$error = true;
 		} elseif ( $admin_password !== $admin_password_check ) {
 			// TODO: Poka-yoke.
-			display_setup_form( __( 'Your passwords do not match. Please try again.' ) );
+			display_setup_form( __( 'Tus contraseñas no coinciden. Inténtalo de nuevo.' ) );
 			$error = true;
 		} elseif ( empty( $admin_email ) ) {
 			// TODO: Poka-yoke.
-			display_setup_form( __( 'You must provide an email address.' ) );
+			display_setup_form( __( 'Debe proporcionar una dirección de correo electrónico.' ) );
 			$error = true;
 		} elseif ( ! is_email( $admin_email ) ) {
 			// TODO: Poka-yoke.
-			display_setup_form( __( 'Sorry, that isn&#8217;t a valid email address. Email addresses look like <code>username@example.com</code>.' ) );
+			display_setup_form( __( 'Lo sentimos, esa no es una dirección de correo electrónico válida. Las direcciones de correo electrónico se parecen a <code> username@example.com </code>.' ) );
 			$error = true;
 		}
 
@@ -414,17 +414,17 @@ switch ( $step ) {
 			$result = mt_install( $weblog_title, $user_name, $admin_email, $public, '', mt_slash( $admin_password ), $loaded_language );
 			?>
 
-<h1><?php _e( 'Success!' ); ?></h1>
+<h1><?php _e( 'Éxito!' ); ?></h1>
 
-<p><?php _e( 'paCMec has been installed. Thank you, and enjoy!' ); ?></p>
+<p><?php _e( 'Se ha instalado paCMec. Gracias y disfruta!' ); ?></p>
 
 <table class="form-table install-success">
 	<tr>
-		<th><?php _e( 'Username' ); ?></th>
+		<th><?php _e( 'Nombre de usuario' ); ?></th>
 		<td><?php echo esc_html( sanitize_user( $user_name, true ) ); ?></td>
 	</tr>
 	<tr>
-		<th><?php _e( 'Password' ); ?></th>
+		<th><?php _e( 'Nombre de usuario' ); ?></th>
 		<td>
 			<?php
 			if ( ! empty( $result['password'] ) && empty( $admin_password_check ) ) :
@@ -436,7 +436,7 @@ switch ( $step ) {
 	</tr>
 </table>
 
-<p class="step"><a href="<?php echo esc_url( mt_login_url() ); ?>" class="button button-large"><?php _e( 'Log In' ); ?></a></p>
+<p class="step"><a href="<?php echo esc_url( mt_login_url() ); ?>" class="button button-large"><?php _e( 'Finalizar membresía' ); ?></a></p>
 
 			<?php
 		}

@@ -1,8 +1,8 @@
 /*
 Theme Name: Twenty Twelve
-Theme URI: https://managertechnology.org/themes/twentytwelve/
+Theme URI: https://managertechnology.com.co/pacmec/themes/twentytwelve/
 Author: the paCMec team
-Author URI: https://managertechnology.org/
+Author URI: https://managertechnology.com.co/pacmec/
 Description: The 2012 theme for paCMec is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background.
 Version: 3.3
 Requires at least: 3.5
@@ -1518,7 +1518,7 @@ img#mtstats {
 /* Does the same thing as <meta name="viemtort" content="width=device-width">,
  * but in the future W3C standard way. -ms- prefix is required for IE10+ to
  * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
- * the meta tag. See https://core.trac.managertechnology.org/ticket/25888.
+ * the meta tag. See https://core.trac.managertechnology.com.co/pacmec/ticket/25888.
  */
 @-ms-viemtort {
 	width: device-width;

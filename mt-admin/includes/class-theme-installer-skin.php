@@ -328,13 +328,13 @@ class Theme_Installer_Skin extends MT_Upgrader_Skin {
 				$warning = sprintf(
 					/* translators: %s: Documentation URL. */
 					__( 'You are uploading an older version of a current theme. You can continue to install the older version, but be sure to <a href="%s">back up your database and files</a> first.' ),
-					__( 'https://managertechnology.org/support/article/managertechnology-backups/' )
+					__( 'https://managertechnology.com.co/pacmec/support/article/managertechnology-backups/' )
 				);
 			} else {
 				$warning = sprintf(
 					/* translators: %s: Documentation URL. */
 					__( 'You are updating a theme. Be sure to <a href="%s">back up your database and files</a> first.' ),
-					__( 'https://managertechnology.org/support/article/managertechnology-backups/' )
+					__( 'https://managertechnology.com.co/pacmec/support/article/managertechnology-backups/' )
 				);
 			}
 

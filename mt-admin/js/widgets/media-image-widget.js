@@ -103,7 +103,7 @@
 			mediaFrame.state( 'image-details' ).on( 'update', updateCallback );
 			mediaFrame.state( 'replace-image' ).on( 'replace', updateCallback );
 
-			// Disable syncing of attachment changes back to server. See <https://core.trac.managertechnology.org/ticket/40403>.
+			// Disable syncing of attachment changes back to server. See <https://core.trac.managertechnology.com.co/pacmec/ticket/40403>.
 			defaultSync = mt.media.model.Attachment.prototype.sync;
 			mt.media.model.Attachment.prototype.sync = function rejectedSync() {
 				return $.Deferred().rejectWith( this ).promise();

@@ -1351,7 +1351,7 @@ function mt_default_scripts( $scripts ) {
 
 		/*
 		 * Navigation Menus: Adding underscore as a dependency to utilize _.debounce
-		 * see https://core.trac.managertechnology.org/ticket/42321
+		 * see https://core.trac.managertechnology.com.co/pacmec/ticket/42321
 		 */
 		$scripts->add( 'nav-menu', "/mt-admin/js/nav-menu$suffix.js", array( 'jquery-ui-sortable', 'jquery-ui-draggable', 'jquery-ui-droppable', 'mt-lists', 'postbox', 'json2', 'underscore' ) );
 		$scripts->set_translations( 'nav-menu' );

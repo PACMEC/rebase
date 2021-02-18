@@ -45,8 +45,8 @@ get_current_screen()->add_help_tab(
 
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/article/settings-general-screen/">Documentation on General Settings</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/">Support</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/settings-general-screen/">Documentation on General Settings</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>'
 );
 
 require_once ABSPATH . 'mt-admin/admin-header.php';
@@ -97,7 +97,7 @@ if ( ! is_multisite() ) {
 		printf(
 			/* translators: %s: Documentation URL. */
 			__( 'Enter the address here if you <a href="%s">want your site home page to be different from your paCMec installation directory</a>.' ),
-			__( 'https://managertechnology.org/support/article/giving-managertechnology-its-own-directory/' )
+			__( 'https://managertechnology.com.co/pacmec/support/article/giving-managertechnology-its-own-directory/' )
 		);
 		?>
 </p>
@@ -157,7 +157,7 @@ if ( $new_admin_email && get_option( 'admin_email' ) !== $new_admin_email ) :
 
 $languages    = get_available_languages();
 $translations = mt_get_available_translations();
-if ( ! is_multisite() && defined( 'MTLANG' ) && '' !== MTLANG && 'en_US' !== MTLANG && ! in_array( MTLANG, $languages, true ) ) {
+if ( ! is_multisite() && defined( 'MTLANG' ) && '' !== MTLANG && 'es_CO' !== MTLANG && ! in_array( MTLANG, $languages, true ) ) {
 	$languages[] = MTLANG;
 }
 if ( ! empty( $languages ) || ! empty( $translations ) ) {
@@ -374,7 +374,7 @@ foreach ( $time_formats as $format ) {
 		'<p><strong>' . __( 'Preview:' ) . '</strong> <span class="example">' . date_i18n( get_option( 'time_format' ) ) . '</span>' .
 		"<span class='spinner'></span>\n" . '</p>';
 
-	echo "\t<p class='date-time-doc'>" . __( '<a href="https://managertechnology.org/support/article/formatting-date-and-time/">Documentation on date and time formatting</a>.' ) . "</p>\n";
+	echo "\t<p class='date-time-doc'>" . __( '<a href="https://managertechnology.com.co/pacmec/support/article/formatting-date-and-time/">Documentation on date and time formatting</a>.' ) . "</p>\n";
 ?>
 	</fieldset>
 </td>

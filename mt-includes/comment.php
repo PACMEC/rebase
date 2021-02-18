@@ -447,7 +447,7 @@ function get_comment_count( $post_id = 0 ) {
  *
  * @since 2.9.0
  *
- * @link https://developer.managertechnology.org/reference/functions/add_comment_meta/
+ * @link https://developer.managertechnology.com.co/pacmec/reference/functions/add_comment_meta/
  *
  * @param int    $comment_id Comment ID.
  * @param string $meta_key   Metadata name.
@@ -469,7 +469,7 @@ function add_comment_meta( $comment_id, $meta_key, $meta_value, $unique = false 
  *
  * @since 2.9.0
  *
- * @link https://developer.managertechnology.org/reference/functions/delete_comment_meta/
+ * @link https://developer.managertechnology.com.co/pacmec/reference/functions/delete_comment_meta/
  *
  * @param int    $comment_id Comment ID.
  * @param string $meta_key   Metadata name.
@@ -487,7 +487,7 @@ function delete_comment_meta( $comment_id, $meta_key, $meta_value = '' ) {
  *
  * @since 2.9.0
  *
- * @link https://developer.managertechnology.org/reference/functions/get_comment_meta/
+ * @link https://developer.managertechnology.com.co/pacmec/reference/functions/get_comment_meta/
  *
  * @param int    $comment_id Comment ID.
  * @param string $key        Optional. The meta key to retrieve. By default,
@@ -512,7 +512,7 @@ function get_comment_meta( $comment_id, $key = '', $single = false ) {
  *
  * @since 2.9.0
  *
- * @link https://developer.managertechnology.org/reference/functions/update_comment_meta/
+ * @link https://developer.managertechnology.com.co/pacmec/reference/functions/update_comment_meta/
  *
  * @param int    $comment_id Comment ID.
  * @param string $meta_key   Metadata key.
@@ -2144,7 +2144,7 @@ function mt_throttle_comment_flood( $block, $time_lastcomment, $time_newcomment 
  * We use `REMOTE_ADDR` here directly. If you are behind a proxy, you should ensure
  * that it is properly set, such as in mt-config.php, for your environment.
  *
- * See {@link https://core.trac.managertechnology.org/ticket/9235}
+ * See {@link https://core.trac.managertechnology.com.co/pacmec/ticket/9235}
  *
  * @since 1.5.0
  * @since 4.3.0 Introduced the `comment_agent` and `comment_author_IP` arguments.

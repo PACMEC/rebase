@@ -4,7 +4,7 @@
  *
  * Used to display archive-type pages for posts in a category.
  *
- * @link https://developer.managertechnology.org/themes/basics/template-hierarchy/
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/template-hierarchy/
  *
  * @package paCMec
  * @subpackage Twenty_Twelve

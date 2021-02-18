@@ -1,8 +1,8 @@
 /*
 Theme Name: Twenty Fifteen
-Theme URI: https://managertechnology.org/themes/twentyfifteen/
+Theme URI: https://managertechnology.com.co/pacmec/themes/twentyfifteen/
 Author: the paCMec team
-Author URI: https://managertechnology.org/
+Author URI: https://managertechnology.com.co/pacmec/
 Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
 Version: 2.8
 Requires PHP: 5.2.4
@@ -865,7 +865,7 @@ a:focus {
 }
 
 .social-navigation a[href*="managertechnology.com"]:before,
-.social-navigation a[href*="managertechnology.org"]:before {
+.social-navigation a[href*="managertechnology.com.co/pacmec"]:before {
 	content: "\f205";
 }
 
@@ -2733,7 +2733,7 @@ p > video {
  * Does the same thing as <meta name="viemtort" content="width=device-width">,
  * but in the future W3C standard way. -ms- prefix is required for IE10+ to
  * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
- * the meta tag. See https://core.trac.managertechnology.org/ticket/25888.
+ * the meta tag. See https://core.trac.managertechnology.com.co/pacmec/ticket/25888.
  */
 @-ms-viemtort {
 	width: device-width;

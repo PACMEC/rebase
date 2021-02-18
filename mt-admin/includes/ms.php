@@ -646,7 +646,7 @@ function mu_dropdown_languages( $lang_files = array(), $current = '' ) {
 	foreach ( (array) $lang_files as $val ) {
 		$code_lang = basename( $val, '.mo' );
 
-		if ( 'en_US' === $code_lang ) { // American English.
+		if ( 'es_CO' === $code_lang ) { // American English.
 			$flag          = true;
 			$ae            = __( 'American English' );
 			$output[ $ae ] = '<option value="' . esc_attr( $code_lang ) . '"' . selected( $current, $code_lang, false ) . '> ' . $ae . '</option>';
@@ -1155,6 +1155,6 @@ function get_site_screen_help_tab_args() {
  */
 function get_site_screen_help_sidebar_content() {
 	return '<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-		'<p>' . __( '<a href="https://managertechnology.org/support/article/network-admin-sites-screen/">Documentation on Site Management</a>' ) . '</p>' .
-		'<p>' . __( '<a href="https://managertechnology.org/support/forum/multisite/">Support Forums</a>' ) . '</p>';
+		'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/network-admin-sites-screen/">Documentation on Site Management</a>' ) . '</p>' .
+		'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/forum/multisite/">Support Forums</a>' ) . '</p>';
 }

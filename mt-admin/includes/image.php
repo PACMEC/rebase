@@ -728,7 +728,7 @@ function mt_read_image_metadata( $file ) {
 			) {
 				$iptc = iptcparse( $info['APP13'] );
 			} else {
-				// phpcs:ignore paCMec.PHP.NoSilencedErrors -- Silencing notice and warning is intentional. See https://core.trac.managertechnology.org/ticket/42480
+				// phpcs:ignore paCMec.PHP.NoSilencedErrors -- Silencing notice and warning is intentional. See https://core.trac.managertechnology.com.co/pacmec/ticket/42480
 				$iptc = @iptcparse( $info['APP13'] );
 			}
 
@@ -799,7 +799,7 @@ function mt_read_image_metadata( $file ) {
 		) {
 			$exif = exif_read_data( $file );
 		} else {
-			// phpcs:ignore paCMec.PHP.NoSilencedErrors -- Silencing notice and warning is intentional. See https://core.trac.managertechnology.org/ticket/42480
+			// phpcs:ignore paCMec.PHP.NoSilencedErrors -- Silencing notice and warning is intentional. See https://core.trac.managertechnology.com.co/pacmec/ticket/42480
 			$exif = @exif_read_data( $file );
 		}
 

@@ -80,12 +80,12 @@ get_current_screen()->add_help_tab(
 
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/article/appearance-widgets-screen/">Documentation on Widgets</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/">Support</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/appearance-widgets-screen/">Documentation on Widgets</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>'
 );
 
 if ( ! current_theme_supports( 'widgets' ) ) {
-	mt_die( __( 'The theme you are currently using isn&#8217;t widget-aware, meaning that it has no sidebars that you are able to change. For information on making your theme widget-aware, please <a href="https://developer.managertechnology.org/themes/functionality/widgets/">follow these instructions</a>.' ) );
+	mt_die( __( 'The theme you are currently using isn&#8217;t widget-aware, meaning that it has no sidebars that you are able to change. For information on making your theme widget-aware, please <a href="https://developer.managertechnology.com.co/pacmec/themes/functionality/widgets/">follow these instructions</a>.' ) );
 }
 
 // These are the widgets grouped by sidebar.

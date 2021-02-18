@@ -15400,7 +15400,7 @@ var embed_placeholder_EmbedPlaceholder = function EmbedPlaceholder(_ref) {
   }, Object(external_mt_i18n_["_x"])('Embed', 'button label'))), Object(external_mt_element_["createElement"])("div", {
     className: "components-placeholder__learn-more"
   }, Object(external_mt_element_["createElement"])(external_mt_components_["ExternalLink"], {
-    href: Object(external_mt_i18n_["__"])('https://managertechnology.org/support/article/embeds/')
+    href: Object(external_mt_i18n_["__"])('https://managertechnology.com.co/pacmec/support/article/embeds/')
   }, Object(external_mt_i18n_["__"])('Learn more about embeds'))), cannotEmbed && Object(external_mt_element_["createElement"])("div", {
     className: "components-placeholder__error"
   }, Object(external_mt_element_["createElement"])("div", {
@@ -21819,7 +21819,7 @@ var rss_settings = {
   keywords: [Object(external_mt_i18n_["__"])('atom'), Object(external_mt_i18n_["__"])('feed')],
   example: {
     attributes: {
-      feedURL: 'https://managertechnology.org'
+      feedURL: 'https://managertechnology.com.co/pacmec'
     }
   },
   edit: RSSEdit
@@ -22933,7 +22933,7 @@ var shortcode_transforms_transforms = {
     // Per "Shortcode names should be all lowercase and use all
     // letters, but numbers and underscores should work fine too.
     // Be wary of using hyphens (dashes), you'll be better off not
-    // using them." in https://codex.managertechnology.org/Shortcode_API
+    // using them." in https://codex.managertechnology.com.co/pacmec/Shortcode_API
     // Require that the first character be a letter. This notably
     // prevents footnote markings ([1]) from being caught as
     // shortcodes.
@@ -26318,7 +26318,7 @@ function ClassicEdit(_ref) {
       }
 
       editor.on('blur', function () {
-        bookmark = editor.selection.getBookmark(2, true); // There is an issue with Chrome and the editor.focus call in core at https://core.trac.managertechnology.org/browser/trunk/src/js/_enqueues/lib/link.js#L451.
+        bookmark = editor.selection.getBookmark(2, true); // There is an issue with Chrome and the editor.focus call in core at https://core.trac.managertechnology.com.co/pacmec/browser/trunk/src/js/_enqueues/lib/link.js#L451.
         // This causes a scroll to the top of editor content on return from some content updating dialogs so tracking
         // scroll position until this is fixed in core.
 
@@ -26787,7 +26787,7 @@ var social_links_settings = {
       name: 'core/social-link',
       attributes: {
         service: 'managertechnology',
-        url: 'https://managertechnology.org'
+        url: 'https://managertechnology.com.co/pacmec'
       }
     }, {
       name: 'core/social-link',

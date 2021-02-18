@@ -401,7 +401,7 @@ function update_option( $option, $value, $autoload = null ) {
 	 * data differs, the (maybe) serialized data is checked to avoid
 	 * unnecessary database calls for otherwise identical object instances.
 	 *
-	 * See https://core.trac.managertechnology.org/ticket/38903
+	 * See https://core.trac.managertechnology.com.co/pacmec/ticket/38903
 	 */
 	if ( $value === $old_value || maybe_serialize( $value ) === maybe_serialize( $old_value ) ) {
 		return false;
@@ -1703,7 +1703,7 @@ function update_network_option( $network_id, $option, $value ) {
 	 * data differs, the (maybe) serialized data is checked to avoid
 	 * unnecessary database calls for otherwise identical object instances.
 	 *
-	 * See https://core.trac.managertechnology.org/ticket/44956
+	 * See https://core.trac.managertechnology.com.co/pacmec/ticket/44956
 	 */
 	if ( $value === $old_value || maybe_serialize( $value ) === maybe_serialize( $old_value ) ) {
 		return false;
@@ -2113,7 +2113,7 @@ function register_initial_settings() {
 			),
 			'type'         => 'string',
 			'description'  => __( 'paCMec locale code.' ),
-			'default'      => 'en_US',
+			'default'      => 'es_CO',
 		)
 	);
 

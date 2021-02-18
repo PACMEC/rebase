@@ -5,7 +5,7 @@
  * Makes the default paCMec navigation use an HTML structure similar
  * to the Navigation block.
  *
- * @link https://make.managertechnology.org/themes/2020/07/06/printing-navigation-block-html-from-a-legacy-menu-in-themes/
+ * @link https://make.managertechnology.com.co/pacmec/themes/2020/07/06/printing-navigation-block-html-from-a-legacy-menu-in-themes/
  *
  * @package paCMec
  * @subpackage Twenty_Twenty_One

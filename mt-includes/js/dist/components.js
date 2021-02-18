@@ -11203,7 +11203,7 @@ function ToolbarItem(_ref, ref) {
   var accessibleToolbarState = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_3__["useContext"])(_toolbar_context__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"]);
 
   if (typeof children !== 'function' && !Component) {
-    typeof process !== "undefined" && process.env && "production" !== "production" ? _managertechnology_warning__WEBPACK_IMPORTED_MODULE_5___default()('`ToolbarItem` is a generic headless component. You must pass either a `children` prop as a function or an `as` prop as a component. ' + 'See https://developer.managertechnology.org/block-editor/components/toolbar-item/') : void 0;
+    typeof process !== "undefined" && process.env && "production" !== "production" ? _managertechnology_warning__WEBPACK_IMPORTED_MODULE_5___default()('`ToolbarItem` is a generic headless component. You must pass either a `children` prop as a function or an `as` prop as a component. ' + 'See https://developer.managertechnology.com.co/pacmec/block-editor/components/toolbar-item/') : void 0;
     return null;
   }
 
@@ -11280,7 +11280,7 @@ var SlotFillContext = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE
   slots: {},
   fills: {},
   registerSlot: function registerSlot() {
-    typeof process !== "undefined" && process.env && "production" !== "production" ? _managertechnology_warning__WEBPACK_IMPORTED_MODULE_1___default()('Components must be wrapped within `SlotFillProvider`. ' + 'See https://developer.managertechnology.org/block-editor/components/slot-fill/') : void 0;
+    typeof process !== "undefined" && process.env && "production" !== "production" ? _managertechnology_warning__WEBPACK_IMPORTED_MODULE_1___default()('Components must be wrapped within `SlotFillProvider`. ' + 'See https://developer.managertechnology.com.co/pacmec/block-editor/components/slot-fill/') : void 0;
   },
   updateSlot: function updateSlot() {},
   unregisterSlot: function unregisterSlot() {},
@@ -18541,7 +18541,7 @@ var LIGHT_OPACITY_LIGHT = {
   100: rgba(BASE.white, 0.1),
   backgroundFill: rgba(LIGHT_GRAY[300], 0.8)
 }; // Additional colors.
-// Some are from https://make.managertechnology.org/design/handbook/foundations/colors/.
+// Some are from https://make.managertechnology.com.co/pacmec/design/handbook/foundations/colors/.
 
 var BLUE = {
   managertechnology: {
@@ -26025,7 +26025,7 @@ var external_mt_a11y_ = __webpack_require__(48);
  * A Higher Order Component used to be provide speak and debounced speak
  * functions.
  *
- * @see https://developer.managertechnology.org/block-editor/packages/packages-a11y/#speak
+ * @see https://developer.managertechnology.com.co/pacmec/block-editor/packages/packages-a11y/#speak
  *
  * @param {MTComponent} Component The component to be wrapped.
  *
@@ -47722,7 +47722,7 @@ function toolbar_Toolbar(_ref, ref) {
   if (!label) {
     external_mt_deprecated_default()('Using Toolbar without label prop', {
       alternative: 'ToolbarGroup component',
-      link: 'https://developer.managertechnology.org/block-editor/components/toolbar/'
+      link: 'https://developer.managertechnology.com.co/pacmec/block-editor/components/toolbar/'
     });
     return Object(external_mt_element_["createElement"])(toolbar_group, Object(esm_extends["a" /* default */])({}, props, {
       className: className

@@ -5246,7 +5246,7 @@ function isPreviewEmbedFallback(state, url) {
  * Calling this may trigger an OPTIONS request to the REST API via the
  * `canUser()` resolver.
  *
- * https://developer.managertechnology.org/rest-api/reference/
+ * https://developer.managertechnology.com.co/pacmec/rest-api/reference/
  *
  * @deprecated since 5.0. Callers should use the more generic `canUser()` selector instead of
  *             `hasUploadPermissions()`, e.g. `canUser( 'create', 'media' )`.
@@ -5270,7 +5270,7 @@ function hasUploadPermissions(state) {
  * Calling this may trigger an OPTIONS request to the REST API via the
  * `canUser()` resolver.
  *
- * https://developer.managertechnology.org/rest-api/reference/
+ * https://developer.managertechnology.com.co/pacmec/rest-api/reference/
  *
  * @param {Object}   state            Data state.
  * @param {string}   action           Action to check. One of: 'create', 'read', 'update', 'delete'.
@@ -6057,7 +6057,7 @@ function resolvers_canUser(action, resource, id) {
             // Ideally this would always be an OPTIONS request, but unfortunately there's
             // a bug in the REST API which causes the Allow header to not be sent on
             // OPTIONS requests to /posts/:id routes.
-            // https://core.trac.managertechnology.org/ticket/45753
+            // https://core.trac.managertechnology.com.co/pacmec/ticket/45753
             method: id ? 'GET' : 'OPTIONS',
             parse: false
           });

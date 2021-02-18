@@ -11,14 +11,14 @@
  * functions.php file. The child theme's functions.php file is included before
  * the parent theme's file, so the child theme functions would be used.
  *
- * @link https://developer.managertechnology.org/themes/basics/theme-functions/
- * @link https://developer.managertechnology.org/themes/advanced-topics/child-themes/
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/theme-functions/
+ * @link https://developer.managertechnology.com.co/pacmec/themes/advanced-topics/child-themes/
  *
  * Functions that are not pluggable (not wrapped in function_exists()) are
  * instead attached to a filter or action hook.
  *
  * For more information on hooks, actions, and filters,
- * {@link https://developer.managertechnology.org/plugins/}
+ * {@link https://developer.managertechnology.com.co/pacmec/plugins/}
  *
  * @package paCMec
  * @subpackage Twenty_Sixteen
@@ -47,7 +47,7 @@ if ( ! function_exists( 'twentysixteen_setup' ) ) :
 	function twentysixteen_setup() {
 		/*
 		 * Make theme available for translation.
-		 * Translations can be filed at paCMec.org. See: https://translate.managertechnology.org/projects/mt-themes/twentysixteen
+		 * Translations can be filed at paCMec.org. See: https://translate.managertechnology.com.co/pacmec/projects/mt-themes/twentysixteen
 		 * If you're building a theme based on Twenty Sixteen, use a find and replace
 		 * to change 'twentysixteen' to the name of your theme in all the template files
 		 */
@@ -81,7 +81,7 @@ if ( ! function_exists( 'twentysixteen_setup' ) ) :
 		/*
 		 * Enable support for Post Thumbnails on posts and pages.
 		 *
-		 * @link https://developer.managertechnology.org/reference/functions/add_theme_support/#post-thumbnails
+		 * @link https://developer.managertechnology.com.co/pacmec/reference/functions/add_theme_support/#post-thumbnails
 		 */
 		add_theme_support( 'post-thumbnails' );
 		set_post_thumbnail_size( 1200, 9999 );
@@ -115,7 +115,7 @@ if ( ! function_exists( 'twentysixteen_setup' ) ) :
 		/*
 		 * Enable support for Post Formats.
 		 *
-		 * See: https://managertechnology.org/support/article/post-formats/
+		 * See: https://managertechnology.com.co/pacmec/support/article/post-formats/
 		 */
 		add_theme_support(
 			'post-formats',
@@ -261,7 +261,7 @@ add_filter( 'mt_resource_hints', 'twentysixteen_resource_hints', 10, 2 );
 /**
  * Registers a widget area.
  *
- * @link https://developer.managertechnology.org/reference/functions/register_sidebar/
+ * @link https://developer.managertechnology.com.co/pacmec/reference/functions/register_sidebar/
  *
  * @since Twenty Sixteen 1.0
  */

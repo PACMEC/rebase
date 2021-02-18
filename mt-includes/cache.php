@@ -2,7 +2,7 @@
 /**
  * Object Cache API
  *
- * @link https://codex.managertechnology.org/Class_Reference/MT_Object_Cache
+ * @link https://codex.managertechnology.com.co/pacmec/Class_Reference/MT_Object_Cache
  *
  * @package paCMec
  * @subpackage Cache

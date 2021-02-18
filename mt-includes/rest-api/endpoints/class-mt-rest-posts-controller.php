@@ -301,7 +301,7 @@ class MT_REST_Posts_Controller extends MT_REST_Controller {
 		 * @since 4.7.0
 		 * @since 5.7.0 Moved after the `tax_query` query arg is generated.
 		 *
-		 * @link https://developer.managertechnology.org/reference/classes/mt_query/
+		 * @link https://developer.managertechnology.com.co/pacmec/reference/classes/mt_query/
 		 *
 		 * @param array           $args    Array of arguments to be passed to MT_Query.
 		 * @param MT_REST_Request $request The REST API request.

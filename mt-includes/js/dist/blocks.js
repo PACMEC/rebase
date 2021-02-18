@@ -7222,7 +7222,7 @@ function registration_objectSpread(target) { for (var i = 1; i < arguments.lengt
  *
  * @typedef {(string|MTElement|MTComponent)} MTIcon
  *
- * @see https://developer.managertechnology.org/resource/dashicons/
+ * @see https://developer.managertechnology.com.co/pacmec/resource/dashicons/
  */
 
 /**
@@ -7446,7 +7446,7 @@ function registerBlockType(name, settings) {
   settings.icon = normalizeIconObject(settings.icon);
 
   if (!isValidIcon(settings.icon.src)) {
-    console.error('The icon passed is invalid. ' + 'The icon should be a string, an element, a function, or an object following the specifications documented in https://developer.managertechnology.org/block-editor/developers/block-api/block-registration/#icon-optional');
+    console.error('The icon passed is invalid. ' + 'The icon should be a string, an element, a function, or an object following the specifications documented in https://developer.managertechnology.com.co/pacmec/block-editor/developers/block-api/block-registration/#icon-optional');
     return;
   }
 
@@ -9631,7 +9631,7 @@ function serializeAttributes(attributes) {
   .replace(/</g, "\\u003c").replace(/>/g, "\\u003e").replace(/&/g, "\\u0026") // Bypass server stripslashes behavior which would unescape stringify's
   // escaping of quotation mark.
   //
-  // See: https://developer.managertechnology.org/reference/functions/mt_kses_stripslashes/
+  // See: https://developer.managertechnology.com.co/pacmec/reference/functions/mt_kses_stripslashes/
   .replace(/\\"/g, "\\u0022");
 }
 /**
@@ -11366,7 +11366,7 @@ var createParse = function createParse(parseImplementation) {
  * content within the blocks.
  *
  * @see
- * https://developer.managertechnology.org/block-editor/packages/packages-block-serialization-default-parser/
+ * https://developer.managertechnology.com.co/pacmec/block-editor/packages/packages-block-serialization-default-parser/
  *
  * @param {string} content The post content.
  *
@@ -12629,7 +12629,7 @@ function pasteHandler(_ref) {
   // Not normalizing the content will only affect older browsers and won't
   // entirely break the app.
   // See: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize
-  // See: https://core.trac.managertechnology.org/ticket/30130
+  // See: https://core.trac.managertechnology.com.co/pacmec/ticket/30130
   // See: https://github.com/paCMec/gutenberg/pull/6983#pullrequestreview-125151075
 
 

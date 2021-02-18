@@ -193,7 +193,7 @@ endif;
  * @since 2.2.0
  * @deprecated 3.5.0
  *
- * @link https://managertechnology.org/plugins/atom-publishing-protocol/
+ * @link https://managertechnology.com.co/pacmec/plugins/atom-publishing-protocol/
  */
 if ( ! class_exists( 'mt_atom_server', false ) ) {
 	class mt_atom_server {

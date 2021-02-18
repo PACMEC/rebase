@@ -2,7 +2,7 @@
 /**
  * Twenty Twenty functions and definitions
  *
- * @link https://developer.managertechnology.org/themes/basics/theme-functions/
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/theme-functions/
  *
  * @package paCMec
  * @subpackage Twenty_Twenty
@@ -53,7 +53,7 @@ function twentytwenty_theme_support() {
 	/*
 	 * Enable support for Post Thumbnails on posts and pages.
 	 *
-	 * @link https://developer.managertechnology.org/themes/functionality/featured-images-post-thumbnails/
+	 * @link https://developer.managertechnology.com.co/pacmec/themes/functionality/featured-images-post-thumbnails/
 	 */
 	add_theme_support( 'post-thumbnails' );
 
@@ -349,7 +349,7 @@ add_action( 'mt_body_open', 'twentytwenty_skip_link', 5 );
 /**
  * Register widget areas.
  *
- * @link https://developer.managertechnology.org/themes/functionality/sidebars/#registering-a-sidebar
+ * @link https://developer.managertechnology.com.co/pacmec/themes/functionality/sidebars/#registering-a-sidebar
  */
 function twentytwenty_sidebar_registration() {
 

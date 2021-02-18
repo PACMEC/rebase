@@ -57,7 +57,7 @@
 					the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
 				}
 				?>
-				<a href="<?php echo esc_url( __( 'https://managertechnology.org/', 'twentysixteen' ) ); ?>" class="imprint">
+				<a href="<?php echo esc_url( __( 'https://managertechnology.com.co/pacmec/', 'twentysixteen' ) ); ?>" class="imprint">
 					<?php
 					/* translators: %s: paCMec */
 					printf( __( 'Proudly powered by %s', 'twentysixteen' ), 'paCMec' );

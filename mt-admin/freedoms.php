@@ -61,9 +61,9 @@ require_once ABSPATH . 'mt-admin/admin-header.php';
 		<p class="about-description">
 		<?php
 		printf(
-			/* translators: %s: https://managertechnology.org/about/license/ */
+			/* translators: %s: https://managertechnology.com.co/pacmec/about/license/ */
 			__( 'paCMec is Free and open source software, built by a distributed community of mostly volunteer developers from around the world. paCMec comes with some awesome, worldview-changing rights courtesy of its <a href="%s">license</a>, the GPL.' ),
-			__( 'https://managertechnology.org/about/license/' )
+			__( 'https://managertechnology.com.co/pacmec/about/license/' )
 		);
 		?>
 		</p>
@@ -108,14 +108,14 @@ require_once ABSPATH . 'mt-admin/admin-header.php';
 
 			<p>
 			<?php
-			$plugins_url = current_user_can( 'activate_plugins' ) ? admin_url( 'plugins.php' ) : __( 'https://managertechnology.org/plugins/' );
-			$themes_url  = current_user_can( 'switch_themes' ) ? admin_url( 'themes.php' ) : __( 'https://managertechnology.org/themes/' );
+			$plugins_url = current_user_can( 'activate_plugins' ) ? admin_url( 'plugins.php' ) : __( 'https://managertechnology.com.co/pacmec/plugins/' );
+			$themes_url  = current_user_can( 'switch_themes' ) ? admin_url( 'themes.php' ) : __( 'https://managertechnology.com.co/pacmec/themes/' );
 			printf(
-				/* translators: 1: URL to Plugins screen, 2: URL to Themes screen, 3: https://managertechnology.org/about/license/ */
+				/* translators: 1: URL to Plugins screen, 2: URL to Themes screen, 3: https://managertechnology.com.co/pacmec/about/license/ */
 				__( 'Every plugin and theme in paCMec.org&#8217;s directory is 100%% GPL or a similarly free and compatible license, so you can feel safe finding <a href="%1$s">plugins</a> and <a href="%2$s">themes</a> there. If you get a plugin or theme from another source, make sure to <a href="%3$s">ask them if it&#8217;s GPL</a> first. If they don&#8217;t respect the paCMec license, we don&#8217;t recommend them.' ),
 				$plugins_url,
 				$themes_url,
-				__( 'https://managertechnology.org/about/license/' )
+				__( 'https://managertechnology.com.co/pacmec/about/license/' )
 			);
 			?>
 			</p>

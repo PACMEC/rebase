@@ -267,7 +267,7 @@ if ( ! function_exists( 'mt_install_defaults' ) ) :
 
 		$first_comment_author = ! empty( $first_comment_author ) ? $first_comment_author : __( 'A paCMec Commenter' );
 		$first_comment_email  = ! empty( $first_comment_email ) ? $first_comment_email : 'wapuu@managertechnology.example';
-		$first_comment_url    = ! empty( $first_comment_url ) ? $first_comment_url : 'https://managertechnology.org/';
+		$first_comment_url    = ! empty( $first_comment_url ) ? $first_comment_url : 'https://managertechnology.com.co/pacmec/';
 		$first_comment        = ! empty( $first_comment ) ? $first_comment : __(
 			'Hi, this is a comment.
 To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
@@ -621,7 +621,7 @@ Log in here: %4$s
 We hope you enjoy your new site. Thanks!
 
 --The paCMec Team
-https://managertechnology.org/
+https://managertechnology.com.co/pacmec/
 '
 			),
 			$blog_url,
@@ -2262,7 +2262,7 @@ function upgrade_560() {
 		/*
 		 * When upgrading from MT < 5.6.0 set the core major auto-updates option to `unset` by default.
 		 * This overrides the same option from populate_options() that is intended for new installs.
-		 * See https://core.trac.managertechnology.org/ticket/51742.
+		 * See https://core.trac.managertechnology.com.co/pacmec/ticket/51742.
 		 */
 		update_option( 'auto_update_core_major', 'unset' );
 	}
@@ -2270,7 +2270,7 @@ function upgrade_560() {
 	if ( $mt_current_db_version < 49632 ) {
 		/*
 		 * Regenerate the .htaccess file to add the `HTTP_AUTHORIZATION` rewrite rule.
-		 * See https://core.trac.managertechnology.org/ticket/51723.
+		 * See https://core.trac.managertechnology.com.co/pacmec/ticket/51723.
 		 */
 		save_mod_rewrite_rules();
 	}

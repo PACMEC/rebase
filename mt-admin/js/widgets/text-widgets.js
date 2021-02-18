@@ -195,7 +195,7 @@ mt.textWidgets = ( function( $ ) {
 					 * to be removed with the removal of the update-widget request entirely once
 					 * widgets are able to mutate their own instance props directly in JS without
 					 * having to make server round-trips to call the respective MT_Widget::update()
-					 * callbacks. See <https://core.trac.managertechnology.org/ticket/33507>.
+					 * callbacks. See <https://core.trac.managertechnology.com.co/pacmec/ticket/33507>.
 					 */
 					if ( mt.customize && mt.customize.state ) {
 						mt.customize.state( 'processing' ).set( mt.customize.state( 'processing' ).get() + 1 );

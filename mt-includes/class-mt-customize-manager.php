@@ -677,7 +677,7 @@ final class MT_Customize_Manager {
 			add_filter( 'stylesheet', array( $this, 'get_stylesheet' ) );
 			add_filter( 'pre_option_current_theme', array( $this, 'current_theme' ) );
 
-			// @link: https://core.trac.managertechnology.org/ticket/20027
+			// @link: https://core.trac.managertechnology.com.co/pacmec/ticket/20027
 			add_filter( 'pre_option_stylesheet', array( $this, 'get_stylesheet' ) );
 			add_filter( 'pre_option_template', array( $this, 'get_template' ) );
 
@@ -715,7 +715,7 @@ final class MT_Customize_Manager {
 			remove_filter( 'stylesheet', array( $this, 'get_stylesheet' ) );
 			remove_filter( 'pre_option_current_theme', array( $this, 'current_theme' ) );
 
-			// @link: https://core.trac.managertechnology.org/ticket/20027
+			// @link: https://core.trac.managertechnology.com.co/pacmec/ticket/20027
 			remove_filter( 'pre_option_stylesheet', array( $this, 'get_stylesheet' ) );
 			remove_filter( 'pre_option_template', array( $this, 'get_template' ) );
 
@@ -3212,7 +3212,7 @@ final class MT_Customize_Manager {
 	 *
 	 * @since 4.9.0
 	 *
-	 * @link https://core.trac.managertechnology.org/ticket/40922
+	 * @link https://core.trac.managertechnology.com.co/pacmec/ticket/40922
 	 * @see MT_Customize_Manager::save_changeset_post()
 	 * @see _mt_translate_postdata()
 	 *
@@ -3741,7 +3741,7 @@ final class MT_Customize_Manager {
 	 * @since 4.5.0 Return added MT_Customize_Setting instance.
 	 *
 	 * @see MT_Customize_Setting::__construct()
-	 * @link https://developer.managertechnology.org/themes/customize-api
+	 * @link https://developer.managertechnology.com.co/pacmec/themes/customize-api
 	 *
 	 * @param MT_Customize_Setting|string $id   Customize Setting object, or ID.
 	 * @param array                       $args Optional. Array of properties for the new Setting object.
@@ -3913,7 +3913,7 @@ final class MT_Customize_Manager {
 				$id,
 				sprintf(
 					'<a href="%1$s">%2$s</a>',
-					esc_url( 'https://developer.managertechnology.org/reference/hooks/customize_loaded_components/' ),
+					esc_url( 'https://developer.managertechnology.com.co/pacmec/reference/hooks/customize_loaded_components/' ),
 					'<code>customize_loaded_components</code>'
 				)
 			);
@@ -5581,7 +5581,7 @@ final class MT_Customize_Manager {
 
 		/*
 		 * Static Front Page
-		 * See also https://core.trac.managertechnology.org/ticket/19627 which introduces the static-front-page theme_support.
+		 * See also https://core.trac.managertechnology.com.co/pacmec/ticket/19627 which introduces the static-front-page theme_support.
 		 * The following replicates behavior from options-reading.php.
 		 */
 
@@ -5658,7 +5658,7 @@ final class MT_Customize_Manager {
 		$section_description .= __( 'Add your own CSS code here to customize the appearance and layout of your site.' );
 		$section_description .= sprintf(
 			' <a href="%1$s" class="external-link" target="_blank">%2$s<span class="screen-reader-text"> %3$s</span></a>',
-			esc_url( __( 'https://codex.managertechnology.org/CSS' ) ),
+			esc_url( __( 'https://codex.managertechnology.com.co/pacmec/CSS' ) ),
 			__( 'Learn more about CSS' ),
 			/* translators: Accessibility text. */
 			__( '(opens in a new tab)' )

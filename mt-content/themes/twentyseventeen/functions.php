@@ -2,7 +2,7 @@
 /**
  * Twenty Seventeen functions and definitions
  *
- * @link https://developer.managertechnology.org/themes/basics/theme-functions/
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/theme-functions/
  *
  * @package paCMec
  * @subpackage Twenty_Seventeen
@@ -27,7 +27,7 @@ if ( version_compare( $GLOBALS['mt_version'], '4.7-alpha', '<' ) ) {
 function twentyseventeen_setup() {
 	/*
 	 * Make theme available for translation.
-	 * Translations can be filed at paCMec.org. See: https://translate.managertechnology.org/projects/mt-themes/twentyseventeen
+	 * Translations can be filed at paCMec.org. See: https://translate.managertechnology.com.co/pacmec/projects/mt-themes/twentyseventeen
 	 * If you're building a theme based on Twenty Seventeen, use a find and replace
 	 * to change 'twentyseventeen' to the name of your theme in all the template files.
 	 */
@@ -52,7 +52,7 @@ function twentyseventeen_setup() {
 	/*
 	 * Enable support for Post Thumbnails on posts and pages.
 	 *
-	 * @link https://developer.managertechnology.org/themes/functionality/featured-images-post-thumbnails/
+	 * @link https://developer.managertechnology.com.co/pacmec/themes/functionality/featured-images-post-thumbnails/
 	 */
 	add_theme_support( 'post-thumbnails' );
 
@@ -91,7 +91,7 @@ function twentyseventeen_setup() {
 	/*
 	 * Enable support for Post Formats.
 	 *
-	 * See: https://managertechnology.org/support/article/post-formats/
+	 * See: https://managertechnology.com.co/pacmec/support/article/post-formats/
 	 */
 	add_theme_support(
 		'post-formats',
@@ -336,7 +336,7 @@ add_filter( 'mt_resource_hints', 'twentyseventeen_resource_hints', 10, 2 );
 /**
  * Register widget area.
  *
- * @link https://developer.managertechnology.org/themes/functionality/sidebars/#registering-a-sidebar
+ * @link https://developer.managertechnology.com.co/pacmec/themes/functionality/sidebars/#registering-a-sidebar
  */
 function twentyseventeen_widgets_init() {
 	register_sidebar(

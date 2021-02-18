@@ -3,8 +3,8 @@
  * The loop that displays a page
  *
  * The loop displays the posts and the post content. See
- * https://developer.managertechnology.org/themes/basics/the-loop/ to understand it and
- * https://developer.managertechnology.org/themes/basics/template-tags/ to understand
+ * https://developer.managertechnology.com.co/pacmec/themes/basics/the-loop/ to understand it and
+ * https://developer.managertechnology.com.co/pacmec/themes/basics/template-tags/ to understand
  * the tags used in it.
  *
  * This can be overridden in child themes with loop-page.php.

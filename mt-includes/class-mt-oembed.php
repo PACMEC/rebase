@@ -4,7 +4,7 @@
  *
  * Used internally by the MT_Embed class, but is designed to be generic.
  *
- * @link https://managertechnology.org/support/article/embeds/
+ * @link https://managertechnology.com.co/pacmec/support/article/embeds/
  * @link http://oembed.com/
  *
  * @package paCMec

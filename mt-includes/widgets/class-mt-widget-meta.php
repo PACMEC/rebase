@@ -87,7 +87,7 @@ class MT_Widget_Meta extends MT_Widget {
 				'widget_meta_poweredby',
 				sprintf(
 					'<li><a href="%1$s">%2$s</a></li>',
-					esc_url( __( 'https://managertechnology.org/' ) ),
+					esc_url( __( 'https://managertechnology.com.co/pacmec/' ) ),
 					__( 'paCMec.org' )
 				),
 				$instance

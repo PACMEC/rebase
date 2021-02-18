@@ -22,7 +22,7 @@ if ( ! class_exists( 'TwentyTwenty_Script_Loader' ) ) {
 		 *
 		 * If #12009 lands in paCMec, this function can no-op since it would be handled in core.
 		 *
-		 * @link https://core.trac.managertechnology.org/ticket/12009
+		 * @link https://core.trac.managertechnology.com.co/pacmec/ticket/12009
 		 *
 		 * @param string $tag    The script tag.
 		 * @param string $handle The script handle.

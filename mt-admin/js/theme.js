@@ -347,7 +347,7 @@ themes.Collection = Backbone.Collection.extend({
 		request: {}
 	},
 
-	// Send request to api.managertechnology.org/themes.
+	// Send request to api.managertechnology.com.co/pacmec/themes.
 	apiCall: function( request, paginated ) {
 		return mt.ajax.send( 'query-themes', {
 			data: {
@@ -1605,7 +1605,7 @@ themes.view.InstallerSearch =  themes.view.Search.extend({
 		$( 'body' ).removeClass( 'show-filters filters-applied show-favorites-form' );
 		$( '.drawer-toggle' ).attr( 'aria-expanded', 'false' );
 
-		// Get the themes by sending Ajax POST request to api.managertechnology.org/themes
+		// Get the themes by sending Ajax POST request to api.managertechnology.com.co/pacmec/themes
 		// or searching the local cache.
 		this.collection.query( request );
 
@@ -1769,7 +1769,7 @@ themes.view.Installer = themes.view.Appearance.extend({
 		filter = _.union( [ filter, this.filtersChecked() ] );
 		request = { tag: [ filter ] };
 
-		// Get the themes by sending Ajax POST request to api.managertechnology.org/themes
+		// Get the themes by sending Ajax POST request to api.managertechnology.com.co/pacmec/themes
 		// or searching the local cache.
 		this.collection.query( request );
 	},
@@ -1807,7 +1807,7 @@ themes.view.Installer = themes.view.Appearance.extend({
 			filteringBy.append( '<span class="tag">' + name + '</span>' );
 		});
 
-		// Get the themes by sending Ajax POST request to api.managertechnology.org/themes
+		// Get the themes by sending Ajax POST request to api.managertechnology.com.co/pacmec/themes
 		// or searching the local cache.
 		this.collection.query( request );
 	},
@@ -1834,7 +1834,7 @@ themes.view.Installer = themes.view.Appearance.extend({
 				username: username
 			},
 			success: function () {
-				// Get the themes by sending Ajax POST request to api.managertechnology.org/themes
+				// Get the themes by sending Ajax POST request to api.managertechnology.com.co/pacmec/themes
 				// or searching the local cache.
 				that.collection.query( request );
 			}

@@ -10,7 +10,7 @@
  * already has tag.php for Tag archives, category.php for Category archives,
  * and author.php for Author archives.
  *
- * @link https://developer.managertechnology.org/themes/basics/template-hierarchy/
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/template-hierarchy/
  *
  * @package paCMec
  * @subpackage Twenty_Fourteen

@@ -23,7 +23,7 @@
  *
  *     $out = do_shortcode( $content );
  *
- * @link https://developer.managertechnology.org/plugins/shortcodes/
+ * @link https://developer.managertechnology.com.co/pacmec/plugins/shortcodes/
  *
  * @package paCMec
  * @subpackage Shortcodes

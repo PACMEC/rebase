@@ -303,7 +303,7 @@ window.mt = window.mt || {};
 				 * from being quickly removed and re-added when elements
 				 * inside the dropzone are repositioned.
 				 *
-				 * @see https://core.trac.managertechnology.org/ticket/21705
+				 * @see https://core.trac.managertechnology.com.co/pacmec/ticket/21705
 				 */
 				timer = setTimeout( function() {
 					active = false;

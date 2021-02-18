@@ -458,11 +458,11 @@ function export_mt( $args = array() ) {
 
 	<?php the_generator( 'export' ); ?>
 <rss version="2.0"
-	xmlns:excerpt="http://managertechnology.org/export/<?php echo WXR_VERSION; ?>/excerpt/"
+	xmlns:excerpt="http://managertechnology.com.co/pacmec/export/<?php echo WXR_VERSION; ?>/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:mt="http://managertechnology.org/export/<?php echo WXR_VERSION; ?>/"
+	xmlns:mt="http://managertechnology.com.co/pacmec/export/<?php echo WXR_VERSION; ?>/"
 >
 
 <channel>

@@ -2,8 +2,8 @@
 /**
  * Block Patterns
  *
- * @link https://developer.managertechnology.org/reference/functions/register_block_pattern/
- * @link https://developer.managertechnology.org/reference/functions/register_block_pattern_category/
+ * @link https://developer.managertechnology.com.co/pacmec/reference/functions/register_block_pattern/
+ * @link https://developer.managertechnology.com.co/pacmec/reference/functions/register_block_pattern_category/
  *
  * @package paCMec
  * @subpackage Twenty_Twenty_One
@@ -114,7 +114,7 @@ if ( function_exists( 'register_block_pattern' ) ) {
 			'title'       => esc_html__( 'Contact information', 'twentytwentyone' ),
 			'categories'  => array( 'twentytwentyone' ),
 			'description' => esc_html_x( 'A block with 3 columns that display contact information and social media links.', 'Block pattern description', 'twentytwentyone' ),
-			'content'     => '<!-- mt:columns {"align":"wide"} --><div class="mt-block-columns alignwide"><!-- mt:column --><div class="mt-block-column"><!-- mt:paragraph --><p><a href="mailto:#">' . esc_html_x( 'example@example.com', 'Block pattern sample content', 'twentytwentyone' ) . '<br></a>' . esc_html_x( '123-456-7890', 'Block pattern sample content', 'twentytwentyone' ) . '</p><!-- /mt:paragraph --></div><!-- /mt:column --><!-- mt:column --><div class="mt-block-column"><!-- mt:paragraph {"align":"center"} --><p class="has-text-align-center">' . esc_html_x( '123 Main Street', 'Block pattern sample content', 'twentytwentyone' ) . '<br>' . esc_html_x( 'Cambridge, MA, 02139', 'Block pattern sample content', 'twentytwentyone' ) . '</p><!-- /mt:paragraph --></div><!-- /mt:column --><!-- mt:column {"verticalAlignment":"center"} --><div class="mt-block-column is-vertically-aligned-center"><!-- mt:social-links {"align":"right","className":"is-style-twentytwentyone-social-icons-color"} --><ul class="mt-block-social-links alignright is-style-twentytwentyone-social-icons-color"><!-- mt:social-link {"url":"https://managertechnology.org","service":"managertechnology"} /--><!-- mt:social-link {"url":"https://www.facebook.com/paCMec/","service":"facebook"} /--><!-- mt:social-link {"url":"https://twitter.com/paCMec","service":"twitter"} /--><!-- mt:social-link {"url":"https://www.youtube.com/managertechnology","service":"youtube"} /--></ul><!-- /mt:social-links --></div><!-- /mt:column --></div><!-- /mt:columns -->',
+			'content'     => '<!-- mt:columns {"align":"wide"} --><div class="mt-block-columns alignwide"><!-- mt:column --><div class="mt-block-column"><!-- mt:paragraph --><p><a href="mailto:#">' . esc_html_x( 'example@example.com', 'Block pattern sample content', 'twentytwentyone' ) . '<br></a>' . esc_html_x( '123-456-7890', 'Block pattern sample content', 'twentytwentyone' ) . '</p><!-- /mt:paragraph --></div><!-- /mt:column --><!-- mt:column --><div class="mt-block-column"><!-- mt:paragraph {"align":"center"} --><p class="has-text-align-center">' . esc_html_x( '123 Main Street', 'Block pattern sample content', 'twentytwentyone' ) . '<br>' . esc_html_x( 'Cambridge, MA, 02139', 'Block pattern sample content', 'twentytwentyone' ) . '</p><!-- /mt:paragraph --></div><!-- /mt:column --><!-- mt:column {"verticalAlignment":"center"} --><div class="mt-block-column is-vertically-aligned-center"><!-- mt:social-links {"align":"right","className":"is-style-twentytwentyone-social-icons-color"} --><ul class="mt-block-social-links alignright is-style-twentytwentyone-social-icons-color"><!-- mt:social-link {"url":"https://managertechnology.com.co/pacmec","service":"managertechnology"} /--><!-- mt:social-link {"url":"https://www.facebook.com/paCMec/","service":"facebook"} /--><!-- mt:social-link {"url":"https://twitter.com/paCMec","service":"twitter"} /--><!-- mt:social-link {"url":"https://www.youtube.com/managertechnology","service":"youtube"} /--></ul><!-- /mt:social-links --></div><!-- /mt:column --></div><!-- /mt:columns -->',
 		)
 	);
 }

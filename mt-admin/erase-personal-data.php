@@ -52,15 +52,15 @@ get_current_screen()->add_help_tab(
 		'title'   => __( 'Plugin Data' ),
 		'content' =>
 					'<p>' . __( 'Many plugins may collect or store personal data either in the paCMec database or remotely. Any Erase Personal Data request should delete data from plugins as well.' ) . '</p>' .
-					'<p>' . __( 'Plugin authors can <a href="https://developer.managertechnology.org/plugins/privacy/adding-the-personal-data-eraser-to-your-plugin/" target=_blank"> learn more about how to add support for the Personal Data Eraser to a plugin here</a>.' ) . '</p>' .
+					'<p>' . __( 'Plugin authors can <a href="https://developer.managertechnology.com.co/pacmec/plugins/privacy/adding-the-personal-data-eraser-to-your-plugin/" target=_blank"> learn more about how to add support for the Personal Data Eraser to a plugin here</a>.' ) . '</p>' .
 					$privacy_policy_guide,
 	)
 );
 
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/article/tools-erase-personal-data-screen/">Documentation on Erase Personal Data</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/">Support</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/tools-erase-personal-data-screen/">Documentation on Erase Personal Data</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>'
 );
 
 // Handle list table actions.

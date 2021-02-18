@@ -73,8 +73,8 @@ get_current_screen()->add_help_tab(
 
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://codex.managertechnology.org/Links_Add_New_Screen">Documentation on Creating Links</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/">Support</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://codex.managertechnology.com.co/pacmec/Links_Add_New_Screen">Documentation on Creating Links</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>'
 );
 
 require_once ABSPATH . 'mt-admin/admin-header.php';
@@ -122,7 +122,7 @@ mt_nonce_field( 'meta-box-order', 'meta-box-order-nonce', false );
 <h2 class="postbox-header"><label for="link_url"><?php _e( 'Web Address' ); ?></label></h2>
 <div class="inside">
 	<input type="text" name="link_url" size="30" maxlength="255" class="code" value="<?php echo esc_attr( $link->link_url ); ?>" id="link_url" />
-	<p><?php _e( 'Example: <code>https://managertechnology.org/</code> &#8212; don&#8217;t forget the <code>https://</code>' ); ?></p>
+	<p><?php _e( 'Example: <code>https://managertechnology.com.co/pacmec/</code> &#8212; don&#8217;t forget the <code>https://</code>' ); ?></p>
 </div>
 </div>
 

@@ -6,4 +6,4 @@ Released under LGPL
 
 Modified February 2008
 for paCMec
-https://managertechnology.org
+https://managertechnology.com.co/pacmec

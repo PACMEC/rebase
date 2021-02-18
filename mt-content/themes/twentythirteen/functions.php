@@ -11,13 +11,13 @@
  * functions.php file. The child theme's functions.php file is included before
  * the parent theme's file, so the child theme functions would be used.
  *
- * @link https://developer.managertechnology.org/themes/basics/theme-functions/
- * @link https://developer.managertechnology.org/themes/advanced-topics/child-themes/
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/theme-functions/
+ * @link https://developer.managertechnology.com.co/pacmec/themes/advanced-topics/child-themes/
  *
  * Functions that are not pluggable (not wrapped in function_exists()) are
  * instead attached to a filter or action hook.
  *
- * For more information on hooks, actions, and filters, @link https://developer.managertechnology.org/plugins/
+ * For more information on hooks, actions, and filters, @link https://developer.managertechnology.com.co/pacmec/plugins/
  *
  * @package paCMec
  * @subpackage Twenty_Thirteen
@@ -64,7 +64,7 @@ function twentythirteen_setup() {
 	/*
 	 * Makes Twenty Thirteen available for translation.
 	 *
-	 * Translations can be filed at paCMec.org. See: https://translate.managertechnology.org/projects/mt-themes/twentythirteen
+	 * Translations can be filed at paCMec.org. See: https://translate.managertechnology.com.co/pacmec/projects/mt-themes/twentythirteen
 	 * If you're building a theme based on Twenty Thirteen, use a find and
 	 * replace to change 'twentythirteen' to the name of your theme in all
 	 * template files.
@@ -174,7 +174,7 @@ function twentythirteen_setup() {
 
 	/*
 	 * This theme supports all available post formats by default.
-	 * See https://managertechnology.org/support/article/post-formats/
+	 * See https://managertechnology.com.co/pacmec/support/article/post-formats/
 	 */
 	add_theme_support(
 		'post-formats',

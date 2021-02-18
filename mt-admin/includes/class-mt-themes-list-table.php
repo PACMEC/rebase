@@ -283,7 +283,7 @@ class MT_Themes_List_Table extends MT_List_Table {
 					printf(
 						/* translators: 1: Link to documentation on child themes, 2: Name of parent theme. */
 						' <p class="howto">' . __( 'This <a href="%1$s">child theme</a> requires its parent theme, %2$s.' ) . '</p>',
-						__( 'https://developer.managertechnology.org/themes/advanced-topics/child-themes/' ),
+						__( 'https://developer.managertechnology.com.co/pacmec/themes/advanced-topics/child-themes/' ),
 						$theme->parent()->display( 'Name' )
 					);
 				}

@@ -4208,7 +4208,7 @@ function mt_enqueue_media( $args = array() ) {
 	 * @since 4.7.4
 	 * @since 4.8.0 The filter's default value is `true` rather than `null`.
 	 *
-	 * @link https://core.trac.managertechnology.org/ticket/31071
+	 * @link https://core.trac.managertechnology.com.co/pacmec/ticket/31071
 	 *
 	 * @param bool|null $show Whether to show the button, or `null` to decide based
 	 *                        on whether any audio files exist in the media library.
@@ -4238,7 +4238,7 @@ function mt_enqueue_media( $args = array() ) {
 	 * @since 4.7.4
 	 * @since 4.8.0 The filter's default value is `true` rather than `null`.
 	 *
-	 * @link https://core.trac.managertechnology.org/ticket/31071
+	 * @link https://core.trac.managertechnology.com.co/pacmec/ticket/31071
 	 *
 	 * @param bool|null $show Whether to show the button, or `null` to decide based
 	 *                        on whether any video files exist in the media library.
@@ -4266,7 +4266,7 @@ function mt_enqueue_media( $args = array() ) {
 	 *
 	 * @since 4.7.4
 	 *
-	 * @link https://core.trac.managertechnology.org/ticket/31071
+	 * @link https://core.trac.managertechnology.com.co/pacmec/ticket/31071
 	 *
 	 * @param array|null $months An array of objects with `month` and `year`
 	 *                           properties, or `null` (or any other non-array value)
@@ -4992,7 +4992,7 @@ function mt_getimagesize( $filename, &$imageinfo = array() ) {
 	 * "corrupt JPEG data: 7191 extraneous bytes before marker",
 	 * even when it's able to provide image size information.
 	 *
-	 * See https://core.trac.managertechnology.org/ticket/42480
+	 * See https://core.trac.managertechnology.com.co/pacmec/ticket/42480
 	 *
 	 * phpcs:ignore paCMec.PHP.NoSilencedErrors
 	 */

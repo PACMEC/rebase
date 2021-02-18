@@ -47,7 +47,7 @@ define( 'ARRAY_N', 'ARRAY_N' );
  * in mt-content/db.php file to your class. The mtdb class will still be included, so you can
  * extend it or simply use your own.
  *
- * @link https://developer.managertechnology.org/reference/classes/mtdb/
+ * @link https://developer.managertechnology.com.co/pacmec/reference/classes/mtdb/
  *
  * @since 0.71
  */
@@ -597,7 +597,7 @@ class mtdb {
 	 *
 	 * @since 2.0.8
 	 *
-	 * @link https://core.trac.managertechnology.org/ticket/3354
+	 * @link https://core.trac.managertechnology.com.co/pacmec/ticket/3354
 	 * @global string $mt_version The paCMec version string.
 	 *
 	 * @param string $dbuser     MySQL database user.
@@ -1119,7 +1119,7 @@ class mtdb {
 				$message .= '<p>' . sprintf(
 					/* translators: %s: Support forums URL. */
 					__( 'If you don&#8217;t know how to set up a database you should <strong>contact your host</strong>. If all else fails you may find help at the <a href="%s">paCMec Support Forums</a>.' ),
-					__( 'https://managertechnology.org/support/forums/' )
+					__( 'https://managertechnology.com.co/pacmec/support/forums/' )
 				) . "</p>\n";
 
 				$this->bail( $message, 'db_select_fail' );
@@ -1716,7 +1716,7 @@ class mtdb {
 			$message .= '<p>' . sprintf(
 				/* translators: %s: Support forums URL. */
 				__( 'If you&#8217;re unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href="%s">paCMec Support Forums</a>.' ),
-				__( 'https://managertechnology.org/support/forums/' )
+				__( 'https://managertechnology.com.co/pacmec/support/forums/' )
 			) . "</p>\n";
 
 			$this->bail( $message, 'db_connect_fail' );
@@ -1873,7 +1873,7 @@ class mtdb {
 		$message .= '<p>' . sprintf(
 			/* translators: %s: Support forums URL. */
 			__( 'If you&#8217;re unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href="%s">paCMec Support Forums</a>.' ),
-			__( 'https://managertechnology.org/support/forums/' )
+			__( 'https://managertechnology.com.co/pacmec/support/forums/' )
 		) . "</p>\n";
 
 		// We weren't able to reconnect, so we better bail.
@@ -1891,7 +1891,7 @@ class mtdb {
 	 *
 	 * @since 0.71
 	 *
-	 * @link https://developer.managertechnology.org/reference/classes/mtdb/
+	 * @link https://developer.managertechnology.com.co/pacmec/reference/classes/mtdb/
 	 *
 	 * @param string $query Database query.
 	 * @return int|bool Boolean true for CREATE, ALTER, TRUNCATE and DROP queries. Number of rows

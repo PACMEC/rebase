@@ -486,7 +486,7 @@ mt.customize.selectiveRefresh = ( function( $, api ) {
 			/*
 			 * Note that the 'mt_audio_shortcode_library' and 'mt_video_shortcode_library' filters
 			 * will determine whether or not mt.mediaelement is loaded and whether it will
-			 * initialize audio and video respectively. See also https://core.trac.managertechnology.org/ticket/40144
+			 * initialize audio and video respectively. See also https://core.trac.managertechnology.com.co/pacmec/ticket/40144
 			 */
 			if ( mt.mediaelement ) {
 				mt.mediaelement.initialize();

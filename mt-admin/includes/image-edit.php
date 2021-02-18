@@ -913,7 +913,7 @@ function mt_save_image( $post_id ) {
 	 * We need to remove any existing resized image files because
 	 * a new crop or rotate could generate different sizes (and hence, filenames),
 	 * keeping the new resized images from overwriting the existing image files.
-	 * https://core.trac.managertechnology.org/ticket/32171
+	 * https://core.trac.managertechnology.com.co/pacmec/ticket/32171
 	 */
 	if ( defined( 'IMAGE_EDIT_OVERWRITE' ) && IMAGE_EDIT_OVERWRITE && ! empty( $meta['sizes'] ) ) {
 		foreach ( $meta['sizes'] as $size ) {

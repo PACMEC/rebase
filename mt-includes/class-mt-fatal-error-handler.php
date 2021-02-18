@@ -192,7 +192,7 @@ class MT_Fatal_Error_Handler {
 			'<p>%s</p><p><a href="%s">%s</a></p>',
 			$message,
 			/* translators: Documentation about troubleshooting. */
-			__( 'https://managertechnology.org/support/article/faq-troubleshooting/' ),
+			__( 'https://managertechnology.com.co/pacmec/support/article/faq-troubleshooting/' ),
 			__( 'Learn more about troubleshooting paCMec.' )
 		);
 

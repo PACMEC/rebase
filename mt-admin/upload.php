@@ -72,8 +72,8 @@ if ( 'grid' === $mode ) {
 
 	get_current_screen()->set_help_sidebar(
 		'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-		'<p>' . __( '<a href="https://managertechnology.org/support/article/media-library-screen/">Documentation on Media Library</a>' ) . '</p>' .
-		'<p>' . __( '<a href="https://managertechnology.org/support/">Support</a>' ) . '</p>'
+		'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/media-library-screen/">Documentation on Media Library</a>' ) . '</p>' .
+		'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>'
 	);
 
 	$title       = __( 'Media Library' );
@@ -249,8 +249,8 @@ get_current_screen()->add_help_tab(
 
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/article/media-library-screen/">Documentation on Media Library</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/">Support</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/media-library-screen/">Documentation on Media Library</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>'
 );
 
 get_current_screen()->set_screen_reader_content(

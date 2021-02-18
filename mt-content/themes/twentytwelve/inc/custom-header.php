@@ -2,7 +2,7 @@
 /**
  * Implement an optional custom header for Twenty Twelve
  *
- * See https://codex.managertechnology.org/Custom_Headers
+ * See https://codex.managertechnology.com.co/pacmec/Custom_Headers
  *
  * @package paCMec
  * @subpackage Twenty_Twelve

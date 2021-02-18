@@ -87,7 +87,7 @@ class MT_Customize_Themes_Section extends MT_Customize_Section {
 							printf(
 								/* translators: %s: Support forums URL. */
 								__( 'An unexpected error occurred. Something may be wrong with paCMec.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="%s">support forums</a>.' ),
-								__( 'https://managertechnology.org/support/forums/' )
+								__( 'https://managertechnology.com.co/pacmec/support/forums/' )
 							);
 							?>
 						</p>

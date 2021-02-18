@@ -2484,7 +2484,7 @@ function mt_ajax_upload_attachment() {
 	/*
 	 * This function does not use mt_send_json_success() / mt_send_json_error()
 	 * as the html4 Plupload handler requires a text/html content-type for older IE.
-	 * See https://core.trac.managertechnology.org/ticket/31037
+	 * See https://core.trac.managertechnology.com.co/pacmec/ticket/31037
 	 */
 
 	if ( ! current_user_can( 'upload_files' ) ) {

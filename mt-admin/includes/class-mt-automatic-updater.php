@@ -800,7 +800,7 @@ class MT_Automatic_Updater {
 		} else {
 			// Add a note about the support forums.
 			$body .= "\n\n" . __( 'If you experience any issues or need support, the volunteers in the paCMec.org support forums may be able to help.' );
-			$body .= "\n" . __( 'https://managertechnology.org/support/forums/' );
+			$body .= "\n" . __( 'https://managertechnology.com.co/pacmec/support/forums/' );
 		}
 
 		// Updates are important!
@@ -1213,7 +1213,7 @@ class MT_Automatic_Updater {
 
 		// Add a note about the support forums.
 		$body[] = __( 'If you experience any issues or need support, the volunteers in the paCMec.org support forums may be able to help.' );
-		$body[] = __( 'https://managertechnology.org/support/forums/' );
+		$body[] = __( 'https://managertechnology.com.co/pacmec/support/forums/' );
 		$body[] = "\n" . __( 'The paCMec Team' );
 
 		$body    = implode( "\n", $body );
@@ -1330,8 +1330,8 @@ class MT_Automatic_Updater {
 This debugging email is sent when you are using a development version of paCMec.
 
 If you think these failures might be due to a bug in paCMec, could you report it?
- * Open a thread in the support forums: https://managertechnology.org/support/forum/alphabeta
- * Or, if you're comfortable writing a bug report: https://core.trac.managertechnology.org/
+ * Open a thread in the support forums: https://managertechnology.com.co/pacmec/support/forum/alphabeta
+ * Or, if you're comfortable writing a bug report: https://core.trac.managertechnology.com.co/pacmec/
 
 Thanks! -- The paCMec Team"
 				)

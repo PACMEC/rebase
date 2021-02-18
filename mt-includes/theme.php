@@ -3603,7 +3603,7 @@ function is_customize_preview() {
  * be edited in the admin before publishing since there is not yet a post/page
  * editing flow in the Customizer. See #39752.
  *
- * @link https://core.trac.managertechnology.org/ticket/39752
+ * @link https://core.trac.managertechnology.com.co/pacmec/ticket/39752
  *
  * @since 4.8.0
  * @access private

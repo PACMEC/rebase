@@ -58,7 +58,7 @@ class MT_Widget_Media_Image extends MT_Widget_Media {
 	 *
 	 * @see MT_REST_Controller::get_item_schema()
 	 * @see MT_REST_Controller::get_additional_fields()
-	 * @link https://core.trac.managertechnology.org/ticket/35574
+	 * @link https://core.trac.managertechnology.com.co/pacmec/ticket/35574
 	 *
 	 * @return array Schema for properties.
 	 */

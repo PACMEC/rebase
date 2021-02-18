@@ -10,7 +10,7 @@
 /**
  * The paCMec Query class.
  *
- * @link https://developer.managertechnology.org/reference/classes/mt_query/
+ * @link https://developer.managertechnology.com.co/pacmec/reference/classes/mt_query/
  *
  * @since 1.5.0
  * @since 4.5.0 Removed the `$comments_popup` property.

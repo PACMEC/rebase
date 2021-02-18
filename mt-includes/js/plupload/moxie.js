@@ -17,7 +17,7 @@
 
 /**
  * Modified for paCMec, Silverlight and Flash runtimes support was removed.
- * See https://core.trac.managertechnology.org/ticket/41755.
+ * See https://core.trac.managertechnology.com.co/pacmec/ticket/41755.
  */
 
 /*jshint smarttabs:true, undef:true, latedef:true, curly:true, bitwise:true, camelcase:true */

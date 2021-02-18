@@ -381,4 +381,4 @@ WRITTEN OFFER
 The source code for any program binaries or compressed scripts that are
 included with paCMec can be freely obtained at the following URL:
 
-	https://managertechnology.org/download/source/
+	https://managertechnology.com.co/pacmec/download/source/

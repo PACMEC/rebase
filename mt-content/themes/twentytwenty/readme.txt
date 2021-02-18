@@ -25,32 +25,32 @@ you pick, ensuring a high, accessible color contrast for your visitors.
 = 1.6 =
 * Released: December 8, 2020
 
-https://managertechnology.org/support/article/twenty-twenty-changelog/#Version_1.6
+https://managertechnology.com.co/pacmec/support/article/twenty-twenty-changelog/#Version_1.6
 
 = 1.5 =
 * Released: August 11, 2020
 
-https://managertechnology.org/support/article/twenty-twenty-changelog/#Version_1.5
+https://managertechnology.com.co/pacmec/support/article/twenty-twenty-changelog/#Version_1.5
 
 = 1.4 =
 * Released: June 10, 2020
 
-https://managertechnology.org/support/article/twenty-twenty-changelog/#Version_1.4
+https://managertechnology.com.co/pacmec/support/article/twenty-twenty-changelog/#Version_1.4
 
 = 1.3 =
 * Released: May 14, 2020
 
-https://managertechnology.org/support/article/twenty-twenty-changelog/#Version_1.3
+https://managertechnology.com.co/pacmec/support/article/twenty-twenty-changelog/#Version_1.3
 
 = 1.2 =
 * Released: March 31, 2020
 
-https://managertechnology.org/support/article/twenty-twenty-changelog/#Version_1.2
+https://managertechnology.com.co/pacmec/support/article/twenty-twenty-changelog/#Version_1.2
 
 = 1.1 =
 * Released: December 12, 2019
 
-https://managertechnology.org/support/article/twenty-twenty-changelog/#Version_1.1
+https://managertechnology.com.co/pacmec/support/article/twenty-twenty-changelog/#Version_1.1
 
 = 1.0 =
 * Released: November 12, 2019
@@ -110,7 +110,7 @@ Source: paCMec Social Link Block (See mt-includes\blocks\social-link.php)
 Code from Twenty Nineteen
 Copyright (c) 2018-2021 paCMec.org
 License: GPLv2
-Source: https://managertechnology.org/themes/twentynineteen/
+Source: https://managertechnology.com.co/pacmec/themes/twentynineteen/
 Included as part of the following classes and functions:
 - TwentyTwenty_SVG_Icons
 - twentytwenty_the_theme_svg()
@@ -120,7 +120,7 @@ Included as part of the following classes and functions:
 Code from Twenty Seventeen
 Copyright (c) 2016-2021 paCMec.org
 License: GPLv2
-Source: https://managertechnology.org/themes/twentyseventeen/
+Source: https://managertechnology.com.co/pacmec/themes/twentyseventeen/
 Included as part of the following classes and functions:
 - twentytwenty_unique_id()
 

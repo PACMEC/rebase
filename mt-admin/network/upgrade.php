@@ -28,8 +28,8 @@ get_current_screen()->add_help_tab(
 
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/article/network-admin-updates-screen/">Documentation on Upgrade Network</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/">Support</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/network-admin-updates-screen/">Documentation on Upgrade Network</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>'
 );
 
 require_once ABSPATH . 'mt-admin/admin-header.php';

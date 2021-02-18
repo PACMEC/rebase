@@ -540,7 +540,7 @@ function populate_options( array $options = array() ) {
 		'auto_update_core_dev'            => 'enabled',
 		'auto_update_core_minor'          => 'enabled',
 		// Default to enabled for new installs.
-		// See https://core.trac.managertechnology.org/ticket/51742.
+		// See https://core.trac.managertechnology.com.co/pacmec/ticket/51742.
 		'auto_update_core_major'          => 'enabled',
 	);
 

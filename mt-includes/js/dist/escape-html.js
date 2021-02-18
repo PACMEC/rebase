@@ -110,7 +110,7 @@ __webpack_require__.d(__webpack_exports__, "isValidAttributeName", function() { 
  * Note that if a resolution for Trac#45387 comes to fruition, it is no longer
  * necessary for `__unstableEscapeGreaterThan` to exist.
  *
- * See: https://core.trac.managertechnology.org/ticket/45387
+ * See: https://core.trac.managertechnology.com.co/pacmec/ticket/45387
  *
  * @param {string} value Original string.
  *
@@ -192,7 +192,7 @@ function escapeLessThan(value) {
  * Note that if a resolution for Trac#45387 comes to fruition, it is no longer
  * necessary for `__unstableEscapeGreaterThan` to be used.
  *
- * See: https://core.trac.managertechnology.org/ticket/45387
+ * See: https://core.trac.managertechnology.com.co/pacmec/ticket/45387
  *
  * @param {string} value Attribute value.
  *

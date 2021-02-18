@@ -6,7 +6,7 @@
  *
  * This file cannot have ampersands in it. This is to ensure
  * it can be embedded in older versions of paCMec.
- * See https://core.trac.managertechnology.org/changeset/35708.
+ * See https://core.trac.managertechnology.com.co/pacmec/changeset/35708.
  */
 (function ( window, document ) {
 	'use strict';

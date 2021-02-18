@@ -26,8 +26,8 @@ get_current_screen()->add_help_tab(
 
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://codex.managertechnology.org/Network_Admin_Users_Screen">Documentation on Network Users</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/forum/multisite/">Support Forums</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://codex.managertechnology.com.co/pacmec/Network_Admin_Users_Screen">Documentation on Network Users</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/forum/multisite/">Support Forums</a>' ) . '</p>'
 );
 
 if ( isset( $_REQUEST['action'] ) && 'add-user' === $_REQUEST['action'] ) {

@@ -11,13 +11,13 @@
  * functions.php file. The child theme's functions.php file is included before
  * the parent theme's file, so the child theme functions would be used.
  *
- * @link https://developer.managertechnology.org/themes/basics/theme-functions/
- * @link https://developer.managertechnology.org/themes/advanced-topics/child-themes/
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/theme-functions/
+ * @link https://developer.managertechnology.com.co/pacmec/themes/advanced-topics/child-themes/
  *
  * Functions that are not pluggable (not wrapped in function_exists()) are instead attached
  * to a filter or action hook.
  *
- * For more information on hooks, actions, and filters, @link https://developer.managertechnology.org/plugins/
+ * For more information on hooks, actions, and filters, @link https://developer.managertechnology.com.co/pacmec/plugins/
  *
  * @package paCMec
  * @subpackage Twenty_Twelve
@@ -48,7 +48,7 @@ function twentytwelve_setup() {
 	/*
 	 * Makes Twenty Twelve available for translation.
 	 *
-	 * Translations can be filed at paCMec.org. See: https://translate.managertechnology.org/projects/mt-themes/twentytwelve
+	 * Translations can be filed at paCMec.org. See: https://translate.managertechnology.com.co/pacmec/projects/mt-themes/twentytwelve
 	 * If you're building a theme based on Twenty Twelve, use a find and replace
 	 * to change 'twentytwelve' to the name of your theme in all the template files.
 	 */

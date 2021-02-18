@@ -162,7 +162,7 @@ function mt_admin_bar_mt_menu( $mt_admin_bar ) {
 			'parent' => 'mt-logo-external',
 			'id'     => 'mtorg',
 			'title'  => __( 'paCMec.org' ),
-			'href'   => __( 'https://managertechnology.org/' ),
+			'href'   => __( 'https://managertechnology.com.co/pacmec/' ),
 		)
 	);
 
@@ -172,7 +172,7 @@ function mt_admin_bar_mt_menu( $mt_admin_bar ) {
 			'parent' => 'mt-logo-external',
 			'id'     => 'documentation',
 			'title'  => __( 'Documentation' ),
-			'href'   => __( 'https://managertechnology.org/support/' ),
+			'href'   => __( 'https://managertechnology.com.co/pacmec/support/' ),
 		)
 	);
 
@@ -182,7 +182,7 @@ function mt_admin_bar_mt_menu( $mt_admin_bar ) {
 			'parent' => 'mt-logo-external',
 			'id'     => 'support-forums',
 			'title'  => __( 'Support' ),
-			'href'   => __( 'https://managertechnology.org/support/forums/' ),
+			'href'   => __( 'https://managertechnology.com.co/pacmec/support/forums/' ),
 		)
 	);
 
@@ -192,7 +192,7 @@ function mt_admin_bar_mt_menu( $mt_admin_bar ) {
 			'parent' => 'mt-logo-external',
 			'id'     => 'feedback',
 			'title'  => __( 'Feedback' ),
-			'href'   => __( 'https://managertechnology.org/support/forum/requests-and-feedback' ),
+			'href'   => __( 'https://managertechnology.com.co/pacmec/support/forum/requests-and-feedback' ),
 		)
 	);
 }
@@ -1184,7 +1184,7 @@ function show_admin_bar( $show ) {
  * Determines whether the admin bar should be showing.
  *
  * For more information on this and similar theme functions, check out
- * the {@link https://developer.managertechnology.org/themes/basics/conditional-tags/
+ * the {@link https://developer.managertechnology.com.co/pacmec/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
  * @since 3.1.0

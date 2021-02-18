@@ -304,14 +304,14 @@ if ( 'category' === $taxonomy || 'link_category' === $taxonomy || 'post_tag' ===
 	$help = '<p><strong>' . __( 'For more information:' ) . '</strong></p>';
 
 	if ( 'category' === $taxonomy ) {
-		$help .= '<p>' . __( '<a href="https://managertechnology.org/support/article/posts-categories-screen/">Documentation on Categories</a>' ) . '</p>';
+		$help .= '<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/posts-categories-screen/">Documentation on Categories</a>' ) . '</p>';
 	} elseif ( 'link_category' === $taxonomy ) {
-		$help .= '<p>' . __( '<a href="https://codex.managertechnology.org/Links_Link_Categories_Screen">Documentation on Link Categories</a>' ) . '</p>';
+		$help .= '<p>' . __( '<a href="https://codex.managertechnology.com.co/pacmec/Links_Link_Categories_Screen">Documentation on Link Categories</a>' ) . '</p>';
 	} else {
-		$help .= '<p>' . __( '<a href="https://managertechnology.org/support/article/posts-tags-screen/">Documentation on Tags</a>' ) . '</p>';
+		$help .= '<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/posts-tags-screen/">Documentation on Tags</a>' ) . '</p>';
 	}
 
-	$help .= '<p>' . __( '<a href="https://managertechnology.org/support/">Support</a>' ) . '</p>';
+	$help .= '<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>';
 
 	get_current_screen()->set_help_sidebar( $help );
 

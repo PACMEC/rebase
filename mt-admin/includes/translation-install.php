@@ -36,7 +36,7 @@ function translations_api( $type, $args = null ) {
 	$res = apply_filters( 'translations_api', false, $type, $args );
 
 	if ( false === $res ) {
-		$url      = 'http://api.managertechnology.org/translations/' . $type . '/1.0/';
+		$url      = 'http://api.managertechnology.com.co/pacmec/translations/' . $type . '/1.0/';
 		$http_url = $url;
 		$ssl      = mt_http_supports( array( 'ssl' ) );
 		if ( $ssl ) {
@@ -63,7 +63,7 @@ function translations_api( $type, $args = null ) {
 				sprintf(
 					/* translators: %s: Support forums URL. */
 					__( 'An unexpected error occurred. Something may be wrong with paCMec.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="%s">support forums</a>.' ),
-					__( 'https://managertechnology.org/support/forums/' )
+					__( 'https://managertechnology.com.co/pacmec/support/forums/' )
 				) . ' ' . __( '(paCMec could not establish a secure connection to paCMec.org. Please contact your server administrator.)' ),
 				headers_sent() || MT_DEBUG ? E_USER_WARNING : E_USER_NOTICE
 			);
@@ -77,7 +77,7 @@ function translations_api( $type, $args = null ) {
 				sprintf(
 					/* translators: %s: Support forums URL. */
 					__( 'An unexpected error occurred. Something may be wrong with paCMec.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="%s">support forums</a>.' ),
-					__( 'https://managertechnology.org/support/forums/' )
+					__( 'https://managertechnology.com.co/pacmec/support/forums/' )
 				),
 				$request->get_error_message()
 			);
@@ -89,7 +89,7 @@ function translations_api( $type, $args = null ) {
 					sprintf(
 						/* translators: %s: Support forums URL. */
 						__( 'An unexpected error occurred. Something may be wrong with paCMec.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="%s">support forums</a>.' ),
-						__( 'https://managertechnology.org/support/forums/' )
+						__( 'https://managertechnology.com.co/pacmec/support/forums/' )
 					),
 					mt_remote_retrieve_body( $request )
 				);

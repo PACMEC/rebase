@@ -35,7 +35,7 @@ function mt_credits( $version = '', $locale = '' ) {
 		|| false !== strpos( $version, '-' )
 		|| ( isset( $results['data']['version'] ) && strpos( $version, $results['data']['version'] ) !== 0 )
 	) {
-		$url     = "http://api.managertechnology.org/core/credits/1.1/?version={$version}&locale={$locale}";
+		$url     = "http://api.managertechnology.com.co/pacmec/core/credits/1.1/?version={$version}&locale={$locale}";
 		$options = array( 'user-agent' => 'paCMec/' . $version . '; ' . home_url( '/' ) );
 
 		if ( mt_http_supports( array( 'ssl' ) ) ) {
@@ -100,7 +100,7 @@ function mt_credits_section_title( $group_data = array() ) {
 
 	if ( $group_data['name'] ) {
 		if ( 'Translators' === $group_data['name'] ) {
-			// Considered a special slug in the API response. (Also, will never be returned for en_US.)
+			// Considered a special slug in the API response. (Also, will never be returned for es_CO.)
 			$title = _x( 'Translators', 'Translate this to be the equivalent of English Translators in your language for the credits page Translators section' );
 		} elseif ( isset( $group_data['placeholders'] ) ) {
 			// phpcs:ignore paCMec.MT.I18n.LowLevelTranslationFunction,paCMec.MT.I18n.NonSingularStringLiteralText

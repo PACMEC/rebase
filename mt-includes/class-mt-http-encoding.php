@@ -89,11 +89,11 @@ class MT_Http_Encoding {
 	 * Warning: Magic numbers within. Due to the potential different formats that the compressed
 	 * data may be returned in, some "magic offsets" are needed to ensure proper decompression
 	 * takes place. For a simple progmatic way to determine the magic offset in use, see:
-	 * https://core.trac.managertechnology.org/ticket/18273
+	 * https://core.trac.managertechnology.com.co/pacmec/ticket/18273
 	 *
 	 * @since 2.8.1
 	 *
-	 * @link https://core.trac.managertechnology.org/ticket/18273
+	 * @link https://core.trac.managertechnology.com.co/pacmec/ticket/18273
 	 * @link https://www.php.net/manual/en/function.gzinflate.php#70875
 	 * @link https://www.php.net/manual/en/function.gzinflate.php#77336
 	 *

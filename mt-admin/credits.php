@@ -61,10 +61,10 @@ $credits = mt_credits();
 			<p>
 				<?php
 				printf(
-					/* translators: 1: https://managertechnology.org/about/, 2: https://make.managertechnology.org/ */
+					/* translators: 1: https://managertechnology.com.co/pacmec/about/, 2: https://make.managertechnology.com.co/pacmec/ */
 					__( 'paCMec is created by a <a href="%1$s">worldwide team</a> of passionate individuals. <a href="%2$s">Get involved in paCMec</a>.' ),
-					__( 'https://managertechnology.org/about/' ),
-					__( 'https://make.managertechnology.org/' )
+					__( 'https://managertechnology.com.co/pacmec/about/' ),
+					__( 'https://make.managertechnology.com.co/pacmec/' )
 				);
 				?>
 			</p>
@@ -77,9 +77,9 @@ $credits = mt_credits();
 			<p>
 				<?php
 				printf(
-					/* translators: %s: https://make.managertechnology.org/ */
+					/* translators: %s: https://make.managertechnology.com.co/pacmec/ */
 					__( 'Want to see your name in lights on this page? <a href="%s">Get involved in paCMec</a>.' ),
-					__( 'https://make.managertechnology.org/' )
+					__( 'https://make.managertechnology.com.co/pacmec/' )
 				);
 				?>
 			</p>

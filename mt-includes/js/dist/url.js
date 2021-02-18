@@ -247,7 +247,7 @@ __webpack_require__.d(__webpack_exports__, "cleanForSlug", function() { return /
  *
  * @example
  * ```js
- * const isURL = isURL( 'https://managertechnology.org' ); // true
+ * const isURL = isURL( 'https://managertechnology.com.co/pacmec' ); // true
  * ```
  *
  * @see https://url.spec.whatwg.org/
@@ -275,7 +275,7 @@ var EMAIL_REGEXP = /^(mailto:)?[a-z0-9._%+-]+@[a-z0-9][a-z0-9.-]*\.[a-z]{2,63}$/
  *
  * @example
  * ```js
- * const isEmail = isEmail( 'hello@managertechnology.org' ); // true
+ * const isEmail = isEmail( 'hello@managertechnology.com.co/pacmec' ); // true
  * ```
  *
  * @return {boolean} Whether or not it looks like an email.
@@ -294,7 +294,7 @@ function isEmail(email) {
  * @example
  * ```js
  * const protocol1 = getProtocol( 'tel:012345678' ); // 'tel:'
- * const protocol2 = getProtocol( 'https://managertechnology.org' ); // 'https:'
+ * const protocol2 = getProtocol( 'https://managertechnology.com.co/pacmec' ); // 'https:'
  * ```
  *
  * @return {string|void} The protocol part of the URL.
@@ -337,7 +337,7 @@ function isValidProtocol(protocol) {
  *
  * @example
  * ```js
- * const authority1 = getAuthority( 'https://managertechnology.org/help/' ); // 'managertechnology.org'
+ * const authority1 = getAuthority( 'https://managertechnology.com.co/pacmec/help/' ); // 'managertechnology.com.co/pacmec'
  * const authority2 = getAuthority( 'https://localhost:8080/test/' ); // 'localhost:8080'
  * ```
  *
@@ -359,7 +359,7 @@ function getAuthority(url) {
  *
  * @example
  * ```js
- * const isValid = isValidAuthority( 'managertechnology.org' ); // true
+ * const isValid = isValidAuthority( 'managertechnology.com.co/pacmec' ); // true
  * const isNotValid = isValidAuthority( 'managertechnology#org' ); // false
  * ```
  *
@@ -382,7 +382,7 @@ function isValidAuthority(authority) {
  * @example
  * ```js
  * const path1 = getPath( 'http://localhost:8080/this/is/a/test?query=true' ); // 'this/is/a/test'
- * const path2 = getPath( 'https://managertechnology.org/help/faq/' ); // 'help/faq'
+ * const path2 = getPath( 'https://managertechnology.com.co/pacmec/help/faq/' ); // 'help/faq'
  * ```
  *
  * @return {string|void} The path part of the URL.
@@ -565,7 +565,7 @@ function isValidQueryString(queryString) {
  * @example
  * ```js
  * const pathAndQueryString1 = getPathAndQueryString( 'http://localhost:8080/this/is/a/test?query=true' ); // '/this/is/a/test?query=true'
- * const pathAndQueryString2 = getPathAndQueryString( 'https://managertechnology.org/help/faq/' ); // '/help/faq'
+ * const pathAndQueryString2 = getPathAndQueryString( 'https://managertechnology.com.co/pacmec/help/faq/' ); // '/help/faq'
  * ```
  *
  * @return {string} The path part and query string part of the URL.
@@ -589,7 +589,7 @@ function getPathAndQueryString(url) {
  * @example
  * ```js
  * const fragment1 = getFragment( 'http://localhost:8080/this/is/a/test?query=true#fragment' ); // '#fragment'
- * const fragment2 = getFragment( 'https://managertechnology.org#another-fragment?query=true' ); // '#another-fragment'
+ * const fragment2 = getFragment( 'https://managertechnology.com.co/pacmec#another-fragment?query=true' ); // '#another-fragment'
  * ```
  *
  * @return {string|void} The fragment part of the URL.
@@ -693,7 +693,7 @@ function setPath(object, path, value) {
  *
  * @example
  * ```js
- * const foo = getQueryArgs( 'https://managertechnology.org?foo=bar&bar=baz' );
+ * const foo = getQueryArgs( 'https://managertechnology.com.co/pacmec?foo=bar&bar=baz' );
  * // { "foo": "bar", "bar": "baz" }
  * ```
  *
@@ -795,7 +795,7 @@ function addQueryArgs() {
  *
  * @example
  * ```js
- * const foo = getQueryArg( 'https://managertechnology.org?foo=bar&bar=baz', 'foo' ); // bar
+ * const foo = getQueryArg( 'https://managertechnology.com.co/pacmec?foo=bar&bar=baz', 'foo' ); // bar
  * ```
  *
  * @return {QueryArgParsed|void} Query arg value.
@@ -818,7 +818,7 @@ function getQueryArg(url, arg) {
  *
  * @example
  * ```js
- * const hasBar = hasQueryArg( 'https://managertechnology.org?foo=bar&bar=baz', 'bar' ); // true
+ * const hasBar = hasQueryArg( 'https://managertechnology.com.co/pacmec?foo=bar&bar=baz', 'bar' ); // true
  * ```
  *
  * @return {boolean} Whether or not the URL contains the query arg.
@@ -842,7 +842,7 @@ function hasQueryArg(url, arg) {
  *
  * @example
  * ```js
- * const newUrl = removeQueryArgs( 'https://managertechnology.org?foo=bar&bar=baz&baz=foobar', 'foo', 'bar' ); // https://managertechnology.org?baz=foobar
+ * const newUrl = removeQueryArgs( 'https://managertechnology.com.co/pacmec?foo=bar&bar=baz&baz=foobar', 'foo', 'bar' ); // https://managertechnology.com.co/pacmec?baz=foobar
  * ```
  *
  * @return {string} Updated URL.
@@ -882,7 +882,7 @@ var USABLE_HREF_REGEXP = /^(?:[a-z]+:|#|\?|\.|\/)/i;
  *
  * @example
  * ```js
- * const actualURL = prependHTTP( 'managertechnology.org' ); // http://managertechnology.org
+ * const actualURL = prependHTTP( 'managertechnology.com.co/pacmec' ); // http://managertechnology.com.co/pacmec
  * ```
  *
  * @return {string} The updated URL.
@@ -950,8 +950,8 @@ function safeDecodeURIComponent(uriComponent) {
  *
  * @example
  * ```js
- * const displayUrl = filterURLForDisplay( 'https://www.managertechnology.org/gutenberg/' ); // managertechnology.org/gutenberg
- * const imageUrl = filterURLForDisplay( 'https://www.managertechnology.org/mt-content/uploads/img.png', 20 ); // …ent/uploads/img.png
+ * const displayUrl = filterURLForDisplay( 'https://www.managertechnology.com.co/pacmec/gutenberg/' ); // managertechnology.com.co/pacmec/gutenberg
+ * const imageUrl = filterURLForDisplay( 'https://www.managertechnology.com.co/pacmec/mt-content/uploads/img.png', 20 ); // …ent/uploads/img.png
  * ```
  *
  * @return {string} Displayed URL.

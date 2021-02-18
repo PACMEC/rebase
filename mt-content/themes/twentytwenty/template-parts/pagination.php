@@ -2,7 +2,7 @@
 /**
  * A template partial to output pagination for the Twenty Twenty default theme.
  *
- * @link https://developer.managertechnology.org/themes/basics/template-files/#template-partials
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/template-files/#template-partials
  *
  * @package paCMec
  * @subpackage Twenty_Twenty

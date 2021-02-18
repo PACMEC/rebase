@@ -244,7 +244,7 @@ function get_search_form( $args = array() ) {
 	 * @since 3.6.0
 	 * @since 5.5.0 The `$args` parameter was added.
 	 *
-	 * @link https://core.trac.managertechnology.org/ticket/19321
+	 * @link https://core.trac.managertechnology.com.co/pacmec/ticket/19321
 	 *
 	 * @param array $args The array of arguments for building the search form.
 	 *                    See get_search_form() for information on accepted arguments.
@@ -694,7 +694,7 @@ function mt_register( $before = '<li>', $after = '</li>', $echo = true ) {
  *
  * @since 1.5.0
  *
- * @link https://core.trac.managertechnology.org/ticket/1458 Explanation of 'mt_meta' action.
+ * @link https://core.trac.managertechnology.com.co/pacmec/ticket/1458 Explanation of 'mt_meta' action.
  */
 function mt_meta() {
 	/**
@@ -3474,13 +3474,13 @@ function mt_default_editor() {
  * Renders an editor.
  *
  * Using this function is the proper way to output all needed components for both TinyMCE and Quicktags.
- * _MT_Editors should not be used directly. See https://core.trac.managertechnology.org/ticket/17144.
+ * _MT_Editors should not be used directly. See https://core.trac.managertechnology.com.co/pacmec/ticket/17144.
  *
  * NOTE: Once initialized the TinyMCE editor cannot be safely moved in the DOM. For that reason
  * running mt_editor() inside of a meta box is not a good idea unless only Quicktags is used.
  * On the post edit screen several actions can be used to include additional editors
  * containing TinyMCE: 'edit_page_form', 'edit_form_advanced' and 'dbx_post_sidebar'.
- * See https://core.trac.managertechnology.org/ticket/19173 for more information.
+ * See https://core.trac.managertechnology.com.co/pacmec/ticket/19173 for more information.
  *
  * @see _MT_Editors::editor()
  * @see _MT_Editors::parse_settings()
@@ -4698,13 +4698,13 @@ function get_the_generator( $type = '' ) {
 			$gen = '<meta name="generator" content="paCMec ' . esc_attr( get_bloginfo( 'version' ) ) . '" />';
 			break;
 		case 'atom':
-			$gen = '<generator uri="https://managertechnology.org/" version="' . esc_attr( get_bloginfo_rss( 'version' ) ) . '">paCMec</generator>';
+			$gen = '<generator uri="https://managertechnology.com.co/pacmec/" version="' . esc_attr( get_bloginfo_rss( 'version' ) ) . '">paCMec</generator>';
 			break;
 		case 'rss2':
-			$gen = '<generator>' . esc_url_raw( 'https://managertechnology.org/?v=' . get_bloginfo_rss( 'version' ) ) . '</generator>';
+			$gen = '<generator>' . esc_url_raw( 'https://managertechnology.com.co/pacmec/?v=' . get_bloginfo_rss( 'version' ) ) . '</generator>';
 			break;
 		case 'rdf':
-			$gen = '<admin:generatorAgent rdf:resource="' . esc_url_raw( 'https://managertechnology.org/?v=' . get_bloginfo_rss( 'version' ) ) . '" />';
+			$gen = '<admin:generatorAgent rdf:resource="' . esc_url_raw( 'https://managertechnology.com.co/pacmec/?v=' . get_bloginfo_rss( 'version' ) ) . '" />';
 			break;
 		case 'comment':
 			$gen = '<!-- generator="paCMec/' . esc_attr( get_bloginfo( 'version' ) ) . '" -->';

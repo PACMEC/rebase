@@ -397,7 +397,7 @@ class Core_Upgrader extends MT_Upgrader {
 	public function check_files() {
 		global $mt_version, $mt_local_package;
 
-		$checksums = get_core_checksums( $mt_version, isset( $mt_local_package ) ? $mt_local_package : 'en_US' );
+		$checksums = get_core_checksums( $mt_version, isset( $mt_local_package ) ? $mt_local_package : 'es_CO' );
 
 		if ( ! is_array( $checksums ) ) {
 			return false;

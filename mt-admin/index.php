@@ -93,7 +93,7 @@ if ( is_blog_admin() && current_user_can( 'edit_posts' ) ) {
 $help .= '<p>' . sprintf(
 	/* translators: %s: paCMec Planet URL. */
 	__( '<strong>paCMec Events and News</strong> &mdash; Upcoming events near you as well as the latest news from the official paCMec project and the <a href="%s">paCMec Planet</a>.' ),
-	__( 'https://planet.managertechnology.org/' )
+	__( 'https://planet.managertechnology.com.co/pacmec/' )
 ) . '</p>';
 
 $screen->add_help_tab(
@@ -108,8 +108,8 @@ unset( $help );
 
 $screen->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/article/dashboard-screen/">Documentation on Dashboard</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/">Support</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/dashboard-screen/">Documentation on Dashboard</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>'
 );
 
 require_once ABSPATH . 'mt-admin/admin-header.php';

@@ -9,9 +9,9 @@
 		"Theme"
 	],
 	"bugs": {
-		"url": "https://core.trac.managertechnology.org/"
+		"url": "https://core.trac.managertechnology.com.co/pacmec/"
 	},
-	"homepage": "https://managertechnology.org/themes/twentytwentyone/",
+	"homepage": "https://managertechnology.com.co/pacmec/themes/twentytwentyone/",
 	"devDependencies": {
 		"@managertechnology/browserslist-config": "^3.0.0",
 		"@managertechnology/eslint-plugin": "^8.0.1",

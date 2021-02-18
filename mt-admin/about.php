@@ -121,7 +121,7 @@ require_once ABSPATH . 'mt-admin/admin-header.php';
 					printf(
 						/* translators: 1: paCMec accessibility-ready guidelines link, 2: WCAG information link. */
 						__( 'What’s more, this default theme puts accessibility at the heart of your website. It conforms to the <a href="%1$s">paCMec accessibility-ready guidelines</a> and addresses several more specialized standards from the <a href="%2$s">Web Content Accessibility Guidelines (WCAG) 2.1 at level AAA</a>. It will help you meet the highest level of international accessibility standards when you create accessible content and choose plugins which are accessible too!' ),
-						'https://make.managertechnology.org/themes/handbook/review/accessibility/',
+						'https://make.managertechnology.com.co/pacmec/themes/handbook/review/accessibility/',
 						'https://www.w3.org/WAI/WCAG2AAA-Conformance'
 					);
 					?>
@@ -197,7 +197,7 @@ require_once ABSPATH . 'mt-admin/admin-header.php';
 					printf(
 						/* translators: %s: paCMec and PHP 8 dev note link. */
 						__( '5.6 marks the first steps toward paCMec Core support for PHP 8. Now is a great time to start planning how your paCMec products, services and sites can support the latest PHP version. For more information about what to expect next, <a href="%s">read the PHP 8 developer note</a>.' ),
-						'https://make.managertechnology.org/core/2020/11/23/managertechnology-and-php-8-0/'
+						'https://make.managertechnology.com.co/pacmec/core/2020/11/23/managertechnology-and-php-8-0/'
 					);
 					?>
 				</p>
@@ -213,7 +213,7 @@ require_once ABSPATH . 'mt-admin/admin-header.php';
 						__( 'Updates to jQuery in paCMec take place across three releases: 5.5, 5.6, and 5.7. As we reach the mid-point of this process, run the <a href="%s">update test plugin</a> to check your sites for errors ahead of time.' ),
 						current_user_can( 'install_plugins' ) ?
 							esc_url( network_admin_url( 'plugin-install.php?tab=search&type=term&s=slug:mt-jquery-update-test' ) ) :
-							esc_url( __( 'https://managertechnology.org/plugins/mt-jquery-update-test/' ) )
+							esc_url( __( 'https://managertechnology.com.co/pacmec/plugins/mt-jquery-update-test/' ) )
 					);
 					?>
 				</p>
@@ -224,7 +224,7 @@ require_once ABSPATH . 'mt-admin/admin-header.php';
 						__( 'If you find issues with the way your site looks (e.g. a slider doesn’t work, a button is stuck — that sort of thing), install the <a href="%s">jQuery Migrate plugin</a>.' ),
 						current_user_can( 'install_plugins' ) ?
 							esc_url( network_admin_url( 'plugin-install.php?tab=search&type=term&s=slug:enable-jquery-migrate-helper' ) ) :
-							esc_url( __( 'https://managertechnology.org/plugins/enable-jquery-migrate-helper/' ) )
+							esc_url( __( 'https://managertechnology.com.co/pacmec/plugins/enable-jquery-migrate-helper/' ) )
 					);
 					?>
 				</p>
@@ -241,7 +241,7 @@ require_once ABSPATH . 'mt-admin/admin-header.php';
 					printf(
 						/* translators: %s: paCMec 5.6 Field Guide link. */
 						__( 'Check out the latest version of the paCMec Field Guide. It highlights developer notes for each change you may want to be aware of. <a href="%s">paCMec 5.6 Field Guide.</a>' ),
-						'https://make.managertechnology.org/core/2020/11/20/managertechnology-5-6-field-guide/'
+						'https://make.managertechnology.com.co/pacmec/core/2020/11/20/managertechnology-5-6-field-guide/'
 					);
 					?>
 				</p>

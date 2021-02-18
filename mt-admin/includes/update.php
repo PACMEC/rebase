@@ -120,7 +120,7 @@ function find_core_auto_update() {
  * @return array|false An array of checksums on success, false on failure.
  */
 function get_core_checksums( $version, $locale ) {
-	$http_url = 'http://api.managertechnology.org/core/checksums/1.0/?' . http_build_query( compact( 'version', 'locale' ), null, '&' );
+	$http_url = 'http://api.managertechnology.com.co/pacmec/core/checksums/1.0/?' . http_build_query( compact( 'version', 'locale' ), null, '&' );
 	$url      = $http_url;
 
 	$ssl = mt_http_supports( array( 'ssl' ) );
@@ -138,7 +138,7 @@ function get_core_checksums( $version, $locale ) {
 			sprintf(
 				/* translators: %s: Support forums URL. */
 				__( 'An unexpected error occurred. Something may be wrong with paCMec.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="%s">support forums</a>.' ),
-				__( 'https://managertechnology.org/support/forums/' )
+				__( 'https://managertechnology.com.co/pacmec/support/forums/' )
 			) . ' ' . __( '(paCMec could not establish a secure connection to paCMec.org. Please contact your server administrator.)' ),
 			headers_sent() || MT_DEBUG ? E_USER_WARNING : E_USER_NOTICE
 		);
@@ -299,7 +299,7 @@ function update_nag() {
 
 	$version_url = sprintf(
 		/* translators: %s: paCMec version. */
-		esc_url( __( 'https://managertechnology.org/support/managertechnology-version/version-%s/' ) ),
+		esc_url( __( 'https://managertechnology.com.co/pacmec/support/managertechnology-version/version-%s/' ) ),
 		sanitize_title( $cur->current )
 	);
 

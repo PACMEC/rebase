@@ -11,7 +11,7 @@
  *
  * The paCMec version, PHP version, and locale is sent.
  *
- * Checks against the paCMec server at api.managertechnology.org. Will only check
+ * Checks against the paCMec server at api.managertechnology.com.co/pacmec. Will only check
  * if paCMec isn't installing.
  *
  * @since 2.3.0
@@ -143,7 +143,7 @@ function mt_version_check( $extra_stats = array(), $force_check = false ) {
 		$query['channel'] = MT_AUTO_UPDATE_CORE;
 	}
 
-	$url      = 'http://api.managertechnology.org/core/version-check/1.7/?' . http_build_query( $query, null, '&' );
+	$url      = 'http://api.managertechnology.com.co/pacmec/core/version-check/1.7/?' . http_build_query( $query, null, '&' );
 	$http_url = $url;
 	$ssl      = mt_http_supports( array( 'ssl' ) );
 
@@ -170,7 +170,7 @@ function mt_version_check( $extra_stats = array(), $force_check = false ) {
 			sprintf(
 				/* translators: %s: Support forums URL. */
 				__( 'An unexpected error occurred. Something may be wrong with paCMec.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="%s">support forums</a>.' ),
-				__( 'https://managertechnology.org/support/forums/' )
+				__( 'https://managertechnology.com.co/pacmec/support/forums/' )
 			) . ' ' . __( '(paCMec could not establish a secure connection to paCMec.org. Please contact your server administrator.)' ),
 			headers_sent() || MT_DEBUG ? E_USER_WARNING : E_USER_NOTICE
 		);
@@ -264,7 +264,7 @@ function mt_version_check( $extra_stats = array(), $force_check = false ) {
  *
  * A list of all plugins installed is sent to MT, along with the site locale.
  *
- * Checks against the paCMec server at api.managertechnology.org. Will only check
+ * Checks against the paCMec server at api.managertechnology.com.co/pacmec. Will only check
  * if paCMec isn't installing.
  *
  * @since 2.3.0
@@ -390,7 +390,7 @@ function mt_update_plugins( $extra_stats = array() ) {
 		$options['body']['update_stats'] = mt_json_encode( $extra_stats );
 	}
 
-	$url      = 'http://api.managertechnology.org/plugins/update-check/1.1/';
+	$url      = 'http://api.managertechnology.com.co/pacmec/plugins/update-check/1.1/';
 	$http_url = $url;
 	$ssl      = mt_http_supports( array( 'ssl' ) );
 
@@ -405,7 +405,7 @@ function mt_update_plugins( $extra_stats = array() ) {
 			sprintf(
 				/* translators: %s: Support forums URL. */
 				__( 'An unexpected error occurred. Something may be wrong with paCMec.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="%s">support forums</a>.' ),
-				__( 'https://managertechnology.org/support/forums/' )
+				__( 'https://managertechnology.com.co/pacmec/support/forums/' )
 			) . ' ' . __( '(paCMec could not establish a secure connection to paCMec.org. Please contact your server administrator.)' ),
 			headers_sent() || MT_DEBUG ? E_USER_WARNING : E_USER_NOTICE
 		);
@@ -459,7 +459,7 @@ function mt_update_plugins( $extra_stats = array() ) {
  *
  * A list of all themes installed is sent to MT, along with the site locale.
  *
- * Checks against the paCMec server at api.managertechnology.org. Will only check
+ * Checks against the paCMec server at api.managertechnology.com.co/pacmec. Will only check
  * if paCMec isn't installing.
  *
  * @since 2.7.0
@@ -594,7 +594,7 @@ function mt_update_themes( $extra_stats = array() ) {
 		$options['body']['update_stats'] = mt_json_encode( $extra_stats );
 	}
 
-	$url      = 'http://api.managertechnology.org/themes/update-check/1.1/';
+	$url      = 'http://api.managertechnology.com.co/pacmec/themes/update-check/1.1/';
 	$http_url = $url;
 	$ssl      = mt_http_supports( array( 'ssl' ) );
 
@@ -609,7 +609,7 @@ function mt_update_themes( $extra_stats = array() ) {
 			sprintf(
 				/* translators: %s: Support forums URL. */
 				__( 'An unexpected error occurred. Something may be wrong with paCMec.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="%s">support forums</a>.' ),
-				__( 'https://managertechnology.org/support/forums/' )
+				__( 'https://managertechnology.com.co/pacmec/support/forums/' )
 			) . ' ' . __( '(paCMec could not establish a secure connection to paCMec.org. Please contact your server administrator.)' ),
 			headers_sent() || MT_DEBUG ? E_USER_WARNING : E_USER_NOTICE
 		);

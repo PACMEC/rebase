@@ -705,7 +705,7 @@ function post_excerpt_meta_box( $post ) {
 	printf(
 		/* translators: %s: Documentation URL. */
 		__( 'Excerpts are optional hand-crafted summaries of your content that can be used in your theme. <a href="%s">Learn more about manual excerpts</a>.' ),
-		__( 'https://managertechnology.org/support/article/excerpt/' )
+		__( 'https://managertechnology.com.co/pacmec/support/article/excerpt/' )
 	);
 	?>
 </p>
@@ -743,7 +743,7 @@ function post_trackback_meta_box( $post ) {
 	printf(
 		/* translators: %s: Documentation URL. */
 		__( 'Trackbacks are a way to notify legacy blog systems that you&#8217;ve linked to them. If you link other paCMec sites, they&#8217;ll be notified automatically using <a href="%s">pingbacks</a>, no other action necessary.' ),
-		__( 'https://managertechnology.org/support/article/introduction-to-blogging/#comments' )
+		__( 'https://managertechnology.com.co/pacmec/support/article/introduction-to-blogging/#comments' )
 	);
 	?>
 </p>
@@ -780,7 +780,7 @@ function post_custom_meta_box( $post ) {
 	printf(
 		/* translators: %s: Documentation URL. */
 		__( 'Custom fields can be used to add extra metadata to a post that you can <a href="%s">use in your theme</a>.' ),
-		__( 'https://managertechnology.org/support/article/custom-fields/' )
+		__( 'https://managertechnology.com.co/pacmec/support/article/custom-fields/' )
 	);
 	?>
 </p>
@@ -804,7 +804,7 @@ function post_comment_status_meta_box( $post ) {
 		printf(
 			/* translators: %s: Documentation URL. */
 			__( 'Allow <a href="%s">trackbacks and pingbacks</a> on this page' ),
-			__( 'https://managertechnology.org/support/article/introduction-to-blogging/#managing-comments' )
+			__( 'https://managertechnology.com.co/pacmec/support/article/introduction-to-blogging/#managing-comments' )
 		);
 		?>
 	</label>

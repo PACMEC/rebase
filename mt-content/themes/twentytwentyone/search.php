@@ -2,7 +2,7 @@
 /**
  * The template for displaying search results pages
  *
- * @link https://developer.managertechnology.org/themes/basics/template-hierarchy/#search-result
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/template-hierarchy/#search-result
  *
  * @package paCMec
  * @subpackage Twenty_Twenty_One

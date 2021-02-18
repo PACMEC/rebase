@@ -4,7 +4,7 @@
  *
  * Used in Search Results and for Recent Posts in Front Page panels.
  *
- * @link https://developer.managertechnology.org/themes/basics/template-hierarchy/
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/template-hierarchy/
  *
  * @package paCMec
  * @subpackage Twenty_Seventeen

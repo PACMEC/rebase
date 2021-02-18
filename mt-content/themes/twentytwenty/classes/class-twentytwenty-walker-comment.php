@@ -18,11 +18,11 @@ if ( ! class_exists( 'TwentyTwenty_Walker_Comment' ) ) {
 		 * Outputs a comment in the HTML5 format.
 		 *
 		 * @see mt_list_comments()
-		 * @see https://developer.managertechnology.org/reference/functions/get_comment_author_url/
-		 * @see https://developer.managertechnology.org/reference/functions/get_comment_author/
-		 * @see https://developer.managertechnology.org/reference/functions/get_avatar/
-		 * @see https://developer.managertechnology.org/reference/functions/get_comment_reply_link/
-		 * @see https://developer.managertechnology.org/reference/functions/get_edit_comment_link/
+		 * @see https://developer.managertechnology.com.co/pacmec/reference/functions/get_comment_author_url/
+		 * @see https://developer.managertechnology.com.co/pacmec/reference/functions/get_comment_author/
+		 * @see https://developer.managertechnology.com.co/pacmec/reference/functions/get_avatar/
+		 * @see https://developer.managertechnology.com.co/pacmec/reference/functions/get_comment_reply_link/
+		 * @see https://developer.managertechnology.com.co/pacmec/reference/functions/get_edit_comment_link/
 		 *
 		 * @param MT_Comment $comment Comment to display.
 		 * @param int        $depth   Depth of the current comment.
@@ -45,7 +45,7 @@ if ( ! class_exists( 'TwentyTwenty_Walker_Comment' ) ) {
 								if ( empty( $comment_author_url ) ) {
 									echo mt_kses_post( $avatar );
 								} else {
-									printf( '<a href="%s" rel="external nofollow" class="url">', $comment_author_url ); // phpcs:ignore paCMec.Security.EscapeOutput.OutputNotEscaped --Escaped in https://developer.managertechnology.org/reference/functions/get_comment_author_url/
+									printf( '<a href="%s" rel="external nofollow" class="url">', $comment_author_url ); // phpcs:ignore paCMec.Security.EscapeOutput.OutputNotEscaped --Escaped in https://developer.managertechnology.com.co/pacmec/reference/functions/get_comment_author_url/
 									echo mt_kses_post( $avatar );
 								}
 							}
@@ -127,7 +127,7 @@ if ( ! class_exists( 'TwentyTwenty_Walker_Comment' ) ) {
 
 							<?php
 							if ( $comment_reply_link ) {
-								echo $comment_reply_link; // phpcs:ignore paCMec.Security.EscapeOutput.OutputNotEscaped -- Link is escaped in https://developer.managertechnology.org/reference/functions/get_comment_reply_link/
+								echo $comment_reply_link; // phpcs:ignore paCMec.Security.EscapeOutput.OutputNotEscaped -- Link is escaped in https://developer.managertechnology.com.co/pacmec/reference/functions/get_comment_reply_link/
 							}
 							if ( $by_post_author ) {
 								echo '<span class="by-post-author">' . __( 'By Post Author', 'twentytwenty' ) . '</span>';

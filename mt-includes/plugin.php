@@ -11,7 +11,7 @@
  * {@link https://www.php.net/manual/en/language.pseudo-types.php#language.types.callback 'callback'}
  * type are valid.
  *
- * Also see the {@link https://developer.managertechnology.org/plugins/ Plugin API} for
+ * Also see the {@link https://developer.managertechnology.com.co/pacmec/plugins/ Plugin API} for
  * more information and examples on how to use a lot of these functions.
  *
  * This file should have no external dependencies.
@@ -899,7 +899,7 @@ function _mt_call_all_hook( $args ) {
  * Functions and static method callbacks are just returned as strings and
  * shouldn't have any speed penalty.
  *
- * @link https://core.trac.managertechnology.org/ticket/3875
+ * @link https://core.trac.managertechnology.com.co/pacmec/ticket/3875
  *
  * @since 2.2.3
  * @since 5.3.0 Removed workarounds for spl_object_hash().

@@ -43,7 +43,7 @@
 				 */
 				do_action( 'twentyten_credits' );
 				?>
-				<a href="<?php echo esc_url( __( 'https://managertechnology.org/', 'twentyten' ) ); ?>" class="imprint" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyten' ); ?>">
+				<a href="<?php echo esc_url( __( 'https://managertechnology.com.co/pacmec/', 'twentyten' ) ); ?>" class="imprint" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyten' ); ?>">
 					<?php
 					/* translators: %s: paCMec */
 					printf( __( 'Proudly powered by %s.', 'twentyten' ), 'paCMec' );

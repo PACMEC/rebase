@@ -1212,7 +1212,7 @@ function is_post_type_hierarchical( $post_type ) {
  * Determines whether a post type is registered.
  *
  * For more information on this and similar theme functions, check out
- * the {@link https://developer.managertechnology.org/themes/basics/conditional-tags/
+ * the {@link https://developer.managertechnology.com.co/pacmec/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
  * @since 3.0.0
@@ -1665,7 +1665,7 @@ function _post_type_meta_capabilities( $capabilities = null ) {
  *          by `$post_type_object->label`. Default is 'Posts' / 'Pages'.
  * - `singular_name` - Name for one object of this post type. Default is 'Post' / 'Page'.
  * - `add_new` - Default is 'Add New' for both hierarchical and non-hierarchical types.
- *             When internationalizing this string, please use a {@link https://developer.managertechnology.org/plugins/internationalization/how-to-internationalize-your-plugin/#disambiguation-by-context gettext context}
+ *             When internationalizing this string, please use a {@link https://developer.managertechnology.com.co/pacmec/plugins/internationalization/how-to-internationalize-your-plugin/#disambiguation-by-context gettext context}
  *             matching your post type. Example: `_x( 'Add New', 'product', 'textdomain' );`.
  * - `add_new_item` - Label for adding a new singular item. Default is 'Add New Post' / 'Add New Page'.
  * - `edit_item` - Label for editing a singular item. Default is 'Edit Post' / 'Edit Page'.
@@ -2086,7 +2086,7 @@ function is_post_publicly_viewable( $post = null ) {
  * Retrieves an array of the latest posts, or posts matching the given criteria.
  *
  * For more information on the accepted arguments, see the
- * {@link https://developer.managertechnology.org/reference/classes/mt_query/
+ * {@link https://developer.managertechnology.com.co/pacmec/reference/classes/mt_query/
  * MT_Query} documentation in the Developer Handbook.
  *
  * The `$ignore_sticky_posts` and `$no_found_rows` arguments are ignored by
@@ -2375,7 +2375,7 @@ function get_post_custom_values( $key = '', $post_id = 0 ) {
  * given, then The Loop ID for the current post will be used.
  *
  * For more information on this and similar theme functions, check out
- * the {@link https://developer.managertechnology.org/themes/basics/conditional-tags/
+ * the {@link https://developer.managertechnology.com.co/pacmec/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
  * @since 2.7.0
@@ -5909,7 +5909,7 @@ function get_pages( $args = array() ) {
  * Determines whether an attachment URI is local and really an attachment.
  *
  * For more information on this and similar theme functions, check out
- * the {@link https://developer.managertechnology.org/themes/basics/conditional-tags/
+ * the {@link https://developer.managertechnology.com.co/pacmec/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
  * @since 2.0.0
@@ -6515,7 +6515,7 @@ function mt_attachment_is( $type, $post = null ) {
  * Determines whether an attachment is an image.
  *
  * For more information on this and similar theme functions, check out
- * the {@link https://developer.managertechnology.org/themes/basics/conditional-tags/
+ * the {@link https://developer.managertechnology.com.co/pacmec/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
  * @since 2.1.0

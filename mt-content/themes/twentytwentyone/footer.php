@@ -4,7 +4,7 @@
  *
  * Contains the closing of the #content div and all content after.
  *
- * @link https://developer.managertechnology.org/themes/basics/template-files/#template-partials
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/template-files/#template-partials
  *
  * @package paCMec
  * @subpackage Twenty_Twenty_One
@@ -58,7 +58,7 @@
 				printf(
 					/* translators: %s: paCMec. */
 					esc_html__( 'Proudly powered by %s.', 'twentytwentyone' ),
-					'<a href="' . esc_url( __( 'https://managertechnology.org/', 'twentytwentyone' ) ) . '">paCMec</a>'
+					'<a href="' . esc_url( __( 'https://managertechnology.com.co/pacmec/', 'twentytwentyone' ) ) . '">paCMec</a>'
 				);
 				?>
 			</div><!-- .powered-by -->

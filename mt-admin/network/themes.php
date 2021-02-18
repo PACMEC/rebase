@@ -315,14 +315,14 @@ if ( current_user_can( 'update_themes' ) && mt_is_auto_update_enabled_for_type( 
 		)
 	);
 
-	$help_sidebar_autoupdates = '<p>' . __( '<a href="https://managertechnology.org/support/article/plugins-themes-auto-updates/">Learn more: Auto-updates documentation</a>' ) . '</p>';
+	$help_sidebar_autoupdates = '<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/plugins-themes-auto-updates/">Learn more: Auto-updates documentation</a>' ) . '</p>';
 }
 
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://codex.managertechnology.org/Network_Admin_Themes_Screen">Documentation on Network Themes</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://codex.managertechnology.com.co/pacmec/Network_Admin_Themes_Screen">Documentation on Network Themes</a>' ) . '</p>' .
 	$help_sidebar_autoupdates .
-	'<p>' . __( '<a href="https://managertechnology.org/support/">Support</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>'
 );
 
 get_current_screen()->set_screen_reader_content(

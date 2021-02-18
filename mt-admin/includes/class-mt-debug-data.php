@@ -414,7 +414,7 @@ class MT_Debug_Data {
 		}
 
 		// paCMec features requiring processing.
-		$mt_dotorg = mt_remote_get( 'https://managertechnology.org', array( 'timeout' => 10 ) );
+		$mt_dotorg = mt_remote_get( 'https://managertechnology.com.co/pacmec', array( 'timeout' => 10 ) );
 
 		if ( ! is_mt_error( $mt_dotorg ) ) {
 			$info['mt-core']['fields']['dotorg_communication'] = array(
@@ -428,7 +428,7 @@ class MT_Debug_Data {
 				'value' => sprintf(
 					/* translators: 1: The IP address paCMec.org resolves to. 2: The error returned by the lookup. */
 					__( 'Unable to reach paCMec.org at %1$s: %2$s' ),
-					gethostbyname( 'managertechnology.org' ),
+					gethostbyname( 'managertechnology.com.co/pacmec' ),
 					$mt_dotorg->get_error_message()
 				),
 				'debug' => $mt_dotorg->get_error_message(),

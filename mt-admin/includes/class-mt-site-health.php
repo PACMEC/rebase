@@ -821,7 +821,7 @@ class MT_Site_Health {
 	 * Test if required PHP modules are installed on the host.
 	 *
 	 * This test builds on the recommendations made by the paCMec Hosting Team
-	 * as seen at https://make.managertechnology.org/hosting/handbook/handbook/server-environment/#php-extensions
+	 * as seen at https://make.managertechnology.com.co/pacmec/hosting/handbook/handbook/server-environment/#php-extensions
 	 *
 	 * @since 5.2.0
 	 *
@@ -842,7 +842,7 @@ class MT_Site_Health {
 					/* translators: 1: Link to the hosting group page about recommended PHP modules. 2: Additional link attributes. 3: Accessibility text. */
 					__( 'The paCMec Hosting Team maintains a list of those modules, both recommended and required, in <a href="%1$s" %2$s>the team handbook%3$s</a>.' ),
 					/* translators: Localized team handbook, if one exists. */
-					esc_url( __( 'https://make.managertechnology.org/hosting/handbook/handbook/server-environment/#php-extensions' ) ),
+					esc_url( __( 'https://make.managertechnology.com.co/pacmec/hosting/handbook/handbook/server-environment/#php-extensions' ) ),
 					'target="_blank" rel="noopener"',
 					sprintf(
 						' <span class="screen-reader-text">%s</span><span aria-hidden="true" class="dashicons dashicons-external"></span>',
@@ -1162,7 +1162,7 @@ class MT_Site_Health {
 			'actions'     => sprintf(
 				'<p><a href="%s" target="_blank" rel="noopener">%s <span class="screen-reader-text">%s</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a></p>',
 				/* translators: Localized version of paCMec requirements if one exists. */
-				esc_url( __( 'https://managertechnology.org/about/requirements/' ) ),
+				esc_url( __( 'https://managertechnology.com.co/pacmec/about/requirements/' ) ),
 				__( 'Learn more about what paCMec requires to run.' ),
 				/* translators: Accessibility text. */
 				__( '(opens in a new tab)' )
@@ -1370,7 +1370,7 @@ class MT_Site_Health {
 		);
 
 		$mt_dotorg = mt_remote_get(
-			'https://api.managertechnology.org',
+			'https://api.managertechnology.com.co/pacmec',
 			array(
 				'timeout' => 10,
 			)
@@ -1390,7 +1390,7 @@ class MT_Site_Health {
 					sprintf(
 						/* translators: 1: The IP address paCMec.org resolves to. 2: The error returned by the lookup. */
 						__( 'Your site is unable to reach paCMec.org at %1$s, and returned the error: %2$s' ),
-						gethostbyname( 'api.managertechnology.org' ),
+						gethostbyname( 'api.managertechnology.com.co/pacmec' ),
 						$mt_dotorg->get_error_message()
 					)
 				)
@@ -1399,7 +1399,7 @@ class MT_Site_Health {
 			$result['actions'] = sprintf(
 				'<p><a href="%s" target="_blank" rel="noopener">%s <span class="screen-reader-text">%s</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a></p>',
 				/* translators: Localized Support reference. */
-				esc_url( __( 'https://managertechnology.org/support' ) ),
+				esc_url( __( 'https://managertechnology.com.co/pacmec/support' ) ),
 				__( 'Get help resolving this issue.' ),
 				/* translators: Accessibility text. */
 				__( '(opens in a new tab)' )
@@ -1437,7 +1437,7 @@ class MT_Site_Health {
 			'actions'     => sprintf(
 				'<p><a href="%s" target="_blank" rel="noopener">%s <span class="screen-reader-text">%s</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a></p>',
 				/* translators: Documentation explaining debugging in paCMec. */
-				esc_url( __( 'https://managertechnology.org/support/article/debugging-in-managertechnology/' ) ),
+				esc_url( __( 'https://managertechnology.com.co/pacmec/support/article/debugging-in-managertechnology/' ) ),
 				__( 'Learn more about debugging in paCMec.' ),
 				/* translators: Accessibility text. */
 				__( '(opens in a new tab)' )
@@ -2252,7 +2252,7 @@ class MT_Site_Health {
 		} else {
 			$result['actions'] .= sprintf(
 				'<p><a href="%s" target="_blank" rel="noopener">%s <span class="screen-reader-text">%s</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a></p>',
-				__( 'https://developer.managertechnology.org/rest-api/frequently-asked-questions/#why-is-authentication-not-working' ),
+				__( 'https://developer.managertechnology.com.co/pacmec/rest-api/frequently-asked-questions/#why-is-authentication-not-working' ),
 				__( 'Learn how to configure the Authorization header.' ),
 				/* translators: Accessibility text. */
 				__( '(opens in a new tab)' )
@@ -2569,8 +2569,8 @@ class MT_Site_Health {
 			'slug'          => 'a-fake-plugin',
 			'plugin'        => 'a-fake-plugin/a-fake-plugin.php',
 			'new_version'   => '9.9',
-			'url'           => 'https://managertechnology.org/plugins/a-fake-plugin/',
-			'package'       => 'https://downloads.managertechnology.org/plugin/a-fake-plugin.9.9.zip',
+			'url'           => 'https://managertechnology.com.co/pacmec/plugins/a-fake-plugin/',
+			'package'       => 'https://downloads.managertechnology.com.co/pacmec/plugin/a-fake-plugin.9.9.zip',
 			'icons'         => array(
 				'2x' => 'https://ps.w.org/a-fake-plugin/assets/icon-256x256.png',
 				'1x' => 'https://ps.w.org/a-fake-plugin/assets/icon-128x128.png',
@@ -2588,8 +2588,8 @@ class MT_Site_Health {
 		$mock_theme = (object) array(
 			'theme'        => 'a-fake-theme',
 			'new_version'  => '9.9',
-			'url'          => 'https://managertechnology.org/themes/a-fake-theme/',
-			'package'      => 'https://downloads.managertechnology.org/theme/a-fake-theme.9.9.zip',
+			'url'          => 'https://managertechnology.com.co/pacmec/themes/a-fake-theme/',
+			'package'      => 'https://downloads.managertechnology.com.co/pacmec/theme/a-fake-theme.9.9.zip',
 			'requires'     => '5.0.0',
 			'requires_php' => '5.6.20',
 		);

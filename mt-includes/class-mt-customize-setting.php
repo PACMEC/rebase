@@ -15,7 +15,7 @@
  * @since 3.4.0
  *
  * @see MT_Customize_Manager
- * @link https://developer.managertechnology.org/themes/customize-api
+ * @link https://developer.managertechnology.com.co/pacmec/themes/customize-api
  */
 class MT_Customize_Setting {
 	/**

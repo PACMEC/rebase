@@ -25,7 +25,7 @@
  *              {@see 'pre_schedule_event'} filter added to short-circuit the function.
  * @since 5.7.0 The `$mt_error` parameter was added.
  *
- * @link https://developer.managertechnology.org/reference/functions/mt_schedule_single_event/
+ * @link https://developer.managertechnology.com.co/pacmec/reference/functions/mt_schedule_single_event/
  *
  * @param int    $timestamp  Unix timestamp (UTC) for when to next run the event.
  * @param string $hook       Action hook to execute when the event is run.
@@ -219,7 +219,7 @@ function mt_schedule_single_event( $timestamp, $hook, $args = array(), $mt_error
  *              {@see 'pre_schedule_event'} filter added to short-circuit the function.
  * @since 5.7.0 The `$mt_error` parameter was added.
  *
- * @link https://developer.managertechnology.org/reference/functions/mt_schedule_event/
+ * @link https://developer.managertechnology.com.co/pacmec/reference/functions/mt_schedule_event/
  *
  * @param int    $timestamp  Unix timestamp (UTC) for when to next run the event.
  * @param string $recurrence How often the event should subsequently recur.

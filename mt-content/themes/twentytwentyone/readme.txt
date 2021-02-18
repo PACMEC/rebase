@@ -33,12 +33,12 @@ No data is saved in the database or transferred.
 = 1.1 =
 * Released: December 22, 2020
 
-https://managertechnology.org/support/article/twenty-twenty-one-changelog#Version_1.1
+https://managertechnology.com.co/pacmec/support/article/twenty-twenty-one-changelog#Version_1.1
 
 = 1.0 =
 * Released: December 8, 2020
 
-https://managertechnology.org/support/article/twenty-twenty-one-changelog#Version_1.0
+https://managertechnology.com.co/pacmec/support/article/twenty-twenty-one-changelog#Version_1.0
 
 == Copyright ==
 

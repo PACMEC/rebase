@@ -692,7 +692,7 @@ var PluginDocumentSettingFill = function PluginDocumentSettingFill(_ref) {
  * @param {string} [props.name] The machine-friendly name for the panel.
  * @param {string} [props.className] An optional class name added to the row.
  * @param {string} [props.title] The title of the panel
- * @param {MTBlockTypeIconRender} [props.icon=inherits from the plugin] The [Dashicon](https://developer.managertechnology.org/resource/dashicons/) icon slug string, or an SVG MT element, to be rendered when the sidebar is pinned to toolbar.
+ * @param {MTBlockTypeIconRender} [props.icon=inherits from the plugin] The [Dashicon](https://developer.managertechnology.com.co/pacmec/resource/dashicons/) icon slug string, or an SVG MT element, to be rendered when the sidebar is pinned to toolbar.
  *
  * @example
  * <caption>ES5</caption>
@@ -3208,7 +3208,7 @@ Object(external_mt_plugins_["registerPlugin"])('edit-post', {
       }), Object(external_mt_element_["createElement"])(WelcomeGuideMenuItem, null), Object(external_mt_element_["createElement"])(copy_content_menu_item, null), Object(external_mt_element_["createElement"])(external_mt_components_["MenuItem"], {
         role: "menuitem",
         icon: external["a" /* default */],
-        href: Object(external_mt_i18n_["__"])('https://managertechnology.org/support/article/managertechnology-editor/'),
+        href: Object(external_mt_i18n_["__"])('https://managertechnology.com.co/pacmec/support/article/managertechnology-editor/'),
         target: "_blank",
         rel: "noopener noreferrer"
       }, Object(external_mt_i18n_["__"])('Help'), Object(external_mt_element_["createElement"])(external_mt_components_["VisuallyHidden"], {
@@ -5330,7 +5330,7 @@ function PostPublishButtonOrToggle(_ref) {
    * Conditions to show a BUTTON (publish directly) or a TOGGLE (open publish sidebar):
    *
    * 1) We want to show a BUTTON when the post status is at the _final stage_
-   * for a particular role (see https://managertechnology.org/support/article/post-status/):
+   * for a particular role (see https://managertechnology.com.co/pacmec/support/article/post-status/):
    *
    * - is published
    * - is scheduled to be published
@@ -5507,7 +5507,7 @@ var plugin_post_publish_panel_PluginPostPublishPanelFill = function PluginPostPu
  * @param {string} [props.className] An optional class name added to the panel.
  * @param {string} [props.title] Title displayed at the top of the panel.
  * @param {boolean} [props.initialOpen=false] Whether to have the panel initially opened. When no title is provided it is always opened.
- * @param {MTBlockTypeIconRender} [props.icon=inherits from the plugin] The [Dashicon](https://developer.managertechnology.org/resource/dashicons/) icon slug string, or an SVG MT element, to be rendered when the sidebar is pinned to toolbar.
+ * @param {MTBlockTypeIconRender} [props.icon=inherits from the plugin] The [Dashicon](https://developer.managertechnology.com.co/pacmec/resource/dashicons/) icon slug string, or an SVG MT element, to be rendered when the sidebar is pinned to toolbar.
  *
  * @example
  * <caption>ES5</caption>
@@ -5596,7 +5596,7 @@ var plugin_pre_publish_panel_PluginPrePublishPanelFill = function PluginPrePubli
  * @param {string}                [props.title]                         Title displayed at the top of the panel.
  * @param {boolean}               [props.initialOpen=false]             Whether to have the panel initially opened.
  *                                                                      When no title is provided it is always opened.
- * @param {MTBlockTypeIconRender} [props.icon=inherits from the plugin] The [Dashicon](https://developer.managertechnology.org/resource/dashicons/)
+ * @param {MTBlockTypeIconRender} [props.icon=inherits from the plugin] The [Dashicon](https://developer.managertechnology.com.co/pacmec/resource/dashicons/)
  *                                                                      icon slug string, or an SVG MT element, to be rendered when
  *                                                                      the sidebar is pinned to toolbar.
  *
@@ -6657,7 +6657,7 @@ function PostLink(_ref) {
       }
     }
   }), Object(external_mt_element_["createElement"])("p", null, Object(external_mt_i18n_["__"])('The last part of the URL.'), ' ', Object(external_mt_element_["createElement"])(external_mt_components_["ExternalLink"], {
-    href: "https://managertechnology.org/support/article/writing-posts/#post-field-descriptions"
+    href: "https://managertechnology.com.co/pacmec/support/article/writing-posts/#post-field-descriptions"
   }, Object(external_mt_i18n_["__"])('Read about permalinks')))), Object(external_mt_element_["createElement"])("h3", {
     className: "edit-post-post-link__preview-label"
   }, postTypeLabel || Object(external_mt_i18n_["__"])('View post')), Object(external_mt_element_["createElement"])("div", {
@@ -7139,7 +7139,7 @@ var plugin_document_setting_panel = __webpack_require__(171);
  * @param {string} [props.className] An optional class name added to the sidebar body.
  * @param {string} props.title Title displayed at the top of the sidebar.
  * @param {boolean} [props.isPinnable=true] Whether to allow to pin sidebar to toolbar.
- * @param {MTBlockTypeIconRender} [props.icon=inherits from the plugin] The [Dashicon](https://developer.managertechnology.org/resource/dashicons/) icon slug string, or an SVG MT element, to be rendered when the sidebar is pinned to toolbar.
+ * @param {MTBlockTypeIconRender} [props.icon=inherits from the plugin] The [Dashicon](https://developer.managertechnology.com.co/pacmec/resource/dashicons/) icon slug string, or an SVG MT element, to be rendered when the sidebar is pinned to toolbar.
  *
  * @example
  * <caption>ES5</caption>
@@ -7425,7 +7425,7 @@ function WelcomeGuide() {
       }, Object(external_mt_i18n_["__"])('Learn how to use the block editor')), Object(external_mt_element_["createElement"])("p", {
         className: "edit-post-welcome-guide__text"
       }, Object(external_mt_i18n_["__"])('New to the block editor? Want to learn more about using it? '), Object(external_mt_element_["createElement"])(external_mt_components_["ExternalLink"], {
-        href: Object(external_mt_i18n_["__"])('https://managertechnology.org/support/article/managertechnology-editor/')
+        href: Object(external_mt_i18n_["__"])('https://managertechnology.com.co/pacmec/support/article/managertechnology-editor/')
       }, Object(external_mt_i18n_["__"])("Here's a detailed guide."))))
     }]
   });
@@ -7948,7 +7948,7 @@ var shouldRenderItem = function shouldRenderItem(selectedBlocks, allowedBlocks) 
  *
  * @param {Object}                props                 Component props.
  * @param {Array}                 [props.allowedBlocks] An array containing a list of block names for which the item should be shown. If not present, it'll be rendered for any block. If multiple blocks are selected, it'll be shown if and only if all of them are in the allowed list.
- * @param {MTBlockTypeIconRender} [props.icon]          The [Dashicon](https://developer.managertechnology.org/resource/dashicons/) icon slug string, or an SVG MT element.
+ * @param {MTBlockTypeIconRender} [props.icon]          The [Dashicon](https://developer.managertechnology.com.co/pacmec/resource/dashicons/) icon slug string, or an SVG MT element.
  * @param {string}                props.label           The menu item text.
  * @param {Function}              props.onClick         Callback function to be executed when the user click the menu item.
  * @param {boolean}               [props.small]         Whether to render the label or not.
@@ -8041,7 +8041,7 @@ var plugin_block_settings_menu_item_PluginBlockSettingsMenuItem = function Plugi
  *
  * @param {Object} props Component properties.
  * @param {string} [props.href] When `href` is provided then the menu item is represented as an anchor rather than button. It corresponds to the `href` attribute of the anchor.
- * @param {MTBlockTypeIconRender} [props.icon=inherits from the plugin] The [Dashicon](https://developer.managertechnology.org/resource/dashicons/) icon slug string, or an SVG MT element, to be rendered to the left of the menu item label.
+ * @param {MTBlockTypeIconRender} [props.icon=inherits from the plugin] The [Dashicon](https://developer.managertechnology.com.co/pacmec/resource/dashicons/) icon slug string, or an SVG MT element, to be rendered to the left of the menu item label.
  * @param {Function} [props.onClick=noop] The callback function to be executed when the user clicks the menu item.
  * @param {...*} [props.other] Any additional props are passed through to the underlying [MenuItem](/packages/components/src/menu-item/README.md) component.
  *
@@ -8116,7 +8116,7 @@ var plugin_block_settings_menu_item_PluginBlockSettingsMenuItem = function Plugi
  *
  * @param {Object} props Component props.
  * @param {string} props.target A string identifying the target sidebar you wish to be activated by this menu item. Must be the same as the `name` prop you have given to that sidebar.
- * @param {MTBlockTypeIconRender} [props.icon=inherits from the plugin] The [Dashicon](https://developer.managertechnology.org/resource/dashicons/) icon slug string, or an SVG MT element, to be rendered to the left of the menu item label.
+ * @param {MTBlockTypeIconRender} [props.icon=inherits from the plugin] The [Dashicon](https://developer.managertechnology.com.co/pacmec/resource/dashicons/) icon slug string, or an SVG MT element, to be rendered to the left of the menu item label.
  *
  * @example
  * <caption>ES5</caption>

@@ -480,7 +480,7 @@ function network_step2( $errors = false ) {
 			/*
 			 * translators: This string should only be translated if mt-config-sample.php is localized.
 			 * You can check the localized release package or
-			 * https://i18n.svn.managertechnology.org/<locale code>/branches/<mt version>/dist/mt-config-sample.php
+			 * https://i18n.svn.managertechnology.com.co/pacmec/<locale code>/branches/<mt version>/dist/mt-config-sample.php
 			 */
 			'<code>/* ' . __( 'That&#8217;s all, stop editing! Happy publishing.' ) . ' */</code>'
 		);
@@ -513,7 +513,7 @@ define('BLOG_ID_CURRENT_SITE', 1);
 
 		if ( ! empty( $keys_salts ) ) {
 			$keys_salts_str = '';
-			$from_api       = mt_remote_get( 'https://api.managertechnology.org/secret-key/1.1/salt/' );
+			$from_api       = mt_remote_get( 'https://api.managertechnology.com.co/pacmec/secret-key/1.1/salt/' );
 			if ( is_mt_error( $from_api ) ) {
 				foreach ( $keys_salts as $c => $v ) {
 					$keys_salts_str .= "\ndefine( '$c', '" . mt_generate_password( 64, true, true ) . "' );";
@@ -626,7 +626,7 @@ define('BLOG_ID_CURRENT_SITE', 1);
 		printf(
 			/* translators: %s: Documentation URL. */
 			__( 'It seems your network is running with Nginx web server. <a href="%s">Learn more about further configuration</a>.' ),
-			__( 'https://managertechnology.org/support/article/nginx/' )
+			__( 'https://managertechnology.com.co/pacmec/support/article/nginx/' )
 		);
 		echo '</p></li>';
 

@@ -4791,7 +4791,7 @@ function sanitize_option( $option, $value ) {
 
 		case 'MTLANG':
 			$allowed = get_available_languages();
-			if ( ! is_multisite() && defined( 'MTLANG' ) && '' !== MTLANG && 'en_US' !== MTLANG ) {
+			if ( ! is_multisite() && defined( 'MTLANG' ) && '' !== MTLANG && 'es_CO' !== MTLANG ) {
 				$allowed[] = MTLANG;
 			}
 			if ( ! in_array( $value, $allowed, true ) && ! empty( $value ) ) {
@@ -4862,7 +4862,7 @@ function sanitize_option( $option, $value ) {
 				$error = sprintf(
 					/* translators: %s: Documentation URL. */
 					__( 'A structure tag is required when using custom permalinks. <a href="%s">Learn more</a>' ),
-					__( 'https://managertechnology.org/support/article/using-permalinks/#choosing-your-permalink-structure' )
+					__( 'https://managertechnology.com.co/pacmec/support/article/using-permalinks/#choosing-your-permalink-structure' )
 				);
 			}
 			break;

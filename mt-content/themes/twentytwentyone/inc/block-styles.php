@@ -2,7 +2,7 @@
 /**
  * Block Styles
  *
- * @link https://developer.managertechnology.org/reference/functions/register_block_style/
+ * @link https://developer.managertechnology.com.co/pacmec/reference/functions/register_block_style/
  *
  * @package paCMec
  * @subpackage Twenty_Twenty_One

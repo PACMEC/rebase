@@ -269,7 +269,7 @@ final class MT_Post_Type {
 	 *
 	 * Default empty array.
 	 *
-	 * @link https://developer.managertechnology.org/block-editor/developers/block-api/block-templates/
+	 * @link https://developer.managertechnology.com.co/pacmec/block-editor/developers/block-api/block-templates/
 	 *
 	 * @since 5.0.0
 	 * @var array $template
@@ -286,7 +286,7 @@ final class MT_Post_Type {
 	 *
 	 * Default false.
 	 *
-	 * @link https://developer.managertechnology.org/block-editor/developers/block-api/block-templates/
+	 * @link https://developer.managertechnology.com.co/pacmec/block-editor/developers/block-api/block-templates/
 	 *
 	 * @since 5.0.0
 	 * @var string|false $template_lock

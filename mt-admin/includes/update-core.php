@@ -1045,7 +1045,7 @@ function update_core( $from, $to ) {
 		// Find the local version of the working directory.
 		$working_dir_local = MT_CONTENT_DIR . '/upgrade/' . basename( $from ) . $distro;
 
-		$checksums = get_core_checksums( $mt_version, isset( $mt_local_package ) ? $mt_local_package : 'en_US' );
+		$checksums = get_core_checksums( $mt_version, isset( $mt_local_package ) ? $mt_local_package : 'es_CO' );
 		if ( is_array( $checksums ) && isset( $checksums[ $mt_version ] ) ) {
 			$checksums = $checksums[ $mt_version ]; // Compat code for 3.7-beta2.
 		}
@@ -1338,7 +1338,7 @@ function update_core( $from, $to ) {
  * @since 3.7.0 Updated not to use a regular expression for the skip list.
  *
  * @see copy_dir()
- * @link https://core.trac.managertechnology.org/ticket/17173
+ * @link https://core.trac.managertechnology.com.co/pacmec/ticket/17173
  *
  * @global MT_Filesystem_Base $mt_filesystem
  *

@@ -49,7 +49,7 @@ if ( file_exists( ABSPATH . 'mt-config-sample.php' ) ) {
 	mt_die(
 		sprintf(
 			/* translators: %s: mt-config-sample.php */
-			__( 'Sorry, I need a %s file to work from. Please re-upload this file to your paCMec installation.' ),
+			__( 'Lo siento, necesito el archivo %s para trabajar. Vuelva a cargar este archivo en su instalación de paCMec.' ),
 			'<code>mt-config-sample.php</code>'
 		)
 	);
@@ -132,7 +132,7 @@ switch ( $step ) {
 			$languages = mt_get_available_translations();
 			if ( $languages ) {
 				setup_config_display_header( 'language-chooser' );
-				echo '<h1 class="screen-reader-text">Select a default language</h1>';
+				echo '<h1 class="screen-reader-text">Seleccione un idioma predeterminado</h1>';
 				echo '<form id="setup" method="post" action="?step=0">';
 				mt_install_language_form( $languages );
 				echo '</form>';
@@ -160,20 +160,20 @@ switch ( $step ) {
 			$step_1 .= '&amp;language=' . $loaded_language;
 		}
 		?>
-<h1 class="screen-reader-text"><?php _e( 'Before getting started' ); ?></h1>
-<p><?php _e( 'Welcome to paCMec. Before getting started, we need some information on the database. You will need to know the following items before proceeding.' ); ?></p>
+<h1 class="screen-reader-text"><?php _e( 'Antes de empezar' ); ?></h1>
+<p><?php _e( 'Bienvenido a paCMec. Antes de comenzar, necesitamos información sobre la base de datos. Deberá conocer los siguientes elementos antes de continuar.' ); ?></p>
 <ol>
-	<li><?php _e( 'Database name' ); ?></li>
-	<li><?php _e( 'Database username' ); ?></li>
-	<li><?php _e( 'Database password' ); ?></li>
-	<li><?php _e( 'Database host' ); ?></li>
-	<li><?php _e( 'Table prefix (if you want to run more than one paCMec in a single database)' ); ?></li>
+	<li><?php _e( 'Nombre de la base de datos' ); ?></li>
+	<li><?php _e( 'Nombre de usuario de la base de datos' ); ?></li>
+	<li><?php _e( 'Contraseña de la base de datos' ); ?></li>
+	<li><?php _e( 'Host de base de datos' ); ?></li>
+	<li><?php _e( 'Prefijo de tabla (si desea ejecutar más de un paCMec en una sola base de datos)' ); ?></li>
 </ol>
 <p>
 		<?php
 		printf(
 			/* translators: %s: mt-config.php */
-			__( 'We&#8217;re going to use this information to create a %s file.' ),
+			__( 'Usaremos esta información para crear el archivo %s.' ),
 			'<code>mt-config.php</code>'
 		);
 		?>
@@ -181,7 +181,7 @@ switch ( $step ) {
 		<?php
 		printf(
 			/* translators: 1: mt-config-sample.php, 2: mt-config.php */
-			__( 'If for any reason this automatic file creation doesn&#8217;t work, don&#8217;t worry. All this does is fill in the database information to a configuration file. You may also simply open %1$s in a text editor, fill in your information, and save it as %2$s.' ),
+			__( 'Si por alguna razón esta creación automática de archivos no funciona, no se preocupe. Todo esto hace es completar la información de la base de datos en un archivo de configuración. También puede simplemente abrir %1$s en un editor de texto, completar su información y guardarla como %2$s.' ),
 			'<code>mt-config-sample.php</code>',
 			'<code>mt-config.php</code>'
 		);
@@ -190,14 +190,14 @@ switch ( $step ) {
 		<?php
 		printf(
 			/* translators: %s: Documentation URL. */
-			__( 'Need more help? <a href="%s">We got it</a>.' ),
-			__( 'https://managertechnology.org/support/article/editing-mt-config-php/' )
+			__( 'Necesitas más ayuda? <a href="%s"> Lo tenemos </a>.' ),
+			__( 'https://managertechnology.com.co/pacmec/support/article/editing-mt-config-php/' )
 		);
 		?>
 </p>
-<p><?php _e( 'In all likelihood, these items were supplied to you by your Web Host. If you don&#8217;t have this information, then you will need to contact them before you can continue. If you&#8217;re all ready&hellip;' ); ?></p>
+<p><?php _e( 'Con toda probabilidad, estos elementos fueron proporcionados por su proveedor de alojamiento web. Si no tiene esta información, deberá comunicarse con ellos antes de continuar. Si está todo listo ...' ); ?></p>
 
-<p class="step"><a href="<?php echo $step_1; ?>" class="button button-large"><?php _e( 'Let&#8217;s go!' ); ?></a></p>
+<p class="step"><a href="<?php echo $step_1; ?>" class="button button-large"><?php _e( '¡Vamos!' ); ?></a></p>
 		<?php
 		break;
 
@@ -209,39 +209,39 @@ switch ( $step ) {
 
 		$autofocus = mt_is_mobile() ? '' : ' autofocus';
 		?>
-<h1 class="screen-reader-text"><?php _e( 'Set up your database connection' ); ?></h1>
+<h1 class="screen-reader-text"><?php _e( '' ); ?></h1>
 <form method="post" action="setup-config.php?step=2">
-	<p><?php _e( 'Below you should enter your database connection details. If you&#8217;re not sure about these, contact your host.' ); ?></p>
+	<p><?php _e( 'A continuación, debe ingresar los detalles de conexión de su base de datos. Si no está seguro de estos, comuníquese con su anfitrión.' ); ?></p>
 	<table class="form-table" role="presentation">
 		<tr>
-			<th scope="row"><label for="dbname"><?php _e( 'Database Name' ); ?></label></th>
+			<th scope="row"><label for="dbname"><?php _e( 'Nombre de la base de datos' ); ?></label></th>
 			<td><input name="dbname" id="dbname" type="text" aria-describedby="dbname-desc" size="25" value="managertechnology"<?php echo $autofocus; ?>/></td>
-			<td id="dbname-desc"><?php _e( 'The name of the database you want to use with paCMec.' ); ?></td>
+			<td id="dbname-desc"><?php _e( 'El nombre de la base de datos que desea usar con paCMec.' ); ?></td>
 		</tr>
 		<tr>
-			<th scope="row"><label for="uname"><?php _e( 'Username' ); ?></label></th>
+			<th scope="row"><label for="uname"><?php _e( 'Usuario' ); ?></label></th>
 			<td><input name="uname" id="uname" type="text" aria-describedby="uname-desc" size="25" value="<?php echo htmlspecialchars( _x( 'username', 'example username' ), ENT_QUOTES ); ?>" /></td>
-			<td id="uname-desc"><?php _e( 'Your database username.' ); ?></td>
+			<td id="uname-desc"><?php _e( 'Su nombre de usuario de la base de datos.' ); ?></td>
 		</tr>
 		<tr>
-			<th scope="row"><label for="pwd"><?php _e( 'Password' ); ?></label></th>
+			<th scope="row"><label for="pwd"><?php _e( 'Contraseña' ); ?></label></th>
 			<td><input name="pwd" id="pwd" type="text" aria-describedby="pwd-desc" size="25" value="<?php echo htmlspecialchars( _x( 'password', 'example password' ), ENT_QUOTES ); ?>" autocomplete="off" /></td>
-			<td id="pwd-desc"><?php _e( 'Your database password.' ); ?></td>
+			<td id="pwd-desc"><?php _e( 'Su contraseña de la base de datos.' ); ?></td>
 		</tr>
 		<tr>
-			<th scope="row"><label for="dbhost"><?php _e( 'Database Host' ); ?></label></th>
+			<th scope="row"><label for="dbhost"><?php _e( 'Host de base de datos' ); ?></label></th>
 			<td><input name="dbhost" id="dbhost" type="text" aria-describedby="dbhost-desc" size="25" value="localhost" /></td>
 			<td id="dbhost-desc">
 			<?php
 				/* translators: %s: localhost */
-				printf( __( 'You should be able to get this info from your web host, if %s doesn&#8217;t work.' ), '<code>localhost</code>' );
+				printf( __( '	Debería poder obtener esta información de su proveedor de alojamiento web, si %s no funciona.' ), '<code>localhost</code>' );
 			?>
 			</td>
 		</tr>
 		<tr>
-			<th scope="row"><label for="prefix"><?php _e( 'Table Prefix' ); ?></label></th>
+			<th scope="row"><label for="prefix"><?php _e( 'Prefijo de la tabla' ); ?></label></th>
 			<td><input name="prefix" id="prefix" type="text" aria-describedby="prefix-desc" value="mt_" size="25" /></td>
-			<td id="prefix-desc"><?php _e( 'If you want to run multiple paCMec installations in a single database, change this.' ); ?></td>
+			<td id="prefix-desc"><?php _e( 'Si desea ejecutar varias instalaciones de paCMec en una sola base de datos, cámbielo.' ); ?></td>
 		</tr>
 	</table>
 		<?php
@@ -249,7 +249,7 @@ switch ( $step ) {
 			?>
 <input name="noapi" type="hidden" value="1" /><?php } ?>
 	<input type="hidden" name="language" value="<?php echo esc_attr( $language ); ?>" />
-	<p class="step"><input name="submit" type="submit" value="<?php echo htmlspecialchars( __( 'Submit' ), ENT_QUOTES ); ?>" class="button button-large" /></p>
+	<p class="step"><input name="submit" type="submit" value="<?php echo htmlspecialchars( __( 'Enviar' ), ENT_QUOTES ); ?>" class="button button-large" /></p>
 </form>
 		<?php
 		break;
@@ -274,18 +274,18 @@ switch ( $step ) {
 			$step_1  .= '&amp;language=' . $language;
 			$install .= '?language=' . $language;
 		} else {
-			$install .= '?language=en_US';
+			$install .= '?language=es_CO';
 		}
 
 		$tryagain_link = '</p><p class="step"><a href="' . $step_1 . '" onclick="javascript:history.go(-1);return false;" class="button button-large">' . __( 'Try Again' ) . '</a>';
 
 		if ( empty( $prefix ) ) {
-			mt_die( __( '<strong>Error</strong>: "Table Prefix" must not be empty.' ) . $tryagain_link );
+			mt_die( __( '<strong>Error</strong>: "Prefijo de tabla" no debe estar vacío.' ) . $tryagain_link );
 		}
 
 		// Validate $prefix: it can only contain letters, numbers and underscores.
 		if ( preg_match( '|[^a-z0-9_]|i', $prefix ) ) {
-			mt_die( __( '<strong>Error</strong>: "Table Prefix" can only contain numbers, letters, and underscores.' ) . $tryagain_link );
+			mt_die( __( '<strong>Error</strong>: "Prefijo de tabla" solo puede contener números, letras y guiones bajos.' ) . $tryagain_link );
 		}
 
 		// Test the DB connection.
@@ -318,7 +318,7 @@ switch ( $step ) {
 		$mtdb->show_errors( $errors );
 		if ( ! $mtdb->last_error ) {
 			// MySQL was able to parse the prefix as a value, which we don't want. Bail.
-			mt_die( __( '<strong>Error</strong>: "Table Prefix" is invalid.' ) );
+			mt_die( __( '<strong>Error</strong>: "Prefijo de tabla" no es válido.' ) );
 		}
 
 		// Generate keys and salts using secure CSPRNG; fallback to API if enabled; further fallback to original mt_generate_password().
@@ -336,7 +336,7 @@ switch ( $step ) {
 			$no_api = isset( $_POST['noapi'] );
 
 			if ( ! $no_api ) {
-				$secret_keys = mt_remote_get( 'https://api.managertechnology.org/secret-key/1.1/salt/' );
+				$secret_keys = mt_remote_get( 'https://api.managertechnology.com.co/pacmec/secret-key/1.1/salt/' );
 			}
 
 			if ( $no_api || is_mt_error( $secret_keys ) ) {
@@ -398,13 +398,13 @@ switch ( $step ) {
 	<p>
 			<?php
 			/* translators: %s: mt-config.php */
-			printf( __( 'Unable to write to %s file.' ), '<code>mt-config.php</code>' );
+			printf( __( 'No se puede escribir en el archivo %s.' ), '<code>mt-config.php</code>' );
 			?>
 </p>
 <p>
 			<?php
 			/* translators: %s: mt-config.php */
-			printf( __( 'You can create the %s file manually and paste the following text into it.' ), '<code>mt-config.php</code>' );
+			printf( __( 'Puede crear el archivo %s manualmente y pegar el siguiente texto en él.' ), '<code>mt-config.php</code>' );
 
 			$config_text = '';
 
@@ -415,7 +415,7 @@ switch ( $step ) {
 </p>
 <textarea id="mt-config" cols="98" rows="15" class="code" readonly="readonly"><?php echo $config_text; ?></textarea>
 <p><?php _e( 'After you&#8217;ve done that, click &#8220;Run the installation&#8221;.' ); ?></p>
-<p class="step"><a href="<?php echo $install; ?>" class="button button-large"><?php _e( 'Run the installation' ); ?></a></p>
+<p class="step"><a href="<?php echo $install; ?>" class="button button-large"><?php _e( 'Ejecuta la instalación' ); ?></a></p>
 <script>
 (function(){
 if ( ! /iPad|iPod|iPhone/.test( navigator.userAgent ) ) {
@@ -428,9 +428,9 @@ if ( ! /iPad|iPod|iPhone/.test( navigator.userAgent ) ) {
 			<?php
 	else :
 		/*
-		 * If this file doesn't exist, then we are using the mt-config-sample.php
-		 * file one level up, which is for the develop repo.
-		 */
+		* Si este archivo no existe, entonces estamos usando mt-config-sample.php
+		* Archivar un nivel arriba, que es para el repositorio de desarrollo.
+		*/
 		if ( file_exists( ABSPATH . 'mt-config-sample.php' ) ) {
 			$path_to_mt_config = ABSPATH . 'mt-config.php';
 		} else {

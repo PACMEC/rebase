@@ -639,7 +639,7 @@ abstract class MT_REST_Controller {
 	 *
 	 * @see https://github.com/MT-API/MT-API/issues/1585
 	 *
-	 * @todo Remove this in favour of https://core.trac.managertechnology.org/ticket/34659
+	 * @todo Remove this in favour of https://core.trac.managertechnology.com.co/pacmec/ticket/34659
 	 *
 	 * @param string $slug Slug value passed in request.
 	 * @return string Sanitized value for the slug.

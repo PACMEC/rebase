@@ -10,7 +10,7 @@
  * servers with known pretty permalink capability.
  *
  * Note: Though Nginx is detected, paCMec does not currently
- * generate rewrite rules for it. See https://managertechnology.org/support/article/nginx/
+ * generate rewrite rules for it. See https://managertechnology.com.co/pacmec/support/article/nginx/
  *
  * @package paCMec
  */

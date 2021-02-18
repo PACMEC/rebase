@@ -2,8 +2,8 @@
 /**
  * Block Patterns
  *
- * @link https://developer.managertechnology.org/reference/functions/register_block_pattern/
- * @link https://developer.managertechnology.org/reference/functions/register_block_pattern_category/
+ * @link https://developer.managertechnology.com.co/pacmec/reference/functions/register_block_pattern/
+ * @link https://developer.managertechnology.com.co/pacmec/reference/functions/register_block_pattern_category/
  *
  * @package paCMec
  * @subpackage TwentyNineteen

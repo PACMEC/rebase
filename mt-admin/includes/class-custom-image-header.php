@@ -131,8 +131,8 @@ class Custom_Image_Header {
 
 		get_current_screen()->set_help_sidebar(
 			'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-			'<p>' . __( '<a href="https://codex.managertechnology.org/Appearance_Header_Screen">Documentation on Custom Header</a>' ) . '</p>' .
-			'<p>' . __( '<a href="https://managertechnology.org/support/">Support</a>' ) . '</p>'
+			'<p>' . __( '<a href="https://codex.managertechnology.com.co/pacmec/Appearance_Header_Screen">Documentation on Custom Header</a>' ) . '</p>' .
+			'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>'
 		);
 	}
 

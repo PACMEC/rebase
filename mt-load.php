@@ -80,7 +80,7 @@ if ( file_exists( ABSPATH . 'mt-config.php' ) ) {
 	$die .= '<p>' . sprintf(
 		/* translators: %s: Documentation URL. */
 		__( "Need more help? <a href='%s'>We got it</a>." ),
-		__( 'https://managertechnology.org/support/article/editing-mt-config-php/' )
+		__( 'https://managertechnology.com.co/pacmec/support/article/editing-mt-config-php/' )
 	) . '</p>';
 	$die .= '<p>' . sprintf(
 		/* translators: %s: mt-config.php */

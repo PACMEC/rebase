@@ -151,9 +151,9 @@ if ( current_user_can( 'install_themes' ) ) {
 		$help_install = '<p>' . __( 'Installing themes on Multisite can only be done from the Network Admin section.' ) . '</p>';
 	} else {
 		$help_install = '<p>' . sprintf(
-			/* translators: %s: https://managertechnology.org/themes/ */
+			/* translators: %s: https://managertechnology.com.co/pacmec/themes/ */
 			__( 'If you would like to see more themes to choose from, click on the &#8220;Add New&#8221; button and you will be able to browse or search for additional themes from the <a href="%s">paCMec Theme Directory</a>. Themes in the paCMec Theme Directory are designed and developed by third parties, and are compatible with the license paCMec uses. Oh, and they&#8217;re free!' ),
-			__( 'https://managertechnology.org/themes/' )
+			__( 'https://managertechnology.com.co/pacmec/themes/' )
 		) . '</p>';
 	}
 
@@ -198,14 +198,14 @@ if ( current_user_can( 'update_themes' ) && mt_is_auto_update_enabled_for_type( 
 		)
 	);
 
-	$help_sidebar_autoupdates = '<p>' . __( '<a href="https://managertechnology.org/support/article/plugins-themes-auto-updates/">Learn more: Auto-updates documentation</a>' ) . '</p>';
+	$help_sidebar_autoupdates = '<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/plugins-themes-auto-updates/">Learn more: Auto-updates documentation</a>' ) . '</p>';
 } // End if 'update_themes' && 'mt_is_auto_update_enabled_for_type'.
 
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/article/using-themes/">Documentation on Using Themes</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/using-themes/">Documentation on Using Themes</a>' ) . '</p>' .
 	$help_sidebar_autoupdates .
-	'<p>' . __( '<a href="https://managertechnology.org/support/">Support</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>'
 );
 
 if ( current_user_can( 'switch_themes' ) ) {

@@ -3,7 +3,7 @@
 ##
 ## Certificate data from Mozilla as of: Wed Jul 22 03:12:14 2020 GMT
 ## Includes a paCMec Modification - We include the 'legacy' 1024bit certificates
-## for backward compatibility. See https://core.trac.managertechnology.org/ticket/34935#comment:10
+## for backward compatibility. See https://core.trac.managertechnology.com.co/pacmec/ticket/34935#comment:10
 ##
 ## This is a bundle of X.509 certificates of public Certificate Authorities
 ## (CA). These were automatically extracted from Mozilla's root certificates

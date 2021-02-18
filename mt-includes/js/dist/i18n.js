@@ -956,7 +956,7 @@ var DEFAULT_LOCALE_DATA = {
  *
  * Retrieve the translation of text.
  *
- * @see https://developer.managertechnology.org/reference/functions/__/
+ * @see https://developer.managertechnology.com.co/pacmec/reference/functions/__/
  */
 
 /**
@@ -964,7 +964,7 @@ var DEFAULT_LOCALE_DATA = {
  *
  * Retrieve translated string with gettext context.
  *
- * @see https://developer.managertechnology.org/reference/functions/_x/
+ * @see https://developer.managertechnology.com.co/pacmec/reference/functions/_x/
  */
 
 /**
@@ -973,7 +973,7 @@ var DEFAULT_LOCALE_DATA = {
  * Translates and retrieves the singular or plural form based on the supplied
  * number.
  *
- * @see https://developer.managertechnology.org/reference/functions/_n/
+ * @see https://developer.managertechnology.com.co/pacmec/reference/functions/_n/
  */
 
 /**
@@ -982,7 +982,7 @@ var DEFAULT_LOCALE_DATA = {
  * Translates and retrieves the singular or plural form based on the supplied
  * number, with gettext context.
  *
- * @see https://developer.managertechnology.org/reference/functions/_nx/
+ * @see https://developer.managertechnology.com.co/pacmec/reference/functions/_nx/
  */
 
 /**
@@ -1266,7 +1266,7 @@ var default_i18n_setLocaleData = i18n.setLocaleData.bind(i18n);
 /**
  * Retrieve the translation of text.
  *
- * @see https://developer.managertechnology.org/reference/functions/__/
+ * @see https://developer.managertechnology.com.co/pacmec/reference/functions/__/
  *
  * @param {string} text     Text to translate.
  * @param {string} [domain] Domain to retrieve the translated text.
@@ -1278,7 +1278,7 @@ var default_i18n_ = i18n.__.bind(i18n);
 /**
  * Retrieve translated string with gettext context.
  *
- * @see https://developer.managertechnology.org/reference/functions/_x/
+ * @see https://developer.managertechnology.com.co/pacmec/reference/functions/_x/
  *
  * @param {string} text     Text to translate.
  * @param {string} context  Context information for the translators.
@@ -1292,7 +1292,7 @@ var default_i18n_x = i18n._x.bind(i18n);
  * Translates and retrieves the singular or plural form based on the supplied
  * number.
  *
- * @see https://developer.managertechnology.org/reference/functions/_n/
+ * @see https://developer.managertechnology.com.co/pacmec/reference/functions/_n/
  *
  * @param {string} single   The text to be used if the number is singular.
  * @param {string} plural   The text to be used if the number is plural.
@@ -1308,7 +1308,7 @@ var default_i18n_n = i18n._n.bind(i18n);
  * Translates and retrieves the singular or plural form based on the supplied
  * number, with gettext context.
  *
- * @see https://developer.managertechnology.org/reference/functions/_nx/
+ * @see https://developer.managertechnology.com.co/pacmec/reference/functions/_nx/
  *
  * @param {string} single   The text to be used if the number is singular.
  * @param {string} plural   The text to be used if the number is plural.

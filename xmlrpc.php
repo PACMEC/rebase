@@ -37,7 +37,7 @@ if ( isset( $_GET['rsd'] ) ) { // http://cyber.law.harvard.edu/blogs/gems/tech/r
 <rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
 	<service>
 		<engineName>paCMec</engineName>
-		<engineLink>https://managertechnology.org/</engineLink>
+		<engineLink>https://managertechnology.com.co/pacmec/</engineLink>
 		<homePageLink><?php bloginfo_rss( 'url' ); ?></homePageLink>
 		<apis>
 			<api name="paCMec" blogID="1" preferred="true" apiLink="<?php echo site_url( 'xmlrpc.php', 'rpc' ); ?>" />

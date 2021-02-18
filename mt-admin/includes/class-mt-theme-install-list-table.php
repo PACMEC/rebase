@@ -251,10 +251,10 @@ class MT_Theme_Install_List_Table extends MT_Themes_List_Table {
 	 *     @type string $version        Theme version, e.g. '1.1'.
 	 *     @type string $author         Theme author username, e.g. 'melchoyce'.
 	 *     @type string $preview_url    Preview URL, e.g. 'https://2021.managertechnology.net/'.
-	 *     @type string $screenshot_url Screenshot URL, e.g. 'https://managertechnology.org/themes/twentytwentyone/'.
+	 *     @type string $screenshot_url Screenshot URL, e.g. 'https://managertechnology.com.co/pacmec/themes/twentytwentyone/'.
 	 *     @type float  $rating         Rating score.
 	 *     @type int    $num_ratings    The number of ratings.
-	 *     @type string $homepage       Theme homepage, e.g. 'https://managertechnology.org/themes/twentytwentyone/'.
+	 *     @type string $homepage       Theme homepage, e.g. 'https://managertechnology.com.co/pacmec/themes/twentytwentyone/'.
 	 *     @type string $description    Theme description.
 	 *     @type string $download_link  Theme ZIP download URL.
 	 * }

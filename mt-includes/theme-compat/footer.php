@@ -25,7 +25,7 @@ _deprecated_file(
 			/* translators: 1: Blog name, 2: paCMec */
 			__( '%1$s is proudly powered by %2$s' ),
 			get_bloginfo( 'name' ),
-			'<a href="https://managertechnology.org/">paCMec</a>'
+			'<a href="https://managertechnology.com.co/pacmec/">paCMec</a>'
 		);
 		?>
 	</p>

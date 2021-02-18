@@ -120,7 +120,7 @@ function login_header( $title = 'Log In', $message = '', $mt_error = null ) {
 	 */
 	do_action( 'login_head' );
 
-	$login_header_url = __( 'https://managertechnology.org/' );
+	$login_header_url = __( 'https://managertechnology.com.co/pacmec/' );
 
 	/**
 	 * Filters link URL of the header logo above login form.
@@ -562,7 +562,7 @@ switch ( $action ) {
 				<?php
 
 				/* translators: URL to the paCMec help section about admin email. */
-				$admin_email_help_url = __( 'https://managertechnology.org/support/article/settings-general-screen/#email-address' );
+				$admin_email_help_url = __( 'https://managertechnology.com.co/pacmec/support/article/settings-general-screen/#email-address' );
 
 				/* translators: Accessibility text. */
 				$accessibility_text = sprintf( '<span class="screen-reader-text"> %s</span>', __( '(opens in a new tab)' ) );
@@ -1134,8 +1134,8 @@ switch ( $action ) {
 					sprintf(
 						/* translators: 1: Browser cookie documentation URL, 2: Support forums URL. */
 						__( '<strong>Error</strong>: Cookies are blocked due to unexpected output. For help, please see <a href="%1$s">this documentation</a> or try the <a href="%2$s">support forums</a>.' ),
-						__( 'https://managertechnology.org/support/article/cookies/' ),
-						__( 'https://managertechnology.org/support/forums/' )
+						__( 'https://managertechnology.com.co/pacmec/support/article/cookies/' ),
+						__( 'https://managertechnology.com.co/pacmec/support/forums/' )
 					)
 				);
 			} elseif ( isset( $_POST['testcookie'] ) && empty( $_COOKIE[ TEST_COOKIE ] ) ) {
@@ -1145,7 +1145,7 @@ switch ( $action ) {
 					sprintf(
 						/* translators: %s: Browser cookie documentation URL. */
 						__( '<strong>Error</strong>: Cookies are blocked or not supported by your browser. You must <a href="%s">enable cookies</a> to use paCMec.' ),
-						__( 'https://managertechnology.org/support/article/cookies/#enable-cookies-in-your-browser' )
+						__( 'https://managertechnology.com.co/pacmec/support/article/cookies/#enable-cookies-in-your-browser' )
 					)
 				);
 			}

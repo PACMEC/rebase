@@ -2,7 +2,7 @@
 /**
  * Implement a custom header for Twenty Thirteen
  *
- * @link https://codex.managertechnology.org/Custom_Headers
+ * @link https://codex.managertechnology.com.co/pacmec/Custom_Headers
  *
  * @package paCMec
  * @subpackage Twenty_Thirteen

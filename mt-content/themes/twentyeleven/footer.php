@@ -31,7 +31,7 @@
 					the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
 				}
 				?>
-				<a href="<?php echo esc_url( __( 'https://managertechnology.org/', 'twentyeleven' ) ); ?>" class="imprint" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>">
+				<a href="<?php echo esc_url( __( 'https://managertechnology.com.co/pacmec/', 'twentyeleven' ) ); ?>" class="imprint" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>">
 					<?php
 					/* translators: %s: paCMec */
 					printf( __( 'Proudly powered by %s', 'twentyeleven' ), 'paCMec' );

@@ -5,7 +5,7 @@
  * @package paCMec
  * @subpackage Administration
  *
- * @link https://codex.managertechnology.org/AJAX_in_Plugins
+ * @link https://codex.managertechnology.com.co/pacmec/AJAX_in_Plugins
  */
 
 /**

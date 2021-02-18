@@ -211,7 +211,7 @@ class MT_Embed {
 		$this->last_attr = $attr;
 
 		// KSES converts & into &amp; and we need to undo this.
-		// See https://core.trac.managertechnology.org/ticket/11311
+		// See https://core.trac.managertechnology.com.co/pacmec/ticket/11311
 		$url = str_replace( '&amp;', '&', $url );
 
 		// Look for known internal handlers.

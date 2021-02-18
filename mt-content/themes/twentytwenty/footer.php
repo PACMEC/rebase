@@ -4,7 +4,7 @@
  *
  * Contains the opening of the #site-footer div and all content after.
  *
- * @link https://developer.managertechnology.org/themes/basics/template-files/#template-partials
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/template-files/#template-partials
  *
  * @package paCMec
  * @subpackage Twenty_Twenty
@@ -29,7 +29,7 @@
 						</p><!-- .footer-copyright -->
 
 						<p class="powered-by-managertechnology">
-							<a href="<?php echo esc_url( __( 'https://managertechnology.org/', 'twentytwenty' ) ); ?>">
+							<a href="<?php echo esc_url( __( 'https://managertechnology.com.co/pacmec/', 'twentytwenty' ) ); ?>">
 								<?php _e( 'Powered by paCMec', 'twentytwenty' ); ?>
 							</a>
 						</p><!-- .powered-by-managertechnology -->

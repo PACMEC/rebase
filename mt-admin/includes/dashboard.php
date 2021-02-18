@@ -1237,7 +1237,7 @@ function mt_dashboard_events_news() {
 		<?php
 			printf(
 				'<a href="%1$s" target="_blank">%2$s <span class="screen-reader-text">%3$s</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a>',
-				'https://make.managertechnology.org/community/meetups-landing-page',
+				'https://make.managertechnology.com.co/pacmec/community/meetups-landing-page',
 				__( 'Meetups' ),
 				/* translators: Accessibility text. */
 				__( '(opens in a new tab)' )
@@ -1261,8 +1261,8 @@ function mt_dashboard_events_news() {
 		<?php
 			printf(
 				'<a href="%1$s" target="_blank">%2$s <span class="screen-reader-text">%3$s</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a>',
-				/* translators: If a Rosetta site exists (e.g. https://es.managertechnology.org/news/), then use that. Otherwise, leave untranslated. */
-				esc_url( _x( 'https://managertechnology.org/news/', 'Events and News dashboard widget' ) ),
+				/* translators: If a Rosetta site exists (e.g. https://es.managertechnology.com.co/pacmec/news/), then use that. Otherwise, leave untranslated. */
+				esc_url( _x( 'https://managertechnology.com.co/pacmec/news/', 'Events and News dashboard widget' ) ),
 				__( 'News' ),
 				/* translators: Accessibility text. */
 				__( '(opens in a new tab)' )
@@ -1405,7 +1405,7 @@ function mt_print_community_events_templates() {
 				printf(
 					/* translators: %s: Localized meetup organization documentation URL. */
 					__( 'Want more events? <a href="%s">Help organize the next one</a>!' ),
-					__( 'https://make.managertechnology.org/community/organize-event-landing-page/' )
+					__( 'https://make.managertechnology.com.co/pacmec/community/organize-event-landing-page/' )
 				);
 				?>
 			</li>
@@ -1421,7 +1421,7 @@ function mt_print_community_events_templates() {
 					/* translators: 1: The city the user searched for, 2: Meetup organization documentation URL. */
 					__( 'There aren&#8217;t any events scheduled near %1$s at the moment. Would you like to <a href="%2$s">organize a paCMec event</a>?' ),
 					'{{ data.location.description }}',
-					__( 'https://make.managertechnology.org/community/handbook/meetup-organizer/welcome/' )
+					__( 'https://make.managertechnology.com.co/pacmec/community/handbook/meetup-organizer/welcome/' )
 				);
 				?>
 
@@ -1430,7 +1430,7 @@ function mt_print_community_events_templates() {
 				printf(
 					/* translators: %s: Meetup organization documentation URL. */
 					__( 'There aren&#8217;t any events scheduled near you at the moment. Would you like to <a href="%s">organize a paCMec event</a>?' ),
-					__( 'https://make.managertechnology.org/community/handbook/meetup-organizer/welcome/' )
+					__( 'https://make.managertechnology.com.co/pacmec/community/handbook/meetup-organizer/welcome/' )
 				);
 				?>
 			<# } #>
@@ -1456,7 +1456,7 @@ function mt_dashboard_primary() {
 			 *
 			 * @param string $link The widget's primary link URL.
 			 */
-			'link'         => apply_filters( 'dashboard_primary_link', __( 'https://managertechnology.org/news/' ) ),
+			'link'         => apply_filters( 'dashboard_primary_link', __( 'https://managertechnology.com.co/pacmec/news/' ) ),
 
 			/**
 			 * Filters the primary feed URL for the 'paCMec Events and News' dashboard widget.
@@ -1465,7 +1465,7 @@ function mt_dashboard_primary() {
 			 *
 			 * @param string $url The widget's primary feed URL.
 			 */
-			'url'          => apply_filters( 'dashboard_primary_feed', __( 'https://managertechnology.org/news/feed/' ) ),
+			'url'          => apply_filters( 'dashboard_primary_feed', __( 'https://managertechnology.com.co/pacmec/news/feed/' ) ),
 
 			/**
 			 * Filters the primary link title for the 'paCMec Events and News' dashboard widget.
@@ -1489,7 +1489,7 @@ function mt_dashboard_primary() {
 			 *
 			 * @param string $link The widget's secondary link URL.
 			 */
-			'link'         => apply_filters( 'dashboard_secondary_link', __( 'https://planet.managertechnology.org/' ) ),
+			'link'         => apply_filters( 'dashboard_secondary_link', __( 'https://planet.managertechnology.com.co/pacmec/' ) ),
 
 			/**
 			 * Filters the secondary feed URL for the 'paCMec Events and News' dashboard widget.
@@ -1498,7 +1498,7 @@ function mt_dashboard_primary() {
 			 *
 			 * @param string $url The widget's secondary feed URL.
 			 */
-			'url'          => apply_filters( 'dashboard_secondary_feed', __( 'https://planet.managertechnology.org/feed/' ) ),
+			'url'          => apply_filters( 'dashboard_secondary_feed', __( 'https://planet.managertechnology.com.co/pacmec/feed/' ) ),
 
 			/**
 			 * Filters the secondary link title for the 'paCMec Events and News' dashboard widget.
@@ -1644,7 +1644,7 @@ function mt_dashboard_browser_nag() {
 
 		$browsehappy = 'https://browsehappy.com/';
 		$locale      = get_user_locale();
-		if ( 'en_US' !== $locale ) {
+		if ( 'es_CO' !== $locale ) {
 			$browsehappy = add_query_arg( 'locale', $locale, $browsehappy );
 		}
 
@@ -1707,7 +1707,7 @@ function mt_check_browser_version() {
 		// Include an unmodified $mt_version.
 		require ABSPATH . MTINC . '/version.php';
 
-		$url     = 'http://api.managertechnology.org/core/browse-happy/1.1/';
+		$url     = 'http://api.managertechnology.com.co/pacmec/core/browse-happy/1.1/';
 		$options = array(
 			'body'       => array( 'useragent' => $_SERVER['HTTP_USER_AGENT'] ),
 			'user-agent' => 'paCMec/' . $mt_version . '; ' . home_url( '/' ),
@@ -1967,7 +1967,7 @@ function mt_welcome_panel() {
 		<?php if ( current_user_can( 'manage_options' ) ) : ?>
 			<li><?php printf( '<a href="%s" class="welcome-icon welcome-comments">' . __( 'Turn comments on or off' ) . '</a>', admin_url( 'options-discussion.php' ) ); ?></li>
 		<?php endif; ?>
-			<li><?php printf( '<a href="%s" class="welcome-icon welcome-learn-more">' . __( 'Learn more about getting started' ) . '</a>', __( 'https://managertechnology.org/support/article/first-steps-with-managertechnology/' ) ); ?></li>
+			<li><?php printf( '<a href="%s" class="welcome-icon welcome-learn-more">' . __( 'Learn more about getting started' ) . '</a>', __( 'https://managertechnology.com.co/pacmec/support/article/first-steps-with-managertechnology/' ) ); ?></li>
 		</ul>
 	</div>
 	</div>

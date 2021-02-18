@@ -186,7 +186,7 @@ class Twenty_Twenty_One_Dark_Mode {
 		$description .= sprintf(
 			/* translators: %s: Twenty Twenty-One support article URL. */
 			__( 'Dark Mode is a device setting. If a visitor to your site requests it, your site will be shown with a dark background and light text. <a href="%s">Learn more about Dark Mode.</a>', 'twentytwentyone' ),
-			esc_url( __( 'https://managertechnology.org/support/article/twenty-twenty-one/#dark-mode-support', 'twentytwentyone' ) )
+			esc_url( __( 'https://managertechnology.com.co/pacmec/support/article/twenty-twenty-one/#dark-mode-support', 'twentytwentyone' ) )
 		);
 		$description .= '</p>';
 		$description .= '<p>' . __( 'Dark Mode can also be turned on and off with a button that you can find in the bottom right corner of the page.', 'twentytwentyone' ) . '</p>';

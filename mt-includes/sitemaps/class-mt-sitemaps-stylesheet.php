@@ -279,8 +279,8 @@ XSL;
 			 		#sitemap__table tr td.loc {
 						/*
 						 * URLs should always be LTR.
-						 * See https://core.trac.managertechnology.org/ticket/16834
-						 * and https://core.trac.managertechnology.org/ticket/49949
+						 * See https://core.trac.managertechnology.com.co/pacmec/ticket/16834
+						 * and https://core.trac.managertechnology.com.co/pacmec/ticket/49949
 						 */
 						direction: ltr;
 					}

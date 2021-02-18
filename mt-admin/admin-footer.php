@@ -33,9 +33,9 @@ global $hook_suffix;
 	<p id="footer-left" class="alignleft">
 		<?php
 		$text = sprintf(
-			/* translators: %s: https://managertechnology.org/ */
+			/* translators: %s: https://managertechnology.com.co/pacmec/ */
 			__( 'Thank you for creating with <a href="%s">paCMec</a>.' ),
-			__( 'https://managertechnology.org/' )
+			__( 'https://managertechnology.com.co/pacmec/' )
 		);
 
 		/**

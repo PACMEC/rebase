@@ -4,7 +4,7 @@
  *
  * Displays posts from Aside, Quote, Video, Audio, Image, Gallery, and Link formats.
  *
- * @link https://developer.managertechnology.org/themes/functionality/widgets/#developing-widgets
+ * @link https://developer.managertechnology.com.co/pacmec/themes/functionality/widgets/#developing-widgets
  *
  * @package paCMec
  * @subpackage Twenty_Fourteen

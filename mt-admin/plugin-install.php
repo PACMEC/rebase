@@ -84,9 +84,9 @@ get_current_screen()->add_help_tab(
 		'title'   => __( 'Overview' ),
 		'content' =>
 				'<p>' . sprintf(
-					/* translators: %s: https://managertechnology.org/plugins/ */
+					/* translators: %s: https://managertechnology.com.co/pacmec/plugins/ */
 					__( 'Plugins hook into paCMec to extend its functionality with custom features. Plugins are developed independently from the core paCMec application by thousands of developers all over the world. All plugins in the official <a href="%s">paCMec Plugin Directory</a> are compatible with the license paCMec uses.' ),
-					__( 'https://managertechnology.org/plugins/' )
+					__( 'https://managertechnology.com.co/pacmec/plugins/' )
 				) . '</p>' .
 				'<p>' . __( 'You can find new plugins to install by searching or browsing the directory right here in your own Plugins section.' ) . ' <span id="live-search-desc" class="hide-if-no-js">' . __( 'The search results will be updated as you type.' ) . '</span></p>',
 
@@ -106,8 +106,8 @@ get_current_screen()->add_help_tab(
 
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/article/plugins-add-new-screen/">Documentation on Installing Plugins</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/">Support</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/plugins-add-new-screen/">Documentation on Installing Plugins</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>'
 );
 
 get_current_screen()->set_screen_reader_content(

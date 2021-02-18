@@ -363,7 +363,7 @@ if ( ! function_exists( 'mt_mail' ) ) :
 		 * Some hosts will block outgoing mail from this address if it doesn't exist,
 		 * but there's no easy alternative. Defaulting to admin_email might appear to be
 		 * another option, but some hosts may refuse to relay mail from an unknown domain.
-		 * See https://core.trac.managertechnology.org/ticket/5007.
+		 * See https://core.trac.managertechnology.com.co/pacmec/ticket/5007.
 		 */
 		if ( ! isset( $from_email ) ) {
 			// Get the site domain and get rid of www.
@@ -1050,7 +1050,7 @@ if ( ! function_exists( 'is_user_logged_in' ) ) :
 	 * Determines whether the current visitor is a logged in user.
 	 *
 	 * For more information on this and similar theme functions, check out
-	 * the {@link https://developer.managertechnology.org/themes/basics/conditional-tags/
+	 * the {@link https://developer.managertechnology.com.co/pacmec/themes/basics/conditional-tags/
 	 * Conditional Tags} article in the Theme Developer Handbook.
 	 *
 	 * @since 2.0.0
@@ -2253,7 +2253,7 @@ if ( ! function_exists( 'mt_salt' ) ) :
 	 * The secret keys in mt-config.php should be updated to strong, random keys to maximize
 	 * security. Below is an example of how the secret key constants are defined.
 	 * Do not paste this example directly into mt-config.php. Instead, have a
-	 * {@link https://api.managertechnology.org/secret-key/1.1/salt/ secret key created} just
+	 * {@link https://api.managertechnology.com.co/pacmec/secret-key/1.1/salt/ secret key created} just
 	 * for you.
 	 *
 	 *     define('AUTH_KEY',         ' Xakm<o xQy rw4EMsLKM-?!T+,PFF})H4lzcW57AF0U@N@< >M%G4Yt>f`z]MON');
@@ -2270,7 +2270,7 @@ if ( ! function_exists( 'mt_salt' ) ) :
 	 *
 	 * @since 2.5.0
 	 *
-	 * @link https://api.managertechnology.org/secret-key/1.1/salt/ Create secrets for mt-config.php
+	 * @link https://api.managertechnology.com.co/pacmec/secret-key/1.1/salt/ Create secrets for mt-config.php
 	 *
 	 * @param string $scheme Authentication scheme (auth, secure_auth, logged_in, nonce)
 	 * @return string Salt value

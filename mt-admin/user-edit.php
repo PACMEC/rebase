@@ -68,8 +68,8 @@ get_current_screen()->add_help_tab(
 
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/article/users-your-profile-screen/">Documentation on User Profiles</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/">Support</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/users-your-profile-screen/">Documentation on User Profiles</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>'
 );
 
 $mt_http_referer = remove_query_arg( array( 'update', 'delete_count', 'user_id' ), $mt_http_referer );
@@ -324,7 +324,7 @@ switch ( $action ) {
 				<input type="checkbox" name="comment_shortcuts" id="comment_shortcuts" value="true" <?php checked( 'true', $profileuser->comment_shortcuts ); ?> />
 				<?php _e( 'Enable keyboard shortcuts for comment moderation.' ); ?>
 			</label>
-			<?php _e( '<a href="https://managertechnology.org/support/article/keyboard-shortcuts/" target="_blank">More information</a>' ); ?>
+			<?php _e( '<a href="https://managertechnology.com.co/pacmec/support/article/keyboard-shortcuts/" target="_blank">More information</a>' ); ?>
 		</td>
 	</tr>
 		<?php endif; ?>
@@ -352,7 +352,7 @@ switch ( $action ) {
 			<?php
 				$user_locale = $profileuser->locale;
 
-			if ( 'en_US' === $user_locale ) {
+			if ( 'es_CO' === $user_locale ) {
 				$user_locale = '';
 			} elseif ( '' === $user_locale || ! in_array( $user_locale, $languages, true ) ) {
 				$user_locale = 'site-default';

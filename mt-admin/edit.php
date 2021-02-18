@@ -281,8 +281,8 @@ if ( 'post' === $post_type ) {
 
 	get_current_screen()->set_help_sidebar(
 		'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-		'<p>' . __( '<a href="https://managertechnology.org/support/article/posts-screen/">Documentation on Managing Posts</a>' ) . '</p>' .
-		'<p>' . __( '<a href="https://managertechnology.org/support/">Support</a>' ) . '</p>'
+		'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/posts-screen/">Documentation on Managing Posts</a>' ) . '</p>' .
+		'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>'
 	);
 
 } elseif ( 'page' === $post_type ) {
@@ -306,8 +306,8 @@ if ( 'post' === $post_type ) {
 
 	get_current_screen()->set_help_sidebar(
 		'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-		'<p>' . __( '<a href="https://managertechnology.org/support/article/pages-screen/">Documentation on Managing Pages</a>' ) . '</p>' .
-		'<p>' . __( '<a href="https://managertechnology.org/support/">Support</a>' ) . '</p>'
+		'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/pages-screen/">Documentation on Managing Pages</a>' ) . '</p>' .
+		'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>'
 	);
 
 }

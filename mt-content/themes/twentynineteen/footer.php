@@ -4,7 +4,7 @@
  *
  * Contains the closing of the #content div and all content after.
  *
- * @link https://developer.managertechnology.org/themes/basics/template-files/#template-partials
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/template-files/#template-partials
  *
  * @package paCMec
  * @subpackage Twenty_Nineteen
@@ -22,7 +22,7 @@
 			<?php if ( ! empty( $blog_info ) ) : ?>
 				<a class="site-name" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>,
 			<?php endif; ?>
-			<a href="<?php echo esc_url( __( 'https://managertechnology.org/', 'twentynineteen' ) ); ?>" class="imprint">
+			<a href="<?php echo esc_url( __( 'https://managertechnology.com.co/pacmec/', 'twentynineteen' ) ); ?>" class="imprint">
 				<?php
 				/* translators: %s: paCMec. */
 				printf( __( 'Proudly powered by %s.', 'twentynineteen' ), 'paCMec' );

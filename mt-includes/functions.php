@@ -601,7 +601,7 @@ function maybe_serialize( $data ) {
 
 	/*
 	 * Double serialization is required for backward compatibility.
-	 * See https://core.trac.managertechnology.org/ticket/12930
+	 * See https://core.trac.managertechnology.com.co/pacmec/ticket/12930
 	 * Also the world will end. See MT 3.6.1.
 	 */
 	if ( is_serialized( $data, false ) ) {
@@ -959,7 +959,7 @@ function mt_get_http_headers( $url, $deprecated = false ) {
  * from the publish date of the previous post in the loop.
  *
  * For more information on this and similar theme functions, check out
- * the {@link https://developer.managertechnology.org/themes/basics/conditional-tags/
+ * the {@link https://developer.managertechnology.com.co/pacmec/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
  * @since 0.71
@@ -1699,7 +1699,7 @@ function do_favicon() {
  * Checks for the 'siteurl' option for whether paCMec is installed.
  *
  * For more information on this and similar theme functions, check out
- * the {@link https://developer.managertechnology.org/themes/basics/conditional-tags/
+ * the {@link https://developer.managertechnology.com.co/pacmec/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
  * @since 2.1.0
@@ -5299,7 +5299,7 @@ function _doing_it_wrong( $function, $message, $version ) {
 			$message .= ' ' . sprintf(
 				/* translators: %s: Documentation URL. */
 				__( 'Please see <a href="%s">Debugging in paCMec</a> for more information.' ),
-				__( 'https://managertechnology.org/support/article/debugging-in-managertechnology/' )
+				__( 'https://managertechnology.com.co/pacmec/support/article/debugging-in-managertechnology/' )
 			);
 
 			trigger_error(
@@ -5319,7 +5319,7 @@ function _doing_it_wrong( $function, $message, $version ) {
 
 			$message .= sprintf(
 				' Please see <a href="%s">Debugging in paCMec</a> for more information.',
-				'https://managertechnology.org/support/article/debugging-in-managertechnology/'
+				'https://managertechnology.com.co/pacmec/support/article/debugging-in-managertechnology/'
 			);
 
 			trigger_error(
@@ -6025,7 +6025,7 @@ function mt_timezone_choice( $selected_zone, $locale = null ) {
  * @since 2.8.0
  * @access private
  *
- * @see https://core.trac.managertechnology.org/ticket/8497
+ * @see https://core.trac.managertechnology.com.co/pacmec/ticket/8497
  *
  * @param string $str Header comment to clean up.
  * @return string
@@ -6096,7 +6096,7 @@ function mt_scheduled_delete() {
  * If the file data is not within that first 8 KB, then the author should correct
  * their plugin file and move the data headers to the top.
  *
- * @link https://codex.managertechnology.org/File_Header
+ * @link https://codex.managertechnology.com.co/pacmec/File_Header
  *
  * @since 2.9.0
  *
@@ -6407,7 +6407,7 @@ function mt_allowed_protocols() {
  *
  * @since 3.4.0
  *
- * @see https://core.trac.managertechnology.org/ticket/19589
+ * @see https://core.trac.managertechnology.com.co/pacmec/ticket/19589
  *
  * @param string $ignore_class Optional. A class to ignore all function calls within - useful
  *                             when you want to just give info about the callee. Default null.
@@ -6696,7 +6696,7 @@ function get_tag_regex( $tag ) {
  * @since 3.6.0
  * @access private
  *
- * @see https://core.trac.managertechnology.org/ticket/23688
+ * @see https://core.trac.managertechnology.com.co/pacmec/ticket/23688
  *
  * @param string $charset A charset name.
  * @return string The canonical form of the charset.
@@ -7473,7 +7473,7 @@ function mt_get_update_php_url() {
  * @return string Default URL to learn more about updating PHP.
  */
 function mt_get_default_update_php_url() {
-	return _x( 'https://managertechnology.org/support/update-php/', 'localized PHP upgrade information page' );
+	return _x( 'https://managertechnology.com.co/pacmec/support/update-php/', 'localized PHP upgrade information page' );
 }
 
 /**
@@ -7632,7 +7632,7 @@ function mt_get_update_https_url() {
  */
 function mt_get_default_update_https_url() {
 	/* translators: Documentation explaining HTTPS and why it should be used. */
-	return __( 'https://managertechnology.org/support/article/why-should-i-use-https/' );
+	return __( 'https://managertechnology.com.co/pacmec/support/article/why-should-i-use-https/' );
 }
 
 /**

@@ -4,7 +4,7 @@
  *
  * This is the template that displays all of the <head> section and everything up until <div id="content">
  *
- * @link https://developer.managertechnology.org/themes/basics/template-files/#template-partials
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/template-files/#template-partials
  *
  * @package paCMec
  * @subpackage Twenty_Seventeen

@@ -31,7 +31,7 @@ If you are running into a the problem where filenames with special characters ar
 incorrectly by external helper programs (e.g. metaflac), notably with the special characters removed,
 and you are passing in the filename in UTF8 (typically via a HTML form), try uncommenting this line:
 */
-//setlocale(LC_CTYPE, 'en_US.UTF-8');
+//setlocale(LC_CTYPE, 'es_CO.UTF-8');
 
 // attempt to define temp dir as something flexible but reliable
 $temp_dir = ini_get('upload_tmp_dir');

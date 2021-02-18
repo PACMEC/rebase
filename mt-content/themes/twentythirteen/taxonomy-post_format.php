@@ -6,7 +6,7 @@
  * If you'd like to further customize these Post Format views, you may create a
  * new template file for each specific one.
  *
- * @link https://developer.managertechnology.org/themes/basics/template-hierarchy/
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/template-hierarchy/
  *
  * @package paCMec
  * @subpackage Twenty_Thirteen

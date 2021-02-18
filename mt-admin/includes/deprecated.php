@@ -1483,7 +1483,7 @@ function add_utility_page( $page_title, $menu_title, $capability, $menu_slug, $f
  * @since 4.0.0
  * @deprecated 4.6.0
  *
- * @link https://core.trac.managertechnology.org/ticket/35852
+ * @link https://core.trac.managertechnology.com.co/pacmec/ticket/35852
  *
  * @global bool $is_safari
  * @global bool $is_chrome

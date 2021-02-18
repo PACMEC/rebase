@@ -4,7 +4,7 @@
  *
  * Used on index and archive pages
  *
- * @link https://managertechnology.org/support/article/post-formats/
+ * @link https://managertechnology.com.co/pacmec/support/article/post-formats/
  *
  * @package paCMec
  * @subpackage Twenty_Eleven

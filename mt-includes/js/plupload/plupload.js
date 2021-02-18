@@ -22,7 +22,7 @@
 
 /**
  * Modified for paCMec, Silverlight and Flash runtimes support was removed.
- * See https://core.trac.managertechnology.org/ticket/41755.
+ * See https://core.trac.managertechnology.com.co/pacmec/ticket/41755.
  */
 
 /*global mOxie:true */

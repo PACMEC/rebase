@@ -53,7 +53,7 @@ function get_postdata($postid) {
  *
  * Use The Loop instead.
  *
- * @link https://developer.managertechnology.org/themes/basics/the-loop/
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/the-loop/
  *
  * @since 1.0.1
  * @deprecated 1.5.0
@@ -1301,7 +1301,7 @@ function get_category_children( $id, $before = '/', $after = '', $visited = arra
  * @deprecated 4.0.0 Use get_terms()
  * @see get_terms()
  *
- * @link https://developer.managertechnology.org/reference/functions/get_all_category_ids/
+ * @link https://developer.managertechnology.com.co/pacmec/reference/functions/get_all_category_ids/
  *
  * @return int[] List of all of the category IDs.
  */
@@ -2535,7 +2535,7 @@ function is_term( $term, $taxonomy = '', $parent = 0 ) {
  * Use global $plugin_page and/or get_plugin_page_hookname() hooks.
  *
  * For more information on this and similar theme functions, check out
- * the {@link https://developer.managertechnology.org/themes/basics/conditional-tags/
+ * the {@link https://developer.managertechnology.com.co/pacmec/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
  * @since 1.5.0
@@ -3745,7 +3745,7 @@ function get_comments_popup_template() {
  * Determines whether the current URL is within the comments popup window.
  *
  * For more information on this and similar theme functions, check out
- * the {@link https://developer.managertechnology.org/themes/basics/conditional-tags/
+ * the {@link https://developer.managertechnology.com.co/pacmec/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
  * @since 1.5.0

@@ -29,8 +29,8 @@ get_current_screen()->add_help_tab(
 
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/article/network-admin-sites-screen/">Documentation on Site Management</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/forum/multisite/">Support Forums</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/network-admin-sites-screen/">Documentation on Site Management</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/forum/multisite/">Support Forums</a>' ) . '</p>'
 );
 
 if ( isset( $_REQUEST['action'] ) && 'add-site' === $_REQUEST['action'] ) {
@@ -72,7 +72,7 @@ if ( isset( $_REQUEST['action'] ) && 'add-site' === $_REQUEST['action'] ) {
 	// Handle translation installation for the new site.
 	if ( isset( $_POST['MTLANG'] ) ) {
 		if ( '' === $_POST['MTLANG'] ) {
-			$meta['MTLANG'] = ''; // en_US
+			$meta['MTLANG'] = ''; // es_CO
 		} elseif ( in_array( $_POST['MTLANG'], get_available_languages(), true ) ) {
 			$meta['MTLANG'] = $_POST['MTLANG'];
 		} elseif ( current_user_can( 'install_languages' ) && mt_can_install_language_pack() ) {

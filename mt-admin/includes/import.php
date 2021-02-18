@@ -149,7 +149,7 @@ function mt_get_popular_importers() {
 				'locale'  => $locale,
 				'version' => $mt_version,
 			),
-			'http://api.managertechnology.org/core/importers/1.1/'
+			'http://api.managertechnology.com.co/pacmec/core/importers/1.1/'
 		);
 		$options = array( 'user-agent' => 'paCMec/' . $mt_version . '; ' . home_url( '/' ) );
 

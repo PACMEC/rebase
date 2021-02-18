@@ -67,7 +67,7 @@ function get_locale() {
 	}
 
 	if ( empty( $locale ) ) {
-		$locale = 'en_US';
+		$locale = 'es_CO';
 	}
 
 	/**
@@ -1526,7 +1526,7 @@ function mt_dropdown_languages( $args = array() ) {
 	}
 
 	// English (United States) uses an empty string for the value attribute.
-	if ( 'en_US' === $parsed_args['selected'] ) {
+	if ( 'es_CO' === $parsed_args['selected'] ) {
 		$parsed_args['selected'] = '';
 	}
 
@@ -1632,7 +1632,7 @@ function mt_dropdown_languages( $args = array() ) {
  * Determines whether the current locale is right-to-left (RTL).
  *
  * For more information on this and similar theme functions, check out
- * the {@link https://developer.managertechnology.org/themes/basics/conditional-tags/
+ * the {@link https://developer.managertechnology.com.co/pacmec/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
  * @since 3.0.0

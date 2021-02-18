@@ -60,7 +60,7 @@ mt_localize_script(
 			'error'               => sprintf(
 				/* translators: %s: Support forums URL. */
 				__( 'An unexpected error occurred. Something may be wrong with paCMec.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="%s">support forums</a>.' ),
-				__( 'https://managertechnology.org/support/forums/' )
+				__( 'https://managertechnology.com.co/pacmec/support/forums/' )
 			),
 			'tryAgain'            => __( 'Try Again' ),
 			/* translators: %d: Number of themes. */
@@ -96,7 +96,7 @@ $help_overview =
 	'<p>' . sprintf(
 		/* translators: %s: Theme Directory URL. */
 		__( 'You can find additional themes for your site by using the Theme Browser/Installer on this screen, which will display themes from the <a href="%s">paCMec Theme Directory</a>. These themes are designed and developed by third parties, are available free of charge, and are compatible with the license paCMec uses.' ),
-		__( 'https://managertechnology.org/themes/' )
+		__( 'https://managertechnology.com.co/pacmec/themes/' )
 	) . '</p>' .
 	'<p>' . __( 'You can Search for themes by keyword, author, or tag, or can get more specific and search by criteria listed in the feature filter.' ) . ' <span id="live-search-desc">' . __( 'The search results will be updated as you type.' ) . '</span></p>' .
 	'<p>' . __( 'Alternately, you can browse the themes that are Featured, Popular, or Latest. When you find a theme you like, you can preview it or install it.' ) . '</p>' .
@@ -128,8 +128,8 @@ get_current_screen()->add_help_tab(
 
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/article/using-themes/#adding-new-themes">Documentation on Adding New Themes</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/">Support</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/using-themes/#adding-new-themes">Documentation on Adding New Themes</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>'
 );
 
 require_once ABSPATH . 'mt-admin/admin-header.php';

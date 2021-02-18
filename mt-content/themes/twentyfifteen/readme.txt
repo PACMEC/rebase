@@ -18,14 +18,14 @@ Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty 
 * Post Formats
 * The GPL v2.0 or later license. :) Use it to make something cool.
 
-For more information about Twenty Fifteen please go to https://managertechnology.org/support/article/twenty-fifteen/.
+For more information about Twenty Fifteen please go to https://managertechnology.com.co/pacmec/support/article/twenty-fifteen/.
 
 == Installation ==
 
 1. In your admin panel, go to Appearance -> Themes and click the 'Add New' button.
 2. Type in Twenty Fifteen in the search form and press the 'Enter' key on your keyboard.
 3. Click on the 'Activate' button to use your new theme right away.
-4. Go to https://managertechnology.org/support/article/twenty-fifteen/ for a guide on how to customize this theme.
+4. Go to https://managertechnology.com.co/pacmec/support/article/twenty-fifteen/ for a guide on how to customize this theme.
 5. Navigate to Appearance > Customize in your admin panel and customize to taste.
 
 == Copyright ==
@@ -58,92 +58,92 @@ Source: http://www.genericons.com
 = 2.8 =
 * Released: December 8, 2020
 
-https://codex.managertechnology.org/Twenty_Fifteen_Theme_Changelog#Version_2.8
+https://codex.managertechnology.com.co/pacmec/Twenty_Fifteen_Theme_Changelog#Version_2.8
 
 = 2.7 =
 * Released: August 11, 2020
 
-https://codex.managertechnology.org/Twenty_Fifteen_Theme_Changelog#Version_2.7
+https://codex.managertechnology.com.co/pacmec/Twenty_Fifteen_Theme_Changelog#Version_2.7
 
 = 2.6 =
 * Released: March 31, 2020
 
-https://codex.managertechnology.org/Twenty_Fifteen_Theme_Changelog#Version_2.6
+https://codex.managertechnology.com.co/pacmec/Twenty_Fifteen_Theme_Changelog#Version_2.6
 
 = 2.5 =
 * Released: May 7, 2019
 
-https://codex.managertechnology.org/Twenty_Fifteen_Theme_Changelog#Version_2.5
+https://codex.managertechnology.com.co/pacmec/Twenty_Fifteen_Theme_Changelog#Version_2.5
 
 = 2.4 =
 * Released: February 21, 2019
 
-https://codex.managertechnology.org/Twenty_Fifteen_Theme_Changelog#Version_2.4
+https://codex.managertechnology.com.co/pacmec/Twenty_Fifteen_Theme_Changelog#Version_2.4
 
 = 2.3 =
 * Released: January 9, 2019
 
-https://codex.managertechnology.org/Twenty_Fifteen_Theme_Changelog#Version_2.3
+https://codex.managertechnology.com.co/pacmec/Twenty_Fifteen_Theme_Changelog#Version_2.3
 
 = 2.2 =
 * Released: December 19, 2018
 
-https://codex.managertechnology.org/Twenty_Fifteen_Theme_Changelog#Version_2.2
+https://codex.managertechnology.com.co/pacmec/Twenty_Fifteen_Theme_Changelog#Version_2.2
 
 = 2.1 =
 * Released: December 6, 2018
 
-https://codex.managertechnology.org/Twenty_Fifteen_Theme_Changelog#Version_2.1
+https://codex.managertechnology.com.co/pacmec/Twenty_Fifteen_Theme_Changelog#Version_2.1
 
 = 2.0 =
 * Released: May 17, 2018
 
-https://codex.managertechnology.org/Twenty_Fifteen_Theme_Changelog#Version_2.0
+https://codex.managertechnology.com.co/pacmec/Twenty_Fifteen_Theme_Changelog#Version_2.0
 
 = 1.9 =
 * Released: November 14, 2017
 
-https://codex.managertechnology.org/Twenty_Fifteen_Theme_Changelog#Version_1.9
+https://codex.managertechnology.com.co/pacmec/Twenty_Fifteen_Theme_Changelog#Version_1.9
 
 = 1.8 =
 * Released: June 8, 2017
 
-https://codex.managertechnology.org/Twenty_Fifteen_Theme_Changelog#Version_1.8
+https://codex.managertechnology.com.co/pacmec/Twenty_Fifteen_Theme_Changelog#Version_1.8
 
 = 1.7 =
 * Released: December 6, 2016
 
-https://codex.managertechnology.org/Twenty_Fifteen_Theme_Changelog#Version_1.7
+https://codex.managertechnology.com.co/pacmec/Twenty_Fifteen_Theme_Changelog#Version_1.7
 
 = 1.6 =
 * Released: August 15, 2016
 
-https://codex.managertechnology.org/Twenty_Fifteen_Theme_Changelog#Version_1.6
+https://codex.managertechnology.com.co/pacmec/Twenty_Fifteen_Theme_Changelog#Version_1.6
 
 = 1.5 =
 * Released: April 12, 2016
 
-https://codex.managertechnology.org/Twenty_Fifteen_Theme_Changelog#Version_1.5
+https://codex.managertechnology.com.co/pacmec/Twenty_Fifteen_Theme_Changelog#Version_1.5
 
 = 1.4 =
 * Released: December 8, 2015
 
-https://codex.managertechnology.org/Twenty_Fifteen_Theme_Changelog#Version_1.4
+https://codex.managertechnology.com.co/pacmec/Twenty_Fifteen_Theme_Changelog#Version_1.4
 
 = 1.3 =
 * Released: August 18, 2015
 
-https://codex.managertechnology.org/Twenty_Fifteen_Theme_Changelog#Version_1.3
+https://codex.managertechnology.com.co/pacmec/Twenty_Fifteen_Theme_Changelog#Version_1.3
 
 = 1.2 =
 * Released: May 6, 2015
 
-https://codex.managertechnology.org/Twenty_Fifteen_Theme_Changelog#Version_1.2
+https://codex.managertechnology.com.co/pacmec/Twenty_Fifteen_Theme_Changelog#Version_1.2
 
 = 1.1 =
 * Released: April 23, 2015
 
-https://codex.managertechnology.org/Twenty_Fifteen_Theme_Changelog#Version_1.1
+https://codex.managertechnology.com.co/pacmec/Twenty_Fifteen_Theme_Changelog#Version_1.1
 
 = 1.0 =
 * Released: December 18, 2014

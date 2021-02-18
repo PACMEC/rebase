@@ -117,7 +117,7 @@ function edit_user( $user_id = 0 ) {
 		if ( 'site-default' === $locale ) {
 			$locale = '';
 		} elseif ( '' === $locale ) {
-			$locale = 'en_US';
+			$locale = 'es_CO';
 		} elseif ( ! in_array( $locale, get_available_languages(), true ) ) {
 			$locale = '';
 		}

@@ -4,8 +4,8 @@
  *
  * Used any time that get_search_form() is called.
  *
- * @link https://developer.managertechnology.org/reference/functions/mt_unique_id/
- * @link https://developer.managertechnology.org/reference/functions/get_search_form/
+ * @link https://developer.managertechnology.com.co/pacmec/reference/functions/mt_unique_id/
+ * @link https://developer.managertechnology.com.co/pacmec/reference/functions/get_search_form/
  *
  * @package paCMec
  * @subpackage Twenty_Twenty_One

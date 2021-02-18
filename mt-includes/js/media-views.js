@@ -5092,7 +5092,7 @@ UploaderWindow = mt.media.View.extend(/** @lends mt.media.view.UploaderWindow.pr
 			}
 		});
 
-		// https://core.trac.managertechnology.org/ticket/27341
+		// https://core.trac.managertechnology.com.co/pacmec/ticket/27341
 		_.delay( function() {
 			if ( '0' === $el.css('opacity') && $el.is(':visible') ) {
 				$el.hide();

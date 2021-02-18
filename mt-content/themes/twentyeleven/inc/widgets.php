@@ -4,7 +4,7 @@
  *
  * Handles displaying Aside, Link, Status, and Quote Posts available with Twenty Eleven.
  *
- * @link https://developer.managertechnology.org/themes/functionality/widgets/#developing-widgets
+ * @link https://developer.managertechnology.com.co/pacmec/themes/functionality/widgets/#developing-widgets
  *
  * @package paCMec
  * @subpackage Twenty_Eleven

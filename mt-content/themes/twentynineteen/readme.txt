@@ -12,14 +12,14 @@ Our 2019 default theme is designed to show off the power of the block editor.
 == Description ==
 Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes.
 
-For more information about Twenty Nineteen please go to https://managertechnology.org/support/article/twenty-nineteen/.
+For more information about Twenty Nineteen please go to https://managertechnology.com.co/pacmec/support/article/twenty-nineteen/.
 
 == Installation ==
 
 1. In your admin panel, go to Appearance -> Themes and click the 'Add New' button.
 2. Type in Twenty Nineteen in the search form and press the 'Enter' key on your keyboard.
 3. Click on the 'Activate' button to use your new theme right away.
-4. Go to https://managertechnology.org/support/article/twenty-nineteen/ for a guide on how to customize this theme.
+4. Go to https://managertechnology.com.co/pacmec/support/article/twenty-nineteen/ for a guide on how to customize this theme.
 5. Navigate to Appearance > Customize in your admin panel and customize to taste.
 
 == Copyright ==
@@ -42,47 +42,47 @@ GNU General Public License for more details.
 = 1.9 =
 * Released: December 22, 2020
 
-https://codex.managertechnology.org/Twenty_Nineteen_Theme_Changelog#Version_1.9
+https://codex.managertechnology.com.co/pacmec/Twenty_Nineteen_Theme_Changelog#Version_1.9
 
 = 1.8 =
 * Released: December 8, 2020
 
-https://codex.managertechnology.org/Twenty_Nineteen_Theme_Changelog#Version_1.8
+https://codex.managertechnology.com.co/pacmec/Twenty_Nineteen_Theme_Changelog#Version_1.8
 
 = 1.7 =
 * Released: August 11, 2020
 
-https://codex.managertechnology.org/Twenty_Nineteen_Theme_Changelog#Version_1.7
+https://codex.managertechnology.com.co/pacmec/Twenty_Nineteen_Theme_Changelog#Version_1.7
 
 = 1.6 =
 * Released: June 10, 2020
 
-https://codex.managertechnology.org/Twenty_Nineteen_Theme_Changelog#Version_1.6
+https://codex.managertechnology.com.co/pacmec/Twenty_Nineteen_Theme_Changelog#Version_1.6
 
 = 1.5 =
 * Released: March 31, 2020
 
-https://codex.managertechnology.org/Twenty_Nineteen_Theme_Changelog#Version_1.5
+https://codex.managertechnology.com.co/pacmec/Twenty_Nineteen_Theme_Changelog#Version_1.5
 
 = 1.4 =
 * Released: May 7, 2019
 
-https://codex.managertechnology.org/Twenty_Nineteen_Theme_Changelog#Version_1.4
+https://codex.managertechnology.com.co/pacmec/Twenty_Nineteen_Theme_Changelog#Version_1.4
 
 = 1.3 =
 * Released: February 21, 2019
 
-https://codex.managertechnology.org/Twenty_Nineteen_Theme_Changelog#Version_1.3
+https://codex.managertechnology.com.co/pacmec/Twenty_Nineteen_Theme_Changelog#Version_1.3
 
 = 1.2 =
 * Released: January 9, 2019
 
-https://codex.managertechnology.org/Twenty_Nineteen_Theme_Changelog#Version_1.2
+https://codex.managertechnology.com.co/pacmec/Twenty_Nineteen_Theme_Changelog#Version_1.2
 
 = 1.1 =
 * Released: December 19, 2018
 
-https://codex.managertechnology.org/Twenty_Nineteen_Theme_Changelog#Version_1.1
+https://codex.managertechnology.com.co/pacmec/Twenty_Nineteen_Theme_Changelog#Version_1.1
 
 = 1.0 =
 * Released: December 6, 2018

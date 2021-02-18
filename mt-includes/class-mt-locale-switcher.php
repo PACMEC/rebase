@@ -46,7 +46,7 @@ class MT_Locale_Switcher {
 	 */
 	public function __construct() {
 		$this->original_locale     = determine_locale();
-		$this->available_languages = array_merge( array( 'en_US' ), get_available_languages() );
+		$this->available_languages = array_merge( array( 'es_CO' ), get_available_languages() );
 	}
 
 	/**

@@ -139,9 +139,9 @@ get_current_screen()->add_help_tab(
 
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/article/plugins-editor-screen/">Documentation on Editing Plugins</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://developer.managertechnology.org/plugins/">Documentation on Writing Plugins</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://managertechnology.org/support/">Support</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/plugins-editor-screen/">Documentation on Editing Plugins</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://developer.managertechnology.com.co/pacmec/plugins/">Documentation on Writing Plugins</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>'
 );
 
 $settings = array(
@@ -271,7 +271,7 @@ $content = esc_textarea( $content );
 		<div id="documentation" class="hide-if-no-js">
 			<label for="docs-list"><?php _e( 'Documentation:' ); ?></label>
 			<?php echo $docs_select; ?>
-			<input disabled id="docs-lookup" type="button" class="button" value="<?php esc_attr_e( 'Look Up' ); ?>" onclick="if ( '' != jQuery('#docs-list').val() ) { window.open( 'https://api.managertechnology.org/core/handbook/1.0/?function=' + escape( jQuery( '#docs-list' ).val() ) + '&amp;locale=<?php echo urlencode( get_user_locale() ); ?>&amp;version=<?php echo urlencode( get_bloginfo( 'version' ) ); ?>&amp;redirect=true'); }" />
+			<input disabled id="docs-lookup" type="button" class="button" value="<?php esc_attr_e( 'Look Up' ); ?>" onclick="if ( '' != jQuery('#docs-list').val() ) { window.open( 'https://api.managertechnology.com.co/pacmec/core/handbook/1.0/?function=' + escape( jQuery( '#docs-list' ).val() ) + '&amp;locale=<?php echo urlencode( get_user_locale() ); ?>&amp;version=<?php echo urlencode( get_bloginfo( 'version' ) ); ?>&amp;redirect=true'); }" />
 		</div>
 	<?php endif; ?>
 
@@ -293,7 +293,7 @@ $content = esc_textarea( $content );
 			printf(
 				/* translators: %s: Documentation URL. */
 				__( 'You need to make this file writable before you can save your changes. See <a href="%s">Changing File Permissions</a> for more information.' ),
-				__( 'https://managertechnology.org/support/article/changing-file-permissions/' )
+				__( 'https://managertechnology.com.co/pacmec/support/article/changing-file-permissions/' )
 			);
 			?>
 		</p>

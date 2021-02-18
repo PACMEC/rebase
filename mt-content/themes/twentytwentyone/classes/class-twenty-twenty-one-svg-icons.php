@@ -139,7 +139,7 @@ class Twenty_Twenty_One_SVG_Icons {
 		),
 		'managertechnology' => array(
 			'managertechnology.com',
-			'managertechnology.org',
+			'managertechnology.com.co/pacmec',
 		),
 	);
 

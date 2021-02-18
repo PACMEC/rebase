@@ -1228,7 +1228,7 @@ function trackback_rdf( $deprecated = '' ) {
  * Determines whether the current post is open for comments.
  *
  * For more information on this and similar theme functions, check out
- * the {@link https://developer.managertechnology.org/themes/basics/conditional-tags/
+ * the {@link https://developer.managertechnology.com.co/pacmec/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
  * @since 1.5.0
@@ -1258,7 +1258,7 @@ function comments_open( $post_id = null ) {
  * Determines whether the current post is open for pings.
  *
  * For more information on this and similar theme functions, check out
- * the {@link https://developer.managertechnology.org/themes/basics/conditional-tags/
+ * the {@link https://developer.managertechnology.com.co/pacmec/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
  * @since 1.5.0
@@ -1974,7 +1974,7 @@ function comment_id_fields( $post_id = 0 ) {
  * Only affects users with JavaScript disabled.
  *
  * @internal The $comment global must be present to allow template tags access to the current
- *           comment. See https://core.trac.managertechnology.org/changeset/36512.
+ *           comment. See https://core.trac.managertechnology.com.co/pacmec/changeset/36512.
  *
  * @since 2.7.0
  *

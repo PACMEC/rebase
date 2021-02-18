@@ -2,7 +2,7 @@
 /**
  * Template part for displaying a message that posts cannot be found
  *
- * @link https://developer.managertechnology.org/themes/basics/template-hierarchy/
+ * @link https://developer.managertechnology.com.co/pacmec/themes/basics/template-hierarchy/
  *
  * @package paCMec
  * @subpackage Twenty_Twenty_One

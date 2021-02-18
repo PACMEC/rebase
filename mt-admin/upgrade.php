@@ -65,7 +65,7 @@ header( 'Content-Type: ' . get_option( 'html_type' ) . '; charset=' . get_option
 	<?php mt_admin_css( 'install', true ); ?>
 </head>
 <body class="mt-core-ui">
-<p id="logo"><a href="<?php echo esc_url( __( 'https://managertechnology.org/' ) ); ?>"><?php _e( 'paCMec' ); ?></a></p>
+<p id="logo"><a href="<?php echo esc_url( __( 'https://managertechnology.com.co/pacmec/' ) ); ?>"><?php _e( 'paCMec' ); ?></a></p>
 
 <?php if ( (int) get_option( 'db_version' ) === $mt_db_version || ! is_blog_installed() ) : ?>
 
@@ -77,7 +77,7 @@ header( 'Content-Type: ' . get_option( 'html_type' ) . '; charset=' . get_option
 elseif ( ! $php_compat || ! $mysql_compat ) :
 	$version_url = sprintf(
 		/* translators: %s: paCMec version. */
-		esc_url( __( 'https://managertechnology.org/support/managertechnology-version/version-%s/' ) ),
+		esc_url( __( 'https://managertechnology.com.co/pacmec/support/managertechnology-version/version-%s/' ) ),
 		sanitize_title( $mt_version )
 	);
 

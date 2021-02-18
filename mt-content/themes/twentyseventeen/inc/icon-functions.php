@@ -100,7 +100,7 @@ function twentyseventeen_get_svg( $args = array() ) {
 	 *
 	 * The whitespace around `<use>` is intentional - it is a work around to a keyboard navigation bug in Safari 10.
 	 *
-	 * See https://core.trac.managertechnology.org/ticket/38387.
+	 * See https://core.trac.managertechnology.com.co/pacmec/ticket/38387.
 	 */
 	$svg .= ' <use href="#icon-' . esc_html( $args['icon'] ) . '" xlink:href="#icon-' . esc_html( $args['icon'] ) . '"></use> ';
 
@@ -206,7 +206,7 @@ function twentyseventeen_social_links_icons() {
 		'vine.co'         => 'vine',
 		'vk.com'          => 'vk',
 		'whatsapp.com'    => 'whatsapp',
-		'managertechnology.org'   => 'managertechnology',
+		'managertechnology.com.co/pacmec'   => 'managertechnology',
 		'managertechnology.com'   => 'managertechnology',
 		'yelp.com'        => 'yelp',
 		'youtube.com'     => 'youtube',
