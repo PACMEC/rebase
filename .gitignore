@@ -1,4 +1,3 @@
 ﻿.htaccess
 mt-config.php
-
-!mt-content/themes/twenty*/
+mt-content/themes/!twenty*/
