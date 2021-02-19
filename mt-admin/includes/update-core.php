@@ -1045,7 +1045,7 @@ function update_core( $from, $to ) {
 		// Find the local version of the working directory.
 		$working_dir_local = MT_CONTENT_DIR . '/upgrade/' . basename( $from ) . $distro;
 
-		$checksums = get_core_checksums( $mt_version, isset( $mt_local_package ) ? $mt_local_package : 'es_CO' );
+		$checksums = get_core_checksums( $mt_version, isset( $mt_local_package ) ? $mt_local_package : 'en_US' );
 		if ( is_array( $checksums ) && isset( $checksums[ $mt_version ] ) ) {
 			$checksums = $checksums[ $mt_version ]; // Compat code for 3.7-beta2.
 		}

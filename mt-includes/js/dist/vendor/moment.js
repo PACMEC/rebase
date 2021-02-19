@@ -2093,7 +2093,7 @@
                 getSetGlobalLocale(oldLocale);
             } catch (e) {
                 // mark as not found to avoid repeating expensive file require call causing high CPU
-                // when trying to find en-US, es_CO, en-us for every format call
+                // when trying to find en-US, en_US, en-us for every format call
                 locales[name] = null; // null means not found
             }
         }

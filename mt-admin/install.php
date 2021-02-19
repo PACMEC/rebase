@@ -368,7 +368,7 @@ switch ( $step ) {
 			$loaded_language      = $language;
 			$GLOBALS['mt_locale'] = new MT_Locale();
 		} else {
-			$loaded_language = 'es_CO';
+			$loaded_language = 'en_US';
 		}
 
 		if ( ! empty( $mtdb->error ) ) {

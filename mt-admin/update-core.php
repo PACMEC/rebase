@@ -40,9 +40,9 @@ function list_core_update( $update ) {
 	$mt_version     = get_bloginfo( 'version' );
 	$version_string = sprintf( '%s&ndash;%s', $update->current, get_locale() );
 
-	if ( 'es_CO' === $update->locale && 'es_CO' === get_locale() ) {
+	if ( 'en_US' === $update->locale && 'en_US' === get_locale() ) {
 		$version_string = $update->current;
-	} elseif ( 'es_CO' === $update->locale && $update->packages->partial && $mt_version == $update->partial_version ) {
+	} elseif ( 'en_US' === $update->locale && $update->packages->partial && $mt_version == $update->partial_version ) {
 		$updates = get_core_updates();
 		if ( $updates && 1 === count( $updates ) ) {
 			// If the only available update is a partial builds, it doesn't need a language-specific version string.
@@ -160,7 +160,7 @@ function list_core_update( $update ) {
 			submit_button( $submit, '', 'upgrade', false );
 		}
 	}
-	if ( 'es_CO' !== $update->locale ) {
+	if ( 'en_US' !== $update->locale ) {
 		if ( ! isset( $update->dismissed ) || ! $update->dismissed ) {
 			submit_button( __( 'Hide this update' ), '', 'dismiss', false );
 		} else {
@@ -169,9 +169,9 @@ function list_core_update( $update ) {
 	}
 	echo '</p>';
 
-	if ( 'es_CO' !== $update->locale && ( ! isset( $mt_local_package ) || $mt_local_package != $update->locale ) ) {
+	if ( 'en_US' !== $update->locale && ( ! isset( $mt_local_package ) || $mt_local_package != $update->locale ) ) {
 		echo '<p class="hint">' . __( 'This localized version contains both the translation and various other localization fixes.' ) . '</p>';
-	} elseif ( 'es_CO' === $update->locale && 'es_CO' !== get_locale() && ( ! $update->packages->partial && $mt_version == $update->partial_version ) ) {
+	} elseif ( 'en_US' === $update->locale && 'en_US' !== get_locale() && ( ! $update->packages->partial && $mt_version == $update->partial_version ) ) {
 		// Partial builds don't need language-specific warnings.
 		echo '<p class="hint">' . sprintf(
 			/* translators: %s: paCMec version. */
@@ -752,7 +752,7 @@ function list_theme_updates() {
 function list_translation_updates() {
 	$updates = mt_get_translation_updates();
 	if ( ! $updates ) {
-		if ( 'es_CO' !== get_locale() ) {
+		if ( 'en_US' !== get_locale() ) {
 			echo '<h2>' . __( 'Translations' ) . '</h2>';
 			echo '<p>' . __( 'Your translations are all up to date.' ) . '</p>';
 		}
@@ -792,7 +792,7 @@ function do_core_upgrade( $reinstall = false ) {
 	$url = mt_nonce_url( $url, 'upgrade-core' );
 
 	$version = isset( $_POST['version'] ) ? $_POST['version'] : false;
-	$locale  = isset( $_POST['locale'] ) ? $_POST['locale'] : 'es_CO';
+	$locale  = isset( $_POST['locale'] ) ? $_POST['locale'] : 'en_US';
 	$update  = find_core_update( $version, $locale );
 	if ( ! $update ) {
 		return;
@@ -883,7 +883,7 @@ function do_core_upgrade( $reinstall = false ) {
  */
 function do_dismiss_core_update() {
 	$version = isset( $_POST['version'] ) ? $_POST['version'] : false;
-	$locale  = isset( $_POST['locale'] ) ? $_POST['locale'] : 'es_CO';
+	$locale  = isset( $_POST['locale'] ) ? $_POST['locale'] : 'en_US';
 	$update  = find_core_update( $version, $locale );
 	if ( ! $update ) {
 		return;
@@ -900,7 +900,7 @@ function do_dismiss_core_update() {
  */
 function do_undismiss_core_update() {
 	$version = isset( $_POST['version'] ) ? $_POST['version'] : false;
-	$locale  = isset( $_POST['locale'] ) ? $_POST['locale'] : 'es_CO';
+	$locale  = isset( $_POST['locale'] ) ? $_POST['locale'] : 'en_US';
 	$update  = find_core_update( $version, $locale );
 	if ( ! $update ) {
 		return;
@@ -936,7 +936,7 @@ get_current_screen()->add_help_tab(
 $updates_howto  = '<p>' . __( '<strong>paCMec</strong> &mdash; Updating your paCMec installation is a simple one-click procedure: just <strong>click on the &#8220;Update now&#8221; button</strong> when you are notified that a new version is available.' ) . ' ' . __( 'In most cases, paCMec will automatically apply maintenance and security updates in the background for you.' ) . '</p>';
 $updates_howto .= '<p>' . __( '<strong>Themes and Plugins</strong> &mdash; To update individual themes or plugins from this screen, use the checkboxes to make your selection, then <strong>click on the appropriate &#8220;Update&#8221; button</strong>. To update all of your themes or plugins at once, you can check the box at the top of the section to select all before clicking the update button.' ) . '</p>';
 
-if ( 'es_CO' !== get_locale() ) {
+if ( 'en_US' !== get_locale() ) {
 	$updates_howto .= '<p>' . __( '<strong>Translations</strong> &mdash; The files translating paCMec into your language are updated for you whenever any other updates occur. But if these files are out of date, you can <strong>click the &#8220;Update Translations&#8221;</strong> button.' ) . '</p>';
 }
 

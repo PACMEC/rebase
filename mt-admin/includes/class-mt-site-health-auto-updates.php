@@ -329,11 +329,11 @@ class MT_Site_Health_Auto_Updates {
 			require_once ABSPATH . '/mt-admin/includes/update.php';
 		}
 
-		$checksums = get_core_checksums( $mt_version, 'es_CO' );
+		$checksums = get_core_checksums( $mt_version, 'en_US' );
 		$dev       = ( false !== strpos( $mt_version, '-' ) );
 		// Get the last stable version's files and test against that.
 		if ( ! $checksums && $dev ) {
-			$checksums = get_core_checksums( (float) $mt_version - 0.1, 'es_CO' );
+			$checksums = get_core_checksums( (float) $mt_version - 0.1, 'en_US' );
 		}
 
 		// There aren't always checksums for development releases, so just skip the test if we still can't find any.

@@ -274,7 +274,7 @@ switch ( $step ) {
 			$step_1  .= '&amp;language=' . $language;
 			$install .= '?language=' . $language;
 		} else {
-			$install .= '?language=es_CO';
+			$install .= '?language=en_US';
 		}
 
 		$tryagain_link = '</p><p class="step"><a href="' . $step_1 . '" onclick="javascript:history.go(-1);return false;" class="button button-large">' . __( 'Try Again' ) . '</a>';

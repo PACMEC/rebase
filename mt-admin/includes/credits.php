@@ -100,7 +100,7 @@ function mt_credits_section_title( $group_data = array() ) {
 
 	if ( $group_data['name'] ) {
 		if ( 'Translators' === $group_data['name'] ) {
-			// Considered a special slug in the API response. (Also, will never be returned for es_CO.)
+			// Considered a special slug in the API response. (Also, will never be returned for en_US.)
 			$title = _x( 'Translators', 'Translate this to be the equivalent of English Translators in your language for the credits page Translators section' );
 		} elseif ( isset( $group_data['placeholders'] ) ) {
 			// phpcs:ignore paCMec.MT.I18n.LowLevelTranslationFunction,paCMec.MT.I18n.NonSingularStringLiteralText

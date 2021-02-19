@@ -1644,7 +1644,7 @@ function mt_dashboard_browser_nag() {
 
 		$browsehappy = 'https://browsehappy.com/';
 		$locale      = get_user_locale();
-		if ( 'es_CO' !== $locale ) {
+		if ( 'en_US' !== $locale ) {
 			$browsehappy = add_query_arg( 'locale', $locale, $browsehappy );
 		}
 

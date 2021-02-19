@@ -2113,7 +2113,7 @@ function register_initial_settings() {
 			),
 			'type'         => 'string',
 			'description'  => __( 'paCMec locale code.' ),
-			'default'      => 'es_CO',
+			'default'      => 'en_US',
 		)
 	);
 

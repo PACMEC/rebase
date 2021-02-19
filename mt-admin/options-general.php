@@ -157,7 +157,7 @@ if ( $new_admin_email && get_option( 'admin_email' ) !== $new_admin_email ) :
 
 $languages    = get_available_languages();
 $translations = mt_get_available_translations();
-if ( ! is_multisite() && defined( 'MTLANG' ) && '' !== MTLANG && 'es_CO' !== MTLANG && ! in_array( MTLANG, $languages, true ) ) {
+if ( ! is_multisite() && defined( 'MTLANG' ) && '' !== MTLANG && 'en_US' !== MTLANG && ! in_array( MTLANG, $languages, true ) ) {
 	$languages[] = MTLANG;
 }
 if ( ! empty( $languages ) || ! empty( $translations ) ) {

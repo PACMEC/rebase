@@ -67,7 +67,7 @@ function get_locale() {
 	}
 
 	if ( empty( $locale ) ) {
-		$locale = 'es_CO';
+		$locale = 'en_US';
 	}
 
 	/**
@@ -1526,7 +1526,7 @@ function mt_dropdown_languages( $args = array() ) {
 	}
 
 	// English (United States) uses an empty string for the value attribute.
-	if ( 'es_CO' === $parsed_args['selected'] ) {
+	if ( 'en_US' === $parsed_args['selected'] ) {
 		$parsed_args['selected'] = '';
 	}
 

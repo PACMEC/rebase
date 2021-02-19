@@ -4791,7 +4791,7 @@ function sanitize_option( $option, $value ) {
 
 		case 'MTLANG':
 			$allowed = get_available_languages();
-			if ( ! is_multisite() && defined( 'MTLANG' ) && '' !== MTLANG && 'es_CO' !== MTLANG ) {
+			if ( ! is_multisite() && defined( 'MTLANG' ) && '' !== MTLANG && 'en_US' !== MTLANG ) {
 				$allowed[] = MTLANG;
 			}
 			if ( ! in_array( $value, $allowed, true ) && ! empty( $value ) ) {

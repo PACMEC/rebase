@@ -72,7 +72,7 @@ if ( isset( $_REQUEST['action'] ) && 'add-site' === $_REQUEST['action'] ) {
 	// Handle translation installation for the new site.
 	if ( isset( $_POST['MTLANG'] ) ) {
 		if ( '' === $_POST['MTLANG'] ) {
-			$meta['MTLANG'] = ''; // es_CO
+			$meta['MTLANG'] = ''; // en_US
 		} elseif ( in_array( $_POST['MTLANG'], get_available_languages(), true ) ) {
 			$meta['MTLANG'] = $_POST['MTLANG'];
 		} elseif ( current_user_can( 'install_languages' ) && mt_can_install_language_pack() ) {

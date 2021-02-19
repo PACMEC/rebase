@@ -352,7 +352,7 @@ switch ( $action ) {
 			<?php
 				$user_locale = $profileuser->locale;
 
-			if ( 'es_CO' === $user_locale ) {
+			if ( 'en_US' === $user_locale ) {
 				$user_locale = '';
 			} elseif ( '' === $user_locale || ! in_array( $user_locale, $languages, true ) ) {
 				$user_locale = 'site-default';

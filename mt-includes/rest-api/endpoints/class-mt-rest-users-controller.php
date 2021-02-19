@@ -1387,7 +1387,7 @@ class MT_REST_Users_Controller extends MT_REST_Controller {
 				'locale'             => array(
 					'description' => __( 'Locale for the user.' ),
 					'type'        => 'string',
-					'enum'        => array_merge( array( '', 'es_CO' ), get_available_languages() ),
+					'enum'        => array_merge( array( '', 'en_US' ), get_available_languages() ),
 					'context'     => array( 'edit' ),
 				),
 				'nickname'           => array(
