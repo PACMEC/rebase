@@ -131,9 +131,9 @@ $_old_files = array(
 	'mt-includes/js/tinymce/plugins/spellchecker/images',
 	'mt-includes/js/tinymce/plugins/spellchecker/langs',
 	'mt-includes/js/tinymce/plugins/spellchecker/tinyspell.php',
-	'mt-includes/js/tinymce/plugins/managertechnology/images',
-	'mt-includes/js/tinymce/plugins/managertechnology/langs',
-	'mt-includes/js/tinymce/plugins/managertechnology/managertechnology.css',
+	'mt-includes/js/tinymce/plugins/pacmec/images',
+	'mt-includes/js/tinymce/plugins/pacmec/langs',
+	'mt-includes/js/tinymce/plugins/pacmec/pacmec.css',
 	'mt-includes/js/tinymce/plugins/mthelp',
 	'mt-includes/js/tinymce/themes/advanced/css',
 	'mt-includes/js/tinymce/themes/advanced/images',
@@ -144,7 +144,7 @@ $_old_files = array(
 	// 2.6
 	'mt-admin/bookmarklet.php',
 	'mt-includes/js/jquery/jquery.dimensions.min.js',
-	'mt-includes/js/tinymce/plugins/managertechnology/popups.css',
+	'mt-includes/js/tinymce/plugins/pacmec/popups.css',
 	'mt-includes/js/mt-ajax.js',
 	// 2.7
 	'mt-admin/css/press-this-ie-rtl.css',
@@ -188,7 +188,7 @@ $_old_files = array(
 	'mt-includes/js/tinymce/plugins/autosave',
 	'mt-includes/js/tinymce/plugins/paste/css',
 	'mt-includes/js/tinymce/utils/mclayer.js',
-	'mt-includes/js/tinymce/managertechnology.css',
+	'mt-includes/js/tinymce/pacmec.css',
 	// 2.8.5
 	'mt-admin/import/btt.php',
 	'mt-admin/import/jkw.php',
@@ -200,7 +200,7 @@ $_old_files = array(
 	'mt-admin/js/slug.dev.js',
 	'mt-admin/js/slug.js',
 	'mt-includes/gettext.php',
-	'mt-includes/js/tinymce/plugins/managertechnology/js',
+	'mt-includes/js/tinymce/plugins/pacmec/js',
 	'mt-includes/streams.php',
 	// MU
 	'README.txt',
@@ -217,7 +217,7 @@ $_old_files = array(
 	'mt-admin/mtmu-themes.php',
 	'mt-admin/mtmu-upgrade-site.php',
 	'mt-admin/mtmu-users.php',
-	'mt-includes/images/managertechnology-mu.png',
+	'mt-includes/images/pacmec-mu.png',
 	'mt-includes/mtmu-default-filters.php',
 	'mt-includes/mtmu-functions.php',
 	'mtmu-settings.php',
@@ -284,9 +284,9 @@ $_old_files = array(
 	'mt-admin/js/list-table.dev.js',
 	'mt-admin/js/list-table.js',
 	'mt-includes/default-embeds.php',
-	'mt-includes/js/tinymce/plugins/managertechnology/img/help.gif',
-	'mt-includes/js/tinymce/plugins/managertechnology/img/more.gif',
-	'mt-includes/js/tinymce/plugins/managertechnology/img/toolbars.gif',
+	'mt-includes/js/tinymce/plugins/pacmec/img/help.gif',
+	'mt-includes/js/tinymce/plugins/pacmec/img/more.gif',
+	'mt-includes/js/tinymce/plugins/pacmec/img/toolbars.gif',
 	'mt-includes/js/tinymce/themes/advanced/img/fm.gif',
 	'mt-includes/js/tinymce/themes/advanced/img/sflogo.png',
 	// 3.3
@@ -373,11 +373,11 @@ $_old_files = array(
 	'mt-includes/css/editor-buttons.css',
 	'mt-includes/css/editor-buttons.dev.css',
 	'mt-includes/js/tinymce/plugins/paste/blank.htm',
-	'mt-includes/js/tinymce/plugins/managertechnology/css',
-	'mt-includes/js/tinymce/plugins/managertechnology/editor_plugin.dev.js',
-	'mt-includes/js/tinymce/plugins/managertechnology/img/embedded.png',
-	'mt-includes/js/tinymce/plugins/managertechnology/img/more_bug.gif',
-	'mt-includes/js/tinymce/plugins/managertechnology/img/page_bug.gif',
+	'mt-includes/js/tinymce/plugins/pacmec/css',
+	'mt-includes/js/tinymce/plugins/pacmec/editor_plugin.dev.js',
+	'mt-includes/js/tinymce/plugins/pacmec/img/embedded.png',
+	'mt-includes/js/tinymce/plugins/pacmec/img/more_bug.gif',
+	'mt-includes/js/tinymce/plugins/pacmec/img/page_bug.gif',
 	'mt-includes/js/tinymce/plugins/mtdialogs/editor_plugin.dev.js',
 	'mt-includes/js/tinymce/plugins/mteditimage/css/editimage-rtl.css',
 	'mt-includes/js/tinymce/plugins/mteditimage/editor_plugin.dev.js',
@@ -587,7 +587,7 @@ $_old_files = array(
 	'mt-admin/images/about-search-2x.png',
 	'mt-admin/images/bubble_bg-rtl-2x.gif',
 	'mt-admin/images/mt-badge-2x.png',
-	'mt-admin/images/managertechnology-logo-2x.png',
+	'mt-admin/images/pacmec-logo-2x.png',
 	'mt-admin/images/bubble_bg-rtl.gif',
 	'mt-admin/images/mt-badge.png',
 	'mt-admin/images/menu-shadow.png',
@@ -622,7 +622,7 @@ $_old_files = array(
 	'mt-includes/js/tinymce/plugins/inlinepopups',
 	'mt-includes/js/tinymce/plugins/media/js',
 	'mt-includes/js/tinymce/plugins/media/css',
-	'mt-includes/js/tinymce/plugins/managertechnology/img',
+	'mt-includes/js/tinymce/plugins/pacmec/img',
 	'mt-includes/js/tinymce/plugins/mtdialogs/js',
 	'mt-includes/js/tinymce/plugins/mteditimage/img',
 	'mt-includes/js/tinymce/plugins/mteditimage/js',
@@ -641,8 +641,8 @@ $_old_files = array(
 	'mt-includes/js/tinymce/plugins/mtview/editor_plugin.js',
 	'mt-includes/js/tinymce/plugins/directionality/editor_plugin.js',
 	'mt-includes/js/tinymce/plugins/directionality/editor_plugin_src.js',
-	'mt-includes/js/tinymce/plugins/managertechnology/editor_plugin.js',
-	'mt-includes/js/tinymce/plugins/managertechnology/editor_plugin_src.js',
+	'mt-includes/js/tinymce/plugins/pacmec/editor_plugin.js',
+	'mt-includes/js/tinymce/plugins/pacmec/editor_plugin_src.js',
 	'mt-includes/js/tinymce/plugins/mtdialogs/editor_plugin_src.js',
 	'mt-includes/js/tinymce/plugins/mtdialogs/editor_plugin.js',
 	'mt-includes/js/tinymce/plugins/mteditimage/editimage.html',
@@ -699,7 +699,7 @@ $_old_files = array(
 	'mt-includes/js/jquery/ui/jquery.ui.tabs.min.js',
 	'mt-includes/js/jquery/ui/jquery.ui.tooltip.min.js',
 	'mt-includes/js/jquery/ui/jquery.ui.widget.min.js',
-	'mt-includes/js/tinymce/skins/managertechnology/images/dashicon-no-alt.png',
+	'mt-includes/js/tinymce/skins/pacmec/images/dashicon-no-alt.png',
 	// 4.3
 	'mt-admin/js/mt-fullscreen.js',
 	'mt-admin/js/mt-fullscreen.min.js',
@@ -921,7 +921,7 @@ function update_core( $from, $to ) {
 
 	// Sanity check the unzipped distribution.
 	$distro = '';
-	$roots  = array( '/managertechnology/', '/managertechnology-mu/' );
+	$roots  = array( '/pacmec/', '/pacmec-mu/' );
 	foreach ( $roots as $root ) {
 		if ( $mt_filesystem->exists( $from . $root . 'readme.html' ) && $mt_filesystem->exists( $from . $root . 'mt-includes/version.php' ) ) {
 			$distro = $root;
@@ -1417,7 +1417,7 @@ function _copy_dir( $from, $to, $skip_list = array() ) {
  *
  * @param string $new_version
  */
-function _redirect_to_about_managertechnology( $new_version ) {
+function _redirect_to_about_pacmec( $new_version ) {
 	global $mt_version, $pagenow, $action;
 
 	if ( version_compare( $mt_version, '3.4-RC1', '>=' ) ) {

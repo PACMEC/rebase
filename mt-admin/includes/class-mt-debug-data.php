@@ -346,7 +346,7 @@ class MT_Debug_Data {
 			'label'       => __( 'Filesystem Permissions' ),
 			'description' => __( 'Shows whether paCMec is able to write to the directories it needs access to.' ),
 			'fields'      => array(
-				'managertechnology'  => array(
+				'pacmec'  => array(
 					'label' => __( 'The main paCMec directory' ),
 					'value' => ( $is_writable_abspath ? __( 'Writable' ) : __( 'Not writable' ) ),
 					'debug' => ( $is_writable_abspath ? 'writable' : 'not writable' ),
@@ -440,11 +440,11 @@ class MT_Debug_Data {
 			$loading = __( 'Loading&hellip;' );
 
 			$info['mt-paths-sizes']['fields'] = array(
-				'managertechnology_path' => array(
+				'pacmec_path' => array(
 					'label' => __( 'paCMec directory location' ),
 					'value' => untrailingslashit( ABSPATH ),
 				),
-				'managertechnology_size' => array(
+				'pacmec_size' => array(
 					'label' => __( 'paCMec directory size' ),
 					'value' => $loading,
 					'debug' => 'loading...',
@@ -1489,7 +1489,7 @@ class MT_Debug_Data {
 	}
 
 	/**
-	 * Fetch the sizes of the paCMec directories: `managertechnology` (ABSPATH), `plugins`, `themes`, and `uploads`.
+	 * Fetch the sizes of the paCMec directories: `pacmec` (ABSPATH), `plugins`, `themes`, and `uploads`.
 	 * Intended to supplement the array returned by `MT_Debug_Data::debug_data()`.
 	 *
 	 * @since 5.2.0
@@ -1524,14 +1524,14 @@ class MT_Debug_Data {
 		// Go through the various installation directories and calculate their sizes.
 		// No trailing slashes.
 		$paths = array(
-			'managertechnology_size' => untrailingslashit( ABSPATH ),
+			'pacmec_size' => untrailingslashit( ABSPATH ),
 			'themes_size'    => get_theme_root(),
 			'plugins_size'   => MT_PLUGIN_DIR,
 			'uploads_size'   => $upload_dir['basedir'],
 		);
 
 		$exclude = $paths;
-		unset( $exclude['managertechnology_size'] );
+		unset( $exclude['pacmec_size'] );
 		$exclude = array_values( $exclude );
 
 		$size_total = 0;
@@ -1546,7 +1546,7 @@ class MT_Debug_Data {
 			);
 
 			if ( microtime( true ) - MT_START_TIMESTAMP < $max_execution_time ) {
-				if ( 'managertechnology_size' === $name ) {
+				if ( 'pacmec_size' === $name ) {
 					$dir_size = recurse_dirsize( $path, $exclude, $max_execution_time );
 				} else {
 					$dir_size = recurse_dirsize( $path, null, $max_execution_time );

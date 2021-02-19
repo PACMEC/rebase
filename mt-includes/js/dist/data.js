@@ -893,7 +893,7 @@ __webpack_require__.d(__webpack_exports__, "registerStore", function() { return 
 __webpack_require__.d(__webpack_exports__, "use", function() { return /* binding */ build_module_use; });
 __webpack_require__.d(__webpack_exports__, "register", function() { return /* binding */ build_module_register; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/data/build-module/redux-store/metadata/selectors.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/data/build-module/redux-store/metadata/selectors.js
 var selectors_namespaceObject = {};
 __webpack_require__.r(selectors_namespaceObject);
 __webpack_require__.d(selectors_namespaceObject, "getIsResolving", function() { return getIsResolving; });
@@ -902,7 +902,7 @@ __webpack_require__.d(selectors_namespaceObject, "hasFinishedResolution", functi
 __webpack_require__.d(selectors_namespaceObject, "isResolving", function() { return isResolving; });
 __webpack_require__.d(selectors_namespaceObject, "getCachedResolvers", function() { return getCachedResolvers; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/data/build-module/redux-store/metadata/actions.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/data/build-module/redux-store/metadata/actions.js
 var actions_namespaceObject = {};
 __webpack_require__.r(actions_namespaceObject);
 __webpack_require__.d(actions_namespaceObject, "startResolution", function() { return startResolution; });
@@ -911,7 +911,7 @@ __webpack_require__.d(actions_namespaceObject, "invalidateResolution", function(
 __webpack_require__.d(actions_namespaceObject, "invalidateResolutionForStore", function() { return invalidateResolutionForStore; });
 __webpack_require__.d(actions_namespaceObject, "invalidateResolutionForStoreSelector", function() { return invalidateResolutionForStoreSelector; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/data/build-module/plugins/index.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/data/build-module/plugins/index.js
 var plugins_namespaceObject = {};
 __webpack_require__.r(plugins_namespaceObject);
 __webpack_require__.d(plugins_namespaceObject, "controls", function() { return plugins_controls; });
@@ -1602,7 +1602,7 @@ var external_mt_reduxRoutine_default = /*#__PURE__*/__webpack_require__.n(extern
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js + 2 modules
 var toConsumableArray = __webpack_require__(15);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/factory.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/factory.js
 /**
  * Creates a selector function that takes additional curried argument with the
  * registry `select` function. While a regular selector has signature
@@ -1685,7 +1685,7 @@ function createRegistryControl(registryControl) {
   return registryControl;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/controls.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/controls.js
 
 
 
@@ -1710,7 +1710,7 @@ var DISPATCH = '@@data/DISPATCH';
  *
  * @example
  * ```js
- * import { controls } from '@managertechnology/data';
+ * import { controls } from '@pacmec/data';
  *
  * // Action generator using `select`.
  * export function* myAction() {
@@ -1747,7 +1747,7 @@ function controls_select(storeKey, selectorName) {
  *
  * @example
  * ```js
- * import { controls } from '@managertechnology/data';
+ * import { controls } from '@pacmec/data';
  *
  * // Action generator using resolveSelect
  * export function* myAction() {
@@ -1781,7 +1781,7 @@ function resolveSelect(storeKey, selectorName) {
  *
  * @example
  * ```js
- * import { controls } from '@managertechnology/data-controls';
+ * import { controls } from '@pacmec/data-controls';
  *
  * // Action generator using dispatch
  * export function* myAction() {
@@ -1846,7 +1846,7 @@ var builtinControls = (_builtinControls = {}, Object(defineProperty["a" /* defau
 var is_promise = __webpack_require__(153);
 var is_promise_default = /*#__PURE__*/__webpack_require__.n(is_promise);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/promise-middleware.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/promise-middleware.js
 /**
  * External dependencies
  */
@@ -1875,7 +1875,7 @@ var promise_middleware_promiseMiddleware = function promiseMiddleware() {
 
 /* harmony default export */ var promise_middleware = (promise_middleware_promiseMiddleware);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/resolvers-cache-middleware.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/resolvers-cache-middleware.js
 
 
 
@@ -1932,7 +1932,7 @@ var resolvers_cache_middleware_createResolversCacheMiddleware = function createR
 
 /* harmony default export */ var resolvers_cache_middleware = (resolvers_cache_middleware_createResolversCacheMiddleware);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/redux-store/thunk-middleware.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/redux-store/thunk-middleware.js
 function createThunkMiddleware(args) {
   return function () {
     return function (next) {
@@ -1947,7 +1947,7 @@ function createThunkMiddleware(args) {
   };
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/redux-store/metadata/utils.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/redux-store/metadata/utils.js
 
 
 function utils_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -1988,7 +1988,7 @@ var utils_onSubKey = function onSubKey(actionProperty) {
   };
 };
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/redux-store/metadata/reducer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/redux-store/metadata/reducer.js
 /**
  * External dependencies
  */
@@ -2070,7 +2070,7 @@ var reducer_isResolved = function isResolved() {
 
 /* harmony default export */ var metadata_reducer = (reducer_isResolved);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/redux-store/metadata/selectors.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/redux-store/metadata/selectors.js
 /**
  * External dependencies
  */
@@ -2154,7 +2154,7 @@ function getCachedResolvers(state) {
   return state;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/redux-store/metadata/actions.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/redux-store/metadata/actions.js
 /**
  * Returns an action object used in signalling that selector resolution has
  * started.
@@ -2233,7 +2233,7 @@ function invalidateResolutionForStoreSelector(selectorName) {
   };
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/redux-store/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/redux-store/index.js
 
 
 
@@ -2303,7 +2303,7 @@ function createResolversCache() {
  *
  * @example
  * ```js
- * import { createReduxStore } from '@managertechnology/data';
+ * import { createReduxStore } from '@pacmec/data';
  *
  * const store = createReduxStore( 'demo', {
  *     reducer: ( state = 'OK' ) => state,
@@ -2753,7 +2753,7 @@ function _fulfillResolver() {
   return _fulfillResolver.apply(this, arguments);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/store/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/store/index.js
 
 
 function store_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -2808,7 +2808,7 @@ function createCoreDataStore(registry) {
 
 /* harmony default export */ var build_module_store = (createCoreDataStore);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/registry.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/registry.js
 
 
 
@@ -3063,7 +3063,7 @@ function createRegistry() {
     __experimentalSubscribeStore: __experimentalSubscribeStore
   };
   /**
-   * Registers a standard `@managertechnology/data` store.
+   * Registers a standard `@pacmec/data` store.
    *
    * @param {string} storeName  Unique namespace identifier.
    * @param {Object} options    Store description (reducer, actions, selectors, resolvers).
@@ -3106,7 +3106,7 @@ function createRegistry() {
   return withPlugins(registry);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/default-registry.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/default-registry.js
 /**
  * Internal dependencies
  */
@@ -3117,7 +3117,7 @@ function createRegistry() {
 var external_mt_deprecated_ = __webpack_require__(35);
 var external_mt_deprecated_default = /*#__PURE__*/__webpack_require__.n(external_mt_deprecated_);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/plugins/controls/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/plugins/controls/index.js
 /**
  * paCMec dependencies
  */
@@ -3129,7 +3129,7 @@ var external_mt_deprecated_default = /*#__PURE__*/__webpack_require__.n(external
   return registry;
 });
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/plugins/persistence/storage/object.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/plugins/persistence/storage/object.js
 var objectStorage;
 var object_storage = {
   getItem: function getItem(key) {
@@ -3152,7 +3152,7 @@ var object_storage = {
 };
 /* harmony default export */ var object = (object_storage);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/plugins/persistence/storage/default.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/plugins/persistence/storage/default.js
 /**
  * Internal dependencies
  */
@@ -3172,7 +3172,7 @@ try {
 
 /* harmony default export */ var storage_default = (default_storage);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/plugins/persistence/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/plugins/persistence/index.js
 
 
 function persistence_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -3457,7 +3457,7 @@ persistencePlugin.__unstableMigrate = function (pluginOptions) {
 
 /* harmony default export */ var plugins_persistence = (persistencePlugin);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/plugins/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/plugins/index.js
 
 
 
@@ -3480,7 +3480,7 @@ var external_mt_priorityQueue_ = __webpack_require__(152);
 var external_mt_isShallowEqual_ = __webpack_require__(63);
 var external_mt_isShallowEqual_default = /*#__PURE__*/__webpack_require__.n(external_mt_isShallowEqual_);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/components/registry-provider/context.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/components/registry-provider/context.js
 /**
  * paCMec dependencies
  */
@@ -3506,7 +3506,7 @@ var Consumer = Context.Consumer,
  *   RegistryProvider,
  *   RegistryConsumer,
  *   createRegistry
- * } from '@managertechnology/data';
+ * } from '@pacmec/data';
  *
  * const registry = createRegistry( {} );
  *
@@ -3536,7 +3536,7 @@ var RegistryConsumer = Consumer;
 
 /* harmony default export */ var context = (Provider);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/components/registry-provider/use-registry.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/components/registry-provider/use-registry.js
 /**
  * paCMec dependencies
  */
@@ -3556,7 +3556,7 @@ var RegistryConsumer = Consumer;
  * It acts similarly to the `useContext` react hook.
  *
  * Note: Generally speaking, `useRegistry` is a low level hook that in most cases
- * won't be needed for implementation. Most interactions with the `@managertechnology/data`
+ * won't be needed for implementation. Most interactions with the `@pacmec/data`
  * API can be performed via the `useSelect` hook,  or the `withSelect` and
  * `withDispatch` higher order components.
  *
@@ -3566,7 +3566,7 @@ var RegistryConsumer = Consumer;
  *   RegistryProvider,
  *   createRegistry,
  *   useRegistry,
- * } from '@managertechnology/data';
+ * } from '@pacmec/data';
  *
  * const registry = createRegistry( {} );
  *
@@ -3590,7 +3590,7 @@ function useRegistry() {
   return Object(external_mt_element_["useContext"])(Context);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/components/async-mode-provider/context.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/components/async-mode-provider/context.js
 /**
  * paCMec dependencies
  */
@@ -3606,7 +3606,7 @@ var AsyncModeConsumer = context_Consumer;
  * @example
  *
  * ```js
- * import { useSelect, AsyncModeProvider } from '@managertechnology/data';
+ * import { useSelect, AsyncModeProvider } from '@pacmec/data';
  *
  * function BlockCount() {
  *   const count = useSelect( ( select ) => {
@@ -3636,7 +3636,7 @@ var AsyncModeConsumer = context_Consumer;
 
 /* harmony default export */ var async_mode_provider_context = (context_Provider);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/components/async-mode-provider/use-async-mode.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/components/async-mode-provider/use-async-mode.js
 /**
  * paCMec dependencies
  */
@@ -3650,7 +3650,7 @@ function useAsyncMode() {
   return Object(external_mt_element_["useContext"])(context_Context);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/components/use-select/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/components/use-select/index.js
 
 
 /**
@@ -3690,7 +3690,7 @@ var renderQueue = Object(external_mt_priorityQueue_["createQueue"])();
  *
  * @example
  * ```js
- * import { useSelect } from '@managertechnology/data';
+ * import { useSelect } from '@pacmec/data';
  *
  * function HammerPriceDisplay( { currency } ) {
  *   const price = useSelect( ( select ) => {
@@ -3842,7 +3842,7 @@ function useSelect(_mapSelect, deps) {
   return mapOutput;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/components/with-select/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/components/with-select/index.js
 
 
 
@@ -3865,7 +3865,7 @@ function useSelect(_mapSelect, deps) {
  *
  * @example
  * ```js
- * import { withSelect } from '@managertechnology/data';
+ * import { withSelect } from '@pacmec/data';
  *
  * function PriceDisplay( { price, currency } ) {
  * 	return new Intl.NumberFormat( 'en-US', {
@@ -3910,7 +3910,7 @@ var with_select_withSelect = function withSelect(mapSelectToProps) {
 
 /* harmony default export */ var with_select = (with_select_withSelect);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/components/use-dispatch/use-dispatch-with-map.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/components/use-dispatch/use-dispatch-with-map.js
 
 
 /**
@@ -3968,7 +3968,7 @@ var use_dispatch_with_map_useDispatchWithMap = function useDispatchWithMap(dispa
 
 /* harmony default export */ var use_dispatch_with_map = (use_dispatch_with_map_useDispatchWithMap);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/components/with-dispatch/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/components/with-dispatch/index.js
 
 
 
@@ -3998,7 +3998,7 @@ var use_dispatch_with_map_useDispatchWithMap = function useDispatchWithMap(dispa
  *     return <button type="button" onClick={ onClick }>{ children }</button>;
  * }
  *
- * import { withDispatch } from '@managertechnology/data';
+ * import { withDispatch } from '@pacmec/data';
  *
  * const SaleButton = withDispatch( ( dispatch, ownProps ) => {
  *     const { startSale } = dispatch( 'my-shop' );
@@ -4035,7 +4035,7 @@ var use_dispatch_with_map_useDispatchWithMap = function useDispatchWithMap(dispa
  *     return <button type="button" onClick={ onClick }>{ children }</button>;
  * }
  *
- * import { withDispatch } from '@managertechnology/data';
+ * import { withDispatch } from '@pacmec/data';
  *
  * const SaleButton = withDispatch( ( dispatch, ownProps, { select } ) => {
  *    // Stock number changes frequently.
@@ -4076,7 +4076,7 @@ var with_dispatch_withDispatch = function withDispatch(mapDispatchToProps) {
 
 /* harmony default export */ var with_dispatch = (with_dispatch_withDispatch);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/components/with-registry/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/components/with-registry/index.js
 
 
 
@@ -4109,7 +4109,7 @@ var withRegistry = Object(external_mt_compose_["createHigherOrderComponent"])(fu
 }, 'withRegistry');
 /* harmony default export */ var with_registry = (withRegistry);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/components/use-dispatch/use-dispatch.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/components/use-dispatch/use-dispatch.js
 /**
  * Internal dependencies
  */
@@ -4134,8 +4134,8 @@ var withRegistry = Object(external_mt_compose_["createHigherOrderComponent"])(fu
  * action.
  *
  * ```jsx
- * import { useDispatch, useSelect } from '@managertechnology/data';
- * import { useCallback } from '@managertechnology/element';
+ * import { useDispatch, useSelect } from '@pacmec/data';
+ * import { useCallback } from '@pacmec/element';
  *
  * function Button( { onClick, children } ) {
  *   return <button type="button" onClick={ onClick }>{ children }</button>
@@ -4170,7 +4170,7 @@ var use_dispatch_useDispatch = function useDispatch(storeNameOrDefinition) {
 
 /* harmony default export */ var use_dispatch = (use_dispatch_useDispatch);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/data/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/data/build-module/index.js
 /**
  * External dependencies
  */
@@ -4212,7 +4212,7 @@ var use_dispatch_useDispatch = function useDispatch(storeNameOrDefinition) {
  *
  * @example
  * ```js
- * import { combineReducers, createReduxStore, register } from '@managertechnology/data';
+ * import { combineReducers, createReduxStore, register } from '@pacmec/data';
  *
  * const prices = ( state = {}, action ) => {
  * 	return action.type === 'SET_PRICE' ?
@@ -4253,7 +4253,7 @@ var use_dispatch_useDispatch = function useDispatch(storeNameOrDefinition) {
  *
  * @example
  * ```js
- * import { select } from '@managertechnology/data';
+ * import { select } from '@pacmec/data';
  *
  * select( 'my-shop' ).getPrice( 'hammer' );
  * ```
@@ -4273,7 +4273,7 @@ var build_module_select = default_registry.select;
  *
  * @example
  * ```js
- * import { __experimentalResolveSelect } from '@managertechnology/data';
+ * import { __experimentalResolveSelect } from '@pacmec/data';
  *
  * __experimentalResolveSelect( 'my-shop' ).getPrice( 'hammer' ).then(console.log)
  * ```
@@ -4294,7 +4294,7 @@ var build_module_experimentalResolveSelect = default_registry.__experimentalReso
  *
  * @example
  * ```js
- * import { dispatch } from '@managertechnology/data';
+ * import { dispatch } from '@pacmec/data';
  *
  * dispatch( 'my-shop' ).setPrice( 'hammer', 9.75 );
  * ```
@@ -4311,7 +4311,7 @@ var build_module_dispatch = default_registry.dispatch;
  *
  * @example
  * ```js
- * import { subscribe } from '@managertechnology/data';
+ * import { subscribe } from '@pacmec/data';
  *
  * const unsubscribe = subscribe( () => {
  * 	// You could use this opportunity to test whether the derived result of a
@@ -4335,7 +4335,7 @@ var build_module_subscribe = default_registry.subscribe;
 
 var build_module_registerGenericStore = default_registry.registerGenericStore;
 /**
- * Registers a standard `@managertechnology/data` store.
+ * Registers a standard `@pacmec/data` store.
  *
  * @deprecated Use `register` instead.
  *
@@ -4356,11 +4356,11 @@ var build_module_registerStore = default_registry.registerStore;
 
 var build_module_use = default_registry.use;
 /**
- * Registers a standard `@managertechnology/data` store definition.
+ * Registers a standard `@pacmec/data` store definition.
  *
  * @example
  * ```js
- * import { createReduxStore, register } from '@managertechnology/data';
+ * import { createReduxStore, register } from '@pacmec/data';
  *
  * const store = createReduxStore( 'demo', {
  *     reducer: ( state = 'OK' ) => state,

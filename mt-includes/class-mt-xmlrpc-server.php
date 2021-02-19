@@ -6301,7 +6301,7 @@ class mt_xmlrpc_server extends IXR_Server {
 	 *
 	 * Adapted from a patch by Johann Richard.
 	 *
-	 * @link http://mycvs.org/archives/2004/06/30/file-upload-to-managertechnology-in-ecto/
+	 * @link http://mycvs.org/archives/2004/06/30/file-upload-to-pacmec-in-ecto/
 	 *
 	 * @since 1.5.0
 	 *

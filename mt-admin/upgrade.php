@@ -77,7 +77,7 @@ header( 'Content-Type: ' . get_option( 'html_type' ) . '; charset=' . get_option
 elseif ( ! $php_compat || ! $mysql_compat ) :
 	$version_url = sprintf(
 		/* translators: %s: paCMec version. */
-		esc_url( __( 'https://managertechnology.com.co/pacmec/support/managertechnology-version/version-%s/' ) ),
+		esc_url( __( 'https://managertechnology.com.co/pacmec/support/pacmec-version/version-%s/' ) ),
 		sanitize_title( $mt_version )
 	);
 

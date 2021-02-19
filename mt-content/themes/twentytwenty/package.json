@@ -9,17 +9,17 @@
 		"Theme",
 		"TwentyTwenty"
 	],
-	"homepage": "https://github.com/managertechnology/twentytwenty#readme",
+	"homepage": "https://github.com/pacmec/twentytwenty#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/managertechnology/twentytwenty.git"
+		"url": "git+https://github.com/pacmec/twentytwenty.git"
 	},
 	"bugs": {
-		"url": "https://github.com/managertechnology/twentytwenty/issues"
+		"url": "https://github.com/pacmec/twentytwenty/issues"
 	},
 	"devDependencies": {
-		"@managertechnology/browserslist-config": "^2.7.0",
-		"@managertechnology/scripts": "^13.0.1",
+		"@pacmec/browserslist-config": "^2.7.0",
+		"@pacmec/scripts": "^13.0.1",
 		"autoprefixer": "^9.8.6",
 		"concurrently": "^5.3.0",
 		"postcss-cli": "^7.1.2",
@@ -27,7 +27,7 @@
 		"stylelint-a11y": "^1.2.3"
 	},
 	"browserslist": [
-		"extends @managertechnology/browserslist-config"
+		"extends @pacmec/browserslist-config"
 	],
 	"rtlcssConfig": {
 		"options": {

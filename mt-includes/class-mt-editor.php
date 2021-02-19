@@ -385,7 +385,7 @@ final class _MT_Editors {
 							'lists',
 							'fullscreen',
 							'image',
-							'managertechnology',
+							'pacmec',
 							'mteditimage',
 							'mtlink',
 						),
@@ -425,7 +425,7 @@ final class _MT_Editors {
 						'tabfocus',
 						'textcolor',
 						'fullscreen',
-						'managertechnology',
+						'pacmec',
 						'mtautoresize',
 						'mteditimage',
 						'mtemoji',
@@ -951,7 +951,7 @@ final class _MT_Editors {
 					'tabfocus',
 					'textcolor',
 					'fullscreen',
-					'managertechnology',
+					'pacmec',
 					'mtautoresize',
 					'mteditimage',
 					'mtemoji',
@@ -1113,7 +1113,7 @@ final class _MT_Editors {
 
 		// Default stylesheets.
 		$settings['content_css'] = includes_url( "css/dashicons$suffix.css?$version" ) . ',' .
-			includes_url( "js/tinymce/skins/managertechnology/mt-content.css?$version" );
+			includes_url( "js/tinymce/skins/pacmec/mt-content.css?$version" );
 
 		return $settings;
 	}

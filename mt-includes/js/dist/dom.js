@@ -214,12 +214,12 @@ __webpack_require__.d(__webpack_exports__, "isPhrasingContent", function() { ret
 __webpack_require__.d(__webpack_exports__, "isTextContent", function() { return /* reexport */ isTextContent; });
 __webpack_require__.d(__webpack_exports__, "getFilesFromDataTransfer", function() { return /* reexport */ getFilesFromDataTransfer; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/dom/build-module/focusable.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/dom/build-module/focusable.js
 var focusable_namespaceObject = {};
 __webpack_require__.r(focusable_namespaceObject);
 __webpack_require__.d(focusable_namespaceObject, "find", function() { return find; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/dom/build-module/tabbable.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/dom/build-module/tabbable.js
 var tabbable_namespaceObject = {};
 __webpack_require__.r(tabbable_namespaceObject);
 __webpack_require__.d(tabbable_namespaceObject, "isTabbableIndex", function() { return isTabbableIndex; });
@@ -227,7 +227,7 @@ __webpack_require__.d(tabbable_namespaceObject, "find", function() { return tabb
 __webpack_require__.d(tabbable_namespaceObject, "findPrevious", function() { return findPrevious; });
 __webpack_require__.d(tabbable_namespaceObject, "findNext", function() { return findNext; });
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/dom/build-module/focusable.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/dom/build-module/focusable.js
 /**
  * References:
  *
@@ -322,7 +322,7 @@ function find(context) {
 // EXTERNAL MODULE: external "lodash"
 var external_lodash_ = __webpack_require__(2);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/dom/build-module/tabbable.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/dom/build-module/tabbable.js
 /**
  * External dependencies
  */
@@ -509,7 +509,7 @@ var toConsumableArray = __webpack_require__(15);
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
 var defineProperty = __webpack_require__(5);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/dom/build-module/phrasing-content.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/dom/build-module/phrasing-content.js
 
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -675,7 +675,7 @@ function isTextContent(node) {
   return textContentSchema.hasOwnProperty(tag) || tag === 'span';
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/dom/build-module/dom.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/dom/build-module/dom.js
 
 
 /**
@@ -1591,7 +1591,7 @@ function removeInvalidHTML(HTML, schema, inline) {
   return doc.body.innerHTML;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/dom/build-module/data-transfer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/dom/build-module/data-transfer.js
 
 
 /**
@@ -1619,7 +1619,7 @@ function getFilesFromDataTransfer(dataTransfer) {
   return files;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/dom/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/dom/build-module/index.js
 /**
  * Internal dependencies
  */

@@ -330,7 +330,7 @@ var external_lodash_ = __webpack_require__(2);
 var external_mt_apiFetch_ = __webpack_require__(50);
 var external_mt_apiFetch_default = /*#__PURE__*/__webpack_require__.n(external_mt_apiFetch_);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/list-reusable-blocks/build-module/utils/file.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/list-reusable-blocks/build-module/utils/file.js
 /**
  * Downloads a file.
  *
@@ -374,7 +374,7 @@ function readTextFile(file) {
   });
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/list-reusable-blocks/build-module/utils/export.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/list-reusable-blocks/build-module/utils/export.js
 
 
 
@@ -469,7 +469,7 @@ var getPrototypeOf = __webpack_require__(19);
 // EXTERNAL MODULE: external ["mt","compose"]
 var external_mt_compose_ = __webpack_require__(12);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/list-reusable-blocks/build-module/utils/import.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/list-reusable-blocks/build-module/utils/import.js
 
 
 
@@ -563,7 +563,7 @@ function _importReusableBlock() {
 
 /* harmony default export */ var utils_import = (importReusableBlock);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/list-reusable-blocks/build-module/components/import-form/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/list-reusable-blocks/build-module/components/import-form/index.js
 
 
 
@@ -724,7 +724,7 @@ var import_form_ImportForm = /*#__PURE__*/function (_Component) {
 
 /* harmony default export */ var import_form = (Object(external_mt_compose_["withInstanceId"])(import_form_ImportForm));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/list-reusable-blocks/build-module/components/import-dropdown/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/list-reusable-blocks/build-module/components/import-dropdown/index.js
 
 
 /**
@@ -768,7 +768,7 @@ function ImportDropdown(_ref) {
 
 /* harmony default export */ var import_dropdown = (ImportDropdown);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/list-reusable-blocks/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/list-reusable-blocks/build-module/index.js
 
 
 /**

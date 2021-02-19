@@ -194,7 +194,7 @@ __webpack_require__.r(__webpack_exports__);
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, "store", function() { return /* reexport */ store; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/notices/build-module/store/actions.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/notices/build-module/store/actions.js
 var actions_namespaceObject = {};
 __webpack_require__.r(actions_namespaceObject);
 __webpack_require__.d(actions_namespaceObject, "createNotice", function() { return createNotice; });
@@ -204,7 +204,7 @@ __webpack_require__.d(actions_namespaceObject, "createErrorNotice", function() {
 __webpack_require__.d(actions_namespaceObject, "createWarningNotice", function() { return createWarningNotice; });
 __webpack_require__.d(actions_namespaceObject, "removeNotice", function() { return removeNotice; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/notices/build-module/store/selectors.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/notices/build-module/store/selectors.js
 var selectors_namespaceObject = {};
 __webpack_require__.r(selectors_namespaceObject);
 __webpack_require__.d(selectors_namespaceObject, "getNotices", function() { return getNotices; });
@@ -221,7 +221,7 @@ var external_lodash_ = __webpack_require__(2);
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
 var defineProperty = __webpack_require__(5);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/notices/build-module/store/utils/on-sub-key.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/notices/build-module/store/utils/on-sub-key.js
 
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -263,7 +263,7 @@ var on_sub_key_onSubKey = function onSubKey(actionProperty) {
 };
 /* harmony default export */ var on_sub_key = (on_sub_key_onSubKey);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/notices/build-module/store/reducer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/notices/build-module/store/reducer.js
 
 
 /**
@@ -306,7 +306,7 @@ var notices = on_sub_key('context')(function () {
 });
 /* harmony default export */ var store_reducer = (notices);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/notices/build-module/store/constants.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/notices/build-module/store/constants.js
 /**
  * Default context to use for notice grouping when not otherwise specified. Its
  * specific value doesn't hold much meaning, but it must be reasonably unique
@@ -323,7 +323,7 @@ var DEFAULT_CONTEXT = 'global';
 
 var DEFAULT_STATUS = 'info';
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/notices/build-module/store/actions.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/notices/build-module/store/actions.js
 /**
  * External dependencies
  */
@@ -499,7 +499,7 @@ function removeNotice(id) {
   };
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/notices/build-module/store/selectors.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/notices/build-module/store/selectors.js
 /**
  * Internal dependencies
  */
@@ -558,7 +558,7 @@ function getNotices(state) {
   return state[context] || DEFAULT_NOTICES;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/notices/build-module/store/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/notices/build-module/store/index.js
 /**
  * paCMec dependencies
  */
@@ -585,7 +585,7 @@ var store = Object(external_mt_data_["createReduxStore"])('core/notices', {
 });
 Object(external_mt_data_["register"])(store);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/notices/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/notices/build-module/index.js
 
 
 

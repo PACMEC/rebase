@@ -103,7 +103,7 @@ __webpack_require__.d(__webpack_exports__, "escapeHTML", function() { return /* 
 __webpack_require__.d(__webpack_exports__, "escapeEditableHTML", function() { return /* binding */ escapeEditableHTML; });
 __webpack_require__.d(__webpack_exports__, "isValidAttributeName", function() { return /* binding */ isValidAttributeName; });
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/escape-html/build-module/escape-greater.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/escape-html/build-module/escape-greater.js
 /**
  * Returns a string with greater-than sign replaced.
  *
@@ -120,7 +120,7 @@ function __unstableEscapeGreaterThan(value) {
   return value.replace(/>/g, '&gt;');
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/escape-html/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/escape-html/build-module/index.js
 /**
  * Internal dependencies
  */

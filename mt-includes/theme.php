@@ -2254,11 +2254,11 @@ function get_theme_starter_content() {
 
 			'link_email'      => array(
 				'title' => _x( 'Email', 'Theme starter content' ),
-				'url'   => 'mailto:managertechnology@example.com',
+				'url'   => 'mailto:pacmec@example.com',
 			),
 			'link_facebook'   => array(
 				'title' => _x( 'Facebook', 'Theme starter content' ),
-				'url'   => 'https://www.facebook.com/managertechnology',
+				'url'   => 'https://www.facebook.com/pacmec',
 			),
 			'link_foursquare' => array(
 				'title' => _x( 'Foursquare', 'Theme starter content' ),
@@ -2266,7 +2266,7 @@ function get_theme_starter_content() {
 			),
 			'link_github'     => array(
 				'title' => _x( 'GitHub', 'Theme starter content' ),
-				'url'   => 'https://github.com/managertechnology/',
+				'url'   => 'https://github.com/pacmec/',
 			),
 			'link_instagram'  => array(
 				'title' => _x( 'Instagram', 'Theme starter content' ),
@@ -2282,7 +2282,7 @@ function get_theme_starter_content() {
 			),
 			'link_twitter'    => array(
 				'title' => _x( 'Twitter', 'Theme starter content' ),
-				'url'   => 'https://twitter.com/managertechnology',
+				'url'   => 'https://twitter.com/pacmec',
 			),
 			'link_yelp'       => array(
 				'title' => _x( 'Yelp', 'Theme starter content' ),

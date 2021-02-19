@@ -527,7 +527,7 @@
 
 				tinymce.each( dom.$( 'link[rel="stylesheet"]', editorHead ), function( link ) {
 					if ( link.href && link.href.indexOf( 'skins/lightgray/content.min.css' ) === -1 &&
-						link.href.indexOf( 'skins/managertechnology/mt-content.css' ) === -1 ) {
+						link.href.indexOf( 'skins/pacmec/mt-content.css' ) === -1 ) {
 
 						styles += dom.getOuterHTML( link );
 					}

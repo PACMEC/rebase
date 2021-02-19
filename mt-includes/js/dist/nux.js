@@ -204,20 +204,20 @@ function _toConsumableArray(arr) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__);
 
 
 /**
  * paCMec dependencies
  */
 
-var close = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
+var close = Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
-}, Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
+}, Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M13 11.8l6.1-6.3-1-1-6.1 6.2-6.1-6.2-1 1 6.1 6.3-6.5 6.7 1 1 6.5-6.6 6.5 6.6 1-1z"
 }));
 /* harmony default export */ __webpack_exports__["a"] = (close);
@@ -614,7 +614,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, "store", function() { return /* reexport */ store; });
 __webpack_require__.d(__webpack_exports__, "DotTip", function() { return /* reexport */ dot_tip; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/nux/build-module/store/actions.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/nux/build-module/store/actions.js
 var actions_namespaceObject = {};
 __webpack_require__.r(actions_namespaceObject);
 __webpack_require__.d(actions_namespaceObject, "triggerGuide", function() { return triggerGuide; });
@@ -622,7 +622,7 @@ __webpack_require__.d(actions_namespaceObject, "dismissTip", function() { return
 __webpack_require__.d(actions_namespaceObject, "disableTips", function() { return disableTips; });
 __webpack_require__.d(actions_namespaceObject, "enableTips", function() { return enableTips; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/nux/build-module/store/selectors.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/nux/build-module/store/selectors.js
 var selectors_namespaceObject = {};
 __webpack_require__.r(selectors_namespaceObject);
 __webpack_require__.d(selectors_namespaceObject, "getAssociatedGuide", function() { return getAssociatedGuide; });
@@ -642,7 +642,7 @@ var defineProperty = __webpack_require__(5);
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js + 2 modules
 var toConsumableArray = __webpack_require__(15);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/nux/build-module/store/reducer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/nux/build-module/store/reducer.js
 
 
 
@@ -731,7 +731,7 @@ var preferences = Object(external_mt_data_["combineReducers"])({
   preferences: preferences
 }));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/nux/build-module/store/actions.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/nux/build-module/store/actions.js
 /**
  * Returns an action object that, when dispatched, presents a guide that takes
  * the user through a series of tips step by step.
@@ -794,7 +794,7 @@ var rememo = __webpack_require__(41);
 // EXTERNAL MODULE: external "lodash"
 var external_lodash_ = __webpack_require__(2);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/nux/build-module/store/selectors.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/nux/build-module/store/selectors.js
 
 
 function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
@@ -901,7 +901,7 @@ function selectors_areTipsEnabled(state) {
   return state.preferences.areTipsEnabled;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/nux/build-module/store/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/nux/build-module/store/index.js
 /**
  * paCMec dependencies
  */
@@ -949,10 +949,10 @@ var external_mt_components_ = __webpack_require__(3);
 // EXTERNAL MODULE: external ["mt","i18n"]
 var external_mt_i18n_ = __webpack_require__(1);
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/icons/build-module/library/close.js
+// EXTERNAL MODULE: ./node_modules/@pacmec/icons/build-module/library/close.js
 var library_close = __webpack_require__(160);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/nux/build-module/components/dot-tip/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/nux/build-module/components/dot-tip/index.js
 
 
 /**
@@ -1045,7 +1045,7 @@ function DotTip(_ref) {
   };
 }))(DotTip));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/nux/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/nux/build-module/index.js
 /**
  * paCMec dependencies
  */

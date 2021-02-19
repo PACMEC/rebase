@@ -3313,7 +3313,7 @@ function _mt_privacy_action_request_types() {
  * @return array An array of personal data exporters.
  */
 function mt_register_user_personal_data_exporter( $exporters ) {
-	$exporters['managertechnology-user'] = array(
+	$exporters['pacmec-user'] = array(
 		'exporter_friendly_name' => __( 'paCMec User' ),
 		'callback'               => 'mt_user_personal_data_exporter',
 	);

@@ -206,8 +206,8 @@ function twentyseventeen_social_links_icons() {
 		'vine.co'         => 'vine',
 		'vk.com'          => 'vk',
 		'whatsapp.com'    => 'whatsapp',
-		'managertechnology.com.co/pacmec'   => 'managertechnology',
-		'managertechnology.com'   => 'managertechnology',
+		'managertechnology.com.co/pacmec'   => 'pacmec',
+		'pacmec.com'   => 'pacmec',
 		'yelp.com'        => 'yelp',
 		'youtube.com'     => 'youtube',
 	);

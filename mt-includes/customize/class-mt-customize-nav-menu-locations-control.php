@@ -50,7 +50,7 @@ class MT_Customize_Nav_Menu_Locations_Control extends MT_Customize_Control {
 							printf(
 								/* translators: 1: Documentation URL, 2: Additional link attributes, 3: Accessibility text. */
 								_x( '(If you plan to use a menu <a href="%1$s" %2$s>widget%3$s</a>, skip this step.)', 'menu locations' ),
-								__( 'https://managertechnology.com.co/pacmec/support/article/managertechnology-widgets/' ),
+								__( 'https://managertechnology.com.co/pacmec/support/article/pacmec-widgets/' ),
 								' class="external-link" target="_blank"',
 								sprintf(
 									'<span class="screen-reader-text"> %s</span>',

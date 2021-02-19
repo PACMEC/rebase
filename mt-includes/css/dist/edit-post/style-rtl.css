@@ -19,7 +19,7 @@
  */
 /**
  * Grid System.
- * https://make.managertechnology.com.co/pacmec/design/2019/10/31/proposal-a-consistent-spacing-system-for-managertechnology/
+ * https://make.managertechnology.com.co/pacmec/design/2019/10/31/proposal-a-consistent-spacing-system-for-pacmec/
  */
 /**
  * Dimensions.
@@ -1233,7 +1233,7 @@ body.is-fullscreen-mode .edit-post-layout .components-editor-notices__snackbar {
 .edit-post-meta-boxes-area {
   position: relative;
   /**
-   * The managertechnology default for most meta-box elements is content-box. Some
+   * The pacmec default for most meta-box elements is content-box. Some
    * elements such as textarea and input are set to border-box in forms.css.
    * These elements therefore specifically set back to border-box here, while
    * other elements (such as .button) are unaffected by Gutenberg's style

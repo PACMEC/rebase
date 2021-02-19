@@ -197,7 +197,7 @@ require_once ABSPATH . 'mt-admin/admin-header.php';
 					printf(
 						/* translators: %s: paCMec and PHP 8 dev note link. */
 						__( '5.6 marks the first steps toward paCMec Core support for PHP 8. Now is a great time to start planning how your paCMec products, services and sites can support the latest PHP version. For more information about what to expect next, <a href="%s">read the PHP 8 developer note</a>.' ),
-						'https://make.managertechnology.com.co/pacmec/core/2020/11/23/managertechnology-and-php-8-0/'
+						'https://make.managertechnology.com.co/pacmec/core/2020/11/23/pacmec-and-php-8-0/'
 					);
 					?>
 				</p>
@@ -241,7 +241,7 @@ require_once ABSPATH . 'mt-admin/admin-header.php';
 					printf(
 						/* translators: %s: paCMec 5.6 Field Guide link. */
 						__( 'Check out the latest version of the paCMec Field Guide. It highlights developer notes for each change you may want to be aware of. <a href="%s">paCMec 5.6 Field Guide.</a>' ),
-						'https://make.managertechnology.com.co/pacmec/core/2020/11/20/managertechnology-5-6-field-guide/'
+						'https://make.managertechnology.com.co/pacmec/core/2020/11/20/pacmec-5-6-field-guide/'
 					);
 					?>
 				</p>

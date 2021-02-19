@@ -338,20 +338,20 @@ function v4(options, buf, offset) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__);
 
 
 /**
  * paCMec dependencies
  */
 
-var blockDefault = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
+var blockDefault = Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
-}, Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
+}, Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M19 8h-1V6h-5v2h-2V6H6v2H5c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-8c0-1.1-.9-2-2-2zm.5 10c0 .3-.2.5-.5.5H5c-.3 0-.5-.2-.5-.5v-8c0-.3.2-.5.5-.5h14c.3 0 .5.2.5.5v8z"
 }));
 /* harmony default export */ __webpack_exports__["a"] = (blockDefault);
@@ -6004,7 +6004,7 @@ __webpack_require__.d(__webpack_exports__, "node", function() { return /* reexpo
 __webpack_require__.d(__webpack_exports__, "__EXPERIMENTAL_STYLE_PROPERTY", function() { return /* reexport */ __EXPERIMENTAL_STYLE_PROPERTY; });
 __webpack_require__.d(__webpack_exports__, "withBlockContentContext", function() { return /* reexport */ withBlockContentContext; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/blocks/build-module/store/selectors.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/blocks/build-module/store/selectors.js
 var selectors_namespaceObject = {};
 __webpack_require__.r(selectors_namespaceObject);
 __webpack_require__.d(selectors_namespaceObject, "getBlockTypes", function() { return getBlockTypes; });
@@ -6025,7 +6025,7 @@ __webpack_require__.d(selectors_namespaceObject, "isMatchingSearchTerm", functio
 __webpack_require__.d(selectors_namespaceObject, "hasChildBlocks", function() { return selectors_hasChildBlocks; });
 __webpack_require__.d(selectors_namespaceObject, "hasChildBlocksWithInserterSupport", function() { return selectors_hasChildBlocksWithInserterSupport; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/blocks/build-module/store/actions.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/blocks/build-module/store/actions.js
 var actions_namespaceObject = {};
 __webpack_require__.r(actions_namespaceObject);
 __webpack_require__.d(actions_namespaceObject, "addBlockTypes", function() { return addBlockTypes; });
@@ -6058,7 +6058,7 @@ var external_lodash_ = __webpack_require__(2);
 // EXTERNAL MODULE: external ["mt","i18n"]
 var external_mt_i18n_ = __webpack_require__(1);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/store/reducer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/store/reducer.js
 
 
 
@@ -6304,7 +6304,7 @@ function collections() {
 // EXTERNAL MODULE: ./node_modules/rememo/es/rememo.js
 var rememo = __webpack_require__(41);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/store/selectors.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/store/selectors.js
 
 
 
@@ -6591,7 +6591,7 @@ var selectors_hasChildBlocksWithInserterSupport = function hasChildBlocksWithIns
   });
 };
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/store/actions.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/store/actions.js
 /**
  * External dependencies
  */
@@ -6813,10 +6813,10 @@ function removeBlockCollection(namespace) {
   };
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/store/constants.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/store/constants.js
 var STORE_NAME = 'core/blocks';
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/store/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/store/index.js
 /**
  * paCMec dependencies
  */
@@ -6853,7 +6853,7 @@ var v4 = __webpack_require__(204);
 // EXTERNAL MODULE: external ["mt","hooks"]
 var external_mt_hooks_ = __webpack_require__(33);
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/icons/build-module/library/block-default.js
+// EXTERNAL MODULE: ./node_modules/@pacmec/icons/build-module/library/block-default.js
 var block_default = __webpack_require__(215);
 
 // EXTERNAL MODULE: ./node_modules/tinycolor2/tinycolor.js
@@ -6866,7 +6866,7 @@ var external_mt_element_ = __webpack_require__(0);
 // EXTERNAL MODULE: external ["mt","dom"]
 var external_mt_dom_ = __webpack_require__(27);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/utils.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/utils.js
 
 
 function utils_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -7126,7 +7126,7 @@ function sanitizeBlockAttributes(name, attributes) {
   }, {});
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/constants.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/constants.js
 /**
  * Array of valid keys in a block type settings deprecation object.
  *
@@ -7189,7 +7189,7 @@ var __EXPERIMENTAL_STYLE_PROPERTY = {
   }
 };
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/registration.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/registration.js
 
 
 function registration_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -7719,7 +7719,7 @@ var registration_unregisterBlockVariation = function unregisterBlockVariation(bl
   Object(external_mt_data_["dispatch"])(store).removeBlockVariations(blockName, variationName);
 };
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/factory.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/factory.js
 
 
 
@@ -9266,7 +9266,7 @@ function tokenize(input, options) {
 // EXTERNAL MODULE: external ["mt","htmlEntities"]
 var external_mt_htmlEntities_ = __webpack_require__(64);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/validation/logger.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/validation/logger.js
 function createLogger() {
   /**
    * Creates a log handler with block validation prefix.
@@ -9348,7 +9348,7 @@ var esm_extends = __webpack_require__(8);
 // EXTERNAL MODULE: external ["mt","compose"]
 var external_mt_compose_ = __webpack_require__(12);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/block-content-provider/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/block-content-provider/index.js
 
 
 
@@ -9425,7 +9425,7 @@ var withBlockContentContext = Object(external_mt_compose_["createHigherOrderComp
 }, 'withBlockContentContext');
 /* harmony default export */ var block_content_provider = (block_content_provider_BlockContentProvider);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/serializer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/serializer.js
 
 
 
@@ -9738,7 +9738,7 @@ function serialize(blocks, options) {
   }).join('\n\n');
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/validation/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/validation/index.js
 
 
 
@@ -10379,7 +10379,7 @@ function isValidBlockContent(blockTypeOrName, attributes, originalBlockContent) 
   return isValid;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/matchers.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/matchers.js
 /**
  * External dependencies
  */
@@ -10423,7 +10423,7 @@ function matchers_html(selector, multilineTag) {
   };
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/node.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/node.js
 
 
 function node_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -10563,7 +10563,7 @@ function node_matcher(selector) {
   matcher: node_matcher
 });
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/children.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/children.js
 /**
  * External dependencies
  */
@@ -10722,7 +10722,7 @@ function children_matcher(selector) {
   matcher: children_matcher
 });
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/parser.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/parser.js
 
 
 
@@ -11126,12 +11126,12 @@ function convertLegacyBlocks(name, attributes) {
 
   if ('core/text' === name || 'core/cover-text' === name) {
     name = 'core/paragraph';
-  } // Convert derivative blocks such as 'core/social-link-managertechnology' to the
+  } // Convert derivative blocks such as 'core/social-link-pacmec' to the
   // canonical form 'core/social-link'.
 
 
   if (name && name.indexOf('core/social-link-') === 0) {
-    // Capture `social-link-managertechnology` into `{"service":"managertechnology"}`
+    // Capture `social-link-pacmec` into `{"service":"pacmec"}`
     newAttributes.service = name.substring(17);
     name = 'core/social-link';
   } // Convert derivative blocks such as 'core-embed/instagram' to the
@@ -11148,7 +11148,7 @@ function convertLegacyBlocks(name, attributes) {
     newAttributes.providerNameSlug = providerSlug in deprecated ? deprecated[providerSlug] : providerSlug; // this is needed as the `responsive` attribute was passed
     // in a different way before the refactoring to block variations
 
-    if (!['amazon-kindle', 'managertechnology'].includes(providerSlug)) {
+    if (!['amazon-kindle', 'pacmec'].includes(providerSlug)) {
       newAttributes.responsive = true;
     }
 
@@ -11295,15 +11295,15 @@ function createBlockWithFallback(blockNode) {
  * CAVEAT: This function is intended for reserializing blocks as parsed by
  * valid parsers and skips any validation steps. This is NOT a generic
  * serialization function for in-memory blocks. For most purposes, see the
- * following functions available in the `@managertechnology/blocks` package:
+ * following functions available in the `@pacmec/blocks` package:
  *
  * @see serializeBlock
  * @see serialize
  *
  * For more on the format of block nodes as returned by valid parsers:
  *
- * @see `@managertechnology/block-serialization-default-parser` package
- * @see `@managertechnology/block-serialization-spec-parser` package
+ * @see `@pacmec/block-serialization-default-parser` package
+ * @see `@pacmec/block-serialization-spec-parser` package
  *
  * @param {Object}   blockNode                  A block node as returned by a valid parser.
  * @param {?Object}  options                    Serialization options.
@@ -11377,7 +11377,7 @@ var createParse = function createParse(parseImplementation) {
 var parseWithGrammar = createParse(external_mt_blockSerializationDefaultParser_["parse"]);
 /* harmony default export */ var parser = (parseWithGrammar);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/get-raw-transforms.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/get-raw-transforms.js
 
 
 function get_raw_transforms_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -11405,7 +11405,7 @@ function getRawTransforms() {
   });
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/html-to-blocks.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/html-to-blocks.js
 /**
  * Internal dependencies
  */
@@ -11447,7 +11447,7 @@ function htmlToBlocks(html) {
   });
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/normalise-blocks.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/normalise-blocks.js
 /**
  * paCMec dependencies
  */
@@ -11511,7 +11511,7 @@ function normaliseBlocks(HTML) {
   return accu.innerHTML;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/special-comment-converter.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/special-comment-converter.js
 /**
  * paCMec dependencies
  */
@@ -11589,7 +11589,7 @@ function createNextpage(doc) {
   return node;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/comment-remover.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/comment-remover.js
 /**
  * paCMec dependencies
  */
@@ -11607,7 +11607,7 @@ function commentRemover(node) {
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/is-inline-content.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/is-inline-content.js
 /**
  * External dependencies
  */
@@ -11660,7 +11660,7 @@ function isInlineContent(HTML, contextTag) {
   return !nodes.some(isDoubleBR) && deepCheck(nodes, contextTag);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/phrasing-content-reducer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/phrasing-content-reducer.js
 /**
  * External dependencies
  */
@@ -11717,7 +11717,7 @@ function phrasingContentReducer(node, doc) {
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/head-remover.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/head-remover.js
 function headRemover(node) {
   if (node.nodeName !== 'SCRIPT' && node.nodeName !== 'NOSCRIPT' && node.nodeName !== 'TEMPLATE' && node.nodeName !== 'STYLE') {
     return;
@@ -11726,7 +11726,7 @@ function headRemover(node) {
   node.parentNode.removeChild(node);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/ms-list-converter.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/ms-list-converter.js
 /**
  * Browser dependencies
  */
@@ -11806,7 +11806,7 @@ function msListConverter(node, doc) {
   node.parentNode.removeChild(node);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/list-reducer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/list-reducer.js
 /**
  * paCMec dependencies
  */
@@ -11874,7 +11874,7 @@ function listReducer(node) {
 // EXTERNAL MODULE: external ["mt","blob"]
 var external_mt_blob_ = __webpack_require__(43);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/image-corrector.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/image-corrector.js
 
 
 /**
@@ -11941,7 +11941,7 @@ function imageCorrector(node) {
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/blockquote-normaliser.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/blockquote-normaliser.js
 /**
  * Internal dependencies
  */
@@ -11954,7 +11954,7 @@ function blockquoteNormaliser(node) {
   node.innerHTML = normaliseBlocks(node.innerHTML);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/figure-content-reducer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/figure-content-reducer.js
 /**
  * External dependencies
  */
@@ -12056,7 +12056,7 @@ function figureContentReducer(node, doc, schema) {
 // EXTERNAL MODULE: external ["mt","shortcode"]
 var external_mt_shortcode_ = __webpack_require__(129);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/shortcode-converter.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/shortcode-converter.js
 
 
 
@@ -12151,7 +12151,7 @@ function segmentHTMLToShortcodeBlock(HTML) {
 var showdown = __webpack_require__(285);
 var showdown_default = /*#__PURE__*/__webpack_require__.n(showdown);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/markdown-converter.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/markdown-converter.js
 /**
  * External dependencies
  */
@@ -12195,7 +12195,7 @@ function markdownConverter(text) {
   return converter.makeHtml(slackMarkdownVariantCorrector(text));
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/iframe-remover.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/iframe-remover.js
 /**
  * Removes iframes.
  *
@@ -12210,7 +12210,7 @@ function iframeRemover(node) {
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/google-docs-uid-remover.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/google-docs-uid-remover.js
 /**
  * paCMec dependencies
  */
@@ -12223,7 +12223,7 @@ function googleDocsUIdRemover(node) {
   Object(external_mt_dom_["unwrap"])(node);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/utils.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/utils.js
 
 
 
@@ -12400,7 +12400,7 @@ function getSibling(node, which) {
   return getSibling(parentNode, which);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/html-formatting-remover.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/html-formatting-remover.js
 /**
  * Internal dependencies
  */
@@ -12472,7 +12472,7 @@ function htmlFormattingRemover(node) {
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/br-remover.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/br-remover.js
 /**
  * Internal dependencies
  */
@@ -12495,7 +12495,7 @@ function brRemover(node) {
   node.parentNode.removeChild(node);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/empty-paragraph-remover.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/empty-paragraph-remover.js
 /**
  * Removes empty paragraph elements.
  *
@@ -12513,7 +12513,7 @@ function emptyParagraphRemover(node) {
   node.parentNode.removeChild(node);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/paste-handler.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/paste-handler.js
 
 
 function paste_handler_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -12706,7 +12706,7 @@ function pasteHandler(_ref) {
 var external_mt_deprecated_ = __webpack_require__(35);
 var external_mt_deprecated_default = /*#__PURE__*/__webpack_require__.n(external_mt_deprecated_);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/raw-handling/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/raw-handling/index.js
 /**
  * External dependencies
  */
@@ -12780,7 +12780,7 @@ function rawHandler(_ref) {
   }));
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/categories.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/categories.js
 /**
  * paCMec dependencies
  */
@@ -12822,7 +12822,7 @@ function categories_updateCategory(slug, category) {
   Object(external_mt_data_["dispatch"])(store).updateCategory(slug, category);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/templates.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/templates.js
 
 
 
@@ -12950,7 +12950,7 @@ function synchronizeBlocksWithTemplate() {
   });
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/api/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/api/index.js
 // The blocktype is the most important concept within the block API. It defines
 // all aspects of the block configuration and its interfaces, including `edit`
 // and `save`. The transforms specification allows converting one blocktype to
@@ -13040,7 +13040,7 @@ function synchronizeBlocksWithTemplate() {
 
 
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/blocks/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/blocks/build-module/index.js
 // A "block" is the abstract term used to describe units of markup that,
 // when composed together, form the content or layout of a page.
 // The API for blocks is exposed via `mt.blocks`.

@@ -5299,7 +5299,7 @@ function _doing_it_wrong( $function, $message, $version ) {
 			$message .= ' ' . sprintf(
 				/* translators: %s: Documentation URL. */
 				__( 'Please see <a href="%s">Debugging in paCMec</a> for more information.' ),
-				__( 'https://managertechnology.com.co/pacmec/support/article/debugging-in-managertechnology/' )
+				__( 'https://managertechnology.com.co/pacmec/support/article/debugging-in-pacmec/' )
 			);
 
 			trigger_error(
@@ -5319,7 +5319,7 @@ function _doing_it_wrong( $function, $message, $version ) {
 
 			$message .= sprintf(
 				' Please see <a href="%s">Debugging in paCMec</a> for more information.',
-				'https://managertechnology.com.co/pacmec/support/article/debugging-in-managertechnology/'
+				'https://managertechnology.com.co/pacmec/support/article/debugging-in-pacmec/'
 			);
 
 			trigger_error(

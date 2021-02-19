@@ -493,7 +493,7 @@ function ms_not_installed( $domain, $path ) {
 	$msg .= sprintf(
 		/* translators: %s: Documentation URL. */
 		__( 'Read the <a href="%s" target="_blank">Debugging a paCMec Network</a> article. Some of the suggestions there may help you figure out what went wrong.' ),
-		__( 'https://managertechnology.com.co/pacmec/support/article/debugging-a-managertechnology-network/' )
+		__( 'https://managertechnology.com.co/pacmec/support/article/debugging-a-pacmec-network/' )
 	);
 	$msg .= ' ' . __( 'If you&#8217;re still stuck with this message, then check that your database contains the following tables:' ) . '</p><ul>';
 	foreach ( $mtdb->tables( 'global' ) as $t => $table ) {

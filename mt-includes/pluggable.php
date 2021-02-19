@@ -359,7 +359,7 @@ if ( ! function_exists( 'mt_mail' ) ) :
 		}
 
 		/*
-		 * If we don't have an email from the input headers, default to managertechnology@$sitename
+		 * If we don't have an email from the input headers, default to pacmec@$sitename
 		 * Some hosts will block outgoing mail from this address if it doesn't exist,
 		 * but there's no easy alternative. Defaulting to admin_email might appear to be
 		 * another option, but some hosts may refuse to relay mail from an unknown domain.
@@ -372,7 +372,7 @@ if ( ! function_exists( 'mt_mail' ) ) :
 				$sitename = substr( $sitename, 4 );
 			}
 
-			$from_email = 'managertechnology@' . $sitename;
+			$from_email = 'pacmec@' . $sitename;
 		}
 
 		/**
@@ -1687,7 +1687,7 @@ if ( ! function_exists( 'mt_notify_postauthor' ) ) :
 			$notify_message .= sprintf( __( 'Spam it: %s' ), admin_url( "comment.php?action=spam&c={$comment->comment_ID}#mtbody-content" ) ) . "\r\n";
 		}
 
-		$mt_email = 'managertechnology@' . preg_replace( '#^www\.#', '', mt_parse_url( network_home_url(), PHP_URL_HOST ) );
+		$mt_email = 'pacmec@' . preg_replace( '#^www\.#', '', mt_parse_url( network_home_url(), PHP_URL_HOST ) );
 
 		if ( '' === $comment->comment_author ) {
 			$from = "From: \"$blogname\" <$mt_email>";

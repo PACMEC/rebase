@@ -316,7 +316,7 @@ if ( 'post' === $post_type ) {
 			'tools.php'
 		) . '</p>' .
 			'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-			'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/managertechnology-editor/">Documentation on Writing and Editing Posts</a>' ) . '</p>' .
+			'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/article/pacmec-editor/">Documentation on Writing and Editing Posts</a>' ) . '</p>' .
 			'<p>' . __( '<a href="https://managertechnology.com.co/pacmec/support/">Support</a>' ) . '</p>'
 	);
 } elseif ( 'page' === $post_type ) {

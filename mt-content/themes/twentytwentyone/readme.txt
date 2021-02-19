@@ -1,5 +1,5 @@
 === Twenty Twenty-One ===
-Contributors: managertechnologydotorg
+Contributors: pacmecdotorg
 Requires at least: 5.3
 Tested up to: 5.6
 Requires PHP: 5.6

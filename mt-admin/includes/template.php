@@ -1152,7 +1152,7 @@ function do_block_editor_incompatible_meta_box( $object, $box ) {
 			printf(
 				/* translators: %s: A link to install the Classic Editor plugin. */
 				__( 'Please install the <a href="%s">Classic Editor plugin</a> to use this meta box.' ),
-				esc_url( mt_nonce_url( self_admin_url( 'plugin-install.php?tab=favorites&user=managertechnologydotorg&save=0' ), 'save_mtorg_username_' . get_current_user_id() ) )
+				esc_url( mt_nonce_url( self_admin_url( 'plugin-install.php?tab=favorites&user=pacmecdotorg&save=0' ), 'save_mtorg_username_' . get_current_user_id() ) )
 			);
 			echo '</p>';
 		}

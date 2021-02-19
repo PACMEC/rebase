@@ -112,12 +112,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "dispatch", function() { return dispatch; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__unstableAwaitPromise", function() { return __unstableAwaitPromise; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "controls", function() { return controls; });
-/* harmony import */ var _managertechnology_api_fetch__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(50);
-/* harmony import */ var _managertechnology_api_fetch__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_api_fetch__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _managertechnology_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
-/* harmony import */ var _managertechnology_data__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_data__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _managertechnology_deprecated__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(35);
-/* harmony import */ var _managertechnology_deprecated__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_deprecated__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _pacmec_api_fetch__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(50);
+/* harmony import */ var _pacmec_api_fetch__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pacmec_api_fetch__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pacmec_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
+/* harmony import */ var _pacmec_data__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pacmec_data__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _pacmec_deprecated__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(35);
+/* harmony import */ var _pacmec_deprecated__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_pacmec_deprecated__WEBPACK_IMPORTED_MODULE_2__);
 /**
  * paCMec dependencies
  */
@@ -131,7 +131,7 @@ __webpack_require__.r(__webpack_exports__);
  *
  * @example
  * ```js
- * import { apiFetch } from '@managertechnology/data-controls';
+ * import { apiFetch } from '@pacmec/data-controls';
  *
  * // Action generator using apiFetch
  * export function* myAction() {
@@ -152,42 +152,42 @@ function apiFetch(request) {
 }
 /**
  * Control for resolving a selector in a registered data store.
- * Alias for the `resolveSelect` built-in control in the `@managertechnology/data` package.
+ * Alias for the `resolveSelect` built-in control in the `@pacmec/data` package.
  *
- * @param {Array} args Arguments passed without change to the `@managertechnology/data` control.
+ * @param {Array} args Arguments passed without change to the `@pacmec/data` control.
  */
 
 function select() {
-  _managertechnology_deprecated__WEBPACK_IMPORTED_MODULE_2___default()('`select` control in `@managertechnology/data-controls`', {
-    alternative: 'built-in `resolveSelect` control in `@managertechnology/data`'
+  _pacmec_deprecated__WEBPACK_IMPORTED_MODULE_2___default()('`select` control in `@pacmec/data-controls`', {
+    alternative: 'built-in `resolveSelect` control in `@pacmec/data`'
   });
-  return _managertechnology_data__WEBPACK_IMPORTED_MODULE_1__["controls"].resolveSelect.apply(_managertechnology_data__WEBPACK_IMPORTED_MODULE_1__["controls"], arguments);
+  return _pacmec_data__WEBPACK_IMPORTED_MODULE_1__["controls"].resolveSelect.apply(_pacmec_data__WEBPACK_IMPORTED_MODULE_1__["controls"], arguments);
 }
 /**
  * Control for calling a selector in a registered data store.
- * Alias for the `select` built-in control in the `@managertechnology/data` package.
+ * Alias for the `select` built-in control in the `@pacmec/data` package.
  *
- * @param {Array} args Arguments passed without change to the `@managertechnology/data` control.
+ * @param {Array} args Arguments passed without change to the `@pacmec/data` control.
  */
 
 function syncSelect() {
-  _managertechnology_deprecated__WEBPACK_IMPORTED_MODULE_2___default()('`syncSelect` control in `@managertechnology/data-controls`', {
-    alternative: 'built-in `select` control in `@managertechnology/data`'
+  _pacmec_deprecated__WEBPACK_IMPORTED_MODULE_2___default()('`syncSelect` control in `@pacmec/data-controls`', {
+    alternative: 'built-in `select` control in `@pacmec/data`'
   });
-  return _managertechnology_data__WEBPACK_IMPORTED_MODULE_1__["controls"].select.apply(_managertechnology_data__WEBPACK_IMPORTED_MODULE_1__["controls"], arguments);
+  return _pacmec_data__WEBPACK_IMPORTED_MODULE_1__["controls"].select.apply(_pacmec_data__WEBPACK_IMPORTED_MODULE_1__["controls"], arguments);
 }
 /**
  * Control for dispatching an action in a registered data store.
- * Alias for the `dispatch` control in the `@managertechnology/data` package.
+ * Alias for the `dispatch` control in the `@pacmec/data` package.
  *
- * @param {Array} args Arguments passed without change to the `@managertechnology/data` control.
+ * @param {Array} args Arguments passed without change to the `@pacmec/data` control.
  */
 
 function dispatch() {
-  _managertechnology_deprecated__WEBPACK_IMPORTED_MODULE_2___default()('`dispatch` control in `@managertechnology/data-controls`', {
-    alternative: 'built-in `dispatch` control in `@managertechnology/data`'
+  _pacmec_deprecated__WEBPACK_IMPORTED_MODULE_2___default()('`dispatch` control in `@pacmec/data-controls`', {
+    alternative: 'built-in `dispatch` control in `@pacmec/data`'
   });
-  return _managertechnology_data__WEBPACK_IMPORTED_MODULE_1__["controls"].dispatch.apply(_managertechnology_data__WEBPACK_IMPORTED_MODULE_1__["controls"], arguments);
+  return _pacmec_data__WEBPACK_IMPORTED_MODULE_1__["controls"].dispatch.apply(_pacmec_data__WEBPACK_IMPORTED_MODULE_1__["controls"], arguments);
 }
 /**
  * Dispatches a control action for awaiting on a promise to be resolved.
@@ -196,7 +196,7 @@ function dispatch() {
  *
  * @example
  * ```js
- * import { __unstableAwaitPromise } from '@managertechnology/data-controls';
+ * import { __unstableAwaitPromise } from '@pacmec/data-controls';
  *
  * // Action generator using apiFetch
  * export function* myAction() {
@@ -223,8 +223,8 @@ var __unstableAwaitPromise = function __unstableAwaitPromise(promise) {
  * @example
  * ```js
  * // paCMec dependencies
- * import { controls } from '@managertechnology/data-controls';
- * import { registerStore } from '@managertechnology/data';
+ * import { controls } from '@pacmec/data-controls';
+ * import { registerStore } from '@pacmec/data';
  *
  * // Internal dependencies
  * import reducer from './reducer';
@@ -251,7 +251,7 @@ var controls = {
   },
   API_FETCH: function API_FETCH(_ref2) {
     var request = _ref2.request;
-    return _managertechnology_api_fetch__WEBPACK_IMPORTED_MODULE_0___default()(request);
+    return _pacmec_api_fetch__WEBPACK_IMPORTED_MODULE_0___default()(request);
   }
 };
 

@@ -533,20 +533,20 @@ function _toConsumableArray(arr) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__);
 
 
 /**
  * paCMec dependencies
  */
 
-var closeSmall = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
+var closeSmall = Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
-}, Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
+}, Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M13 11.9l3.3-3.4-1.1-1-3.2 3.3-3.2-3.3-1.1 1 3.3 3.4-3.5 3.6 1 1L12 13l3.5 3.5 1-1z"
 }));
 /* harmony default export */ __webpack_exports__["a"] = (closeSmall);
@@ -565,20 +565,20 @@ var closeSmall = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__[
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__);
 
 
 /**
  * paCMec dependencies
  */
 
-var close = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
+var close = Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
-}, Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
+}, Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M13 11.8l6.1-6.3-1-1-6.1 6.2-6.1-6.2-1 1 6.1 6.3-6.5 6.7 1 1 6.5-6.6 6.5 6.6 1-1z"
 }));
 /* harmony default export */ __webpack_exports__["a"] = (close);
@@ -590,20 +590,20 @@ var close = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["crea
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__);
 
 
 /**
  * paCMec dependencies
  */
 
-var check = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
+var check = Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
-}, Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
+}, Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M18.3 5.6L9.9 16.9l-4.6-3.4-.9 1.2 5.8 4.3 9.3-12.6z"
 }));
 /* harmony default export */ __webpack_exports__["a"] = (check);
@@ -624,18 +624,18 @@ var check = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["crea
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/* unused harmony export Fill */
 /* unused harmony export Slot */
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _managertechnology_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
-/* harmony import */ var _managertechnology_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_components__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _managertechnology_compose__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(12);
-/* harmony import */ var _managertechnology_compose__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_compose__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _managertechnology_plugins__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(73);
-/* harmony import */ var _managertechnology_plugins__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_plugins__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _managertechnology_data__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4);
-/* harmony import */ var _managertechnology_data__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_data__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _managertechnology_warning__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(103);
-/* harmony import */ var _managertechnology_warning__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_warning__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pacmec_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
+/* harmony import */ var _pacmec_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pacmec_components__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _pacmec_compose__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(12);
+/* harmony import */ var _pacmec_compose__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_pacmec_compose__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _pacmec_plugins__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(73);
+/* harmony import */ var _pacmec_plugins__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_pacmec_plugins__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _pacmec_data__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4);
+/* harmony import */ var _pacmec_data__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_pacmec_data__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _pacmec_warning__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(103);
+/* harmony import */ var _pacmec_warning__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_pacmec_warning__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _preferences_modal_options__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(65);
 /* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(23);
 
@@ -659,7 +659,7 @@ var check = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["crea
 
 
 
-var _createSlotFill = Object(_managertechnology_components__WEBPACK_IMPORTED_MODULE_1__["createSlotFill"])('PluginDocumentSettingPanel'),
+var _createSlotFill = Object(_pacmec_components__WEBPACK_IMPORTED_MODULE_1__["createSlotFill"])('PluginDocumentSettingPanel'),
     Fill = _createSlotFill.Fill,
     Slot = _createSlotFill.Slot;
 
@@ -674,10 +674,10 @@ var PluginDocumentSettingFill = function PluginDocumentSettingFill(_ref) {
       title = _ref.title,
       icon = _ref.icon,
       children = _ref.children;
-  return Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_preferences_modal_options__WEBPACK_IMPORTED_MODULE_6__[/* EnablePluginDocumentSettingPanelOption */ "d"], {
+  return Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_preferences_modal_options__WEBPACK_IMPORTED_MODULE_6__[/* EnablePluginDocumentSettingPanelOption */ "d"], {
     label: title,
     panelName: panelName
-  }), Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Fill, null, isEnabled && Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_components__WEBPACK_IMPORTED_MODULE_1__["PanelBody"], {
+  }), Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Fill, null, isEnabled && Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_components__WEBPACK_IMPORTED_MODULE_1__["PanelBody"], {
     className: className,
     title: title,
     icon: icon,
@@ -723,8 +723,8 @@ var PluginDocumentSettingFill = function PluginDocumentSettingFill(_ref) {
  * <caption>ESNext</caption>
  * ```jsx
  * // Using ESNext syntax
- * import { registerPlugin } from '@managertechnology/plugins';
- * import { PluginDocumentSettingPanel } from '@managertechnology/edit-post';
+ * import { registerPlugin } from '@pacmec/plugins';
+ * import { PluginDocumentSettingPanel } from '@pacmec/edit-post';
  *
  * const MyDocumentSettingTest = () => (
  * 		<PluginDocumentSettingPanel className="my-document-setting-plugin" title="My Panel">
@@ -739,22 +739,22 @@ var PluginDocumentSettingFill = function PluginDocumentSettingFill(_ref) {
  */
 
 
-var PluginDocumentSettingPanel = Object(_managertechnology_compose__WEBPACK_IMPORTED_MODULE_2__["compose"])(Object(_managertechnology_plugins__WEBPACK_IMPORTED_MODULE_3__["withPluginContext"])(function (context, ownProps) {
+var PluginDocumentSettingPanel = Object(_pacmec_compose__WEBPACK_IMPORTED_MODULE_2__["compose"])(Object(_pacmec_plugins__WEBPACK_IMPORTED_MODULE_3__["withPluginContext"])(function (context, ownProps) {
   if (undefined === ownProps.name) {
-    typeof process !== "undefined" && process.env && "production" !== "production" ? _managertechnology_warning__WEBPACK_IMPORTED_MODULE_5___default()('PluginDocumentSettingPanel requires a name property.') : void 0;
+    typeof process !== "undefined" && process.env && "production" !== "production" ? _pacmec_warning__WEBPACK_IMPORTED_MODULE_5___default()('PluginDocumentSettingPanel requires a name property.') : void 0;
   }
 
   return {
     icon: ownProps.icon || context.icon,
     panelName: "".concat(context.name, "/").concat(ownProps.name)
   };
-}), Object(_managertechnology_data__WEBPACK_IMPORTED_MODULE_4__["withSelect"])(function (select, _ref2) {
+}), Object(_pacmec_data__WEBPACK_IMPORTED_MODULE_4__["withSelect"])(function (select, _ref2) {
   var panelName = _ref2.panelName;
   return {
     opened: select(_store__WEBPACK_IMPORTED_MODULE_7__[/* store */ "a"]).isEditorPanelOpened(panelName),
     isEnabled: select(_store__WEBPACK_IMPORTED_MODULE_7__[/* store */ "a"]).isEditorPanelEnabled(panelName)
   };
-}), Object(_managertechnology_data__WEBPACK_IMPORTED_MODULE_4__["withDispatch"])(function (dispatch, _ref3) {
+}), Object(_pacmec_data__WEBPACK_IMPORTED_MODULE_4__["withDispatch"])(function (dispatch, _ref3) {
   var panelName = _ref3.panelName;
   return {
     onToggle: function onToggle() {
@@ -809,20 +809,20 @@ function _getPrototypeOf(o) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__);
 
 
 /**
  * paCMec dependencies
  */
 
-var plus = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
+var plus = Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
-}, Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
+}, Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M18 11.2h-5.2V6h-1.6v5.2H6v1.6h5.2V18h1.6v-5.2H18z"
 }));
 /* harmony default export */ __webpack_exports__["a"] = (plus);
@@ -838,7 +838,7 @@ var plus = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["creat
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, "a", function() { return /* binding */ store; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/edit-post/build-module/store/actions.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/edit-post/build-module/store/actions.js
 var actions_namespaceObject = {};
 __webpack_require__.r(actions_namespaceObject);
 __webpack_require__.d(actions_namespaceObject, "openGeneralSidebar", function() { return openGeneralSidebar; });
@@ -865,7 +865,7 @@ __webpack_require__.d(actions_namespaceObject, "__experimentalSetPreviewDeviceTy
 __webpack_require__.d(actions_namespaceObject, "setIsInserterOpened", function() { return setIsInserterOpened; });
 __webpack_require__.d(actions_namespaceObject, "setIsEditingTemplate", function() { return setIsEditingTemplate; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/edit-post/build-module/store/selectors.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/edit-post/build-module/store/selectors.js
 var selectors_namespaceObject = {};
 __webpack_require__.r(selectors_namespaceObject);
 __webpack_require__.d(selectors_namespaceObject, "getEditorMode", function() { return getEditorMode; });
@@ -907,7 +907,7 @@ var defineProperty = __webpack_require__(5);
 // EXTERNAL MODULE: external "lodash"
 var external_lodash_ = __webpack_require__(2);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/store/defaults.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/store/defaults.js
 var PREFERENCES_DEFAULTS = {
   editorMode: 'visual',
   panels: {
@@ -928,7 +928,7 @@ var PREFERENCES_DEFAULTS = {
   localAutosaveInterval: 15
 };
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/store/reducer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/store/reducer.js
 
 
 
@@ -1256,13 +1256,13 @@ var external_regeneratorRuntime_default = /*#__PURE__*/__webpack_require__.n(ext
 // EXTERNAL MODULE: external ["mt","i18n"]
 var external_mt_i18n_ = __webpack_require__(1);
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/interface/build-module/index.js + 15 modules
+// EXTERNAL MODULE: ./node_modules/@pacmec/interface/build-module/index.js + 15 modules
 var build_module = __webpack_require__(61);
 
 // EXTERNAL MODULE: external ["mt","a11y"]
 var external_mt_a11y_ = __webpack_require__(48);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/utils/meta-boxes.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/utils/meta-boxes.js
 /**
  * Function returning the current Meta Boxes DOM Node in the editor
  * whether the meta box area is opened or not.
@@ -1281,7 +1281,7 @@ var getMetaBoxContainer = function getMetaBoxContainer(location) {
   return document.querySelector('#metaboxes .metabox-location-' + location);
 };
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/store/actions.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/store/actions.js
 
 
 
@@ -1803,7 +1803,7 @@ function setIsEditingTemplate(value) {
 // EXTERNAL MODULE: ./node_modules/rememo/es/rememo.js
 var rememo = __webpack_require__(41);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/store/selectors.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/store/selectors.js
 /**
  * External dependencies
  */
@@ -2114,10 +2114,10 @@ function selectors_isEditingTemplate(state) {
   return state.isEditingTemplate;
 }
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/edit-post/build-module/store/constants.js
+// EXTERNAL MODULE: ./node_modules/@pacmec/edit-post/build-module/store/constants.js
 var constants = __webpack_require__(118);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/store/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/store/index.js
 /**
  * paCMec dependencies
  */
@@ -2267,20 +2267,20 @@ function _possibleConstructorReturn(self, call) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__);
 
 
 /**
  * paCMec dependencies
  */
 
-var starFilled = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
+var starFilled = Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
-}, Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
+}, Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M11.776 4.454a.25.25 0 01.448 0l2.069 4.192a.25.25 0 00.188.137l4.626.672a.25.25 0 01.139.426l-3.348 3.263a.25.25 0 00-.072.222l.79 4.607a.25.25 0 01-.362.263l-4.138-2.175a.25.25 0 00-.232 0l-4.138 2.175a.25.25 0 01-.363-.263l.79-4.607a.25.25 0 00-.071-.222L4.754 9.881a.25.25 0 01.139-.426l4.626-.672a.25.25 0 00.188-.137l2.069-4.192z"
 }));
 /* harmony default export */ __webpack_exports__["a"] = (starFilled);
@@ -2292,20 +2292,20 @@ var starFilled = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__[
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__);
 
 
 /**
  * paCMec dependencies
  */
 
-var starEmpty = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
+var starEmpty = Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
-}, Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
+}, Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   fillRule: "evenodd",
   d: "M9.706 8.646a.25.25 0 01-.188.137l-4.626.672a.25.25 0 00-.139.427l3.348 3.262a.25.25 0 01.072.222l-.79 4.607a.25.25 0 00.362.264l4.138-2.176a.25.25 0 01.233 0l4.137 2.175a.25.25 0 00.363-.263l-.79-4.607a.25.25 0 01.072-.222l3.347-3.262a.25.25 0 00-.139-.427l-4.626-.672a.25.25 0 01-.188-.137l-2.069-4.192a.25.25 0 00-.448 0L9.706 8.646zM12 7.39l-.948 1.921a1.75 1.75 0 01-1.317.957l-2.12.308 1.534 1.495c.412.402.6.982.503 1.55l-.362 2.11 1.896-.997a1.75 1.75 0 011.629 0l1.895.997-.362-2.11a1.75 1.75 0 01.504-1.55l1.533-1.495-2.12-.308a1.75 1.75 0 01-1.317-.957L12 7.39z",
   clipRule: "evenodd"
@@ -2337,20 +2337,20 @@ function _unsupportedIterableToArray(o, minLen) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__);
 
 
 /**
  * paCMec dependencies
  */
 
-var moreVertical = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
+var moreVertical = Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
-}, Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
+}, Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M13 19h-2v-2h2v2zm0-6h-2v-2h2v2zm0-6h-2V5h2v2z"
 }));
 /* harmony default export */ __webpack_exports__["a"] = (moreVertical);
@@ -2728,20 +2728,20 @@ function _typeof(obj) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__);
 
 
 /**
  * paCMec dependencies
  */
 
-var external = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
+var external = Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
-}, Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
+}, Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M18.2 17c0 .7-.6 1.2-1.2 1.2H7c-.7 0-1.2-.6-1.2-1.2V7c0-.7.6-1.2 1.2-1.2h3.2V4.2H7C5.5 4.2 4.2 5.5 4.2 7v10c0 1.5 1.2 2.8 2.8 2.8h10c1.5 0 2.8-1.2 2.8-2.8v-3.6h-1.5V17zM14.9 3v1.5h3.7l-6.4 6.4 1.1 1.1 6.4-6.4v3.7h1.5V3h-6.3z"
 }));
 /* harmony default export */ __webpack_exports__["a"] = (external);
@@ -2814,7 +2814,7 @@ var external_mt_hooks_ = __webpack_require__(33);
 // EXTERNAL MODULE: external ["mt","mediaUtils"]
 var external_mt_mediaUtils_ = __webpack_require__(154);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/hooks/components/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/hooks/components/index.js
 /**
  * paCMec dependencies
  */
@@ -2851,7 +2851,7 @@ var external_mt_i18n_ = __webpack_require__(1);
 // EXTERNAL MODULE: external ["mt","compose"]
 var external_mt_compose_ = __webpack_require__(12);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/hooks/validate-multiple-use/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/hooks/validate-multiple-use/index.js
 
 
 
@@ -2978,14 +2978,14 @@ function getOutboundType(blockName) {
 
 Object(external_mt_hooks_["addFilter"])('editor.BlockEdit', 'core/edit-post/validate-multiple-use/with-multiple-validation', withMultipleValidation);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/hooks/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/hooks/index.js
 /**
  * Internal dependencies
  */
 
 
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/icons/build-module/library/external.js
+// EXTERNAL MODULE: ./node_modules/@pacmec/icons/build-module/library/external.js
 var external = __webpack_require__(436);
 
 // EXTERNAL MODULE: external ["mt","plugins"]
@@ -2997,7 +2997,7 @@ var external_mt_url_ = __webpack_require__(32);
 // EXTERNAL MODULE: external ["mt","notices"]
 var external_mt_notices_ = __webpack_require__(51);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/plugins/copy-content-menu-item/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/plugins/copy-content-menu-item/index.js
 
 
 /**
@@ -3046,10 +3046,10 @@ function CopyContentMenuItem(_ref) {
   return editedPostContent.length > 0;
 }))(CopyContentMenuItem));
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/edit-post/build-module/store/index.js + 5 modules
+// EXTERNAL MODULE: ./node_modules/@pacmec/edit-post/build-module/store/index.js + 5 modules
 var store = __webpack_require__(23);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/plugins/manage-blocks-menu-item/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/plugins/manage-blocks-menu-item/index.js
 
 
 /**
@@ -3083,7 +3083,7 @@ function ManageBlocksMenuItem(_ref) {
 // EXTERNAL MODULE: external ["mt","keycodes"]
 var external_mt_keycodes_ = __webpack_require__(17);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/plugins/keyboard-shortcuts-help-menu-item/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/plugins/keyboard-shortcuts-help-menu-item/index.js
 
 
 /**
@@ -3116,7 +3116,7 @@ function KeyboardShortcutsHelpMenuItem(_ref) {
   };
 })(KeyboardShortcutsHelpMenuItem));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/header/tools-more-menu-group/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/header/tools-more-menu-group/index.js
 
 
 /**
@@ -3147,7 +3147,7 @@ ToolsMoreMenuGroup.Slot = function (_ref) {
 
 /* harmony default export */ var tools_more_menu_group = (ToolsMoreMenuGroup);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/plugins/welcome-guide-menu-item/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/plugins/welcome-guide-menu-item/index.js
 
 
 /**
@@ -3172,7 +3172,7 @@ function WelcomeGuideMenuItem() {
   }, Object(external_mt_i18n_["__"])('Welcome Guide'));
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/plugins/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/plugins/index.js
 
 
 /**
@@ -3208,7 +3208,7 @@ Object(external_mt_plugins_["registerPlugin"])('edit-post', {
       }), Object(external_mt_element_["createElement"])(WelcomeGuideMenuItem, null), Object(external_mt_element_["createElement"])(copy_content_menu_item, null), Object(external_mt_element_["createElement"])(external_mt_components_["MenuItem"], {
         role: "menuitem",
         icon: external["a" /* default */],
-        href: Object(external_mt_i18n_["__"])('https://managertechnology.com.co/pacmec/support/article/managertechnology-editor/'),
+        href: Object(external_mt_i18n_["__"])('https://managertechnology.com.co/pacmec/support/article/pacmec-editor/'),
         target: "_blank",
         rel: "noopener noreferrer"
       }, Object(external_mt_i18n_["__"])('Help'), Object(external_mt_element_["createElement"])(external_mt_components_["VisuallyHidden"], {
@@ -3226,7 +3226,7 @@ var toConsumableArray = __webpack_require__(15);
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
 var defineProperty = __webpack_require__(5);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/prevent-event-discovery.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/prevent-event-discovery.js
 /* harmony default export */ var prevent_event_discovery = ({
   't a l e s o f g u t e n b e r g': function tALESOFGUTENBERG(event) {
     var ownerDocument = event.target.ownerDocument;
@@ -3249,16 +3249,16 @@ var slicedToArray = __webpack_require__(11);
 var classnames = __webpack_require__(10);
 var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/interface/build-module/index.js + 15 modules
+// EXTERNAL MODULE: ./node_modules/@pacmec/interface/build-module/index.js + 15 modules
 var build_module = __webpack_require__(61);
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/icons/build-module/library/close.js
+// EXTERNAL MODULE: ./node_modules/@pacmec/icons/build-module/library/close.js
 var library_close = __webpack_require__(160);
 
 // EXTERNAL MODULE: external ["mt","keyboardShortcuts"]
 var external_mt_keyboardShortcuts_ = __webpack_require__(46);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/text-editor/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/text-editor/index.js
 
 
 /**
@@ -3310,7 +3310,7 @@ var react_merge_refs_esm = __webpack_require__(72);
 // EXTERNAL MODULE: external ["mt","a11y"]
 var external_mt_a11y_ = __webpack_require__(48);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/visual-editor/block-inspector-button.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/visual-editor/block-inspector-button.js
 
 
 /**
@@ -3375,7 +3375,7 @@ function BlockInspectorButton(_ref) {
 }
 /* harmony default export */ var block_inspector_button = (BlockInspectorButton);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/visual-editor/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/visual-editor/index.js
 
 
 /**
@@ -3450,7 +3450,7 @@ function VisualEditor(_ref) {
   }));
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/keyboard-shortcuts/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/keyboard-shortcuts/index.js
 /**
  * paCMec dependencies
  */
@@ -3593,7 +3593,7 @@ function KeyboardShortcuts() {
 
 /* harmony default export */ var keyboard_shortcuts = (KeyboardShortcuts);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/keyboard-shortcut-help-modal/config.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/keyboard-shortcut-help-modal/config.js
 /**
  * paCMec dependencies
  */
@@ -3630,7 +3630,7 @@ var textFormattingShortcuts = [{
   description: Object(external_mt_i18n_["__"])('Underline the selected text.')
 }];
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/keyboard-shortcut-help-modal/shortcut.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/keyboard-shortcut-help-modal/shortcut.js
 
 
 /**
@@ -3690,7 +3690,7 @@ function Shortcut(_ref2) {
 
 /* harmony default export */ var keyboard_shortcut_help_modal_shortcut = (Shortcut);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/keyboard-shortcut-help-modal/dynamic-shortcut.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/keyboard-shortcut-help-modal/dynamic-shortcut.js
 
 
 /**
@@ -3736,7 +3736,7 @@ function DynamicShortcut(_ref) {
 
 /* harmony default export */ var dynamic_shortcut = (DynamicShortcut);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/keyboard-shortcut-help-modal/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/keyboard-shortcut-help-modal/index.js
 
 
 /**
@@ -3875,7 +3875,7 @@ function KeyboardShortcutHelpModal(_ref4) {
   };
 })])(KeyboardShortcutHelpModal));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/manage-blocks-modal/checklist.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/manage-blocks-modal/checklist.js
 
 
 /**
@@ -3911,7 +3911,7 @@ function BlockTypesChecklist(_ref) {
 
 /* harmony default export */ var checklist = (BlockTypesChecklist);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/edit-post-settings/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/edit-post-settings/index.js
 /**
  * paCMec dependencies
  */
@@ -3919,7 +3919,7 @@ function BlockTypesChecklist(_ref) {
 var EditPostSettings = Object(external_mt_element_["createContext"])({});
 /* harmony default export */ var edit_post_settings = (EditPostSettings);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/manage-blocks-modal/category.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/manage-blocks-modal/category.js
 
 
 
@@ -4031,7 +4031,7 @@ function BlockManagerCategory(_ref) {
   };
 })])(BlockManagerCategory));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/manage-blocks-modal/manager.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/manage-blocks-modal/manager.js
 
 
 /**
@@ -4131,7 +4131,7 @@ function BlockManager(_ref) {
   };
 })])(BlockManager));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/manage-blocks-modal/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/manage-blocks-modal/index.js
 
 
 /**
@@ -4185,7 +4185,7 @@ function ManageBlocksModal(_ref) {
   };
 })])(ManageBlocksModal));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/preferences-modal/section.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/preferences-modal/section.js
 
 
 var section_Section = function Section(_ref) {
@@ -4203,10 +4203,10 @@ var section_Section = function Section(_ref) {
 
 /* harmony default export */ var preferences_modal_section = (section_Section);
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/preferences-modal/options/index.js + 6 modules
+// EXTERNAL MODULE: ./node_modules/@pacmec/edit-post/build-module/components/preferences-modal/options/index.js + 6 modules
 var options = __webpack_require__(65);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/preferences-modal/meta-boxes-section.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/preferences-modal/meta-boxes-section.js
 
 
 
@@ -4268,7 +4268,7 @@ function MetaBoxesSection(_ref) {
   };
 })(MetaBoxesSection));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/preferences-modal/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/preferences-modal/index.js
 
 
 
@@ -4515,7 +4515,7 @@ var possibleConstructorReturn = __webpack_require__(29);
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js
 var getPrototypeOf = __webpack_require__(19);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/browser-url/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/browser-url/index.js
 
 
 
@@ -4668,22 +4668,22 @@ var browser_url_BrowserURL = /*#__PURE__*/function (_Component) {
 // EXTERNAL MODULE: external ["mt","primitives"]
 var external_mt_primitives_ = __webpack_require__(7);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/icons/build-module/library/managertechnology.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/icons/build-module/library/pacmec.js
 
 
 /**
  * paCMec dependencies
  */
 
-var managertechnology = Object(external_mt_element_["createElement"])(external_mt_primitives_["SVG"], {
+var pacmec = Object(external_mt_element_["createElement"])(external_mt_primitives_["SVG"], {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "-2 -2 24 24"
 }, Object(external_mt_element_["createElement"])(external_mt_primitives_["Path"], {
   d: "M20 10c0-5.51-4.49-10-10-10C4.48 0 0 4.49 0 10c0 5.52 4.48 10 10 10 5.51 0 10-4.48 10-10zM7.78 15.37L4.37 6.22c.55-.02 1.17-.08 1.17-.08.5-.06.44-1.13-.06-1.11 0 0-1.45.11-2.37.11-.18 0-.37 0-.58-.01C4.12 2.69 6.87 1.11 10 1.11c2.33 0 4.45.87 6.05 2.34-.68-.11-1.65.39-1.65 1.58 0 .74.45 1.36.9 2.1.35.61.55 1.36.55 2.46 0 1.49-1.4 5-1.4 5l-3.03-8.37c.54-.02.82-.17.82-.17.5-.05.44-1.25-.06-1.22 0 0-1.44.12-2.38.12-.87 0-2.33-.12-2.33-.12-.5-.03-.56 1.2-.06 1.22l.92.08 1.26 3.41zM17.41 10c.24-.64.74-1.87.43-4.25.7 1.29 1.05 2.71 1.05 4.25 0 3.29-1.73 6.24-4.4 7.78.97-2.59 1.94-5.2 2.92-7.78zM6.1 18.09C3.12 16.65 1.11 13.53 1.11 10c0-1.3.23-2.48.72-3.59C3.25 10.3 4.67 14.2 6.1 18.09zm4.03-6.63l2.58 6.98c-.86.29-1.76.45-2.71.45-.79 0-1.57-.11-2.29-.33.81-2.38 1.62-4.74 2.42-7.1z"
 }));
-/* harmony default export */ var library_managertechnology = (managertechnology);
+/* harmony default export */ var library_pacmec = (pacmec);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/header/fullscreen-mode-close/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/header/fullscreen-mode-close/index.js
 
 
 /**
@@ -4743,7 +4743,7 @@ function FullscreenModeClose(_ref) {
 
   var buttonIcon = Object(external_mt_element_["createElement"])(external_mt_components_["Icon"], {
     size: "36px",
-    icon: library_managertechnology
+    icon: library_pacmec
   });
 
   if (siteIconUrl) {
@@ -4778,10 +4778,10 @@ function FullscreenModeClose(_ref) {
 
 /* harmony default export */ var fullscreen_mode_close = (FullscreenModeClose);
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/icons/build-module/library/plus.js
+// EXTERNAL MODULE: ./node_modules/@pacmec/icons/build-module/library/plus.js
 var plus = __webpack_require__(216);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/header/template-title/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/header/template-title/index.js
 
 
 /**
@@ -4833,7 +4833,7 @@ function TemplateTitle() {
 
 /* harmony default export */ var template_title = (TemplateTitle);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/header/header-toolbar/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/header/header-toolbar/index.js
 
 
 /**
@@ -5005,10 +5005,10 @@ function HeaderToolbar() {
 
 /* harmony default export */ var header_toolbar = (HeaderToolbar);
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/icons/build-module/library/more-vertical.js
+// EXTERNAL MODULE: ./node_modules/@pacmec/icons/build-module/library/more-vertical.js
 var more_vertical = __webpack_require__(311);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/header/mode-switcher/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/header/mode-switcher/index.js
 
 
 
@@ -5083,7 +5083,7 @@ function ModeSwitcher() {
 
 /* harmony default export */ var mode_switcher = (ModeSwitcher);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/header/preferences-menu-item/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/header/preferences-menu-item/index.js
 
 
 /**
@@ -5108,10 +5108,10 @@ function PreferencesMenuItem() {
   }, Object(external_mt_i18n_["__"])('Preferences'));
 }
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/icons/build-module/library/check.js
+// EXTERNAL MODULE: ./node_modules/@pacmec/icons/build-module/library/check.js
 var check = __webpack_require__(161);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/header/feature-toggle/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/header/feature-toggle/index.js
 
 
 /**
@@ -5174,7 +5174,7 @@ function FeatureToggle(_ref) {
   };
 })])(FeatureToggle));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/header/writing-menu/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/header/writing-menu/index.js
 
 
 /**
@@ -5223,7 +5223,7 @@ function WritingMenu() {
 
 /* harmony default export */ var writing_menu = (WritingMenu);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/header/more-menu/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/header/more-menu/index.js
 
 
 
@@ -5291,7 +5291,7 @@ var more_menu_MoreMenu = function MoreMenu(_ref) {
 
 /* harmony default export */ var more_menu = (more_menu_MoreMenu);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/header/post-publish-button-or-toggle.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/header/post-publish-button-or-toggle.js
 
 
 /**
@@ -5387,7 +5387,7 @@ function PostPublishButtonOrToggle(_ref) {
   };
 }))(PostPublishButtonOrToggle));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/device-preview/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/device-preview/index.js
 
 
 /**
@@ -5439,7 +5439,7 @@ function DevicePreview() {
   }))));
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/header/main-dashboard-button/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/header/main-dashboard-button/index.js
 
 
 /**
@@ -5471,7 +5471,7 @@ var main_dashboard_button_Slot = function Slot(_ref) {
 MainDashboardButton.Slot = main_dashboard_button_Slot;
 /* harmony default export */ var main_dashboard_button = (MainDashboardButton);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/plugin-post-publish-panel/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/plugin-post-publish-panel/index.js
 
 
 /**
@@ -5533,8 +5533,8 @@ var plugin_post_publish_panel_PluginPostPublishPanelFill = function PluginPostPu
  * <caption>ESNext</caption>
  * ```jsx
  * // Using ESNext syntax
- * import { __ } from '@managertechnology/i18n';
- * import { PluginPostPublishPanel } from '@managertechnology/edit-post';
+ * import { __ } from '@pacmec/i18n';
+ * import { PluginPostPublishPanel } from '@pacmec/edit-post';
  *
  * const MyPluginPostPublishPanel = () => (
  * 	<PluginPostPublishPanel
@@ -5559,7 +5559,7 @@ var PluginPostPublishPanel = Object(external_mt_compose_["compose"])(Object(exte
 PluginPostPublishPanel.Slot = plugin_post_publish_panel_Slot;
 /* harmony default export */ var plugin_post_publish_panel = (PluginPostPublishPanel);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/plugin-pre-publish-panel/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/plugin-pre-publish-panel/index.js
 
 
 /**
@@ -5624,8 +5624,8 @@ var plugin_pre_publish_panel_PluginPrePublishPanelFill = function PluginPrePubli
  * <caption>ESNext</caption>
  * ```jsx
  * // Using ESNext syntax
- * import { __ } from '@managertechnology/i18n';
- * import { PluginPrePublishPanel } from '@managertechnology/edit-post';
+ * import { __ } from '@pacmec/i18n';
+ * import { PluginPrePublishPanel } from '@pacmec/edit-post';
  *
  * const MyPluginPrePublishPanel = () => (
  * 	<PluginPrePublishPanel
@@ -5650,7 +5650,7 @@ var PluginPrePublishPanel = Object(external_mt_compose_["compose"])(Object(exter
 PluginPrePublishPanel.Slot = plugin_pre_publish_panel_Slot;
 /* harmony default export */ var plugin_pre_publish_panel = (PluginPrePublishPanel);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/layout/actions-panel.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/layout/actions-panel.js
 
 
 /**
@@ -5741,7 +5741,7 @@ function ActionsPanel(_ref) {
   }), !isEntitiesSavedStatesOpen && unmountableContent);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/header/template-save-button/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/header/template-save-button/index.js
 
 
 
@@ -5794,7 +5794,7 @@ function TemplateSaveButton() {
 
 /* harmony default export */ var template_save_button = (TemplateSaveButton);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/header/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/header/index.js
 
 
 /**
@@ -5879,7 +5879,7 @@ function Header(_ref) {
 
 /* harmony default export */ var header = (Header);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/icons/build-module/library/cog.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/icons/build-module/library/cog.js
 
 
 /**
@@ -5896,7 +5896,7 @@ var cog = Object(external_mt_element_["createElement"])(external_mt_primitives_[
 }));
 /* harmony default export */ var library_cog = (cog);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/settings-header/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/settings-header/index.js
 
 
 
@@ -5970,7 +5970,7 @@ var settings_header_SettingsHeader = function SettingsHeader(_ref) {
 
 /* harmony default export */ var settings_header = (settings_header_SettingsHeader);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/post-visibility/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/post-visibility/index.js
 
 
 /**
@@ -6007,7 +6007,7 @@ function PostVisibility() {
 }
 /* harmony default export */ var post_visibility = (PostVisibility);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/post-trash/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/post-trash/index.js
 
 
 /**
@@ -6019,7 +6019,7 @@ function PostTrash() {
   return Object(external_mt_element_["createElement"])(external_mt_editor_["PostTrashCheck"], null, Object(external_mt_element_["createElement"])(external_mt_components_["PanelRow"], null, Object(external_mt_element_["createElement"])(external_mt_editor_["PostTrash"], null)));
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/post-schedule/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/post-schedule/index.js
 
 
 /**
@@ -6051,7 +6051,7 @@ function PostSchedule() {
 }
 /* harmony default export */ var post_schedule = (PostSchedule);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/post-sticky/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/post-sticky/index.js
 
 
 /**
@@ -6064,7 +6064,7 @@ function PostSticky() {
 }
 /* harmony default export */ var post_sticky = (PostSticky);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/post-author/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/post-author/index.js
 
 
 /**
@@ -6077,7 +6077,7 @@ function PostAuthor() {
 }
 /* harmony default export */ var post_author = (PostAuthor);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/post-slug/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/post-slug/index.js
 
 
 /**
@@ -6090,7 +6090,7 @@ function PostSlug() {
 }
 /* harmony default export */ var post_slug = (PostSlug);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/post-format/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/post-format/index.js
 
 
 /**
@@ -6103,7 +6103,7 @@ function PostFormat() {
 }
 /* harmony default export */ var post_format = (PostFormat);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/post-pending-status/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/post-pending-status/index.js
 
 
 /**
@@ -6116,7 +6116,7 @@ function PostPendingStatus() {
 }
 /* harmony default export */ var post_pending_status = (PostPendingStatus);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/plugin-post-status-info/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/plugin-post-status-info/index.js
 
 
 /**
@@ -6162,8 +6162,8 @@ var plugin_post_status_info_createSlotFill = Object(external_mt_components_["cre
  * <caption>ESNext</caption>
  * ```jsx
  * // Using ESNext syntax
- * import { __ } from '@managertechnology/i18n';
- * import { PluginPostStatusInfo } from '@managertechnology/edit-post';
+ * import { __ } from '@pacmec/i18n';
+ * import { PluginPostStatusInfo } from '@pacmec/edit-post';
  *
  * const MyPluginPostStatusInfo = () => (
  * 	<PluginPostStatusInfo
@@ -6191,7 +6191,7 @@ var plugin_post_status_info_PluginPostStatusInfo = function PluginPostStatusInfo
 plugin_post_status_info_PluginPostStatusInfo.Slot = plugin_post_status_info_Slot;
 /* harmony default export */ var plugin_post_status_info = (plugin_post_status_info_PluginPostStatusInfo);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/post-template/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/post-template/index.js
 
 
 /**
@@ -6272,7 +6272,7 @@ function PostTemplate() {
 
 /* harmony default export */ var post_template = (PostTemplate);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/post-status/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/post-status/index.js
 
 
 /**
@@ -6338,7 +6338,7 @@ function PostStatus(_ref) {
   };
 })])(PostStatus));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/last-revision/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/last-revision/index.js
 
 
 /**
@@ -6355,7 +6355,7 @@ function LastRevision() {
 
 /* harmony default export */ var last_revision = (LastRevision);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/post-taxonomies/taxonomy-panel.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/post-taxonomies/taxonomy-panel.js
 
 
 /**
@@ -6415,7 +6415,7 @@ function TaxonomyPanel(_ref) {
   };
 }))(TaxonomyPanel));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/post-taxonomies/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/post-taxonomies/index.js
 
 
 /**
@@ -6440,7 +6440,7 @@ function PostTaxonomies() {
 
 /* harmony default export */ var post_taxonomies = (PostTaxonomies);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/featured-image/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/featured-image/index.js
 
 
 /**
@@ -6511,7 +6511,7 @@ var applyWithDispatch = Object(external_mt_data_["withDispatch"])(function (disp
 });
 /* harmony default export */ var featured_image = (Object(external_mt_compose_["compose"])(applyWithSelect, applyWithDispatch)(FeaturedImage));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/post-excerpt/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/post-excerpt/index.js
 
 
 /**
@@ -6562,7 +6562,7 @@ function PostExcerpt(_ref) {
   };
 })])(PostExcerpt));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/post-link/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/post-link/index.js
 
 
 /**
@@ -6731,7 +6731,7 @@ function PostLink(_ref) {
   forceEmptyField: false
 })])(PostLink));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/discussion-panel/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/discussion-panel/index.js
 
 
 /**
@@ -6788,7 +6788,7 @@ function DiscussionPanel(_ref) {
   };
 })])(DiscussionPanel));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/page-attributes/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/page-attributes/index.js
 
 
 /**
@@ -6860,7 +6860,7 @@ var page_attributes_applyWithDispatch = Object(external_mt_data_["withDispatch"]
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js
 var assertThisInitialized = __webpack_require__(18);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/meta-boxes/meta-boxes-area/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/meta-boxes/meta-boxes-area/index.js
 
 
 
@@ -6976,7 +6976,7 @@ var meta_boxes_area_MetaBoxesArea = /*#__PURE__*/function (_Component) {
   };
 })(meta_boxes_area_MetaBoxesArea));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/meta-boxes/meta-box-visibility.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/meta-boxes/meta-box-visibility.js
 
 
 
@@ -7056,7 +7056,7 @@ var meta_box_visibility_MetaBoxVisibility = /*#__PURE__*/function (_Component) {
   };
 })(meta_box_visibility_MetaBoxVisibility));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/meta-boxes/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/meta-boxes/index.js
 
 
 /**
@@ -7104,10 +7104,10 @@ function MetaBoxes(_ref) {
   };
 })(MetaBoxes));
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/plugin-document-setting-panel/index.js
+// EXTERNAL MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/plugin-document-setting-panel/index.js
 var plugin_document_setting_panel = __webpack_require__(171);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/plugin-sidebar/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/plugin-sidebar/index.js
 
 
 
@@ -7172,10 +7172,10 @@ var plugin_document_setting_panel = __webpack_require__(171);
  * <caption>ESNext</caption>
  * ```jsx
  * // Using ESNext syntax
- * import { __ } from '@managertechnology/i18n';
- * import { PanelBody } from '@managertechnology/components';
- * import { PluginSidebar } from '@managertechnology/edit-post';
- * import { more } from '@managertechnology/icons';
+ * import { __ } from '@pacmec/i18n';
+ * import { PanelBody } from '@pacmec/components';
+ * import { PluginSidebar } from '@pacmec/edit-post';
+ * import { more } from '@pacmec/icons';
  *
  * const MyPluginSidebar = () => (
  * 	<PluginSidebar
@@ -7216,7 +7216,7 @@ function PluginSidebarEditPost(_ref) {
   }, props));
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/sidebar/settings-sidebar/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/sidebar/settings-sidebar/index.js
 
 
 /**
@@ -7299,7 +7299,7 @@ var settings_sidebar_SettingsSidebar = function SettingsSidebar() {
 
 /* harmony default export */ var settings_sidebar = (settings_sidebar_SettingsSidebar);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/welcome-guide/images.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/welcome-guide/images.js
 
 
 
@@ -7358,7 +7358,7 @@ var images_InserterIconImage = function InserterIconImage(props) {
   }, props));
 };
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/welcome-guide/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/welcome-guide/index.js
 
 
 /**
@@ -7425,13 +7425,13 @@ function WelcomeGuide() {
       }, Object(external_mt_i18n_["__"])('Learn how to use the block editor')), Object(external_mt_element_["createElement"])("p", {
         className: "edit-post-welcome-guide__text"
       }, Object(external_mt_i18n_["__"])('New to the block editor? Want to learn more about using it? '), Object(external_mt_element_["createElement"])(external_mt_components_["ExternalLink"], {
-        href: Object(external_mt_i18n_["__"])('https://managertechnology.com.co/pacmec/support/article/managertechnology-editor/')
+        href: Object(external_mt_i18n_["__"])('https://managertechnology.com.co/pacmec/support/article/pacmec-editor/')
       }, Object(external_mt_i18n_["__"])("Here's a detailed guide."))))
     }]
   });
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/layout/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/layout/index.js
 
 
 
@@ -7648,10 +7648,10 @@ function Layout(_ref) {
 
 /* harmony default export */ var layout = (Layout);
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/edit-post/build-module/store/constants.js
+// EXTERNAL MODULE: ./node_modules/@pacmec/edit-post/build-module/store/constants.js
 var constants = __webpack_require__(118);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/editor-initialization/listener-hooks.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/editor-initialization/listener-hooks.js
 /**
  * paCMec dependencies
  */
@@ -7722,7 +7722,7 @@ var listener_hooks_useUpdatePostLinkListener = function useUpdatePostLinkListene
   }, [newPermalink]);
 };
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/editor-initialization/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/editor-initialization/index.js
 /**
  * Internal dependencies
  */
@@ -7742,7 +7742,7 @@ function EditorInitialization(_ref) {
   return null;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/editor.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/editor.js
 
 
 
@@ -7909,7 +7909,7 @@ function Editor(_ref) {
 
 /* harmony default export */ var editor = (Editor);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/block-settings-menu/plugin-block-settings-menu-item.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/block-settings-menu/plugin-block-settings-menu-item.js
 
 
 /**
@@ -7982,8 +7982,8 @@ var shouldRenderItem = function shouldRenderItem(selectedBlocks, allowedBlocks) 
  * <caption>ESNext</caption>
  * ```jsx
  * // Using ESNext syntax
- * import { __ } from '@managertechnology/i18n';
- * import { PluginBlockSettingsMenuItem } from '@managertechnology/edit-post';
+ * import { __ } from '@pacmec/i18n';
+ * import { PluginBlockSettingsMenuItem } from '@pacmec/edit-post';
  *
  * const doOnClick = ( ) => {
  *     // To be called when the user clicks the menu item.
@@ -8028,7 +8028,7 @@ var plugin_block_settings_menu_item_PluginBlockSettingsMenuItem = function Plugi
 
 /* harmony default export */ var plugin_block_settings_menu_item = (plugin_block_settings_menu_item_PluginBlockSettingsMenuItem);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/header/plugin-more-menu-item/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/header/plugin-more-menu-item/index.js
 /**
  * paCMec dependencies
  */
@@ -8073,9 +8073,9 @@ var plugin_block_settings_menu_item_PluginBlockSettingsMenuItem = function Plugi
  * <caption>ESNext</caption>
  * ```jsx
  * // Using ESNext syntax
- * import { __ } from '@managertechnology/i18n';
- * import { PluginMoreMenuItem } from '@managertechnology/edit-post';
- * import { more } from '@managertechnology/icons';
+ * import { __ } from '@pacmec/i18n';
+ * import { PluginMoreMenuItem } from '@pacmec/edit-post';
+ * import { more } from '@pacmec/icons';
  *
  * function onButtonClick() {
  * 	alert( 'Button clicked.' );
@@ -8101,7 +8101,7 @@ var plugin_block_settings_menu_item_PluginBlockSettingsMenuItem = function Plugi
   };
 }))(build_module["a" /* ActionItem */]));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/header/plugin-sidebar-more-menu-item/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/header/plugin-sidebar-more-menu-item/index.js
 
 
 
@@ -8142,9 +8142,9 @@ var plugin_block_settings_menu_item_PluginBlockSettingsMenuItem = function Plugi
  * <caption>ESNext</caption>
  * ```jsx
  * // Using ESNext syntax
- * import { __ } from '@managertechnology/i18n';
- * import { PluginSidebarMoreMenuItem } from '@managertechnology/edit-post';
- * import { more } from '@managertechnology/icons';
+ * import { __ } from '@pacmec/i18n';
+ * import { PluginSidebarMoreMenuItem } from '@pacmec/edit-post';
+ * import { more } from '@pacmec/icons';
  *
  * const MySidebarMoreMenuItem = () => (
  * 	<PluginSidebarMoreMenuItem
@@ -8165,7 +8165,7 @@ function PluginSidebarMoreMenuItem(props) {
   }, props));
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/index.js
 
 
 /**
@@ -8383,7 +8383,7 @@ __webpack_require__.d(__webpack_exports__, "e", function() { return /* reexport 
 __webpack_require__.d(__webpack_exports__, "f", function() { return /* reexport */ pinned_items; });
 __webpack_require__.d(__webpack_exports__, "a", function() { return /* reexport */ action_item; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/interface/build-module/store/actions.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/interface/build-module/store/actions.js
 var actions_namespaceObject = {};
 __webpack_require__.r(actions_namespaceObject);
 __webpack_require__.d(actions_namespaceObject, "enableComplementaryArea", function() { return actions_enableComplementaryArea; });
@@ -8391,7 +8391,7 @@ __webpack_require__.d(actions_namespaceObject, "disableComplementaryArea", funct
 __webpack_require__.d(actions_namespaceObject, "pinItem", function() { return actions_pinItem; });
 __webpack_require__.d(actions_namespaceObject, "unpinItem", function() { return actions_unpinItem; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/interface/build-module/store/selectors.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/interface/build-module/store/selectors.js
 var selectors_namespaceObject = {};
 __webpack_require__.r(selectors_namespaceObject);
 __webpack_require__.d(selectors_namespaceObject, "getActiveComplementaryArea", function() { return selectors_getActiveComplementaryArea; });
@@ -8406,7 +8406,7 @@ var defineProperty = __webpack_require__(5);
 // EXTERNAL MODULE: external "lodash"
 var external_lodash_ = __webpack_require__(2);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/interface/build-module/store/reducer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/interface/build-module/store/reducer.js
 
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -8490,7 +8490,7 @@ var enableItems = Object(external_mt_data_["combineReducers"])({
   enableItems: enableItems
 }));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/interface/build-module/store/actions.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/interface/build-module/store/actions.js
 /**
  * Returns an action object used in signalling that an active area should be changed.
  *
@@ -8578,7 +8578,7 @@ function actions_unpinItem(scope, itemId) {
   return setMultipleEnableItem('pinnedItems', scope, itemId, false);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/interface/build-module/store/selectors.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/interface/build-module/store/selectors.js
 /**
  * External dependencies
  */
@@ -8638,7 +8638,7 @@ function selectors_isItemPinned(state, scope, item) {
   return isMultipleEnabledItemEnabled(state, 'pinnedItems', scope, item) !== false;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/interface/build-module/store/constants.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/interface/build-module/store/constants.js
 /**
  * The identifier for the data store.
  *
@@ -8646,7 +8646,7 @@ function selectors_isItemPinned(state, scope, item) {
  */
 var STORE_NAME = 'core/interface';
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/interface/build-module/store/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/interface/build-module/store/index.js
 /**
  * paCMec dependencies
  */
@@ -8701,25 +8701,25 @@ var external_mt_components_ = __webpack_require__(3);
 // EXTERNAL MODULE: external ["mt","i18n"]
 var external_mt_i18n_ = __webpack_require__(1);
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/icons/build-module/library/check.js
+// EXTERNAL MODULE: ./node_modules/@pacmec/icons/build-module/library/check.js
 var check = __webpack_require__(161);
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/icons/build-module/library/star-filled.js
+// EXTERNAL MODULE: ./node_modules/@pacmec/icons/build-module/library/star-filled.js
 var star_filled = __webpack_require__(303);
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/icons/build-module/library/star-empty.js
+// EXTERNAL MODULE: ./node_modules/@pacmec/icons/build-module/library/star-empty.js
 var star_empty = __webpack_require__(304);
 
 // EXTERNAL MODULE: external ["mt","viemtort"]
 var external_mt_viemtort_ = __webpack_require__(114);
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/icons/build-module/library/close-small.js
+// EXTERNAL MODULE: ./node_modules/@pacmec/icons/build-module/library/close-small.js
 var close_small = __webpack_require__(159);
 
 // EXTERNAL MODULE: external ["mt","plugins"]
 var external_mt_plugins_ = __webpack_require__(73);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/interface/build-module/components/complementary-area-context/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/interface/build-module/components/complementary-area-context/index.js
 /**
  * paCMec dependencies
  */
@@ -8731,7 +8731,7 @@ var external_mt_plugins_ = __webpack_require__(73);
   };
 }));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/interface/build-module/components/complementary-area-toggle/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/interface/build-module/components/complementary-area-toggle/index.js
 
 
 
@@ -8785,7 +8785,7 @@ function ComplementaryAreaToggle(_ref) {
 
 /* harmony default export */ var complementary_area_toggle = (complementary_area_context(ComplementaryAreaToggle));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/interface/build-module/components/complementary-area-header/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/interface/build-module/components/complementary-area-header/index.js
 
 
 
@@ -8824,7 +8824,7 @@ var complementary_area_header_ComplementaryAreaHeader = function ComplementaryAr
 
 /* harmony default export */ var complementary_area_header = (complementary_area_header_ComplementaryAreaHeader);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/interface/build-module/components/pinned-items/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/interface/build-module/components/pinned-items/index.js
 
 
 
@@ -8866,7 +8866,7 @@ function PinnedItemsSlot(_ref2) {
 PinnedItems.Slot = PinnedItemsSlot;
 /* harmony default export */ var pinned_items = (PinnedItems);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/interface/build-module/components/complementary-area/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/interface/build-module/components/complementary-area/index.js
 
 
 
@@ -9051,7 +9051,7 @@ ComplementaryAreaWrapped.Slot = ComplementaryAreaSlot;
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js + 1 modules
 var slicedToArray = __webpack_require__(11);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/interface/build-module/components/action-item/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/interface/build-module/components/action-item/index.js
 
 
 
@@ -9120,7 +9120,7 @@ function ActionItem(_ref2) {
 ActionItem.Slot = ActionItemSlot;
 /* harmony default export */ var action_item = (ActionItem);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/interface/build-module/components/complementary-area-more-menu-item/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/interface/build-module/components/complementary-area-more-menu-item/index.js
 
 
 
@@ -9168,7 +9168,7 @@ var possibleConstructorReturn = __webpack_require__(29);
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js
 var getPrototypeOf = __webpack_require__(19);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/interface/build-module/components/fullscreen-mode/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/interface/build-module/components/fullscreen-mode/index.js
 
 
 
@@ -9251,7 +9251,7 @@ var fullscreen_mode_FullscreenMode = /*#__PURE__*/function (_Component) {
 // EXTERNAL MODULE: ./node_modules/react-merge-refs/dist/react-merge-refs.esm.js
 var react_merge_refs_esm = __webpack_require__(72);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/interface/build-module/components/interface-skeleton/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/interface/build-module/components/interface-skeleton/index.js
 
 
 
@@ -9372,7 +9372,7 @@ function InterfaceSkeleton(_ref, ref) {
 
 /* harmony default export */ var interface_skeleton = (Object(external_mt_element_["forwardRef"])(InterfaceSkeleton));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/interface/build-module/components/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/interface/build-module/components/index.js
 
 
 
@@ -9380,7 +9380,7 @@ function InterfaceSkeleton(_ref, ref) {
 
 
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/interface/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/interface/build-module/index.js
 
 
 
@@ -9414,7 +9414,7 @@ var external_mt_components_ = __webpack_require__(3);
 // EXTERNAL MODULE: external ["mt","data"]
 var external_mt_data_ = __webpack_require__(4);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/preferences-modal/options/base.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/preferences-modal/options/base.js
 
 
 /**
@@ -9440,7 +9440,7 @@ function BaseOption(_ref) {
 
 /* harmony default export */ var base = (BaseOption);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/preferences-modal/options/enable-custom-fields.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/preferences-modal/options/enable-custom-fields.js
 
 
 
@@ -9503,10 +9503,10 @@ function EnableCustomFieldsOption(_ref2) {
 // EXTERNAL MODULE: external ["mt","compose"]
 var external_mt_compose_ = __webpack_require__(12);
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/edit-post/build-module/store/index.js + 5 modules
+// EXTERNAL MODULE: ./node_modules/@pacmec/edit-post/build-module/store/index.js + 5 modules
 var store = __webpack_require__(23);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/preferences-modal/options/enable-panel.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/preferences-modal/options/enable-panel.js
 /**
  * paCMec dependencies
  */
@@ -9541,7 +9541,7 @@ var store = __webpack_require__(23);
   };
 }))(base));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/preferences-modal/options/enable-plugin-document-setting-panel.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/preferences-modal/options/enable-plugin-document-setting-panel.js
 
 
 /**
@@ -9573,7 +9573,7 @@ enable_plugin_document_setting_panel_EnablePluginDocumentSettingPanelOption.Slot
 // EXTERNAL MODULE: external ["mt","viemtort"]
 var external_mt_viemtort_ = __webpack_require__(114);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/preferences-modal/options/enable-publish-sidebar.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/preferences-modal/options/enable-publish-sidebar.js
 /**
  * paCMec dependencies
  */
@@ -9603,7 +9603,7 @@ var external_mt_viemtort_ = __webpack_require__(114);
 // See the edit-post's header component for the specific logic.
 Object(external_mt_viemtort_["ifViemtortMatches"])('medium'))(base));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/preferences-modal/options/enable-feature.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/preferences-modal/options/enable-feature.js
 /**
  * paCMec dependencies
  */
@@ -9633,7 +9633,7 @@ Object(external_mt_viemtort_["ifViemtortMatches"])('medium'))(base));
   };
 }))(base));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/edit-post/build-module/components/preferences-modal/options/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/edit-post/build-module/components/preferences-modal/options/index.js
 
 
 

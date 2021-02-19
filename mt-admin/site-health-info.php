@@ -107,7 +107,7 @@ require_once ABSPATH . 'mt-admin/admin-header.php';
 
 		<?php
 
-		$sizes_fields = array( 'uploads_size', 'themes_size', 'plugins_size', 'managertechnology_size', 'database_size', 'total_size' );
+		$sizes_fields = array( 'uploads_size', 'themes_size', 'plugins_size', 'pacmec_size', 'database_size', 'total_size' );
 
 		foreach ( $info as $section => $details ) {
 			if ( ! isset( $details['fields'] ) || empty( $details['fields'] ) ) {

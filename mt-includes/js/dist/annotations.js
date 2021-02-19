@@ -641,7 +641,7 @@ __webpack_require__.r(__webpack_exports__);
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, "store", function() { return /* reexport */ store; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/annotations/build-module/store/selectors.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/annotations/build-module/store/selectors.js
 var selectors_namespaceObject = {};
 __webpack_require__.r(selectors_namespaceObject);
 __webpack_require__.d(selectors_namespaceObject, "__experimentalGetAnnotationsForBlock", function() { return __experimentalGetAnnotationsForBlock; });
@@ -649,7 +649,7 @@ __webpack_require__.d(selectors_namespaceObject, "__experimentalGetAllAnnotation
 __webpack_require__.d(selectors_namespaceObject, "__experimentalGetAnnotationsForRichText", function() { return __experimentalGetAnnotationsForRichText; });
 __webpack_require__.d(selectors_namespaceObject, "__experimentalGetAnnotations", function() { return __experimentalGetAnnotations; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/annotations/build-module/store/actions.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/annotations/build-module/store/actions.js
 var actions_namespaceObject = {};
 __webpack_require__.r(actions_namespaceObject);
 __webpack_require__.d(actions_namespaceObject, "__experimentalAddAnnotation", function() { return __experimentalAddAnnotation; });
@@ -666,7 +666,7 @@ var external_mt_richText_ = __webpack_require__(21);
 // EXTERNAL MODULE: external ["mt","i18n"]
 var external_mt_i18n_ = __webpack_require__(1);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/annotations/build-module/store/constants.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/annotations/build-module/store/constants.js
 /**
  * The identifier for the data store.
  *
@@ -674,7 +674,7 @@ var external_mt_i18n_ = __webpack_require__(1);
  */
 var STORE_NAME = 'core/annotations';
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/annotations/build-module/format/annotation.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/annotations/build-module/format/annotation.js
 /**
  * paCMec dependencies
  */
@@ -850,7 +850,7 @@ var annotation_annotation = {
   }
 };
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/annotations/build-module/format/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/annotations/build-module/format/index.js
 
 
 /**
@@ -874,7 +874,7 @@ var external_mt_hooks_ = __webpack_require__(33);
 // EXTERNAL MODULE: external ["mt","data"]
 var external_mt_data_ = __webpack_require__(4);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/annotations/build-module/block/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/annotations/build-module/block/index.js
 /**
  * paCMec dependencies
  */
@@ -918,7 +918,7 @@ var defineProperty = __webpack_require__(5);
 // EXTERNAL MODULE: external "lodash"
 var external_lodash_ = __webpack_require__(2);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/annotations/build-module/store/reducer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/annotations/build-module/store/reducer.js
 
 
 
@@ -1031,7 +1031,7 @@ function reducer_annotations() {
 // EXTERNAL MODULE: ./node_modules/rememo/es/rememo.js
 var rememo = __webpack_require__(41);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/annotations/build-module/store/selectors.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/annotations/build-module/store/selectors.js
 
 
 
@@ -1125,7 +1125,7 @@ function __experimentalGetAnnotations(state) {
 // EXTERNAL MODULE: ./node_modules/uuid/dist/esm-browser/v4.js + 4 modules
 var v4 = __webpack_require__(204);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/annotations/build-module/store/actions.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/annotations/build-module/store/actions.js
 /**
  * External dependencies
  */
@@ -1232,7 +1232,7 @@ function __experimentalRemoveAnnotationsBySource(source) {
   };
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/annotations/build-module/store/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/annotations/build-module/store/index.js
 /**
  * paCMec dependencies
  */
@@ -1264,7 +1264,7 @@ var store = Object(external_mt_data_["createReduxStore"])(STORE_NAME, {
 });
 Object(external_mt_data_["register"])(store);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/annotations/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/annotations/build-module/index.js
 /**
  * Internal dependencies
  */

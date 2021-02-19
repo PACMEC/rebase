@@ -494,7 +494,7 @@ var external_mt_element_ = __webpack_require__(0);
 // EXTERNAL MODULE: external ["mt","i18n"]
 var external_mt_i18n_ = __webpack_require__(1);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/media-utils/build-module/components/media-upload/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/media-utils/build-module/components/media-upload/index.js
 
 
 
@@ -941,7 +941,7 @@ var media_upload_MediaUpload = /*#__PURE__*/function (_Component) {
 
 /* harmony default export */ var media_upload = (media_upload_MediaUpload);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/media-utils/build-module/components/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/media-utils/build-module/components/index.js
 
 
 // EXTERNAL MODULE: external "regeneratorRuntime"
@@ -967,7 +967,7 @@ var external_mt_apiFetch_default = /*#__PURE__*/__webpack_require__.n(external_m
 // EXTERNAL MODULE: external ["mt","blob"]
 var external_mt_blob_ = __webpack_require__(43);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/media-utils/build-module/utils/upload-media.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/media-utils/build-module/utils/upload-media.js
 
 
 
@@ -1273,10 +1273,10 @@ function createMediaFromFile(file, additionalData) {
   });
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/media-utils/build-module/utils/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/media-utils/build-module/utils/index.js
 
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/media-utils/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/media-utils/build-module/index.js
 
 
 

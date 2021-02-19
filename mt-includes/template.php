@@ -242,7 +242,7 @@ function get_category_template() {
  *
  * An example of this is:
  *
- * 1. tag-managertechnology.php
+ * 1. tag-pacmec.php
  * 2. tag-3.php
  * 3. tag.php
  *

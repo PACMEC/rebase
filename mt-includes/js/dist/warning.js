@@ -294,7 +294,7 @@ function isDev() {
  *
  * @example
  * ```js
- * import warning from '@managertechnology/warning';
+ * import warning from '@pacmec/warning';
  *
  * function MyComponent( props ) {
  *   if ( ! props.title ) {

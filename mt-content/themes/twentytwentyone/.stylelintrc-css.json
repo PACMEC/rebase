@@ -1,6 +1,6 @@
 {
 	"extends": [
-		"stylelint-config-managertechnology"
+		"stylelint-config-pacmec"
 	],
 	"rules": {
 		"indentation": "tab",

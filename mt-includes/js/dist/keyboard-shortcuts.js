@@ -568,13 +568,13 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, "store", function() { return /* reexport */ store; });
 __webpack_require__.d(__webpack_exports__, "useShortcut", function() { return /* reexport */ use_shortcut; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/keyboard-shortcuts/build-module/store/actions.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/keyboard-shortcuts/build-module/store/actions.js
 var actions_namespaceObject = {};
 __webpack_require__.r(actions_namespaceObject);
 __webpack_require__.d(actions_namespaceObject, "registerShortcut", function() { return registerShortcut; });
 __webpack_require__.d(actions_namespaceObject, "unregisterShortcut", function() { return unregisterShortcut; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/keyboard-shortcuts/build-module/store/selectors.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/keyboard-shortcuts/build-module/store/selectors.js
 var selectors_namespaceObject = {};
 __webpack_require__.r(selectors_namespaceObject);
 __webpack_require__.d(selectors_namespaceObject, "getShortcutKeyCombination", function() { return getShortcutKeyCombination; });
@@ -593,7 +593,7 @@ var defineProperty = __webpack_require__(5);
 // EXTERNAL MODULE: external "lodash"
 var external_lodash_ = __webpack_require__(2);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/keyboard-shortcuts/build-module/store/reducer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/keyboard-shortcuts/build-module/store/reducer.js
 
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -635,8 +635,8 @@ function reducer() {
 
 /* harmony default export */ var store_reducer = (reducer);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/keyboard-shortcuts/build-module/store/actions.js
-/** @typedef {import('@managertechnology/keycodes').MTKeycodeModifier} MTKeycodeModifier */
+// CONCATENATED MODULE: ./node_modules/@pacmec/keyboard-shortcuts/build-module/store/actions.js
+/** @typedef {import('@pacmec/keycodes').MTKeycodeModifier} MTKeycodeModifier */
 
 /**
  * Keyboard key combination.
@@ -708,7 +708,7 @@ var rememo = __webpack_require__(41);
 // EXTERNAL MODULE: external ["mt","keycodes"]
 var external_mt_keycodes_ = __webpack_require__(17);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/keyboard-shortcuts/build-module/store/selectors.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/keyboard-shortcuts/build-module/store/selectors.js
 
 
 
@@ -724,7 +724,7 @@ var external_mt_keycodes_ = __webpack_require__(17);
 
 /** @typedef {import('./actions').MTShortcutKeyCombination} MTShortcutKeyCombination */
 
-/** @typedef {import('@managertechnology/keycodes').MTKeycodeHandlerByModifier} MTKeycodeHandlerByModifier */
+/** @typedef {import('@pacmec/keycodes').MTKeycodeHandlerByModifier} MTKeycodeHandlerByModifier */
 
 /**
  * Shared reference to an empty array for cases where it is important to avoid
@@ -858,7 +858,7 @@ var getCategoryShortcuts = Object(rememo["a" /* default */])(function (state, ca
   return [state];
 });
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/keyboard-shortcuts/build-module/store/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/keyboard-shortcuts/build-module/store/index.js
 /**
  * paCMec dependencies
  */
@@ -889,7 +889,7 @@ Object(external_mt_data_["register"])(store);
 // EXTERNAL MODULE: external ["mt","compose"]
 var external_mt_compose_ = __webpack_require__(12);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/keyboard-shortcuts/build-module/hooks/use-shortcut.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/keyboard-shortcuts/build-module/hooks/use-shortcut.js
 /**
  * paCMec dependencies
  */
@@ -917,7 +917,7 @@ function useShortcut(name, callback, options) {
 
 /* harmony default export */ var use_shortcut = (useShortcut);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/keyboard-shortcuts/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/keyboard-shortcuts/build-module/index.js
 
 
 

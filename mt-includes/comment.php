@@ -3580,7 +3580,7 @@ function mt_handle_comment_submission( $comment_data ) {
  * @return array An array of personal data exporters.
  */
 function mt_register_comment_personal_data_exporter( $exporters ) {
-	$exporters['managertechnology-comments'] = array(
+	$exporters['pacmec-comments'] = array(
 		'exporter_friendly_name' => __( 'paCMec Comments' ),
 		'callback'               => 'mt_comments_personal_data_exporter',
 	);
@@ -3690,7 +3690,7 @@ function mt_comments_personal_data_exporter( $email_address, $page = 1 ) {
  * @return array An array of personal data erasers.
  */
 function mt_register_comment_personal_data_eraser( $erasers ) {
-	$erasers['managertechnology-comments'] = array(
+	$erasers['pacmec-comments'] = array(
 		'eraser_friendly_name' => __( 'paCMec Comments' ),
 		'callback'             => 'mt_comments_personal_data_eraser',
 	);

@@ -7,7 +7,7 @@
   },
   "homepage": "https://github.com/paCMec/twentynineteen#readme",
   "devDependencies": {
-    "@managertechnology/browserslist-config": "^3.0.0",
+    "@pacmec/browserslist-config": "^3.0.0",
     "autoprefixer": "^9.8.6",
     "chokidar-cli": "^2.1.0",
     "node-sass": "^5.0.0",
@@ -29,7 +29,7 @@
     "map": false
   },
   "browserslist": [
-    "extends @managertechnology/browserslist-config"
+    "extends @pacmec/browserslist-config"
   ],
   "scripts": {
     "build:style": "node-sass style.scss style.css --output-style expanded && postcss -r style.css",

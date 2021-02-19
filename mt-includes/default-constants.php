@@ -239,42 +239,42 @@ function mt_cookie_constants() {
 	 * @since 2.0.0
 	 */
 	if ( ! defined( 'USER_COOKIE' ) ) {
-		define( 'USER_COOKIE', 'managertechnologyuser_' . COOKIEHASH );
+		define( 'USER_COOKIE', 'pacmecuser_' . COOKIEHASH );
 	}
 
 	/**
 	 * @since 2.0.0
 	 */
 	if ( ! defined( 'PASS_COOKIE' ) ) {
-		define( 'PASS_COOKIE', 'managertechnologypass_' . COOKIEHASH );
+		define( 'PASS_COOKIE', 'pacmecpass_' . COOKIEHASH );
 	}
 
 	/**
 	 * @since 2.5.0
 	 */
 	if ( ! defined( 'AUTH_COOKIE' ) ) {
-		define( 'AUTH_COOKIE', 'managertechnology_' . COOKIEHASH );
+		define( 'AUTH_COOKIE', 'pacmec_' . COOKIEHASH );
 	}
 
 	/**
 	 * @since 2.6.0
 	 */
 	if ( ! defined( 'SECURE_AUTH_COOKIE' ) ) {
-		define( 'SECURE_AUTH_COOKIE', 'managertechnology_sec_' . COOKIEHASH );
+		define( 'SECURE_AUTH_COOKIE', 'pacmec_sec_' . COOKIEHASH );
 	}
 
 	/**
 	 * @since 2.6.0
 	 */
 	if ( ! defined( 'LOGGED_IN_COOKIE' ) ) {
-		define( 'LOGGED_IN_COOKIE', 'managertechnology_logged_in_' . COOKIEHASH );
+		define( 'LOGGED_IN_COOKIE', 'pacmec_logged_in_' . COOKIEHASH );
 	}
 
 	/**
 	 * @since 2.3.0
 	 */
 	if ( ! defined( 'TEST_COOKIE' ) ) {
-		define( 'TEST_COOKIE', 'managertechnology_test_cookie' );
+		define( 'TEST_COOKIE', 'pacmec_test_cookie' );
 	}
 
 	/**
@@ -316,7 +316,7 @@ function mt_cookie_constants() {
 		/**
 		 * @since 5.2.0
 		 */
-		define( 'RECOVERY_MODE_COOKIE', 'managertechnology_rec_' . COOKIEHASH );
+		define( 'RECOVERY_MODE_COOKIE', 'pacmec_rec_' . COOKIEHASH );
 	}
 }
 

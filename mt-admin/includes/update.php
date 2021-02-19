@@ -299,7 +299,7 @@ function update_nag() {
 
 	$version_url = sprintf(
 		/* translators: %s: paCMec version. */
-		esc_url( __( 'https://managertechnology.com.co/pacmec/support/managertechnology-version/version-%s/' ) ),
+		esc_url( __( 'https://managertechnology.com.co/pacmec/support/pacmec-version/version-%s/' ) ),
 		sanitize_title( $cur->current )
 	);
 

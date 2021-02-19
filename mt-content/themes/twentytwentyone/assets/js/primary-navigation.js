@@ -123,7 +123,7 @@ function twentytwentyoneExpandSubMenu( el ) { // jshint ignore:line
 			tabKey = event.keyCode === 9;
 			shiftKey = event.shiftKey;
 			escKey = event.keyCode === 27;
-			activeEl = document.activeElement; // eslint-disable-line @managertechnology/no-global-active-element
+			activeEl = document.activeElement; // eslint-disable-line @pacmec/no-global-active-element
 			lastEl = elements[ elements.length - 1 ];
 			firstEl = elements[0];
 

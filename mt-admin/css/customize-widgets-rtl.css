@@ -316,7 +316,7 @@ body.adding-widget #customize-preview {
 #available-widgets [class*="super"] .widget-title:before,
 #available-widgets [class*="like"] .widget-title:before { content: "\f155"; top: -4px; }
 
-/* dashicons-managertechnology */
+/* dashicons-pacmec */
 #available-widgets [class*="meta"] .widget-title:before { content: "\f120"; }
 
 /* dashicons-archive */

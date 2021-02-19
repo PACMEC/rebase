@@ -81,7 +81,7 @@ function list_core_update( $update ) {
 
 			$version_url = sprintf(
 				/* translators: %s: paCMec version. */
-				esc_url( __( 'https://managertechnology.com.co/pacmec/support/managertechnology-version/version-%s/' ) ),
+				esc_url( __( 'https://managertechnology.com.co/pacmec/support/pacmec-version/version-%s/' ) ),
 				sanitize_title( $update->current )
 			);
 
@@ -247,8 +247,8 @@ function core_upgrade_preamble() {
 		printf(
 			/* translators: 1: Documentation on paCMec backups, 2: Documentation on updating paCMec. */
 			__( '<strong>Important:</strong> Before updating, please <a href="%1$s">back up your database and files</a>. For help with updates, visit the <a href="%2$s">Updating paCMec</a> documentation page.' ),
-			__( 'https://managertechnology.com.co/pacmec/support/article/managertechnology-backups/' ),
-			__( 'https://managertechnology.com.co/pacmec/support/article/updating-managertechnology/' )
+			__( 'https://managertechnology.com.co/pacmec/support/article/pacmec-backups/' ),
+			__( 'https://managertechnology.com.co/pacmec/support/article/updating-pacmec/' )
 		);
 		echo '</p></div>';
 	} elseif ( $is_development_version ) {

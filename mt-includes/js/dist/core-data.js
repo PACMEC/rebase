@@ -1056,7 +1056,7 @@ __webpack_require__.d(__webpack_exports__, "useEntityId", function() { return /*
 __webpack_require__.d(__webpack_exports__, "useEntityProp", function() { return /* reexport */ useEntityProp; });
 __webpack_require__.d(__webpack_exports__, "useEntityBlockEditor", function() { return /* reexport */ useEntityBlockEditor; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/core-data/build-module/locks/actions.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/core-data/build-module/locks/actions.js
 var locks_actions_namespaceObject = {};
 __webpack_require__.r(locks_actions_namespaceObject);
 __webpack_require__.d(locks_actions_namespaceObject, "__unstableAcquireStoreLock", function() { return __unstableAcquireStoreLock; });
@@ -1064,7 +1064,7 @@ __webpack_require__.d(locks_actions_namespaceObject, "__unstableEnqueueLockReque
 __webpack_require__.d(locks_actions_namespaceObject, "__unstableReleaseStoreLock", function() { return __unstableReleaseStoreLock; });
 __webpack_require__.d(locks_actions_namespaceObject, "__unstableProcessPendingLockRequests", function() { return __unstableProcessPendingLockRequests; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/core-data/build-module/actions.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/core-data/build-module/actions.js
 var build_module_actions_namespaceObject = {};
 __webpack_require__.r(build_module_actions_namespaceObject);
 __webpack_require__.d(build_module_actions_namespaceObject, "receiveUserQuery", function() { return receiveUserQuery; });
@@ -1086,7 +1086,7 @@ __webpack_require__.d(build_module_actions_namespaceObject, "receiveUploadPermis
 __webpack_require__.d(build_module_actions_namespaceObject, "receiveUserPermission", function() { return receiveUserPermission; });
 __webpack_require__.d(build_module_actions_namespaceObject, "receiveAutosaves", function() { return receiveAutosaves; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/core-data/build-module/selectors.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/core-data/build-module/selectors.js
 var build_module_selectors_namespaceObject = {};
 __webpack_require__.r(build_module_selectors_namespaceObject);
 __webpack_require__.d(build_module_selectors_namespaceObject, "isRequestingEmbedPreview", function() { return isRequestingEmbedPreview; });
@@ -1127,7 +1127,7 @@ __webpack_require__.d(build_module_selectors_namespaceObject, "hasFetchedAutosav
 __webpack_require__.d(build_module_selectors_namespaceObject, "getReferenceByDistinctEdits", function() { return getReferenceByDistinctEdits; });
 __webpack_require__.d(build_module_selectors_namespaceObject, "__experimentalGetTemplateForLink", function() { return __experimentalGetTemplateForLink; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/core-data/build-module/resolvers.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/core-data/build-module/resolvers.js
 var resolvers_namespaceObject = {};
 __webpack_require__.r(resolvers_namespaceObject);
 __webpack_require__.d(resolvers_namespaceObject, "getAuthors", function() { return resolvers_getAuthors; });
@@ -1146,7 +1146,7 @@ __webpack_require__.d(resolvers_namespaceObject, "getAutosaves", function() { re
 __webpack_require__.d(resolvers_namespaceObject, "getAutosave", function() { return resolvers_getAutosave; });
 __webpack_require__.d(resolvers_namespaceObject, "__experimentalGetTemplateForLink", function() { return resolvers_experimentalGetTemplateForLink; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/core-data/build-module/locks/selectors.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/core-data/build-module/locks/selectors.js
 var locks_selectors_namespaceObject = {};
 __webpack_require__.r(locks_selectors_namespaceObject);
 __webpack_require__.d(locks_selectors_namespaceObject, "__unstableGetPendingLockRequests", function() { return __unstableGetPendingLockRequests; });
@@ -1174,7 +1174,7 @@ var external_lodash_ = __webpack_require__(2);
 var external_mt_isShallowEqual_ = __webpack_require__(63);
 var external_mt_isShallowEqual_default = /*#__PURE__*/__webpack_require__.n(external_mt_isShallowEqual_);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/utils/if-matching-action.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/utils/if-matching-action.js
 /**
  * A higher-order reducer creator which invokes the original reducer only if
  * the dispatching action matches the given predicate, **OR** if state is
@@ -1198,7 +1198,7 @@ var ifMatchingAction = function ifMatchingAction(isMatch) {
 
 /* harmony default export */ var if_matching_action = (ifMatchingAction);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/utils/replace-action.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/utils/replace-action.js
 /**
  * Higher-order reducer creator which substitutes the action object before
  * passing to the original reducer.
@@ -1217,7 +1217,7 @@ var replaceAction = function replaceAction(replacer) {
 
 /* harmony default export */ var replace_action = (replaceAction);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/utils/conservative-map-item.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/utils/conservative-map-item.js
 /**
  * External dependencies
  */
@@ -1267,7 +1267,7 @@ function conservativeMapItem(item, nextItem) {
   return result;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/utils/on-sub-key.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/utils/on-sub-key.js
 
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -1325,7 +1325,7 @@ var v4 = __webpack_require__(204);
 // EXTERNAL MODULE: external ["mt","url"]
 var external_mt_url_ = __webpack_require__(32);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/queried-data/actions.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/queried-data/actions.js
 
 
 function actions_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -1392,7 +1392,7 @@ function receiveQueriedItems(items) {
   });
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/locks/actions.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/locks/actions.js
 
 
 function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
@@ -1628,7 +1628,7 @@ var asyncToGenerator = __webpack_require__(47);
 var external_mt_apiFetch_ = __webpack_require__(50);
 var external_mt_apiFetch_default = /*#__PURE__*/__webpack_require__.n(external_mt_apiFetch_);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/batch/default-processor.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/batch/default-processor.js
 
 
 
@@ -1712,7 +1712,7 @@ function _defaultProcessor() {
   return _defaultProcessor.apply(this, arguments);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/batch/create-batch.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/batch/create-batch.js
 
 
 
@@ -1987,7 +1987,7 @@ var create_batch_ObservableSet = /*#__PURE__*/function () {
   return ObservableSet;
 }();
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/controls.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/controls.js
 
 
 
@@ -2043,7 +2043,7 @@ var controls = {
 };
 /* harmony default export */ var build_module_controls = (controls);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/actions.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/actions.js
 
 
 
@@ -3011,7 +3011,7 @@ function receiveAutosaves(postId, autosaves) {
   };
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/entities.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/entities.js
 
 
 var entities_marked = /*#__PURE__*/external_regeneratorRuntime_default.a.mark(loadPostTypeEntities),
@@ -3318,7 +3318,7 @@ function getKindEntities(kind) {
   }, entities_marked3);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/utils/get-normalized-comma-separable.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/utils/get-normalized-comma-separable.js
 /**
  * Given a value which can be specified as one or the other of a comma-separated
  * string or an array, returns a value normalized to an array of strings, or
@@ -3340,7 +3340,7 @@ function getNormalizedCommaSeparable(value) {
 
 /* harmony default export */ var get_normalized_comma_separable = (getNormalizedCommaSeparable);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/utils/with-weak-map-cache.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/utils/with-weak-map-cache.js
 /**
  * External dependencies
  */
@@ -3378,7 +3378,7 @@ function withWeakMapCache(fn) {
 
 /* harmony default export */ var with_weak_map_cache = (withWeakMapCache);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/queried-data/get-query-parts.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/queried-data/get-query-parts.js
 
 
 /**
@@ -3472,7 +3472,7 @@ function getQueryParts(query) {
 }
 /* harmony default export */ var get_query_parts = (with_weak_map_cache(getQueryParts));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/queried-data/reducer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/queried-data/reducer.js
 
 
 function reducer_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -3683,7 +3683,7 @@ var reducer_queries = function queries() {
   queries: reducer_queries
 }));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/locks/utils.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/locks/utils.js
 
 
 
@@ -3865,7 +3865,7 @@ function hasConflictingLock(_ref, locks) {
   return false;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/locks/reducer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/locks/reducer.js
 
 
 
@@ -3947,7 +3947,7 @@ function reducer_locks() {
 }
 /* harmony default export */ var locks_reducer = (reducer_locks);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/reducer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/reducer.js
 
 
 
@@ -4522,7 +4522,7 @@ var rememo = __webpack_require__(41);
 var external_mt_deprecated_ = __webpack_require__(35);
 var external_mt_deprecated_default = /*#__PURE__*/__webpack_require__.n(external_mt_deprecated_);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/name.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/name.js
 /**
  * The reducer key used by core data in store registration.
  * This is defined in a separate file to avoid cycle-dependency
@@ -4535,7 +4535,7 @@ var STORE_NAME = 'core';
 var equivalent_key_map = __webpack_require__(104);
 var equivalent_key_map_default = /*#__PURE__*/__webpack_require__.n(equivalent_key_map);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/queried-data/selectors.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/queried-data/selectors.js
 /**
  * External dependencies
  */
@@ -4666,7 +4666,7 @@ var getQueriedItems = Object(rememo["a" /* default */])(function (state) {
   return items;
 });
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/selectors.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/selectors.js
 
 
 function selectors_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -5377,7 +5377,7 @@ function __experimentalGetTemplateForLink(state, link) {
   return records !== null && records !== void 0 && records.length ? records[0] : null;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/utils/if-not-resolved.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/utils/if-not-resolved.js
 
 
 /**
@@ -5444,7 +5444,7 @@ var if_not_resolved_ifNotResolved = function ifNotResolved(resolver, selectorNam
 
 /* harmony default export */ var if_not_resolved = (if_not_resolved_ifNotResolved);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/resolvers.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/resolvers.js
 
 
 
@@ -5650,7 +5650,7 @@ function resolvers_getEntityRecord(kind, name) {
           // additional query modifications in the condition below, since those
           // modifications are relevant to how the data is tracked in state, and not
           // for how the request is made to the REST API.
-          // eslint-disable-next-line @managertechnology/no-unused-vars-before-return
+          // eslint-disable-next-line @pacmec/no-unused-vars-before-return
 
 
           path = Object(external_mt_url_["addQueryArgs"])(entity.baseURL + '/' + key, resolvers_objectSpread(resolvers_objectSpread({}, query), {}, {
@@ -6219,7 +6219,7 @@ function resolvers_experimentalGetTemplateForLink(link) {
   }, _marked13);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/locks/selectors.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/locks/selectors.js
 
 
 function selectors_createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = selectors_unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
@@ -6296,7 +6296,7 @@ var external_mt_element_ = __webpack_require__(0);
 // EXTERNAL MODULE: external ["mt","blocks"]
 var external_mt_blocks_ = __webpack_require__(9);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/entity-provider.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/entity-provider.js
 
 
 
@@ -6517,7 +6517,7 @@ function useEntityBlockEditor(kind, type) {
   return [blocks !== null && blocks !== void 0 ? blocks : entity_provider_EMPTY_ARRAY, onInput, onChange];
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/core-data/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/core-data/build-module/index.js
 
 
 function build_module_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }

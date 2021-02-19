@@ -113,7 +113,7 @@
 define('moxie/core/utils/Basic', [], function() {
 	/**
 	Gets the true type of the built-in object (better version of typeof).
-	@author Angus Croll (http://javascriptweblog.managertechnology.com/)
+	@author Angus Croll (http://javascriptweblog.pacmec.com/)
 
 	@method typeOf
 	@for Utils

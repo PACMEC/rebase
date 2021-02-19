@@ -1,5 +1,5 @@
 === Twenty Fourteen ===
-Contributors: managertechnologydotorg
+Contributors: pacmecdotorg
 Requires at least: paCMec 3.6
 Tested up to: 5.6
 Stable tag: 3.0

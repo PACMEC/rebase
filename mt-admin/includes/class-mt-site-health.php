@@ -242,7 +242,7 @@ class MT_Site_Health {
 	 *
 	 * @return array The test result.
 	 */
-	public function get_test_managertechnology_version() {
+	public function get_test_pacmec_version() {
 		$result = array(
 			'label'       => '',
 			'status'      => '',
@@ -252,7 +252,7 @@ class MT_Site_Health {
 			),
 			'description' => '',
 			'actions'     => '',
-			'test'        => 'managertechnology_version',
+			'test'        => 'pacmec_version',
 		);
 
 		$core_current_version = get_bloginfo( 'version' );
@@ -1437,7 +1437,7 @@ class MT_Site_Health {
 			'actions'     => sprintf(
 				'<p><a href="%s" target="_blank" rel="noopener">%s <span class="screen-reader-text">%s</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a></p>',
 				/* translators: Documentation explaining debugging in paCMec. */
-				esc_url( __( 'https://managertechnology.com.co/pacmec/support/article/debugging-in-managertechnology/' ) ),
+				esc_url( __( 'https://managertechnology.com.co/pacmec/support/article/debugging-in-pacmec/' ) ),
 				__( 'Learn more about debugging in paCMec.' ),
 				/* translators: Accessibility text. */
 				__( '(opens in a new tab)' )
@@ -2277,9 +2277,9 @@ class MT_Site_Health {
 	public static function get_tests() {
 		$tests = array(
 			'direct' => array(
-				'managertechnology_version'         => array(
+				'pacmec_version'         => array(
 					'label' => __( 'paCMec Version' ),
-					'test'  => 'managertechnology_version',
+					'test'  => 'pacmec_version',
 				),
 				'plugin_version'            => array(
 					'label' => __( 'Plugin Versions' ),

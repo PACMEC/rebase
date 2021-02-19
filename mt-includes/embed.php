@@ -1166,17 +1166,17 @@ function print_embed_sharing_dialog() {
 		<div class="mt-embed-share-dialog-content">
 			<div class="mt-embed-share-dialog-text">
 				<ul class="mt-embed-share-tabs" role="tablist">
-					<li class="mt-embed-share-tab-button mt-embed-share-tab-button-managertechnology" role="presentation">
-						<button type="button" role="tab" aria-controls="mt-embed-share-tab-managertechnology" aria-selected="true" tabindex="0"><?php esc_html_e( 'paCMec Embed' ); ?></button>
+					<li class="mt-embed-share-tab-button mt-embed-share-tab-button-pacmec" role="presentation">
+						<button type="button" role="tab" aria-controls="mt-embed-share-tab-pacmec" aria-selected="true" tabindex="0"><?php esc_html_e( 'paCMec Embed' ); ?></button>
 					</li>
 					<li class="mt-embed-share-tab-button mt-embed-share-tab-button-html" role="presentation">
 						<button type="button" role="tab" aria-controls="mt-embed-share-tab-html" aria-selected="false" tabindex="-1"><?php esc_html_e( 'HTML Embed' ); ?></button>
 					</li>
 				</ul>
-				<div id="mt-embed-share-tab-managertechnology" class="mt-embed-share-tab" role="tabpanel" aria-hidden="false">
-					<input type="text" value="<?php the_permalink(); ?>" class="mt-embed-share-input" aria-describedby="mt-embed-share-description-managertechnology" tabindex="0" readonly/>
+				<div id="mt-embed-share-tab-pacmec" class="mt-embed-share-tab" role="tabpanel" aria-hidden="false">
+					<input type="text" value="<?php the_permalink(); ?>" class="mt-embed-share-input" aria-describedby="mt-embed-share-description-pacmec" tabindex="0" readonly/>
 
-					<p class="mt-embed-share-description" id="mt-embed-share-description-managertechnology">
+					<p class="mt-embed-share-description" id="mt-embed-share-description-pacmec">
 						<?php _e( 'Copy and paste this URL into your paCMec site to embed' ); ?>
 					</p>
 				</div>

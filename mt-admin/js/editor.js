@@ -638,7 +638,7 @@ window.mt = window.mt || {};
 
 		/**
 		 * This method was extracted from the `SaveContent` hook in
-		 * `mt-includes/js/tinymce/plugins/managertechnology/plugin.js`.
+		 * `mt-includes/js/tinymce/plugins/pacmec/plugin.js`.
 		 *
 		 * It's needed here, since the method changes the content a bit, which confuses the cursor position.
 		 *

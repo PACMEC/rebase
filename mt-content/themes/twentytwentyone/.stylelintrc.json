@@ -1,6 +1,6 @@
 {
 	"extends": [
-		"stylelint-config-managertechnology/scss"
+		"stylelint-config-pacmec/scss"
 	],
 	"rules": {
 		"selector-class-pattern": null,

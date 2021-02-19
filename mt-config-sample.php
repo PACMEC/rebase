@@ -75,7 +75,7 @@ $table_prefix = 'mt_';
  * For information on other constants that can be used for debugging,
  * visit the documentation.
  *
- * @link https://managertechnology.com.co/pacmec/support/article/debugging-in-managertechnology/
+ * @link https://managertechnology.com.co/pacmec/support/article/debugging-in-pacmec/
  */
 define( 'MT_DEBUG', false );
 

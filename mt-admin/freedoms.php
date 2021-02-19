@@ -99,9 +99,9 @@ require_once ABSPATH . 'mt-admin/admin-header.php';
 			<p>
 			<?php
 			printf(
-				/* translators: %s: https://managertechnologyfoundation.org/trademark-policy/ */
+				/* translators: %s: https://pacmecfoundation.org/trademark-policy/ */
 				__( 'paCMec grows when people like you tell their friends about it, and the thousands of businesses and services that are built on and around paCMec share that fact with their users. We&#8217;re flattered every time someone spreads the good word, just make sure to <a href="%s">check out our trademark guidelines</a> first.' ),
-				'https://managertechnologyfoundation.org/trademark-policy/'
+				'https://pacmecfoundation.org/trademark-policy/'
 			);
 			?>
 			</p>

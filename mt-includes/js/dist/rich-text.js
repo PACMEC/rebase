@@ -647,7 +647,7 @@ __webpack_require__.d(__webpack_exports__, "useAnchorRef", function() { return /
 __webpack_require__.d(__webpack_exports__, "__experimentalRichText", function() { return /* reexport */ component; });
 __webpack_require__.d(__webpack_exports__, "__unstableFormatEdit", function() { return /* reexport */ FormatEdit; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/rich-text/build-module/store/selectors.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/rich-text/build-module/store/selectors.js
 var selectors_namespaceObject = {};
 __webpack_require__.r(selectors_namespaceObject);
 __webpack_require__.d(selectors_namespaceObject, "getFormatTypes", function() { return getFormatTypes; });
@@ -655,7 +655,7 @@ __webpack_require__.d(selectors_namespaceObject, "getFormatType", function() { r
 __webpack_require__.d(selectors_namespaceObject, "getFormatTypeForBareElement", function() { return getFormatTypeForBareElement; });
 __webpack_require__.d(selectors_namespaceObject, "getFormatTypeForClassName", function() { return getFormatTypeForClassName; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/rich-text/build-module/store/actions.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/rich-text/build-module/store/actions.js
 var actions_namespaceObject = {};
 __webpack_require__.r(actions_namespaceObject);
 __webpack_require__.d(actions_namespaceObject, "addFormatTypes", function() { return addFormatTypes; });
@@ -670,7 +670,7 @@ var defineProperty = __webpack_require__(5);
 // EXTERNAL MODULE: external "lodash"
 var external_lodash_ = __webpack_require__(2);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/store/reducer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/store/reducer.js
 
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -716,7 +716,7 @@ function reducer_formatTypes() {
 // EXTERNAL MODULE: ./node_modules/rememo/es/rememo.js
 var rememo = __webpack_require__(41);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/store/selectors.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/store/selectors.js
 /**
  * External dependencies
  */
@@ -785,7 +785,7 @@ function getFormatTypeForClassName(state, elementClassName) {
   });
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/store/actions.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/store/actions.js
 /**
  * External dependencies
  */
@@ -820,7 +820,7 @@ function removeFormatTypes(names) {
   };
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/store/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/store/index.js
 /**
  * paCMec dependencies
  */
@@ -851,7 +851,7 @@ Object(external_mt_data_["register"])(store);
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js + 2 modules
 var toConsumableArray = __webpack_require__(15);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/is-format-equal.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/is-format-equal.js
 /** @typedef {import('./create').RichTextFormat} RichTextFormat */
 
 /**
@@ -909,7 +909,7 @@ function isFormatEqual(format1, format2) {
   return true;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/normalise-formats.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/normalise-formats.js
 
 
 function normalise_formats_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -953,7 +953,7 @@ function normaliseFormats(value) {
   });
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/apply-format.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/apply-format.js
 
 
 
@@ -1061,7 +1061,7 @@ function applyFormat(value, format) {
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/typeof.js
 var esm_typeof = __webpack_require__(42);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/create-element.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/create-element.js
 /**
  * Parse the given HTML into a body element.
  *
@@ -1089,7 +1089,7 @@ function createElement(_ref, html) {
   return createElement.body;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/special-characters.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/special-characters.js
 /**
  * Line separator character, used for multiline text.
  */
@@ -1106,7 +1106,7 @@ var OBJECT_REPLACEMENT_CHARACTER = "\uFFFC";
 
 var ZWNBSP = "\uFEFF";
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/create.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/create.js
 
 
 
@@ -1689,7 +1689,7 @@ function getAttributes(_ref5) {
   return accumulator;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/concat.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/concat.js
 /**
  * Internal dependencies
  */
@@ -1730,7 +1730,7 @@ function concat() {
   return normaliseFormats(values.reduce(mergePair, create()));
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/get-active-formats.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/get-active-formats.js
 /** @typedef {import('./create').RichTextValue} RichTextValue */
 
 /** @typedef {import('./create').RichTextFormatList} RichTextFormatList */
@@ -1776,7 +1776,7 @@ function getActiveFormats(_ref) {
   return formats[start] || EMPTY_ACTIVE_FORMATS;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/get-active-format.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/get-active-format.js
 /**
  * External dependencies
  */
@@ -1809,7 +1809,7 @@ function getActiveFormat(value, formatType) {
   });
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/get-active-object.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/get-active-object.js
 /**
  * Internal dependencies
  */
@@ -1839,7 +1839,7 @@ function getActiveObject(_ref) {
   return replacements[start];
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/get-text-content.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/get-text-content.js
 /** @typedef {import('./create').RichTextValue} RichTextValue */
 
 /**
@@ -1855,7 +1855,7 @@ function getTextContent(_ref) {
   return text;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/get-line-index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/get-line-index.js
 /**
  * Internal dependencies
  */
@@ -1887,7 +1887,7 @@ function getLineIndex(_ref) {
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/is-list-root-selected.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/is-list-root-selected.js
 /**
  * Internal dependencies
  */
@@ -1911,7 +1911,7 @@ function isListRootSelected(value) {
   return !replacement || replacement.length < 1;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/is-active-list-type.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/is-active-list-type.js
 /**
  * Internal dependencies
  */
@@ -1943,7 +1943,7 @@ function isActiveListType(value, type, rootType) {
   return lastFormat.type === type;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/is-collapsed.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/is-collapsed.js
 /** @typedef {import('./create').RichTextValue} RichTextValue */
 
 /**
@@ -1968,7 +1968,7 @@ function isCollapsed(_ref) {
   return start === end;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/is-empty.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/is-empty.js
 /**
  * Internal dependencies
  */
@@ -2021,7 +2021,7 @@ function isEmptyLine(_ref2) {
   return text.slice(start - 1, end + 1) === "".concat(LINE_SEPARATOR).concat(LINE_SEPARATOR);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/join.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/join.js
 /**
  * Internal dependencies
  */
@@ -2061,7 +2061,7 @@ function join(values) {
   }));
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/register-format-type.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/register-format-type.js
 
 
 function register_format_type_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -2171,7 +2171,7 @@ function registerFormatType(name, settings) {
   return settings;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/remove-format.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/remove-format.js
 
 
 function remove_format_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -2257,7 +2257,7 @@ function filterFormats(formats, index, formatType) {
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/insert.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/insert.js
 /**
  * Internal dependencies
  */
@@ -2302,7 +2302,7 @@ function insert(value, valueToInsert) {
   });
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/remove.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/remove.js
 /**
  * Internal dependencies
  */
@@ -2325,7 +2325,7 @@ function remove_remove(value, startIndex, endIndex) {
   return insert(value, create(), startIndex, endIndex);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/replace.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/replace.js
 
 
 /**
@@ -2402,7 +2402,7 @@ function replace_replace(_ref, pattern, replacement) {
   });
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/insert-line-separator.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/insert-line-separator.js
 /**
  * Internal dependencies
  */
@@ -2443,7 +2443,7 @@ function insertLineSeparator(value) {
   return insert(value, valueToInsert, startIndex, endIndex);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/remove-line-separator.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/remove-line-separator.js
 
 
 function remove_line_separator_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -2509,7 +2509,7 @@ function removeLineSeparator(value) {
   return newValue;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/insert-object.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/insert-object.js
 /**
  * Internal dependencies
  */
@@ -2541,7 +2541,7 @@ function insertObject(value, formatToInsert, startIndex, endIndex) {
   return insert(value, valueToInsert, startIndex, endIndex);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/slice.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/slice.js
 
 
 function slice_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -2579,7 +2579,7 @@ function slice(value) {
   };
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/split.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/split.js
 /**
  * Internal dependencies
  */
@@ -2660,7 +2660,7 @@ function splitAtSelection(_ref2) {
   replace_replace(before, /\u2028+$/, ''), replace_replace(after, /^\u2028+/, '')];
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/get-format-type.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/get-format-type.js
 /**
  * paCMec dependencies
  */
@@ -2684,7 +2684,7 @@ function get_format_type_getFormatType(name) {
   return Object(external_mt_data_["select"])(store).getFormatType(name);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/to-tree.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/to-tree.js
 
 
 
@@ -2982,7 +2982,7 @@ function toTree(_ref2) {
   return tree;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/to-dom.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/to-dom.js
 
 
 
@@ -3313,7 +3313,7 @@ function applySelection(_ref6, current) {
 // EXTERNAL MODULE: external ["mt","escapeHtml"]
 var external_mt_escapeHtml_ = __webpack_require__(105);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/to-html-string.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/to-html-string.js
 /**
  * paCMec dependencies
  */
@@ -3438,7 +3438,7 @@ function createChildrenHTML() {
   }).join('');
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/toggle-format.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/toggle-format.js
 /**
  * Internal dependencies
  */
@@ -3466,7 +3466,7 @@ function toggleFormat(value, format) {
   return applyFormat(value, format);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/unregister-format-type.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/unregister-format-type.js
 /**
  * paCMec dependencies
  */
@@ -3500,7 +3500,7 @@ function unregisterFormatType(name) {
   return oldFormat;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/can-indent-list-items.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/can-indent-list-items.js
 /**
  * Internal dependencies
  */
@@ -3531,7 +3531,7 @@ function canIndentListItems(value) {
   return formatsAtLineIndex.length <= formatsAtPreviousLineIndex.length;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/can-outdent-list-items.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/can-outdent-list-items.js
 /**
  * Internal dependencies
  */
@@ -3553,7 +3553,7 @@ function canOutdentListItems(value) {
   return replacements[startingLineIndex] !== undefined;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/indent-list-items.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/indent-list-items.js
 
 
 function indent_list_items_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -3647,7 +3647,7 @@ function indentListItems(value, rootFormat) {
   });
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/get-parent-line-index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/get-parent-line-index.js
 /**
  * Internal dependencies
  */
@@ -3684,7 +3684,7 @@ function getParentLineIndex(_ref, lineIndex) {
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/get-last-child-index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/get-last-child-index.js
 /**
  * Internal dependencies
  */
@@ -3727,7 +3727,7 @@ function getLastChildIndex(_ref, lineIndex) {
   return childIndex;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/outdent-list-items.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/outdent-list-items.js
 
 
 function outdent_list_items_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -3790,7 +3790,7 @@ function outdentListItems(value) {
   });
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/change-list-type.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/change-list-type.js
 
 
 function change_list_type_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -3865,7 +3865,7 @@ function changeListType(value, newFormat) {
 // EXTERNAL MODULE: external ["mt","element"]
 var external_mt_element_ = __webpack_require__(0);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/component/use-anchor-ref.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/component/use-anchor-ref.js
 /**
  * paCMec dependencies
  */
@@ -3875,7 +3875,7 @@ var external_mt_element_ = __webpack_require__(0);
  */
 
 
-/** @typedef {import('@managertechnology/element').RefObject} RefObject */
+/** @typedef {import('@pacmec/element').RefObject} RefObject */
 
 /** @typedef {import('../register-format-type').RichTextFormatType} RichTextFormatType */
 
@@ -3945,7 +3945,7 @@ var external_mt_deprecated_default = /*#__PURE__*/__webpack_require__.n(external
 // EXTERNAL MODULE: external ["mt","dom"]
 var external_mt_dom_ = __webpack_require__(27);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/component/format-edit.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/component/format-edit.js
 
 
 /**
@@ -3985,7 +3985,7 @@ function FormatEdit(_ref) {
   });
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/update-formats.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/update-formats.js
 /**
  * Internal dependencies
  */
@@ -4039,7 +4039,7 @@ function updateFormats(_ref) {
   return value;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/component/use-format-types.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/component/use-format-types.js
 
 
 function use_format_types_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -4163,7 +4163,7 @@ function useFormatTypes(_ref) {
   };
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/component/use-boundary-style.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/component/use-boundary-style.js
 /**
  * paCMec dependencies
  */
@@ -4212,7 +4212,7 @@ function useBoundaryStyle(_ref) {
   }, [activeFormats]);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/component/use-inline-warning.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/component/use-inline-warning.js
 /**
  * paCMec dependencies
  */
@@ -4224,7 +4224,7 @@ function useInlineWarning(_ref) {
   }, []);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/component/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/component/index.js
 
 
 
@@ -4262,7 +4262,7 @@ function component_objectSpread(target) { for (var i = 1; i < arguments.length; 
 
 
 
-/** @typedef {import('@managertechnology/element').MTSyntheticEvent} MTSyntheticEvent */
+/** @typedef {import('@pacmec/element').MTSyntheticEvent} MTSyntheticEvent */
 
 /**
  * All inserting input types that would insert HTML into the DOM.
@@ -5289,7 +5289,7 @@ function RichText(_ref, ref) {
 
 /* harmony default export */ var component = (Object(external_mt_element_["forwardRef"])(RichText));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/rich-text/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/rich-text/build-module/index.js
 
 
 

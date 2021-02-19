@@ -4490,11 +4490,11 @@ ul.footer-social li {
 }
 
 .footer-copyright a,
-.powered-by-managertechnology a {
+.powered-by-pacmec a {
 	color: inherit;
 }
 
-.powered-by-managertechnology,
+.powered-by-pacmec,
 .to-the-top {
 	color: #6d6d6d;
 }
@@ -4508,7 +4508,7 @@ a.to-the-top > * {
 	margin: 0;
 }
 
-.powered-by-managertechnology {
+.powered-by-pacmec {
 	display: none;
 	margin: 0 0 0 2.4rem;
 }
@@ -5630,7 +5630,7 @@ a.to-the-top > * {
 		font-weight: 700;
 	}
 
-	.powered-by-managertechnology {
+	.powered-by-pacmec {
 		display: block;
 	}
 

@@ -691,7 +691,7 @@ function mt_get_update_data() {
 	$counts = array(
 		'plugins'      => 0,
 		'themes'       => 0,
-		'managertechnology'    => 0,
+		'pacmec'    => 0,
 		'translations' => 0,
 	);
 
@@ -718,13 +718,13 @@ function mt_get_update_data() {
 	$core = current_user_can( 'update_core' );
 
 	if ( $core && function_exists( 'get_core_updates' ) ) {
-		$update_managertechnology = get_core_updates( array( 'dismissed' => false ) );
+		$update_pacmec = get_core_updates( array( 'dismissed' => false ) );
 
-		if ( ! empty( $update_managertechnology )
-			&& ! in_array( $update_managertechnology[0]->response, array( 'development', 'latest' ), true )
+		if ( ! empty( $update_pacmec )
+			&& ! in_array( $update_pacmec[0]->response, array( 'development', 'latest' ), true )
 			&& current_user_can( 'update_core' )
 		) {
-			$counts['managertechnology'] = 1;
+			$counts['pacmec'] = 1;
 		}
 	}
 
@@ -732,12 +732,12 @@ function mt_get_update_data() {
 		$counts['translations'] = 1;
 	}
 
-	$counts['total'] = $counts['plugins'] + $counts['themes'] + $counts['managertechnology'] + $counts['translations'];
+	$counts['total'] = $counts['plugins'] + $counts['themes'] + $counts['pacmec'] + $counts['translations'];
 	$titles          = array();
 
-	if ( $counts['managertechnology'] ) {
+	if ( $counts['pacmec'] ) {
 		/* translators: %d: Number of available paCMec updates. */
-		$titles['managertechnology'] = sprintf( __( '%d paCMec Update' ), $counts['managertechnology'] );
+		$titles['pacmec'] = sprintf( __( '%d paCMec Update' ), $counts['pacmec'] );
 	}
 
 	if ( $counts['plugins'] ) {

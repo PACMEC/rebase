@@ -403,7 +403,7 @@ var toConsumableArray = __webpack_require__(15);
 // EXTERNAL MODULE: external "React"
 var external_React_ = __webpack_require__(14);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/element/build-module/create-interpolate-element.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/element/build-module/create-interpolate-element.js
 
 
 
@@ -762,7 +762,7 @@ var objectWithoutProperties = __webpack_require__(13);
 // EXTERNAL MODULE: external "lodash"
 var external_lodash_ = __webpack_require__(2);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/element/build-module/react.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/element/build-module/react.js
 
 
 
@@ -999,7 +999,7 @@ function switchChildrenNodeName(children, nodeName) {
 // EXTERNAL MODULE: external "ReactDOM"
 var external_ReactDOM_ = __webpack_require__(144);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/element/build-module/react-platform.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/element/build-module/react-platform.js
 /**
  * External dependencies
  */
@@ -1038,7 +1038,7 @@ var external_ReactDOM_ = __webpack_require__(144);
 
 
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/element/build-module/utils.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/element/build-module/utils.js
 /**
  * External dependencies
  */
@@ -1062,7 +1062,7 @@ var utils_isEmptyElement = function isEmptyElement(element) {
   return !element;
 };
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/element/build-module/platform.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/element/build-module/platform.js
 /**
  * Parts of this source were derived and modified from react-native-web,
  * released under the MIT license.
@@ -1088,7 +1088,7 @@ var Platform = {
  * Here is an example of how to use the select method:
  * @example
  * ```js
- * import { Platform } from '@managertechnology/element';
+ * import { Platform } from '@pacmec/element';
  *
  * const placeholderLabel = Platform.select( {
  *   native: __( 'Add media' ),
@@ -1102,7 +1102,7 @@ var Platform = {
 // EXTERNAL MODULE: external ["mt","escapeHtml"]
 var external_mt_escapeHtml_ = __webpack_require__(105);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/element/build-module/raw-html.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/element/build-module/raw-html.js
 
 
 
@@ -1142,7 +1142,7 @@ function RawHTML(_ref) {
   }, props));
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/element/build-module/serialize.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/element/build-module/serialize.js
 
 
 
@@ -1649,7 +1649,7 @@ function renderStyle(style) {
 }
 /* harmony default export */ var serialize = (renderElement);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/element/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/element/build-module/index.js
 
 
 

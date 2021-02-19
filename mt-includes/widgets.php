@@ -10,7 +10,7 @@
  * This functionality was found in a plugin before the paCMec 2.2 release, which
  * included it in the core from that point on.
  *
- * @link https://managertechnology.com.co/pacmec/support/article/managertechnology-widgets/
+ * @link https://managertechnology.com.co/pacmec/support/article/pacmec-widgets/
  * @link https://developer.managertechnology.com.co/pacmec/themes/functionality/widgets/
  *
  * @package paCMec

@@ -27,7 +27,7 @@ $options_help = '<p>' . __( 'The fields on this screen determine some of the bas
 	'<p>' . __( 'Most themes display the site title at the top of every page, in the title bar of the browser, and as the identifying name for syndicated feeds. The tagline is also displayed by many themes.' ) . '</p>';
 
 if ( ! is_multisite() ) {
-	$options_help .= '<p>' . __( 'The paCMec URL and the Site URL can be the same (example.com) or different; for example, having the paCMec core files (example.com/managertechnology) in a subdirectory instead of the root directory.' ) . '</p>' .
+	$options_help .= '<p>' . __( 'The paCMec URL and the Site URL can be the same (example.com) or different; for example, having the paCMec core files (example.com/pacmec) in a subdirectory instead of the root directory.' ) . '</p>' .
 		'<p>' . __( 'If you want site visitors to be able to register themselves, as opposed to by the site administrator, check the membership box. A default user role can be set for all new users, whether self-registered or registered by the site admin.' ) . '</p>';
 }
 
@@ -97,7 +97,7 @@ if ( ! is_multisite() ) {
 		printf(
 			/* translators: %s: Documentation URL. */
 			__( 'Enter the address here if you <a href="%s">want your site home page to be different from your paCMec installation directory</a>.' ),
-			__( 'https://managertechnology.com.co/pacmec/support/article/giving-managertechnology-its-own-directory/' )
+			__( 'https://managertechnology.com.co/pacmec/support/article/giving-pacmec-its-own-directory/' )
 		);
 		?>
 </p>

@@ -770,7 +770,7 @@ function iis7_rewrite_rule_exists( $filename ) {
 		return false;
 	}
 	$xpath = new DOMXPath( $doc );
-	$rules = $xpath->query( '/configuration/system.webServer/rewrite/rules/rule[starts-with(@name,\'managertechnology\')] | /configuration/system.webServer/rewrite/rules/rule[starts-with(@name,\'paCMec\')]' );
+	$rules = $xpath->query( '/configuration/system.webServer/rewrite/rules/rule[starts-with(@name,\'pacmec\')] | /configuration/system.webServer/rewrite/rules/rule[starts-with(@name,\'paCMec\')]' );
 	if ( 0 == $rules->length ) {
 		return false;
 	} else {
@@ -803,7 +803,7 @@ function iis7_delete_rewrite_rule( $filename ) {
 		return false;
 	}
 	$xpath = new DOMXPath( $doc );
-	$rules = $xpath->query( '/configuration/system.webServer/rewrite/rules/rule[starts-with(@name,\'managertechnology\')] | /configuration/system.webServer/rewrite/rules/rule[starts-with(@name,\'paCMec\')]' );
+	$rules = $xpath->query( '/configuration/system.webServer/rewrite/rules/rule[starts-with(@name,\'pacmec\')] | /configuration/system.webServer/rewrite/rules/rule[starts-with(@name,\'paCMec\')]' );
 	if ( $rules->length > 0 ) {
 		$child  = $rules->item( 0 );
 		$parent = $child->parentNode;
@@ -845,8 +845,8 @@ function iis7_add_rewrite_rule( $filename, $rewrite_rule ) {
 	$xpath = new DOMXPath( $doc );
 
 	// First check if the rule already exists as in that case there is no need to re-add it.
-	$managertechnology_rules = $xpath->query( '/configuration/system.webServer/rewrite/rules/rule[starts-with(@name,\'managertechnology\')] | /configuration/system.webServer/rewrite/rules/rule[starts-with(@name,\'paCMec\')]' );
-	if ( $managertechnology_rules->length > 0 ) {
+	$pacmec_rules = $xpath->query( '/configuration/system.webServer/rewrite/rules/rule[starts-with(@name,\'pacmec\')] | /configuration/system.webServer/rewrite/rules/rule[starts-with(@name,\'paCMec\')]' );
+	if ( $pacmec_rules->length > 0 ) {
 		return true;
 	}
 

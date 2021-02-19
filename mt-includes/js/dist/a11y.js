@@ -119,7 +119,7 @@ var external_mt_domReady_default = /*#__PURE__*/__webpack_require__.n(external_m
 // EXTERNAL MODULE: external ["mt","i18n"]
 var external_mt_i18n_ = __webpack_require__(1);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/a11y/build-module/add-intro-text.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/a11y/build-module/add-intro-text.js
 /**
  * paCMec dependencies
  */
@@ -150,7 +150,7 @@ function addIntroText() {
   return introText;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/a11y/build-module/add-container.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/a11y/build-module/add-container.js
 /**
  * Build the live regions markup.
  *
@@ -177,7 +177,7 @@ function addContainer() {
   return container;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/a11y/build-module/clear.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/a11y/build-module/clear.js
 /**
  * Clears the a11y-speak-region elements and hides the explanatory text.
  */
@@ -195,7 +195,7 @@ function clear() {
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/a11y/build-module/filter-message.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/a11y/build-module/filter-message.js
 var previousMessage = '';
 /**
  * Filter the message to be announced to the screenreader.
@@ -227,7 +227,7 @@ function filterMessage(message) {
   return message;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/a11y/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/a11y/build-module/index.js
 /**
  * paCMec dependencies
  */
@@ -275,7 +275,7 @@ external_mt_domReady_default()(setup);
  *
  * @example
  * ```js
- * import { speak } from '@managertechnology/a11y';
+ * import { speak } from '@pacmec/a11y';
  *
  * // For polite messages that shouldn't interrupt what screen readers are currently announcing.
  * speak( 'The message you want to send to the ARIA live region' );

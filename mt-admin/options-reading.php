@@ -31,7 +31,7 @@ get_current_screen()->add_help_tab(
 			'<p>' . sprintf(
 				/* translators: %s: Documentation URL. */
 				__( 'You can also control the display of your content in RSS feeds, including the maximum number of posts to display and whether to show full text or a summary. <a href="%s">Learn more about feeds</a>.' ),
-				__( 'https://managertechnology.com.co/pacmec/support/article/managertechnology-feeds/' )
+				__( 'https://managertechnology.com.co/pacmec/support/article/pacmec-feeds/' )
 			) . '</p>' .
 			'<p>' . __( 'You must click the Save Changes button at the bottom of the screen for new settings to take effect.' ) . '</p>',
 	)
@@ -168,7 +168,7 @@ else :
 		printf(
 			/* translators: %s: Documentation URL. */
 			__( 'Your theme determines how content is displayed in browsers. <a href="%s">Learn more about feeds</a>.' ),
-			__( 'https://managertechnology.com.co/pacmec/support/article/managertechnology-feeds/' )
+			__( 'https://managertechnology.com.co/pacmec/support/article/pacmec-feeds/' )
 		);
 		?>
 	</p>

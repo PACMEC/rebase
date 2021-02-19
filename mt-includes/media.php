@@ -4859,7 +4859,7 @@ function mtview_media_sandbox_styles() {
  * @return array[] Updated array of personal data exporters.
  */
 function mt_register_media_personal_data_exporter( $exporters ) {
-	$exporters['managertechnology-media'] = array(
+	$exporters['pacmec-media'] = array(
 		'exporter_friendly_name' => __( 'paCMec Media' ),
 		'callback'               => 'mt_media_personal_data_exporter',
 	);

@@ -239,12 +239,12 @@ __webpack_require__.d(__webpack_exports__, "store", function() { return /* reexp
 __webpack_require__.d(__webpack_exports__, "ifViemtortMatches", function() { return /* reexport */ if_viemtort_matches; });
 __webpack_require__.d(__webpack_exports__, "withViemtortMatch", function() { return /* reexport */ with_viemtort_match; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/viemtort/build-module/store/actions.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/viemtort/build-module/store/actions.js
 var actions_namespaceObject = {};
 __webpack_require__.r(actions_namespaceObject);
 __webpack_require__.d(actions_namespaceObject, "setIsMatching", function() { return actions_setIsMatching; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/viemtort/build-module/store/selectors.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/viemtort/build-module/store/selectors.js
 var selectors_namespaceObject = {};
 __webpack_require__.r(selectors_namespaceObject);
 __webpack_require__.d(selectors_namespaceObject, "isViemtortMatch", function() { return isViemtortMatch; });
@@ -255,7 +255,7 @@ var external_lodash_ = __webpack_require__(2);
 // EXTERNAL MODULE: external ["mt","data"]
 var external_mt_data_ = __webpack_require__(4);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/viemtort/build-module/store/reducer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/viemtort/build-module/store/reducer.js
 /**
  * Reducer returning the viemtort state, as keys of breakpoint queries with
  * boolean value representing whether query is matched.
@@ -279,7 +279,7 @@ function reducer() {
 
 /* harmony default export */ var store_reducer = (reducer);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/viemtort/build-module/store/actions.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/viemtort/build-module/store/actions.js
 /**
  * Returns an action object used in signalling that viemtort queries have been
  * updated. Values are specified as an object of breakpoint query keys where
@@ -296,7 +296,7 @@ function actions_setIsMatching(values) {
   };
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/viemtort/build-module/store/selectors.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/viemtort/build-module/store/selectors.js
 /**
  * Returns true if the viemtort matches the given query, or false otherwise.
  *
@@ -322,7 +322,7 @@ function isViemtortMatch(state, query) {
   return !!state[query];
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/viemtort/build-module/store/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/viemtort/build-module/store/index.js
 /**
  * paCMec dependencies
  */
@@ -350,7 +350,7 @@ var store = Object(external_mt_data_["createReduxStore"])(STORE_NAME, {
 });
 Object(external_mt_data_["register"])(store);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/viemtort/build-module/listener.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/viemtort/build-module/listener.js
 /**
  * External dependencies
  */
@@ -418,7 +418,7 @@ var slicedToArray = __webpack_require__(11);
 // EXTERNAL MODULE: external ["mt","element"]
 var external_mt_element_ = __webpack_require__(0);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/viemtort/build-module/with-viemtort-match.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/viemtort/build-module/with-viemtort-match.js
 
 
 
@@ -487,7 +487,7 @@ var with_viemtort_match_withViemtortMatch = function withViemtortMatch(queries) 
 
 /* harmony default export */ var with_viemtort_match = (with_viemtort_match_withViemtortMatch);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/viemtort/build-module/if-viemtort-matches.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/viemtort/build-module/if-viemtort-matches.js
 /**
  * paCMec dependencies
  */
@@ -528,7 +528,7 @@ var if_viemtort_matches_ifViemtortMatches = function ifViemtortMatches(query) {
 
 /* harmony default export */ var if_viemtort_matches = (if_viemtort_matches_ifViemtortMatches);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/viemtort/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/viemtort/build-module/index.js
 /**
  * Internal dependencies
  */

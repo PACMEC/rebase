@@ -333,7 +333,7 @@ mt.customHtmlWidgets = ( function( $ ) {
 		 * This ensures that the textarea is visible and the editor can be initialized.
 		 */
 		renderWhenAnimationDone = function() {
-			if ( ! ( mt.customize ? widgetContainer.parent().hasClass( 'expanded' ) : widgetContainer.hasClass( 'open' ) ) ) { // Core merge: The mt.customize condition can be eliminated with this change being in core: https://github.com/xmt/managertechnology-develop/pull/247/commits/5322387d
+			if ( ! ( mt.customize ? widgetContainer.parent().hasClass( 'expanded' ) : widgetContainer.hasClass( 'open' ) ) ) { // Core merge: The mt.customize condition can be eliminated with this change being in core: https://github.com/xmt/pacmec-develop/pull/247/commits/5322387d
 				setTimeout( renderWhenAnimationDone, animatedCheckDelay );
 			} else {
 				widgetControl.initializeEditor();

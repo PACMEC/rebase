@@ -13,8 +13,8 @@
 	},
 	"homepage": "https://managertechnology.com.co/pacmec/themes/twentytwentyone/",
 	"devDependencies": {
-		"@managertechnology/browserslist-config": "^3.0.0",
-		"@managertechnology/eslint-plugin": "^8.0.1",
+		"@pacmec/browserslist-config": "^3.0.0",
+		"@pacmec/eslint-plugin": "^8.0.1",
 		"autoprefixer": "^9.5.1",
 		"chokidar-cli": "^2.1.0",
 		"eslint": "^7.18.0",
@@ -31,7 +31,7 @@
 		"sass": "^1.32.5",
 		"stylelint": "^13.9.0",
 		"stylelint-config-recommended-scss": "^4.2.0",
-		"stylelint-config-managertechnology": "^17.0.0"
+		"stylelint-config-pacmec": "^17.0.0"
 	},
 	"rtlcssConfig": {
 		"options": {
@@ -47,7 +47,7 @@
 		"map": false
 	},
 	"browserslist": [
-		"extends @managertechnology/browserslist-config"
+		"extends @pacmec/browserslist-config"
 	],
 	"scripts": {
 		"start": "chokidar \"**/*.scss\" -c \"npm run build\" --initial",

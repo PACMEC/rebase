@@ -465,7 +465,7 @@
 		source: "Source"
 	});
 
-	tinyMCE.addI18n( lang + ".managertechnology", {
+	tinyMCE.addI18n( lang + ".pacmec", {
 		mt_adv_desc: "Show/Hide Kitchen Sink (Alt + Shift + Z)",
 		mt_more_desc: "Insert More Tag (Alt + Shift + T)",
 		mt_page_desc: "Insert Page break (Alt + Shift + P)",

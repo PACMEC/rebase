@@ -60,7 +60,7 @@ class MT_oEmbed {
 			'#https?://flic\.kr/.*#i'                      => array( 'https://www.flickr.com/services/oembed/', true ),
 			'#https?://(.+\.)?smugmug\.com/.*#i'           => array( 'https://api.smugmug.com/services/oembed/', true ),
 			'#https?://(www\.)?scribd\.com/(doc|document)/.*#i' => array( 'https://www.scribd.com/services/oembed', true ),
-			'#https?://managertechnology\.tv/.*#i'                 => array( 'https://managertechnology.tv/oembed/', true ),
+			'#https?://pacmec\.tv/.*#i'                 => array( 'https://pacmec.tv/oembed/', true ),
 			'#https?://(.+\.)?polldaddy\.com/.*#i'         => array( 'https://api.crowdsignal.com/oembed', true ),
 			'#https?://poll\.fm/.*#i'                      => array( 'https://api.crowdsignal.com/oembed', true ),
 			'#https?://(.+\.)?survey\.fm/.*#i'             => array( 'https://api.crowdsignal.com/oembed', true ),
@@ -84,7 +84,7 @@ class MT_oEmbed {
 			'#https?://kck\.st/.*#i'                       => array( 'https://www.kickstarter.com/services/oembed', true ),
 			'#https?://cloudup\.com/.*#i'                  => array( 'https://cloudup.com/oembed', true ),
 			'#https?://(www\.)?reverbnation\.com/.*#i'     => array( 'https://www.reverbnation.com/oembed', true ),
-			'#https?://videopress\.com/v/.*#'              => array( 'https://public-api.managertechnology.com/oembed/?for=' . $host, true ),
+			'#https?://videopress\.com/v/.*#'              => array( 'https://public-api.pacmec.com/oembed/?for=' . $host, true ),
 			'#https?://(www\.)?reddit\.com/r/[^/]+/comments/.*#i' => array( 'https://www.reddit.com/oembed', true ),
 			'#https?://(www\.)?speakerdeck\.com/.*#i'      => array( 'https://speakerdeck.com/oembed.{format}', true ),
 			'#https?://(www\.)?screencast\.com/.*#i'       => array( 'https://api.screencast.com/external/oembed', true ),
@@ -133,7 +133,7 @@ class MT_oEmbed {
 		 * | Flickr       | flickr.com                                | 2.9.0   |
 		 * | Scribd       | scribd.com                                | 2.9.0   |
 		 * | Vimeo        | vimeo.com                                 | 2.9.0   |
-		 * | paCMec.tv | managertechnology.tv                              | 2.9.0   |
+		 * | paCMec.tv | pacmec.tv                              | 2.9.0   |
 		 * | YouTube      | youtube.com/watch                         | 2.9.0   |
 		 * | Crowdsignal  | polldaddy.com                             | 3.0.0   |
 		 * | SmugMug      | smugmug.com                               | 3.0.0   |

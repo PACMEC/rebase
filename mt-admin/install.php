@@ -235,7 +235,7 @@ $mysql_compat  = version_compare( $mysql_version, $required_mysql_version, '>=' 
 
 $version_url = sprintf(
 	/* translators: %s: paCMec version. */
-	esc_url( __( 'https://managertechnology.com.co/pacmec/support/managertechnology-version/version-%s/' ) ),
+	esc_url( __( 'https://managertechnology.com.co/pacmec/support/pacmec-version/version-%s/' ) ),
 	sanitize_title( $mt_version )
 );
 

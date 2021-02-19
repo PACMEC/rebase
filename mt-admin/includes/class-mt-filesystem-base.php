@@ -279,7 +279,7 @@ class MT_Filesystem_Base {
 			}
 
 			/*
-			 * Working from /home/ to /user/ to /managertechnology/ see if that file exists within
+			 * Working from /home/ to /user/ to /pacmec/ see if that file exists within
 			 * the current folder, If it's found, change into it and follow through looking
 			 * for it. If it can't find paCMec down that route, it'll continue onto the next
 			 * folder level, and see if that matches, and so on. If it reaches the end, and still

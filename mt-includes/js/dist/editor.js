@@ -262,8 +262,8 @@ function _objectWithoutProperties(source, excluded) {
 "use strict";
 /* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5);
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(13);
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_element__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_pacmec_element__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
@@ -275,7 +275,7 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
  * paCMec dependencies
  */
 
-/** @typedef {{icon: JSX.Element, size?: number} & import('@managertechnology/primitives').SVGProps} IconProps */
+/** @typedef {{icon: JSX.Element, size?: number} & import('@pacmec/primitives').SVGProps} IconProps */
 
 /**
  * Return an SVG icon.
@@ -293,7 +293,7 @@ function Icon(_ref) {
       size = _ref$size === void 0 ? 24 : _ref$size,
       props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(_ref, ["icon", "size"]);
 
-  return Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_2__["cloneElement"])(icon, _objectSpread({
+  return Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_2__["cloneElement"])(icon, _objectSpread({
     width: size,
     height: size
   }, props));
@@ -458,20 +458,20 @@ function _toConsumableArray(arr) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__);
 
 
 /**
  * paCMec dependencies
  */
 
-var closeSmall = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
+var closeSmall = Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
-}, Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
+}, Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M13 11.9l3.3-3.4-1.1-1-3.2 3.3-3.2-3.3-1.1 1 3.3 3.4-3.5 3.6 1 1L12 13l3.5 3.5 1-1z"
 }));
 /* harmony default export */ __webpack_exports__["a"] = (closeSmall);
@@ -490,20 +490,20 @@ var closeSmall = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__[
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__);
 
 
 /**
  * paCMec dependencies
  */
 
-var close = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
+var close = Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
-}, Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
+}, Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M13 11.8l6.1-6.3-1-1-6.1 6.2-6.1-6.2-1 1 6.1 6.3-6.5 6.7 1 1 6.5-6.6 6.5 6.6 1-1z"
 }));
 /* harmony default export */ __webpack_exports__["a"] = (close);
@@ -515,20 +515,20 @@ var close = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["crea
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__);
 
 
 /**
  * paCMec dependencies
  */
 
-var check = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
+var check = Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
-}, Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
+}, Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M18.3 5.6L9.9 16.9l-4.6-3.4-.9 1.2 5.8 4.3 9.3-12.6z"
 }));
 /* harmony default export */ __webpack_exports__["a"] = (check);
@@ -1291,20 +1291,20 @@ function _unsupportedIterableToArray(o, minLen) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var _managertechnology_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
-/* harmony import */ var _managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var _pacmec_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+/* harmony import */ var _pacmec_primitives__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__);
 
 
 /**
  * paCMec dependencies
  */
 
-var layout = Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
+var layout = Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "-2 -2 24 24"
-}, Object(_managertechnology_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_managertechnology_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
+}, Object(_pacmec_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_pacmec_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M2 2h5v11H2V2zm6 0h5v5H8V2zm6 0h4v16h-4V2zM8 8h5v5H8V8zm-6 6h11v4H2v-4z"
 }));
 /* harmony default export */ __webpack_exports__["a"] = (layout);
@@ -1828,7 +1828,7 @@ __webpack_require__.d(__webpack_exports__, "mediaUpload", function() { return /*
 __webpack_require__.d(__webpack_exports__, "cleanForSlug", function() { return /* reexport */ cleanForSlug; });
 __webpack_require__.d(__webpack_exports__, "transformStyles", function() { return /* reexport */ external_mt_blockEditor_["transformStyles"]; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/editor/build-module/store/selectors.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/editor/build-module/store/selectors.js
 var selectors_namespaceObject = {};
 __webpack_require__.r(selectors_namespaceObject);
 __webpack_require__.d(selectors_namespaceObject, "hasEditorUndo", function() { return hasEditorUndo; });
@@ -1945,7 +1945,7 @@ __webpack_require__.d(selectors_namespaceObject, "__experimentalGetDefaultTempla
 __webpack_require__.d(selectors_namespaceObject, "__experimentalGetDefaultTemplateType", function() { return __experimentalGetDefaultTemplateType; });
 __webpack_require__.d(selectors_namespaceObject, "__experimentalGetTemplateInfo", function() { return __experimentalGetTemplateInfo; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/editor/build-module/store/actions.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/editor/build-module/store/actions.js
 var actions_namespaceObject = {};
 __webpack_require__.r(actions_namespaceObject);
 __webpack_require__.d(actions_namespaceObject, "setupEditor", function() { return actions_setupEditor; });
@@ -2044,7 +2044,7 @@ var external_mt_compose_ = __webpack_require__(12);
 // EXTERNAL MODULE: external ["mt","hooks"]
 var external_mt_hooks_ = __webpack_require__(33);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/hooks/custom-sources-backwards-compatibility.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/hooks/custom-sources-backwards-compatibility.js
 
 
 
@@ -2069,9 +2069,9 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 
 
-/** @typedef {import('@managertechnology/compose').MTHigherOrderComponent} MTHigherOrderComponent */
+/** @typedef {import('@pacmec/compose').MTHigherOrderComponent} MTHigherOrderComponent */
 
-/** @typedef {import('@managertechnology/blocks').MTBlockSettings} MTBlockSettings */
+/** @typedef {import('@pacmec/blocks').MTBlockSettings} MTBlockSettings */
 
 /**
  * Object whose keys are the names of block attributes, where each value
@@ -2187,14 +2187,14 @@ Object(external_mt_data_["select"])(external_mt_blocks_["store"]).getBlockTypes(
 var external_mt_apiFetch_ = __webpack_require__(50);
 var external_mt_apiFetch_default = /*#__PURE__*/__webpack_require__.n(external_mt_apiFetch_);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/autocompleters/user.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/autocompleters/user.js
 
 
 /**
  * paCMec dependencies
  */
 
-/** @typedef {import('@managertechnology/components').MTCompleter} MTCompleter */
+/** @typedef {import('@pacmec/components').MTCompleter} MTCompleter */
 
 /**
  * A user mentions completer.
@@ -2243,7 +2243,7 @@ var external_mt_apiFetch_default = /*#__PURE__*/__webpack_require__.n(external_m
   }
 });
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/hooks/default-autocompleters.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/hooks/default-autocompleters.js
 /**
  * External dependencies
  */
@@ -2268,7 +2268,7 @@ function setDefaultCompleters() {
 
 Object(external_mt_hooks_["addFilter"])('editor.Autocomplete.completers', 'editor/autocompleters/set-default-completers', setDefaultCompleters);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/hooks/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/hooks/index.js
 /**
  * Internal dependencies
  */
@@ -2281,7 +2281,7 @@ var external_mt_dataControls_ = __webpack_require__(49);
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/typeof.js
 var esm_typeof = __webpack_require__(42);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/store/defaults.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/store/defaults.js
 
 
 function defaults_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -2317,7 +2317,7 @@ var EDITOR_SETTINGS_DEFAULTS = defaults_objectSpread(defaults_objectSpread({}, e
   enableCustomFields: false
 });
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/store/reducer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/store/reducer.js
 
 
 
@@ -2658,7 +2658,7 @@ var external_mt_url_ = __webpack_require__(32);
 var external_mt_deprecated_ = __webpack_require__(35);
 var external_mt_deprecated_default = /*#__PURE__*/__webpack_require__.n(external_mt_deprecated_);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/store/constants.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/store/constants.js
 /**
  * Set of post properties for which edits should assume a merging behavior,
  * assuming an object value.
@@ -2679,7 +2679,7 @@ var PERMALINK_POSTNAME_REGEX = /%(?:postname|pagename)%/;
 var ONE_MINUTE_IN_MS = 60 * 1000;
 var AUTOSAVE_PROPERTIES = ['title', 'excerpt', 'content'];
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/utils/url.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/utils/url.js
 /**
  * External dependencies
  */
@@ -2728,7 +2728,7 @@ function cleanForSlug(string) {
   return Object(external_lodash_["trim"])(Object(external_lodash_["deburr"])(string).replace(/[\s\./]+/g, '-').replace(/[^\w-]+/g, '').toLowerCase(), '-');
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/store/selectors.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/store/selectors.js
 
 
 
@@ -3096,7 +3096,7 @@ function selectors_getEditedPostAttribute(state, attributeName) {
  * null if there is no autosave for the post.
  *
  * @deprecated since 5.6. Callers should use the `getAutosave( postType, postId, userId )` selector
- * 			   from the '@managertechnology/core-data' package and access properties on the returned
+ * 			   from the '@pacmec/core-data' package and access properties on the returned
  * 			   autosave object using getPostRawValue.
  *
  * @param {Object} state         Global application state.
@@ -3296,7 +3296,7 @@ var selectors_isEditedPostAutosaveable = Object(external_mt_data_["createRegistr
     var currentUserId = Object(external_lodash_["get"])(select('core').getCurrentUser(), ['id']); // Disable reason - this line causes the side-effect of fetching the autosave
     // via a resolver, moving below the return would result in the autosave never
     // being fetched.
-    // eslint-disable-next-line @managertechnology/no-unused-vars-before-return
+    // eslint-disable-next-line @pacmec/no-unused-vars-before-return
 
     var autosave = select('core').getAutosave(postType, postId, currentUserId); // If any existing autosaves have not yet been fetched, this function is
     // unable to determine if the post is autosaveable, so return false.
@@ -3330,7 +3330,7 @@ var selectors_isEditedPostAutosaveable = Object(external_mt_data_["createRegistr
  * autosave).
  *
  * @deprecated since 5.6. Callers should use the `getAutosave( postType, postId, userId )`
- * 			   selector from the '@managertechnology/core-data' package.
+ * 			   selector from the '@pacmec/core-data' package.
  *
  * @param {Object} state Editor state.
  *
@@ -3354,7 +3354,7 @@ var getAutosave = Object(external_mt_data_["createRegistrySelector"])(function (
  * Returns the true if there is an existing autosave, otherwise false.
  *
  * @deprecated since 5.6. Callers should use the `getAutosave( postType, postId, userId )` selector
- *             from the '@managertechnology/core-data' package and check for a truthy value.
+ *             from the '@pacmec/core-data' package and check for a truthy value.
  *
  * @param {Object} state Global application state.
  *
@@ -4275,7 +4275,7 @@ var external_mt_notices_ = __webpack_require__(51);
 // EXTERNAL MODULE: external ["mt","i18n"]
 var external_mt_i18n_ = __webpack_require__(1);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/store/utils/notice-builder.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/store/utils/notice-builder.js
 /**
  * paCMec dependencies
  */
@@ -4407,7 +4407,7 @@ function getNotificationArgumentsForTrashFail(data) {
   }];
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/store/actions.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/store/actions.js
 
 
 
@@ -4551,7 +4551,7 @@ function resetPost(post) {
  * post has been received, by initialization or autosave.
  *
  * @deprecated since 5.6. Callers should use the `receiveAutosaves( postId, autosave )`
- * 			   selector from the '@managertechnology/core-data' package.
+ * 			   selector from the '@pacmec/core-data' package.
  *
  * @param {Object} newAutosave Autosave post object.
  *
@@ -5521,7 +5521,7 @@ var actions_insertDefaultBlock = actions_getBlockEditorAction('insertDefaultBloc
 
 var updateBlockListSettings = actions_getBlockEditorAction('updateBlockListSettings');
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/store/controls.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/store/controls.js
 /**
  * Function returning a sessionStorage key to set or retrieve a given post's
  * automatic session backup.
@@ -5529,7 +5529,7 @@ var updateBlockListSettings = actions_getBlockEditorAction('updateBlockListSetti
  * Keys are crucially prefixed with 'mt-autosave-' so that mt-login.php's
  * `loggedout` handler can clear sessionStorage of any user-private content.
  *
- * @see https://github.com/paCMec/managertechnology-develop/blob/6dad32d2aed47e6c0cf2aee8410645f6d7aba6bd/src/mt-login.php#L103
+ * @see https://github.com/paCMec/pacmec-develop/blob/6dad32d2aed47e6c0cf2aee8410645f6d7aba6bd/src/mt-login.php#L103
  *
  * @param {string}  postId     Post ID.
  * @param {boolean} isPostNew  Whether post new.
@@ -5564,7 +5564,7 @@ var controls = {
 };
 /* harmony default export */ var store_controls = (controls);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/store/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/store/index.js
 
 
 function store_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -5616,7 +5616,7 @@ Object(external_mt_data_["registerStore"])(STORE_NAME, store_objectSpread(store_
   persist: ['preferences']
 }));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/autocompleters/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/autocompleters/index.js
 
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js
@@ -5634,7 +5634,7 @@ var possibleConstructorReturn = __webpack_require__(29);
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js
 var getPrototypeOf = __webpack_require__(19);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/autosave-monitor/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/autosave-monitor/index.js
 
 
 
@@ -5782,7 +5782,7 @@ var autosave_monitor_AutosaveMonitor = /*#__PURE__*/function (_Component) {
 var classnames = __webpack_require__(10);
 var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/document-outline/item.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/document-outline/item.js
 
 
 /**
@@ -5816,7 +5816,7 @@ var item_TableOfContentsItem = function TableOfContentsItem(_ref) {
 
 /* harmony default export */ var document_outline_item = (item_TableOfContentsItem);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/document-outline/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/document-outline/index.js
 
 
 
@@ -5954,7 +5954,7 @@ var document_outline_DocumentOutline = function DocumentOutline(_ref) {
   };
 }))(document_outline_DocumentOutline));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/document-outline/check.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/document-outline/check.js
 /**
  * External dependencies
  */
@@ -5988,7 +5988,7 @@ function DocumentOutlineCheck(_ref) {
 // EXTERNAL MODULE: external ["mt","keyboardShortcuts"]
 var external_mt_keyboardShortcuts_ = __webpack_require__(46);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/global-keyboard-shortcuts/save-shortcut.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/global-keyboard-shortcuts/save-shortcut.js
 /**
  * paCMec dependencies
  */
@@ -6049,7 +6049,7 @@ function SaveShortcut(_ref) {
 
 /* harmony default export */ var save_shortcut = (SaveShortcut);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/global-keyboard-shortcuts/visual-editor-shortcuts.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/global-keyboard-shortcuts/visual-editor-shortcuts.js
 
 
 /**
@@ -6094,7 +6094,7 @@ function EditorGlobalKeyboardShortcuts() {
   return Object(external_mt_element_["createElement"])(VisualEditorGlobalKeyboardShortcuts, null);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/global-keyboard-shortcuts/text-editor-shortcuts.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/global-keyboard-shortcuts/text-editor-shortcuts.js
 
 
 /**
@@ -6107,7 +6107,7 @@ function TextEditorGlobalKeyboardShortcuts() {
   });
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/global-keyboard-shortcuts/register-shortcuts.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/global-keyboard-shortcuts/register-shortcuts.js
 
 
 /**
@@ -6167,7 +6167,7 @@ var external_mt_keycodes_ = __webpack_require__(17);
 // EXTERNAL MODULE: external ["mt","primitives"]
 var external_mt_primitives_ = __webpack_require__(7);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/icons/build-module/library/redo.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/icons/build-module/library/redo.js
 
 
 /**
@@ -6182,7 +6182,7 @@ var redo_redo = Object(external_mt_element_["createElement"])(external_mt_primit
 }));
 /* harmony default export */ var library_redo = (redo_redo);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/editor-history/redo.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/editor-history/redo.js
 
 
 
@@ -6222,7 +6222,7 @@ function EditorHistoryRedo(props, ref) {
 
 /* harmony default export */ var editor_history_redo = (Object(external_mt_element_["forwardRef"])(EditorHistoryRedo));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/icons/build-module/library/undo.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/icons/build-module/library/undo.js
 
 
 /**
@@ -6237,7 +6237,7 @@ var undo_undo = Object(external_mt_element_["createElement"])(external_mt_primit
 }));
 /* harmony default export */ var library_undo = (undo_undo);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/editor-history/undo.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/editor-history/undo.js
 
 
 
@@ -6277,7 +6277,7 @@ function EditorHistoryUndo(props, ref) {
 
 /* harmony default export */ var editor_history_undo = (Object(external_mt_element_["forwardRef"])(EditorHistoryUndo));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/template-validation-notice/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/template-validation-notice/index.js
 
 
 
@@ -6336,7 +6336,7 @@ function TemplateValidationNotice(_ref) {
   };
 })])(TemplateValidationNotice));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/editor-notices/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/editor-notices/index.js
 
 
 /**
@@ -6393,13 +6393,13 @@ function EditorNotices(_ref) {
   };
 })])(EditorNotices));
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/icons/build-module/library/close.js
+// EXTERNAL MODULE: ./node_modules/@pacmec/icons/build-module/library/close.js
 var library_close = __webpack_require__(160);
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/icons/build-module/library/layout.js
+// EXTERNAL MODULE: ./node_modules/@pacmec/icons/build-module/library/layout.js
 var layout = __webpack_require__(313);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/icons/build-module/library/page.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/icons/build-module/library/page.js
 
 
 /**
@@ -6414,7 +6414,7 @@ var page_page = Object(external_mt_element_["createElement"])(external_mt_primit
 }));
 /* harmony default export */ var library_page = (page_page);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/entities-saved-states/entity-record-item.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/entities-saved-states/entity-record-item.js
 
 
 /**
@@ -6486,7 +6486,7 @@ function EntityRecordItem(_ref) {
   }, isSelectedText)) : null);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/entities-saved-states/entity-type-list.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/entities-saved-states/entity-type-list.js
 
 
 /**
@@ -6540,7 +6540,7 @@ function EntityTypeList(_ref) {
   }));
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/entities-saved-states/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/entities-saved-states/index.js
 
 
 
@@ -6625,7 +6625,7 @@ function EntitiesSavedStates(_ref) {
   }); // Get text-prompt phrase based on number of entity types changed.
 
   var placeholderPhrase = PLACEHOLDER_PHRASES[entityNamesForPrompt.length] || // Fallback for edge case that should not be observed (more than 5 entity types edited).
-  Object(external_mt_i18n_["__"])('The following changes have been made to multiple entities.'); // eslint-disable-next-line @managertechnology/valid-sprintf
+  Object(external_mt_i18n_["__"])('The following changes have been made to multiple entities.'); // eslint-disable-next-line @pacmec/valid-sprintf
 
 
   var promptPhrase = external_mt_i18n_["sprintf"].apply(void 0, [placeholderPhrase].concat(entityNamesForPrompt)); // Unchecked entities to be ignored by save function.
@@ -6707,7 +6707,7 @@ function EntitiesSavedStates(_ref) {
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js
 var assertThisInitialized = __webpack_require__(18);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/error-boundary/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/error-boundary/index.js
 
 
 
@@ -6806,7 +6806,7 @@ var error_boundary_ErrorBoundary = /*#__PURE__*/function (_Component) {
 
 /* harmony default export */ var error_boundary = (error_boundary_ErrorBoundary);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/local-autosave-monitor/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/local-autosave-monitor/index.js
 
 
 /**
@@ -7000,7 +7000,7 @@ function LocalAutosaveMonitor() {
 
 /* harmony default export */ var local_autosave_monitor = (Object(external_mt_compose_["ifCondition"])(hasSessionStorageSupport)(LocalAutosaveMonitor));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/page-attributes/check.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/page-attributes/check.js
 /**
  * External dependencies
  */
@@ -7039,7 +7039,7 @@ function PageAttributesCheck(_ref) {
   };
 })(PageAttributesCheck));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-type-support-check/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-type-support-check/index.js
 /**
  * External dependencies
  */
@@ -7093,7 +7093,7 @@ function PostTypeSupportCheck(_ref) {
   };
 })(PostTypeSupportCheck));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/page-attributes/order.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/page-attributes/order.js
 
 
 /**
@@ -7169,7 +7169,7 @@ function PageAttributesOrderWithChecks(props) {
   };
 })])(PageAttributesOrderWithChecks));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/utils/terms.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/utils/terms.js
 
 
 function terms_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -7213,7 +7213,7 @@ function buildTermsTree(flatTerms) {
   return fillWithChildren(termsByParent['0'] || []);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/page-attributes/parent.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/page-attributes/parent.js
 
 
 
@@ -7373,7 +7373,7 @@ function PageAttributesParent() {
 }
 /* harmony default export */ var page_attributes_parent = (PageAttributesParent);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/page-attributes/template.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/page-attributes/template.js
 
 
 /**
@@ -7432,7 +7432,7 @@ function PageTemplate(_ref) {
   };
 }))(PageTemplate));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-author/combobox.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-author/combobox.js
 
 
 
@@ -7560,7 +7560,7 @@ function PostAuthorCombobox() {
 // EXTERNAL MODULE: external ["mt","htmlEntities"]
 var external_mt_htmlEntities_ = __webpack_require__(64);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-author/select.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-author/select.js
 
 
 /**
@@ -7608,7 +7608,7 @@ function PostAuthorSelect() {
 
 /* harmony default export */ var post_author_select = (PostAuthorSelect);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-author/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-author/index.js
 
 
 /**
@@ -7641,7 +7641,7 @@ function PostAuthor() {
 
 /* harmony default export */ var post_author = (PostAuthor);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-author/check.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-author/check.js
 
 
 /**
@@ -7681,7 +7681,7 @@ function PostAuthorCheck(_ref) {
   };
 }), external_mt_compose_["withInstanceId"]])(PostAuthorCheck));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-comments/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-comments/index.js
 
 
 
@@ -7721,7 +7721,7 @@ function PostComments(_ref) {
   };
 })])(PostComments));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-excerpt/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-excerpt/index.js
 
 
 /**
@@ -7763,7 +7763,7 @@ function PostExcerpt(_ref) {
   };
 })])(PostExcerpt));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-excerpt/check.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-excerpt/check.js
 
 
 
@@ -7780,7 +7780,7 @@ function PostExcerptCheck(props) {
 
 /* harmony default export */ var post_excerpt_check = (PostExcerptCheck);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/theme-support-check/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/theme-support-check/index.js
 /**
  * External dependencies
  */
@@ -7827,7 +7827,7 @@ function ThemeSupportCheck(_ref) {
   };
 })(ThemeSupportCheck));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-featured-image/check.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-featured-image/check.js
 
 
 
@@ -7847,7 +7847,7 @@ function PostFeaturedImageCheck(props) {
 
 /* harmony default export */ var post_featured_image_check = (PostFeaturedImageCheck);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-featured-image/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-featured-image/index.js
 
 
 
@@ -8032,7 +8032,7 @@ var applyWithDispatch = Object(external_mt_data_["withDispatch"])(function (disp
 });
 /* harmony default export */ var post_featured_image = (Object(external_mt_compose_["compose"])(external_mt_components_["withNotices"], applyWithSelect, applyWithDispatch, Object(external_mt_components_["withFilters"])('editor.PostFeaturedImage'))(PostFeaturedImage));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-format/check.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-format/check.js
 
 
 
@@ -8063,7 +8063,7 @@ function PostFormatCheck(_ref) {
   };
 })(PostFormatCheck));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-format/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-format/index.js
 
 
 /**
@@ -8196,7 +8196,7 @@ function PostFormat() {
   }, suggestion.caption))));
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/icons/build-module/library/backup.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/icons/build-module/library/backup.js
 
 
 /**
@@ -8211,7 +8211,7 @@ var backup = Object(external_mt_element_["createElement"])(external_mt_primitive
 }));
 /* harmony default export */ var library_backup = (backup);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-last-revision/check.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-last-revision/check.js
 
 
 /**
@@ -8247,7 +8247,7 @@ function PostLastRevisionCheck(_ref) {
   };
 })(PostLastRevisionCheck));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-last-revision/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-last-revision/index.js
 
 
 /**
@@ -8290,7 +8290,7 @@ function LastRevision(_ref) {
   };
 })(LastRevision));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-preview-button/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-preview-button/index.js
 
 
 
@@ -8511,7 +8511,7 @@ var post_preview_button_PostPreviewButton = /*#__PURE__*/function (_Component) {
   return isViewable;
 })])(post_preview_button_PostPreviewButton));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-locked-modal/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-locked-modal/index.js
 
 
 /**
@@ -8711,7 +8711,7 @@ function PostLockedModal() {
   }, Object(external_mt_i18n_["__"])('Take Over')))));
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-pending-status/check.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-pending-status/check.js
 /**
  * External dependencies
  */
@@ -8746,7 +8746,7 @@ function PostPendingStatusCheck(_ref) {
   };
 }))(PostPendingStatusCheck));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-pending-status/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-pending-status/index.js
 
 
 /**
@@ -8790,7 +8790,7 @@ function PostPendingStatus(_ref) {
   };
 }))(PostPendingStatus));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-pingbacks/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-pingbacks/index.js
 
 
 
@@ -8830,7 +8830,7 @@ function PostPingbacks(_ref) {
   };
 })])(PostPingbacks));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-publish-button/label.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-publish-button/label.js
 /**
  * External dependencies
  */
@@ -8895,7 +8895,7 @@ function PublishButtonLabel(_ref) {
   };
 })])(PublishButtonLabel));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-publish-button/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-publish-button/index.js
 
 
 
@@ -9146,10 +9146,10 @@ var post_publish_button_PostPublishButton = /*#__PURE__*/function (_Component) {
   };
 })])(post_publish_button_PostPublishButton));
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/icons/build-module/library/close-small.js
+// EXTERNAL MODULE: ./node_modules/@pacmec/icons/build-module/library/close-small.js
 var close_small = __webpack_require__(159);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-visibility/utils.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-visibility/utils.js
 /**
  * paCMec dependencies
  */
@@ -9168,7 +9168,7 @@ var visibilityOptions = [{
   info: Object(external_mt_i18n_["__"])('Protected with a password you choose. Only those with the password can view this post.')
 }];
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-visibility/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-visibility/index.js
 
 
 
@@ -9360,7 +9360,7 @@ var post_visibility_PostVisibility = /*#__PURE__*/function (_Component) {
   };
 }), external_mt_compose_["withInstanceId"]])(post_visibility_PostVisibility));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-visibility/label.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-visibility/label.js
 /**
  * External dependencies
  */
@@ -9394,7 +9394,7 @@ function PostVisibilityLabel(_ref) {
   };
 })(PostVisibilityLabel));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-schedule/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-schedule/index.js
 
 
 /**
@@ -9446,7 +9446,7 @@ function PostSchedule(_ref) {
   };
 })])(PostSchedule));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-schedule/label.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-schedule/label.js
 /**
  * paCMec dependencies
  */
@@ -9468,7 +9468,7 @@ function PostScheduleLabel(_ref) {
   };
 })(PostScheduleLabel));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-taxonomies/flat-term-selector.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-taxonomies/flat-term-selector.js
 
 
 
@@ -9817,7 +9817,7 @@ var flat_term_selector_FlatTermSelector = /*#__PURE__*/function (_Component) {
   };
 }), Object(external_mt_components_["withFilters"])('editor.PostTaxonomyType'))(flat_term_selector_FlatTermSelector));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-publish-panel/maybe-tags-panel.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-publish-panel/maybe-tags-panel.js
 
 
 
@@ -9920,7 +9920,7 @@ var maybe_tags_panel_MaybeTagsPanel = /*#__PURE__*/function (_Component) {
   return isPostTypeSupported && areTagsFetched;
 }))(maybe_tags_panel_MaybeTagsPanel));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-publish-panel/maybe-post-format-panel.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-publish-panel/maybe-post-format-panel.js
 
 
 /**
@@ -10006,7 +10006,7 @@ function PostFormatPanel() {
   })));
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-publish-panel/prepublish.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-publish-panel/prepublish.js
 
 
 /**
@@ -10076,7 +10076,7 @@ function PostPublishPanelPrepublish(_ref) {
   };
 })(PostPublishPanelPrepublish));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-publish-panel/postpublish.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-publish-panel/postpublish.js
 
 
 
@@ -10240,7 +10240,7 @@ var postpublish_PostPublishPanelPostpublish = /*#__PURE__*/function (_Component)
   };
 })(postpublish_PostPublishPanelPostpublish));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-publish-panel/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-publish-panel/index.js
 
 
 
@@ -10414,10 +10414,10 @@ var post_publish_panel_PostPublishPanel = /*#__PURE__*/function (_Component) {
   };
 }), external_mt_components_["withFocusReturn"], external_mt_components_["withConstrainedTabbing"]])(post_publish_panel_PostPublishPanel));
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/icons/build-module/icon/index.js
+// EXTERNAL MODULE: ./node_modules/@pacmec/icons/build-module/icon/index.js
 var build_module_icon = __webpack_require__(138);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/icons/build-module/library/cloud.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/icons/build-module/library/cloud.js
 
 
 /**
@@ -10432,10 +10432,10 @@ var cloud = Object(external_mt_element_["createElement"])(external_mt_primitives
 }));
 /* harmony default export */ var library_cloud = (cloud);
 
-// EXTERNAL MODULE: ./node_modules/@managertechnology/icons/build-module/library/check.js
+// EXTERNAL MODULE: ./node_modules/@pacmec/icons/build-module/library/check.js
 var library_check = __webpack_require__(161);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/icons/build-module/library/cloud-upload.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/icons/build-module/library/cloud-upload.js
 
 
 /**
@@ -10450,7 +10450,7 @@ var cloudUpload = Object(external_mt_element_["createElement"])(external_mt_prim
 }));
 /* harmony default export */ var cloud_upload = (cloudUpload);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-switch-to-draft-button/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-switch-to-draft-button/index.js
 
 
 /**
@@ -10521,7 +10521,7 @@ function PostSwitchToDraftButton(_ref) {
   };
 })])(PostSwitchToDraftButton));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-saved-state/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-saved-state/index.js
 
 
 
@@ -10555,7 +10555,7 @@ function PostSwitchToDraftButton(_ref) {
  * @param {?boolean} props.forceIsSaving Whether to force the post to be marked
  * as being saved.
  * @param {?boolean} props.showIconLabels Whether interface buttons show labels instead of icons
- * @return {import('@managertechnology/element').MTComponent} The component.
+ * @return {import('@pacmec/element').MTComponent} The component.
  */
 
 function PostSavedState(_ref) {
@@ -10693,7 +10693,7 @@ function PostSavedState(_ref) {
   }, label);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-schedule/check.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-schedule/check.js
 /**
  * External dependencies
  */
@@ -10725,7 +10725,7 @@ function PostScheduleCheck(_ref) {
   };
 })])(PostScheduleCheck));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-slug/check.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-slug/check.js
 
 
 /**
@@ -10739,7 +10739,7 @@ function PostSlugCheck(_ref) {
   }, children);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-slug/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-slug/index.js
 
 
 
@@ -10856,7 +10856,7 @@ var post_slug_PostSlug = /*#__PURE__*/function (_Component) {
   };
 }), external_mt_compose_["withInstanceId"]])(post_slug_PostSlug));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-sticky/check.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-sticky/check.js
 /**
  * External dependencies
  */
@@ -10886,7 +10886,7 @@ function PostStickyCheck(_ref) {
   };
 })])(PostStickyCheck));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-sticky/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-sticky/index.js
 
 
 /**
@@ -10927,7 +10927,7 @@ function PostSticky(_ref) {
   };
 })])(PostSticky));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-taxonomies/hierarchical-term-selector.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-taxonomies/hierarchical-term-selector.js
 
 
 
@@ -11464,7 +11464,7 @@ var hierarchical_term_selector_HierarchicalTermSelector = /*#__PURE__*/function 
   };
 }), external_mt_components_["withSpokenMessages"], external_mt_compose_["withInstanceId"], Object(external_mt_components_["withFilters"])('editor.PostTaxonomyType')])(hierarchical_term_selector_HierarchicalTermSelector));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-taxonomies/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-taxonomies/index.js
 
 
 /**
@@ -11513,7 +11513,7 @@ function PostTaxonomies(_ref) {
   };
 })])(PostTaxonomies));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-taxonomies/check.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-taxonomies/check.js
 /**
  * External dependencies
  */
@@ -11551,7 +11551,7 @@ function PostTaxonomiesCheck(_ref) {
 var lib = __webpack_require__(91);
 var lib_default = /*#__PURE__*/__webpack_require__.n(lib);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-text-editor/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-text-editor/index.js
 
 
 
@@ -11655,7 +11655,7 @@ function PostTextEditor() {
   }));
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-title/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-title/index.js
 
 
 
@@ -11851,7 +11851,7 @@ function PostTitle() {
   })));
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-trash/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-trash/index.js
 
 
 
@@ -11902,7 +11902,7 @@ function PostTrash(_ref) {
   };
 })])(PostTrash));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-trash/check.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-trash/check.js
 /**
  * paCMec dependencies
  */
@@ -11942,7 +11942,7 @@ function PostTrashCheck(_ref) {
   };
 })(PostTrashCheck));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/post-visibility/check.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/post-visibility/check.js
 /**
  * External dependencies
  */
@@ -11972,7 +11972,7 @@ function PostVisibilityCheck(_ref) {
   };
 })])(PostVisibilityCheck));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/icons/build-module/library/info.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/icons/build-module/library/info.js
 
 
 /**
@@ -11990,7 +11990,7 @@ var info_info = Object(external_mt_element_["createElement"])(external_mt_primit
 // EXTERNAL MODULE: external ["mt","wordcount"]
 var external_mt_wordcount_ = __webpack_require__(126);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/word-count/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/word-count/index.js
 
 
 /**
@@ -12016,7 +12016,7 @@ function WordCount() {
   }, Object(external_mt_wordcount_["count"])(content, wordCountType));
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/character-count/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/character-count/index.js
 /**
  * paCMec dependencies
  */
@@ -12029,7 +12029,7 @@ function CharacterCount() {
   return Object(external_mt_wordcount_["count"])(content, 'characters_including_spaces');
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/table-of-contents/panel.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/table-of-contents/panel.js
 
 
 /**
@@ -12109,7 +12109,7 @@ function TableOfContentsPanel(_ref) {
 
 /* harmony default export */ var panel = (TableOfContentsPanel);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/table-of-contents/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/table-of-contents/index.js
 
 
 
@@ -12168,7 +12168,7 @@ function TableOfContents(_ref, ref) {
 
 /* harmony default export */ var table_of_contents = (Object(external_mt_element_["forwardRef"])(TableOfContents));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/unsaved-changes-warning/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/unsaved-changes-warning/index.js
 /**
  * paCMec dependencies
  */
@@ -12224,7 +12224,7 @@ function UnsavedChangesWarning() {
 // EXTERNAL MODULE: external ["mt","reusableBlocks"]
 var external_mt_reusableBlocks_ = __webpack_require__(146);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/provider/with-registry-provider.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/provider/with-registry-provider.js
 
 
 
@@ -12282,7 +12282,7 @@ var asyncToGenerator = __webpack_require__(47);
 // EXTERNAL MODULE: external ["mt","mediaUtils"]
 var external_mt_mediaUtils_ = __webpack_require__(154);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/utils/media-upload/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/utils/media-upload/index.js
 
 
 function media_upload_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -12344,7 +12344,7 @@ function mediaUpload(_ref) {
   });
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/provider/use-block-editor-settings.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/provider/use-block-editor-settings.js
 
 
 
@@ -12509,7 +12509,7 @@ function useBlockEditorSettings(settings, hasTemplate) {
       reusableBlocks: select('core').getEntityRecords('postType', 'mt_block',
       /**
        * Unbounded queries are not supported on native so as a workaround we set per_page with the maximum value.
-       * Related issue: https://github.com/managertechnology-mobile/gutenberg-mobile/issues/2661
+       * Related issue: https://github.com/pacmec-mobile/gutenberg-mobile/issues/2661
        */
       {
         per_page: external_mt_element_["Platform"].select({
@@ -12545,7 +12545,7 @@ function useBlockEditorSettings(settings, hasTemplate) {
 
 /* harmony default export */ var use_block_editor_settings = (useBlockEditorSettings);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/provider/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/provider/index.js
 
 
 
@@ -12684,7 +12684,7 @@ function EditorProvider(_ref) {
 var external_mt_serverSideRender_ = __webpack_require__(80);
 var external_mt_serverSideRender_default = /*#__PURE__*/__webpack_require__.n(external_mt_serverSideRender_);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/deprecated.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/deprecated.js
 
 
 // Block Creation Components
@@ -12778,7 +12778,7 @@ var withColorContext = deprecateFunction('withColorContext', external_mt_blockEd
 var withColors = deprecateFunction('withColors', external_mt_blockEditor_["withColors"]);
 var withFontSizes = deprecateFunction('withFontSizes', external_mt_blockEditor_["withFontSizes"]);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/components/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/components/index.js
 // Block Creation Components
  // Post Related Components
 
@@ -12843,7 +12843,7 @@ var withFontSizes = deprecateFunction('withFontSizes', external_mt_blockEditor_[
 
 
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/utils/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/utils/index.js
 /**
  * Internal dependencies
  */
@@ -12851,7 +12851,7 @@ var withFontSizes = deprecateFunction('withFontSizes', external_mt_blockEditor_[
 
 
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/editor/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/editor/build-module/index.js
 /**
  * paCMec dependencies
  */

@@ -215,7 +215,7 @@ switch ( $step ) {
 	<table class="form-table" role="presentation">
 		<tr>
 			<th scope="row"><label for="dbname"><?php _e( 'Nombre de la base de datos' ); ?></label></th>
-			<td><input name="dbname" id="dbname" type="text" aria-describedby="dbname-desc" size="25" value="managertechnology"<?php echo $autofocus; ?>/></td>
+			<td><input name="dbname" id="dbname" type="text" aria-describedby="dbname-desc" size="25" value="pacmec"<?php echo $autofocus; ?>/></td>
 			<td id="dbname-desc"><?php _e( 'El nombre de la base de datos que desea usar con paCMec.' ); ?></td>
 		</tr>
 		<tr>

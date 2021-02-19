@@ -29,7 +29,7 @@ function mt_credits( $version = '', $locale = '' ) {
 		$locale = get_user_locale();
 	}
 
-	$results = get_site_transient( 'managertechnology_credits_' . $locale );
+	$results = get_site_transient( 'pacmec_credits_' . $locale );
 
 	if ( ! is_array( $results )
 		|| false !== strpos( $version, '-' )
@@ -54,7 +54,7 @@ function mt_credits( $version = '', $locale = '' ) {
 			return false;
 		}
 
-		set_site_transient( 'managertechnology_credits_' . $locale, $results, DAY_IN_SECONDS );
+		set_site_transient( 'pacmec_credits_' . $locale, $results, DAY_IN_SECONDS );
 	}
 
 	return $results;

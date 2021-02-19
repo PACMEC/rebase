@@ -3659,7 +3659,7 @@ function mt_get_code_editor_settings( $args ) {
 			'outline-none'              => true,
 		),
 		'jshint'     => array(
-			// The following are copied from <https://github.com/paCMec/managertechnology-develop/blob/4.8.1/.jshintrc>.
+			// The following are copied from <https://github.com/paCMec/pacmec-develop/blob/4.8.1/.jshintrc>.
 			'boss'     => true,
 			'curly'    => true,
 			'eqeqeq'   => true,

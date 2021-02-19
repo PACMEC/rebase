@@ -775,7 +775,7 @@ __webpack_require__.r(__webpack_exports__);
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, "default", function() { return /* binding */ createMiddleware; });
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/redux-routine/build-module/is-generator.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/redux-routine/build-module/is-generator.js
 /**
  * Returns true if the given object is a generator, or false otherwise.
  *
@@ -801,7 +801,7 @@ var external_lodash_ = __webpack_require__(2);
 var is_promise = __webpack_require__(153);
 var is_promise_default = /*#__PURE__*/__webpack_require__.n(is_promise);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/redux-routine/build-module/is-action.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/redux-routine/build-module/is-action.js
 /**
  * External dependencies
  */
@@ -831,7 +831,7 @@ function isActionOfType(object, expectedType) {
   return isAction(object) && object.type === expectedType;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/redux-routine/build-module/runtime.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/redux-routine/build-module/runtime.js
 /**
  * External dependencies
  */
@@ -899,7 +899,7 @@ function createRuntime() {
   };
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/redux-routine/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/redux-routine/build-module/index.js
 /**
  * Internal dependencies
  */

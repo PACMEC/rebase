@@ -239,7 +239,7 @@ __webpack_require__.d(__webpack_exports__, "safeDecodeURIComponent", function() 
 __webpack_require__.d(__webpack_exports__, "filterURLForDisplay", function() { return /* reexport */ filterURLForDisplay; });
 __webpack_require__.d(__webpack_exports__, "cleanForSlug", function() { return /* reexport */ cleanForSlug; });
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/is-url.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/is-url.js
 /**
  * Determines whether the given string looks like a URL.
  *
@@ -266,7 +266,7 @@ function isURL(url) {
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/is-email.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/is-email.js
 var EMAIL_REGEXP = /^(mailto:)?[a-z0-9._%+-]+@[a-z0-9][a-z0-9.-]*\.[a-z]{2,63}$/i;
 /**
  * Determines whether the given string looks like an email.
@@ -285,7 +285,7 @@ function isEmail(email) {
   return EMAIL_REGEXP.test(email);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/get-protocol.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/get-protocol.js
 /**
  * Returns the protocol part of the URL.
  *
@@ -307,7 +307,7 @@ function getProtocol(url) {
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/is-valid-protocol.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/is-valid-protocol.js
 /**
  * Tests if a url protocol is valid.
  *
@@ -329,7 +329,7 @@ function isValidProtocol(protocol) {
   return /^[a-z\-.\+]+[0-9]*:$/i.test(protocol);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/get-authority.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/get-authority.js
 /**
  * Returns the authority part of the URL.
  *
@@ -351,7 +351,7 @@ function getAuthority(url) {
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/is-valid-authority.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/is-valid-authority.js
 /**
  * Checks for invalid characters within the provided authority.
  *
@@ -360,7 +360,7 @@ function getAuthority(url) {
  * @example
  * ```js
  * const isValid = isValidAuthority( 'managertechnology.com.co/pacmec' ); // true
- * const isNotValid = isValidAuthority( 'managertechnology#org' ); // false
+ * const isNotValid = isValidAuthority( 'pacmec#org' ); // false
  * ```
  *
  * @return {boolean} True if the argument contains a valid authority.
@@ -373,7 +373,7 @@ function isValidAuthority(authority) {
   return /^[^\s#?]+$/.test(authority);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/get-path.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/get-path.js
 /**
  * Returns the path part of the URL.
  *
@@ -395,7 +395,7 @@ function getPath(url) {
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/is-valid-path.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/is-valid-path.js
 /**
  * Checks for invalid characters within the provided path.
  *
@@ -417,7 +417,7 @@ function isValidPath(path) {
   return /^[^\s#?]+$/.test(path);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/get-query-string.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/get-query-string.js
 /**
  * Returns the query string part of the URL.
  *
@@ -445,7 +445,7 @@ function getQueryString(url) {
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js + 1 modules
 var slicedToArray = __webpack_require__(11);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/build-query-string.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/build-query-string.js
 
 
 function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
@@ -530,7 +530,7 @@ function buildQueryString(data) {
   return string.substr(1);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/is-valid-query-string.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/is-valid-query-string.js
 /**
  * Checks for invalid characters within the provided query string.
  *
@@ -552,7 +552,7 @@ function isValidQueryString(queryString) {
   return /^[^\s#?\/]+$/.test(queryString);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/get-path-and-query-string.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/get-path-and-query-string.js
 /**
  * Internal dependencies
  */
@@ -580,7 +580,7 @@ function getPathAndQueryString(url) {
   return value;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/get-fragment.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/get-fragment.js
 /**
  * Returns the fragment part of the URL.
  *
@@ -602,7 +602,7 @@ function getFragment(url) {
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/is-valid-fragment.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/is-valid-fragment.js
 /**
  * Checks for invalid characters within the provided fragment.
  *
@@ -627,7 +627,7 @@ function isValidFragment(fragment) {
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
 var defineProperty = __webpack_require__(5);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/get-query-args.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/get-query-args.js
 
 
 
@@ -724,7 +724,7 @@ function getQueryArgs(url) {
   }, {});
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/add-query-args.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/add-query-args.js
 /**
  * Internal dependencies
  */
@@ -770,7 +770,7 @@ function addQueryArgs() {
   return baseUrl + '?' + buildQueryString(args);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/get-query-arg.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/get-query-arg.js
 /**
  * Internal dependencies
  */
@@ -805,7 +805,7 @@ function getQueryArg(url, arg) {
   return getQueryArgs(url)[arg];
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/has-query-arg.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/has-query-arg.js
 /**
  * Internal dependencies
  */
@@ -828,7 +828,7 @@ function hasQueryArg(url, arg) {
   return getQueryArg(url, arg) !== undefined;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/remove-query-args.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/remove-query-args.js
 /**
  * Internal dependencies
  */
@@ -869,7 +869,7 @@ function removeQueryArgs(url) {
   return queryString ? baseURL + '?' + queryString : baseURL;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/prepend-http.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/prepend-http.js
 /**
  * Internal dependencies
  */
@@ -902,7 +902,7 @@ function prependHTTP(url) {
   return url;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/safe-decode-uri.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/safe-decode-uri.js
 /**
  * Safely decodes a URI with `decodeURI`. Returns the URI unmodified if
  * `decodeURI` throws an error.
@@ -924,7 +924,7 @@ function safeDecodeURI(uri) {
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/safe-decode-uri-component.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/safe-decode-uri-component.js
 /**
  * Safely decodes a URI component with `decodeURIComponent`. Returns the URI component unmodified if
  * `decodeURIComponent` throws an error.
@@ -941,7 +941,7 @@ function safeDecodeURIComponent(uriComponent) {
   }
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/filter-url-for-display.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/filter-url-for-display.js
 /**
  * Returns a URL for display.
  *
@@ -992,7 +992,7 @@ function filterURLForDisplay(url) {
 // EXTERNAL MODULE: external "lodash"
 var external_lodash_ = __webpack_require__(2);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/clean-for-slug.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/clean-for-slug.js
 /**
  * External dependencies
  */
@@ -1022,7 +1022,7 @@ function cleanForSlug(string) {
   return Object(external_lodash_["trim"])(Object(external_lodash_["deburr"])(string).replace(/[\s\./]+/g, '-').replace(/[^\w-]+/g, '').toLowerCase(), '-');
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/url/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/url/build-module/index.js
 
 
 

@@ -20,7 +20,7 @@
  */
 /**
  * Grid System.
- * https://make.managertechnology.com.co/pacmec/design/2019/10/31/proposal-a-consistent-spacing-system-for-managertechnology/
+ * https://make.managertechnology.com.co/pacmec/design/2019/10/31/proposal-a-consistent-spacing-system-for-pacmec/
  */
 /**
  * Dimensions.
@@ -2021,7 +2021,7 @@ p:empty::before {
   background-color: #4680c2;
   color: #fff;
 }
-.mt-block-social-links:not(.is-style-logos-only) .mt-social-link-managertechnology {
+.mt-block-social-links:not(.is-style-logos-only) .mt-social-link-pacmec {
   background-color: #3499cd;
   color: #fff;
 }
@@ -2147,7 +2147,7 @@ p:empty::before {
 .mt-block-social-links.is-style-logos-only .mt-social-link-vk {
   color: #4680c2;
 }
-.mt-block-social-links.is-style-logos-only .mt-social-link-managertechnology {
+.mt-block-social-links.is-style-logos-only .mt-social-link-pacmec {
   color: #3499cd;
 }
 .mt-block-social-links.is-style-logos-only .mt-social-link-yelp {

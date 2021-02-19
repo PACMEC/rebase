@@ -1,5 +1,5 @@
 === Twenty Sixteen ===
-Contributors: managertechnologydotorg
+Contributors: pacmecdotorg
 Tested up to: 5.6
 Version: 2.3
 License: GPLv2 or later

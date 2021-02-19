@@ -2626,7 +2626,7 @@ __webpack_require__.d(__webpack_exports__, "useThrottle", function() { return /*
 // EXTERNAL MODULE: external "lodash"
 var external_lodash_ = __webpack_require__(2);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/utils/create-higher-order-component/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/utils/create-higher-order-component/index.js
 /**
  * External dependencies
  */
@@ -2655,7 +2655,7 @@ function createHigherOrderComponent(mapComponentToEnhancedComponent, modifierNam
 
 /* harmony default export */ var create_higher_order_component = (createHigherOrderComponent);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/higher-order/compose.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/higher-order/compose.js
 /**
  * External dependencies
  */
@@ -2674,7 +2674,7 @@ function createHigherOrderComponent(mapComponentToEnhancedComponent, modifierNam
 // EXTERNAL MODULE: external ["mt","element"]
 var external_mt_element_ = __webpack_require__(0);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/higher-order/if-condition/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/higher-order/if-condition/index.js
 
 
 /**
@@ -2723,7 +2723,7 @@ var getPrototypeOf = __webpack_require__(19);
 var external_mt_isShallowEqual_ = __webpack_require__(63);
 var external_mt_isShallowEqual_default = /*#__PURE__*/__webpack_require__.n(external_mt_isShallowEqual_);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/higher-order/pure/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/higher-order/pure/index.js
 
 
 
@@ -2819,7 +2819,7 @@ var assertThisInitialized = __webpack_require__(18);
 var external_mt_deprecated_ = __webpack_require__(35);
 var external_mt_deprecated_default = /*#__PURE__*/__webpack_require__.n(external_mt_deprecated_);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/higher-order/with-global-events/listener.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/higher-order/with-global-events/listener.js
 
 
 
@@ -2877,7 +2877,7 @@ var listener_Listener = /*#__PURE__*/function () {
 
 /* harmony default export */ var listener = (listener_Listener);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/higher-order/with-global-events/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/higher-order/with-global-events/index.js
 
 
 
@@ -3014,7 +3014,7 @@ function withGlobalEvents(eventTypesToHandlers) {
   }, 'withGlobalEvents');
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-instance-id/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-instance-id/index.js
 /**
  * paCMec dependencies
  */
@@ -3046,7 +3046,7 @@ function useInstanceId(object, prefix) {
   }, [object]);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/higher-order/with-instance-id/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/higher-order/with-instance-id/index.js
 
 
 
@@ -3073,7 +3073,7 @@ function useInstanceId(object, prefix) {
   };
 }, 'withInstanceId'));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/higher-order/with-safe-timeout/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/higher-order/with-safe-timeout/index.js
 
 
 
@@ -3187,7 +3187,7 @@ var withSafeTimeout = create_higher_order_component(function (OriginalComponent)
 }, 'withSafeTimeout');
 /* harmony default export */ var with_safe_timeout = (withSafeTimeout);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/higher-order/with-state/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/higher-order/with-state/index.js
 
 
 
@@ -3262,7 +3262,7 @@ var external_mt_dom_ = __webpack_require__(27);
 var memize = __webpack_require__(71);
 var memize_default = /*#__PURE__*/__webpack_require__.n(memize);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-callback-ref/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-callback-ref/index.js
 /**
  * External dependencies
  */
@@ -3281,7 +3281,7 @@ function useCallbackRef(callback, deps) {
 
 /* harmony default export */ var use_callback_ref = (useCallbackRef);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-constrained-tabbing/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-constrained-tabbing/index.js
 /**
  * paCMec dependencies
  */
@@ -3300,7 +3300,7 @@ function useCallbackRef(callback, deps) {
  *
  * @example
  * ```js
- * import { useConstrainedTabbing } from '@managertechnology/compose';
+ * import { useConstrainedTabbing } from '@pacmec/compose';
  *
  * const ConstrainedTabbingExample = () => {
  *     const constrainedTabbingRef = useConstrainedTabbing()
@@ -3362,7 +3362,7 @@ var slicedToArray = __webpack_require__(11);
 var dist_clipboard = __webpack_require__(289);
 var clipboard_default = /*#__PURE__*/__webpack_require__.n(dist_clipboard);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-copy-on-click/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-copy-on-click/index.js
 
 
 /**
@@ -3437,7 +3437,7 @@ var defineProperty = __webpack_require__(5);
 // EXTERNAL MODULE: ./node_modules/react-merge-refs/dist/react-merge-refs.esm.js
 var react_merge_refs_esm = __webpack_require__(72);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-focus-on-mount/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-focus-on-mount/index.js
 /**
  * paCMec dependencies
  */
@@ -3456,7 +3456,7 @@ var react_merge_refs_esm = __webpack_require__(72);
  *
  * @example
  * ```js
- * import { useFocusOnMount } from '@managertechnology/compose';
+ * import { useFocusOnMount } from '@pacmec/compose';
  *
  * const WithFocusOnMount = () => {
  *     const ref = useFocusOnMount()
@@ -3499,7 +3499,7 @@ function useFocusOnMount() {
   }, []);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-focus-return/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-focus-return/index.js
 /**
  * paCMec dependencies
  */
@@ -3520,7 +3520,7 @@ function useFocusOnMount() {
  *
  * @example
  * ```js
- * import { useFocusReturn } from '@managertechnology/compose';
+ * import { useFocusReturn } from '@pacmec/compose';
  *
  * const WithFocusReturn = () => {
  *     const ref = useFocusReturn()
@@ -3567,7 +3567,7 @@ function useFocusReturn(onFocusReturn) {
 
 /* harmony default export */ var use_focus_return = (useFocusReturn);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-focus-outside/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-focus-outside/index.js
 /**
  * External dependencies
  */
@@ -3761,7 +3761,7 @@ function useFocusOutside(onFocusOutside) {
   };
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-dialog/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-dialog/index.js
 
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -3826,7 +3826,7 @@ function useDialog(options) {
 
 /* harmony default export */ var use_dialog = (useDialog);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-isomorphic-layout-effect/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-isomorphic-layout-effect/index.js
 /**
  * paCMec dependencies
  */
@@ -3840,7 +3840,7 @@ function useDialog(options) {
 var useIsomorphicLayoutEffect = typeof window !== 'undefined' ? external_mt_element_["useLayoutEffect"] : external_mt_element_["useEffect"];
 /* harmony default export */ var use_isomorphic_layout_effect = (useIsomorphicLayoutEffect);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-dragging/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-dragging/index.js
 
 
 /**
@@ -3922,7 +3922,7 @@ var mousetrap_default = /*#__PURE__*/__webpack_require__.n(mousetrap_mousetrap);
 // EXTERNAL MODULE: ./node_modules/mousetrap/plugins/global-bind/mousetrap-global-bind.js
 var mousetrap_global_bind = __webpack_require__(437);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-keyboard-shortcut/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-keyboard-shortcut/index.js
 /**
  * External dependencies
  */
@@ -4016,7 +4016,7 @@ function useKeyboardShortcut(shortcuts, callback) {
 
 /* harmony default export */ var use_keyboard_shortcut = (useKeyboardShortcut);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-media-query/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-media-query/index.js
 
 
 /**
@@ -4057,7 +4057,7 @@ function useMediaQuery(query) {
   return query && match;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-previous/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-previous/index.js
 /**
  * paCMec dependencies
  */
@@ -4093,7 +4093,7 @@ function usePrevious(value) {
   return ref.current;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-reduced-motion/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-reduced-motion/index.js
 /**
  * Internal dependencies
  */
@@ -4118,7 +4118,7 @@ var useReducedMotion = undefined || IS_IE ? function () {
 };
 /* harmony default export */ var use_reduced_motion = (useReducedMotion);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-viemtort-match/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-viemtort-match/index.js
 /**
  * paCMec dependencies
  */
@@ -4213,7 +4213,7 @@ use_viemtort_match_useViemtortMatch.__experimentalWidthProvider = ViemtortMatchW
 var dist = __webpack_require__(151);
 var dist_default = /*#__PURE__*/__webpack_require__.n(dist);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-resize-observer/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-resize-observer/index.js
 /**
  * External dependencies
  */
@@ -4249,7 +4249,7 @@ var toConsumableArray = __webpack_require__(15);
 // EXTERNAL MODULE: external ["mt","priorityQueue"]
 var external_mt_priorityQueue_ = __webpack_require__(152);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-async-list/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-async-list/index.js
 
 
 
@@ -4350,7 +4350,7 @@ function useAsyncList(list) {
 
 /* harmony default export */ var use_async_list = (useAsyncList);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-warn-on-change/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-warn-on-change/index.js
 
 
 /**
@@ -4396,7 +4396,7 @@ function useWarnOnChange(object) {
 // EXTERNAL MODULE: ./node_modules/use-memo-one/dist/use-memo-one.esm.js
 var use_memo_one_esm = __webpack_require__(127);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-debounce/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-debounce/index.js
 /**
  * External dependencies
  */
@@ -4434,7 +4434,7 @@ function useDebounce() {
   return debounced;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/hooks/use-throttle/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/hooks/use-throttle/index.js
 /**
  * External dependencies
  */
@@ -4472,7 +4472,7 @@ function useThrottle() {
   return throttled;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/compose/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/compose/build-module/index.js
 // Utils
  // Compose helper (aliased flowRight from Lodash)
 

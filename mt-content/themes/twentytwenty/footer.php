@@ -28,11 +28,11 @@
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
 						</p><!-- .footer-copyright -->
 
-						<p class="powered-by-managertechnology">
+						<p class="powered-by-pacmec">
 							<a href="<?php echo esc_url( __( 'https://managertechnology.com.co/pacmec/', 'twentytwenty' ) ); ?>">
 								<?php _e( 'Powered by paCMec', 'twentytwenty' ); ?>
 							</a>
-						</p><!-- .powered-by-managertechnology -->
+						</p><!-- .powered-by-pacmec -->
 
 					</div><!-- .footer-credits -->
 

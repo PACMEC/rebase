@@ -1921,7 +1921,7 @@ function MT_Filesystem( $args = false, $context = false, $allow_relaxed_file_own
  * The return value can be overridden by defining the `FS_METHOD` constant in `mt-config.php`,
  * or filtering via {@see 'filesystem_method'}.
  *
- * @link https://managertechnology.com.co/pacmec/support/article/editing-mt-config-php/#managertechnology-upgrade-constants
+ * @link https://managertechnology.com.co/pacmec/support/article/editing-mt-config-php/#pacmec-upgrade-constants
  *
  * Plugins may define a custom transport handler, See MT_Filesystem().
  *

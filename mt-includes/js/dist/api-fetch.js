@@ -217,7 +217,7 @@ var objectWithoutProperties = __webpack_require__(13);
 // EXTERNAL MODULE: external ["mt","i18n"]
 var external_mt_i18n_ = __webpack_require__(1);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/api-fetch/build-module/middlewares/nonce.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/api-fetch/build-module/middlewares/nonce.js
 
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -249,7 +249,7 @@ function createNonceMiddleware(nonce) {
 
 /* harmony default export */ var nonce = (createNonceMiddleware);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/api-fetch/build-module/middlewares/namespace-endpoint.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/api-fetch/build-module/middlewares/namespace-endpoint.js
 
 
 function namespace_endpoint_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -280,7 +280,7 @@ var namespaceAndEndpointMiddleware = function namespaceAndEndpointMiddleware(opt
 
 /* harmony default export */ var namespace_endpoint = (namespaceAndEndpointMiddleware);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/api-fetch/build-module/middlewares/root-url.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/api-fetch/build-module/middlewares/root-url.js
 
 
 function root_url_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -325,7 +325,7 @@ var root_url_createRootURLMiddleware = function createRootURLMiddleware(rootURL)
 
 /* harmony default export */ var root_url = (root_url_createRootURLMiddleware);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/api-fetch/build-module/middlewares/preloading.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/api-fetch/build-module/middlewares/preloading.js
 /**
  * Given a path, returns a normalized path where equal query parameter values
  * will be treated as identical, regardless of order they appear in the original
@@ -402,7 +402,7 @@ var asyncToGenerator = __webpack_require__(47);
 // EXTERNAL MODULE: external ["mt","url"]
 var external_mt_url_ = __webpack_require__(32);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/api-fetch/build-module/middlewares/fetch-all-middleware.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/api-fetch/build-module/middlewares/fetch-all-middleware.js
 
 
 
@@ -570,7 +570,7 @@ var fetchAllMiddleware = /*#__PURE__*/function () {
 
 /* harmony default export */ var fetch_all_middleware = (fetchAllMiddleware);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/api-fetch/build-module/middlewares/http-v1.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/api-fetch/build-module/middlewares/http-v1.js
 
 
 function http_v1_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -625,7 +625,7 @@ function httpV1Middleware(options, next) {
 
 /* harmony default export */ var http_v1 = (httpV1Middleware);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/api-fetch/build-module/middlewares/user-locale.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/api-fetch/build-module/middlewares/user-locale.js
 /**
  * paCMec dependencies
  */
@@ -649,7 +649,7 @@ function userLocaleMiddleware(options, next) {
 
 /* harmony default export */ var user_locale = (userLocaleMiddleware);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/api-fetch/build-module/utils/response.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/api-fetch/build-module/utils/response.js
 /**
  * paCMec dependencies
  */
@@ -723,7 +723,7 @@ function parseAndThrowError(response) {
   });
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/api-fetch/build-module/middlewares/media-upload.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/api-fetch/build-module/middlewares/media-upload.js
 
 
 function media_upload_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -806,7 +806,7 @@ function mediaUploadMiddleware(options, next) {
 
 /* harmony default export */ var media_upload = (mediaUploadMiddleware);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/api-fetch/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/api-fetch/build-module/index.js
 
 
 

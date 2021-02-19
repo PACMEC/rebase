@@ -424,7 +424,7 @@ function mt_tinymce_inline_scripts() {
 		'tabfocus',
 		'textcolor',
 		'fullscreen',
-		'managertechnology',
+		'pacmec',
 		'mtautoresize',
 		'mteditimage',
 		'mtemoji',

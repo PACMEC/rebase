@@ -140,7 +140,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, "store", function() { return /* reexport */ store; });
 __webpack_require__.d(__webpack_exports__, "ReusableBlocksMenuItems", function() { return /* reexport */ reusable_blocks_menu_items; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/reusable-blocks/build-module/store/actions.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/reusable-blocks/build-module/store/actions.js
 var actions_namespaceObject = {};
 __webpack_require__.r(actions_namespaceObject);
 __webpack_require__.d(actions_namespaceObject, "__experimentalConvertBlockToStatic", function() { return __experimentalConvertBlockToStatic; });
@@ -148,7 +148,7 @@ __webpack_require__.d(actions_namespaceObject, "__experimentalConvertBlocksToReu
 __webpack_require__.d(actions_namespaceObject, "__experimentalDeleteReusableBlock", function() { return __experimentalDeleteReusableBlock; });
 __webpack_require__.d(actions_namespaceObject, "__experimentalSetEditingReusableBlock", function() { return __experimentalSetEditingReusableBlock; });
 
-// NAMESPACE OBJECT: ./node_modules/@managertechnology/reusable-blocks/build-module/store/selectors.js
+// NAMESPACE OBJECT: ./node_modules/@pacmec/reusable-blocks/build-module/store/selectors.js
 var selectors_namespaceObject = {};
 __webpack_require__.r(selectors_namespaceObject);
 __webpack_require__.d(selectors_namespaceObject, "__experimentalIsEditingReusableBlock", function() { return __experimentalIsEditingReusableBlock; });
@@ -175,7 +175,7 @@ var external_mt_blocks_ = __webpack_require__(9);
 // EXTERNAL MODULE: external ["mt","i18n"]
 var external_mt_i18n_ = __webpack_require__(1);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/reusable-blocks/build-module/store/controls.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/reusable-blocks/build-module/store/controls.js
 
 
 
@@ -329,7 +329,7 @@ var controls = {
 };
 /* harmony default export */ var store_controls = (controls);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/reusable-blocks/build-module/store/actions.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/reusable-blocks/build-module/store/actions.js
 
 
 var _marked = /*#__PURE__*/external_regeneratorRuntime_default.a.mark(__experimentalConvertBlockToStatic),
@@ -422,7 +422,7 @@ function __experimentalSetEditingReusableBlock(clientId, isEditing) {
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
 var defineProperty = __webpack_require__(5);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/reusable-blocks/build-module/store/reducer.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/reusable-blocks/build-module/store/reducer.js
 
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -447,7 +447,7 @@ function isEditingReusableBlock() {
   isEditingReusableBlock: isEditingReusableBlock
 }));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/reusable-blocks/build-module/store/selectors.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/reusable-blocks/build-module/store/selectors.js
 /**
  * Returns true if reusable block is in the editing state.
  *
@@ -459,7 +459,7 @@ function __experimentalIsEditingReusableBlock(state, clientId) {
   return state.isEditingReusableBlock[clientId];
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/reusable-blocks/build-module/store/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/reusable-blocks/build-module/store/index.js
 /**
  * paCMec dependencies
  */
@@ -498,7 +498,7 @@ var external_mt_components_ = __webpack_require__(3);
 // EXTERNAL MODULE: external ["mt","primitives"]
 var external_mt_primitives_ = __webpack_require__(7);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/icons/build-module/library/reusable-block.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/icons/build-module/library/reusable-block.js
 
 
 /**
@@ -516,7 +516,7 @@ var reusable_block_reusableBlock = Object(external_mt_element_["createElement"])
 // EXTERNAL MODULE: external ["mt","notices"]
 var external_mt_notices_ = __webpack_require__(51);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/reusable-blocks/build-module/components/reusable-blocks-menu-items/reusable-block-convert-button.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/reusable-blocks/build-module/components/reusable-blocks-menu-items/reusable-block-convert-button.js
 
 
 
@@ -543,7 +543,7 @@ var external_mt_notices_ = __webpack_require__(51);
  * @param {Object}   props              Component props.
  * @param {string[]} props.clientIds    Client ids of selected blocks.
  * @param {string}   props.rootClientId ID of the currently selected top-level block.
- * @return {import('@managertechnology/element').MTComponent} The menu control or null.
+ * @return {import('@pacmec/element').MTComponent} The menu control or null.
  */
 
 function ReusableBlockConvertButton(_ref) {
@@ -633,7 +633,7 @@ function ReusableBlockConvertButton(_ref) {
 // EXTERNAL MODULE: external ["mt","url"]
 var external_mt_url_ = __webpack_require__(32);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/reusable-blocks/build-module/components/reusable-blocks-menu-items/reusable-blocks-manage-button.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/reusable-blocks/build-module/components/reusable-blocks-menu-items/reusable-blocks-manage-button.js
 
 
 /**
@@ -676,7 +676,7 @@ function ReusableBlocksManageButton(_ref) {
 
 /* harmony default export */ var reusable_blocks_manage_button = (ReusableBlocksManageButton);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/reusable-blocks/build-module/components/reusable-blocks-menu-items/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/reusable-blocks/build-module/components/reusable-blocks-menu-items/index.js
 
 
 /**
@@ -710,10 +710,10 @@ function ReusableBlocksMenuItems(_ref) {
   };
 })(ReusableBlocksMenuItems));
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/reusable-blocks/build-module/components/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/reusable-blocks/build-module/components/index.js
 
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/reusable-blocks/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/reusable-blocks/build-module/index.js
 /**
  * paCMec dependencies
  */

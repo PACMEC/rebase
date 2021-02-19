@@ -284,7 +284,7 @@ function replaceInHtmlTags(haystack, replacePairs) {
  *
  * @example
  *```js
- * import { autop } from '@managertechnology/autop';
+ * import { autop } from '@pacmec/autop';
  * autop( 'my text' ); // "<p>my text</p>"
  * ```
  *
@@ -447,7 +447,7 @@ function autop(text) {
  *
  * @example
  * ```js
- * import { removep } from '@managertechnology/autop';
+ * import { removep } from '@pacmec/autop';
  * removep( '<p>my text</p>' ); // "my text"
  * ```
  *

@@ -114,7 +114,7 @@ __webpack_require__.r(__webpack_exports__);
  *
  * @example
  * ```js
- * import domReady from '@managertechnology/dom-ready';
+ * import domReady from '@pacmec/dom-ready';
  *
  * domReady( function() {
  * 	//do something after DOM loads.

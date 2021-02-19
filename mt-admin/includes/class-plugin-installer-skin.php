@@ -293,13 +293,13 @@ class Plugin_Installer_Skin extends MT_Upgrader_Skin {
 				$warning = sprintf(
 					/* translators: %s: Documentation URL. */
 					__( 'You are uploading an older version of a current plugin. You can continue to install the older version, but be sure to <a href="%s">back up your database and files</a> first.' ),
-					__( 'https://managertechnology.com.co/pacmec/support/article/managertechnology-backups/' )
+					__( 'https://managertechnology.com.co/pacmec/support/article/pacmec-backups/' )
 				);
 			} else {
 				$warning = sprintf(
 					/* translators: %s: Documentation URL. */
 					__( 'You are updating a plugin. Be sure to <a href="%s">back up your database and files</a> first.' ),
-					__( 'https://managertechnology.com.co/pacmec/support/article/managertechnology-backups/' )
+					__( 'https://managertechnology.com.co/pacmec/support/article/pacmec-backups/' )
 				);
 			}
 

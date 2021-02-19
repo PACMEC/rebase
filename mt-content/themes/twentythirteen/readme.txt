@@ -1,5 +1,5 @@
 === Twenty Thirteen ===
-Contributors: managertechnologydotorg
+Contributors: pacmecdotorg
 Tested up to: 5.6
 Stable tag: 3.2
 License: GPLv2 or later

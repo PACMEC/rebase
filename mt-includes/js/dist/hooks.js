@@ -214,7 +214,7 @@ __webpack_require__.d(__webpack_exports__, "filters", function() { return /* bin
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js
 var classCallCheck = __webpack_require__(25);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/hooks/build-module/validateNamespace.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/hooks/build-module/validateNamespace.js
 /**
  * Validate a namespace string.
  *
@@ -241,7 +241,7 @@ function validateNamespace(namespace) {
 
 /* harmony default export */ var build_module_validateNamespace = (validateNamespace);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/hooks/build-module/validateHookName.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/hooks/build-module/validateHookName.js
 /**
  * Validate a hookName string.
  *
@@ -275,7 +275,7 @@ function validateHookName(hookName) {
 
 /* harmony default export */ var build_module_validateHookName = (validateHookName);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/hooks/build-module/createAddHook.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/hooks/build-module/createAddHook.js
 /**
  * Internal dependencies
  */
@@ -379,7 +379,7 @@ function createAddHook(hooks, storeKey) {
 
 /* harmony default export */ var build_module_createAddHook = (createAddHook);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/hooks/build-module/createRemoveHook.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/hooks/build-module/createRemoveHook.js
 /**
  * Internal dependencies
  */
@@ -472,7 +472,7 @@ function createRemoveHook(hooks, storeKey) {
 
 /* harmony default export */ var build_module_createRemoveHook = (createRemoveHook);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/hooks/build-module/createHasHook.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/hooks/build-module/createHasHook.js
 /**
  * @callback HasHook
  *
@@ -514,7 +514,7 @@ function createHasHook(hooks, storeKey) {
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js + 2 modules
 var toConsumableArray = __webpack_require__(15);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/hooks/build-module/createRunHook.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/hooks/build-module/createRunHook.js
 
 
 /**
@@ -582,7 +582,7 @@ function createRunHook(hooks, storeKey) {
 
 /* harmony default export */ var build_module_createRunHook = (createRunHook);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/hooks/build-module/createCurrentHook.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/hooks/build-module/createCurrentHook.js
 /**
  * Returns a function which, when invoked, will return the name of the
  * currently running hook, or `null` if no hook of the given type is currently
@@ -604,7 +604,7 @@ function createCurrentHook(hooks, storeKey) {
 
 /* harmony default export */ var build_module_createCurrentHook = (createCurrentHook);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/hooks/build-module/createDoingHook.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/hooks/build-module/createDoingHook.js
 /**
  * @callback DoingHook
  * Returns whether a hook is currently being executed.
@@ -640,7 +640,7 @@ function createDoingHook(hooks, storeKey) {
 
 /* harmony default export */ var build_module_createDoingHook = (createDoingHook);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/hooks/build-module/createDidHook.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/hooks/build-module/createDidHook.js
 /**
  * Internal dependencies
  */
@@ -679,7 +679,7 @@ function createDidHook(hooks, storeKey) {
 
 /* harmony default export */ var build_module_createDidHook = (createDidHook);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/hooks/build-module/createHooks.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/hooks/build-module/createHooks.js
 
 
 /**
@@ -741,7 +741,7 @@ function createHooks() {
 
 /* harmony default export */ var build_module_createHooks = (createHooks);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/hooks/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/hooks/build-module/index.js
 /**
  * Internal dependencies
  */

@@ -222,11 +222,11 @@ function mt_get_popular_importers() {
 			'plugin-slug' => 'tumblr-importer',
 			'importer-id' => 'tumblr',
 		),
-		'managertechnology'   => array(
+		'pacmec'   => array(
 			'name'        => 'paCMec',
 			'description' => __( 'Import posts, pages, comments, custom fields, categories, and tags from a paCMec export file.' ),
-			'plugin-slug' => 'managertechnology-importer',
-			'importer-id' => 'managertechnology',
+			'plugin-slug' => 'pacmec-importer',
+			'importer-id' => 'pacmec',
 		),
 	);
 }

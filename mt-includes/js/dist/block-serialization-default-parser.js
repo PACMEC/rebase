@@ -285,7 +285,7 @@ function Frame(block, tokenStart, tokenLength, prevOffset, leadingHtmlStart) {
  *
  * Parsing code:
  * ```js
- * import { parse } from '@managertechnology/block-serialization-default-parser';
+ * import { parse } from '@pacmec/block-serialization-default-parser';
  *
  * parse( post ) === [
  *     {

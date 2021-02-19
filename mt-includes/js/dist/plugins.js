@@ -294,7 +294,7 @@ var esm_extends = __webpack_require__(8);
 // EXTERNAL MODULE: external ["mt","compose"]
 var external_mt_compose_ = __webpack_require__(12);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/plugins/build-module/components/plugin-context/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/plugins/build-module/components/plugin-context/index.js
 
 
 
@@ -342,7 +342,7 @@ var esm_typeof = __webpack_require__(42);
 // EXTERNAL MODULE: external ["mt","primitives"]
 var external_mt_primitives_ = __webpack_require__(7);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/icons/build-module/library/plugins.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/icons/build-module/library/plugins.js
 
 
 /**
@@ -357,7 +357,7 @@ var plugins = Object(external_mt_element_["createElement"])(external_mt_primitiv
 }));
 /* harmony default export */ var library_plugins = (plugins);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/plugins/build-module/api/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/plugins/build-module/api/index.js
 
 
 
@@ -449,9 +449,9 @@ var api_plugins = {};
  * <caption>ESNext</caption>
  * ```js
  * // Using ESNext syntax
- * import { PluginSidebar, PluginSidebarMoreMenuItem } from '@managertechnology/edit-post';
- * import { registerPlugin } from '@managertechnology/plugins';
- * import { more } from '@managertechnology/icons';
+ * import { PluginSidebar, PluginSidebarMoreMenuItem } from '@pacmec/edit-post';
+ * import { registerPlugin } from '@pacmec/plugins';
+ * import { more } from '@pacmec/icons';
  *
  * const Component = () => (
  * 	<>
@@ -530,7 +530,7 @@ function registerPlugin(name, settings) {
  * <caption>ESNext</caption>
  * ```js
  * // Using ESNext syntax
- * import { unregisterPlugin } from '@managertechnology/plugins';
+ * import { unregisterPlugin } from '@pacmec/plugins';
  *
  * unregisterPlugin( 'plugin-name' );
  * ```
@@ -571,7 +571,7 @@ function getPlugins() {
   return Object.values(api_plugins);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/plugins/build-module/components/plugin-area/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/plugins/build-module/components/plugin-area/index.js
 
 
 
@@ -624,7 +624,7 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
  * <caption>ESNext</caption>
  * ```js
  * // Using ESNext syntax
- * import { PluginArea } from '@managertechnology/plugins';
+ * import { PluginArea } from '@pacmec/plugins';
  *
  * const Layout = () => (
  * 	<div>
@@ -711,11 +711,11 @@ var plugin_area_PluginArea = /*#__PURE__*/function (_Component) {
 
 /* harmony default export */ var plugin_area = (plugin_area_PluginArea);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/plugins/build-module/components/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/plugins/build-module/components/index.js
 
 
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/plugins/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/plugins/build-module/index.js
 
 
 

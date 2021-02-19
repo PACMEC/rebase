@@ -227,7 +227,7 @@ var external_lodash_ = __webpack_require__(2);
 // EXTERNAL MODULE: external ["mt","i18n"]
 var external_mt_i18n_ = __webpack_require__(1);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/keycodes/build-module/platform.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/keycodes/build-module/platform.js
 /**
  * External dependencies
  */
@@ -247,7 +247,7 @@ function isAppleOS() {
   return platform.indexOf('Mac') !== -1 || Object(external_lodash_["includes"])(['iPad', 'iPhone'], platform);
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/keycodes/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/keycodes/build-module/index.js
 
 
 

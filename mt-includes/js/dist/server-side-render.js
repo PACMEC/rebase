@@ -374,7 +374,7 @@ var external_mt_url_ = __webpack_require__(32);
 // EXTERNAL MODULE: external ["mt","components"]
 var external_mt_components_ = __webpack_require__(3);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/server-side-render/build-module/server-side-render.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/server-side-render/build-module/server-side-render.js
 
 
 
@@ -564,7 +564,7 @@ server_side_render_ServerSideRender.defaultProps = {
 };
 /* harmony default export */ var server_side_render = (server_side_render_ServerSideRender);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/server-side-render/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/server-side-render/build-module/index.js
 
 
 

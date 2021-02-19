@@ -358,7 +358,7 @@ var memize_default = /*#__PURE__*/__webpack_require__.n(memize);
 var sprintf = __webpack_require__(209);
 var sprintf_default = /*#__PURE__*/__webpack_require__.n(sprintf);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/i18n/build-module/sprintf.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/i18n/build-module/sprintf.js
 /**
  * External dependencies
  */
@@ -906,7 +906,7 @@ Tannin.prototype.dcnpgettext = function( domain, context, singular, plural, n ) 
 	return index === 0 ? singular : plural;
 };
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/i18n/build-module/create-i18n.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/i18n/build-module/create-i18n.js
 
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -1230,7 +1230,7 @@ var create_i18n_createI18n = function createI18n(initialData, initialDomain, hoo
 // EXTERNAL MODULE: external ["mt","hooks"]
 var external_mt_hooks_ = __webpack_require__(33);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/i18n/build-module/default-i18n.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/i18n/build-module/default-i18n.js
 /**
  * paCMec dependencies
  */
@@ -1334,7 +1334,7 @@ var default_i18n_nx = i18n._nx.bind(i18n);
 
 var default_i18n_isRTL = i18n.isRTL.bind(i18n);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/i18n/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/i18n/build-module/index.js
 
 
 

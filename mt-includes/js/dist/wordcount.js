@@ -107,7 +107,7 @@ __webpack_require__.d(__webpack_exports__, "count", function() { return /* bindi
 // EXTERNAL MODULE: external "lodash"
 var external_lodash_ = __webpack_require__(2);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/wordcount/build-module/defaultSettings.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/wordcount/build-module/defaultSettings.js
 /** @typedef {import('./index').MTWordCountStrategy} MTWordCountStrategy */
 
 /** @typedef {Partial<{type: MTWordCountStrategy, shortcodes: string[]}>} MTWordCountL10n */
@@ -208,7 +208,7 @@ var defaultSettings = {
   }
 };
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/wordcount/build-module/stripTags.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/wordcount/build-module/stripTags.js
 /**
  * Replaces items matched in the regex with new line
  *
@@ -221,7 +221,7 @@ function stripTags(settings, text) {
   return text.replace(settings.HTMLRegExp, '\n');
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/wordcount/build-module/transposeAstralsToCountableChar.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/wordcount/build-module/transposeAstralsToCountableChar.js
 /**
  * Replaces items matched in the regex with character.
  *
@@ -234,7 +234,7 @@ function transposeAstralsToCountableChar(settings, text) {
   return text.replace(settings.astralRegExp, 'a');
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/wordcount/build-module/stripHTMLEntities.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/wordcount/build-module/stripHTMLEntities.js
 /**
  * Removes items matched in the regex.
  *
@@ -247,7 +247,7 @@ function stripHTMLEntities(settings, text) {
   return text.replace(settings.HTMLEntityRegExp, '');
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/wordcount/build-module/stripConnectors.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/wordcount/build-module/stripConnectors.js
 /**
  * Replaces items matched in the regex with spaces.
  *
@@ -260,7 +260,7 @@ function stripConnectors(settings, text) {
   return text.replace(settings.connectorRegExp, ' ');
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/wordcount/build-module/stripRemovables.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/wordcount/build-module/stripRemovables.js
 /**
  * Removes items matched in the regex.
  *
@@ -273,7 +273,7 @@ function stripRemovables(settings, text) {
   return text.replace(settings.removeRegExp, '');
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/wordcount/build-module/stripHTMLComments.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/wordcount/build-module/stripHTMLComments.js
 /**
  * Removes items matched in the regex.
  *
@@ -286,7 +286,7 @@ function stripHTMLComments(settings, text) {
   return text.replace(settings.HTMLcommentRegExp, '');
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/wordcount/build-module/stripShortcodes.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/wordcount/build-module/stripShortcodes.js
 /**
  * Replaces items matched in the regex with a new line.
  *
@@ -303,7 +303,7 @@ function stripShortcodes(settings, text) {
   return text;
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/wordcount/build-module/stripSpaces.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/wordcount/build-module/stripSpaces.js
 /**
  * Replaces items matched in the regex with spaces.
  *
@@ -316,7 +316,7 @@ function stripSpaces(settings, text) {
   return text.replace(settings.spaceRegExp, ' ');
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/wordcount/build-module/transposeHTMLEntitiesToCountableChars.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/wordcount/build-module/transposeHTMLEntitiesToCountableChars.js
 /**
  * Replaces items matched in the regex with a single character.
  *
@@ -329,7 +329,7 @@ function transposeHTMLEntitiesToCountableChars(settings, text) {
   return text.replace(settings.HTMLEntityRegExp, 'a');
 }
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/wordcount/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/wordcount/build-module/index.js
 /**
  * External dependencies
  */
@@ -431,7 +431,7 @@ function countCharacters(text, regex, settings) {
  *
  * @example
  * ```js
- * import { count } from '@managertechnology/wordcount';
+ * import { count } from '@pacmec/wordcount';
  * const numberOfWords = count( 'Words to count', 'words', {} )
  * ```
  *

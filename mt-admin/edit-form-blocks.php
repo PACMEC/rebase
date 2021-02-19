@@ -466,7 +466,7 @@ require_once ABSPATH . 'mt-admin/admin-header.php';
 					$message = sprintf(
 						/* translators: %s: A link to install the Classic Editor plugin. */
 						__( 'The block editor requires JavaScript. Please enable JavaScript in your browser settings, or try the <a href="%s">Classic Editor plugin</a>.' ),
-						esc_url( mt_nonce_url( self_admin_url( 'plugin-install.php?tab=favorites&user=managertechnologydotorg&save=0' ), 'save_mtorg_username_' . get_current_user_id() ) )
+						esc_url( mt_nonce_url( self_admin_url( 'plugin-install.php?tab=favorites&user=pacmecdotorg&save=0' ), 'save_mtorg_username_' . get_current_user_id() ) )
 					);
 
 					/**

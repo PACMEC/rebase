@@ -1229,7 +1229,7 @@ function mt_dashboard_events_news() {
 
 	?>
 
-	<div class="managertechnology-news hide-if-no-js">
+	<div class="pacmec-news hide-if-no-js">
 		<?php mt_dashboard_primary(); ?>
 	</div>
 
@@ -1967,7 +1967,7 @@ function mt_welcome_panel() {
 		<?php if ( current_user_can( 'manage_options' ) ) : ?>
 			<li><?php printf( '<a href="%s" class="welcome-icon welcome-comments">' . __( 'Turn comments on or off' ) . '</a>', admin_url( 'options-discussion.php' ) ); ?></li>
 		<?php endif; ?>
-			<li><?php printf( '<a href="%s" class="welcome-icon welcome-learn-more">' . __( 'Learn more about getting started' ) . '</a>', __( 'https://managertechnology.com.co/pacmec/support/article/first-steps-with-managertechnology/' ) ); ?></li>
+			<li><?php printf( '<a href="%s" class="welcome-icon welcome-learn-more">' . __( 'Learn more about getting started' ) . '</a>', __( 'https://managertechnology.com.co/pacmec/support/article/first-steps-with-pacmec/' ) ); ?></li>
 		</ul>
 	</div>
 	</div>

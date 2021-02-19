@@ -1,5 +1,5 @@
 === Twenty Fifteen ===
-Contributors: managertechnologydotorg
+Contributors: pacmecdotorg
 Requires at least: paCMec 4.1
 Tested up to: 5.6
 Version: 2.8

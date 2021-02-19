@@ -237,7 +237,7 @@ var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
 // EXTERNAL MODULE: external ["mt","element"]
 var external_mt_element_ = __webpack_require__(0);
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/primitives/build-module/svg/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/primitives/build-module/svg/index.js
 
 
 
@@ -364,16 +364,16 @@ var svg_SVG = function SVG(_ref) {
   return Object(external_mt_element_["createElement"])("svg", appliedProps);
 };
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/primitives/build-module/horizontal-rule/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/primitives/build-module/horizontal-rule/index.js
 var HorizontalRule = 'hr';
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/primitives/build-module/block-quotation/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/primitives/build-module/block-quotation/index.js
 var BlockQuotation = 'blockquote';
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/primitives/build-module/view/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/primitives/build-module/view/index.js
 var View = 'div';
 
-// CONCATENATED MODULE: ./node_modules/@managertechnology/primitives/build-module/index.js
+// CONCATENATED MODULE: ./node_modules/@pacmec/primitives/build-module/index.js
 
 
 

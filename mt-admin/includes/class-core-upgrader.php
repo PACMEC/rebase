@@ -154,7 +154,7 @@ class Core_Upgrader extends MT_Upgrader {
 		}
 
 		// Copy update-core.php from the new version into place.
-		if ( ! $mt_filesystem->copy( $working_dir . '/managertechnology/mt-admin/includes/update-core.php', $mt_dir . 'mt-admin/includes/update-core.php', true ) ) {
+		if ( ! $mt_filesystem->copy( $working_dir . '/pacmec/mt-admin/includes/update-core.php', $mt_dir . 'mt-admin/includes/update-core.php', true ) ) {
 			$mt_filesystem->delete( $working_dir, true );
 			MT_Upgrader::release_lock( 'core_updater' );
 			return new MT_Error( 'copy_failed_for_update_core_file', __( 'The update cannot be installed because we will be unable to copy some files. This is usually due to inconsistent file permissions.' ), 'mt-admin/includes/update-core.php' );

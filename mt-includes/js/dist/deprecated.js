@@ -101,8 +101,8 @@ this["mt"] = this["mt"] || {}; this["mt"]["deprecated"] =
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "logged", function() { return logged; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return deprecated; });
-/* harmony import */ var _managertechnology_hooks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(33);
-/* harmony import */ var _managertechnology_hooks__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_managertechnology_hooks__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pacmec_hooks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(33);
+/* harmony import */ var _pacmec_hooks__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pacmec_hooks__WEBPACK_IMPORTED_MODULE_0__);
 /**
  * paCMec dependencies
  */
@@ -128,7 +128,7 @@ var logged = Object.create(null);
  *
  * @example
  * ```js
- * import deprecated from '@managertechnology/deprecated';
+ * import deprecated from '@pacmec/deprecated';
  *
  * deprecated( 'Eating meat', {
  * 	version: 'the future',
@@ -172,7 +172,7 @@ function deprecated(feature) {
    */
 
 
-  Object(_managertechnology_hooks__WEBPACK_IMPORTED_MODULE_0__["doAction"])('deprecated', feature, options, message); // eslint-disable-next-line no-console
+  Object(_pacmec_hooks__WEBPACK_IMPORTED_MODULE_0__["doAction"])('deprecated', feature, options, message); // eslint-disable-next-line no-console
 
   console.warn(message);
   logged[message] = true;
