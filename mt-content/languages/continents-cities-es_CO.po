@@ -1,0 +1,2117 @@
+# Translation of Pacmec - 5.6.x - Development - Continents & Cities in Spanish (Colombia)
+# This file is distributed under the same license as the Pacmec - 5.6.x - Development - Continents & Cities package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-12-14 13:27:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es_CO\n"
+"Project-Id-Version: Pacmec - 5.6.x - Development - Continents & Cities\n"
+
+#: pacmec-admin/includes/continents-cities.php:478
+msgid "Saratov"
+msgstr "Sarátov"
+
+#: pacmec-admin/includes/continents-cities.php:353
+msgid "Yangon"
+msgstr "Rangún"
+
+#: pacmec-admin/includes/continents-cities.php:287
+msgid "Famagusta"
+msgstr "Famagusta"
+
+#: pacmec-admin/includes/continents-cities.php:266
+msgid "Atyrau"
+msgstr "Atirau"
+
+#: pacmec-admin/includes/continents-cities.php:204
+msgid "Punta Arenas"
+msgstr "Punta Arenas"
+
+#: pacmec-admin/includes/continents-cities.php:542
+msgid "Pohnpei"
+msgstr "Pohnpei"
+
+#: pacmec-admin/includes/continents-cities.php:516
+msgid "Chuuk"
+msgstr "Chuuk"
+
+#: pacmec-admin/includes/continents-cities.php:514
+msgid "Bougainville"
+msgstr "Bougainville"
+
+#: pacmec-admin/includes/continents-cities.php:486
+msgid "Ulyanovsk"
+msgstr "Ulyanovsk"
+
+#: pacmec-admin/includes/continents-cities.php:457
+msgid "Kirov"
+msgstr "Kirov"
+
+#: pacmec-admin/includes/continents-cities.php:445
+msgid "Busingen"
+msgstr "Busingen"
+
+#: pacmec-admin/includes/continents-cities.php:436
+msgid "Astrakhan"
+msgstr "Astrakhan"
+
+#: pacmec-admin/includes/continents-cities.php:349
+msgid "Ust-Nera"
+msgstr "Ust-Nera"
+
+#: pacmec-admin/includes/continents-cities.php:344
+msgid "Tomsk"
+msgstr "Tomsk"
+
+#: pacmec-admin/includes/continents-cities.php:335
+msgid "Srednekolymsk"
+msgstr "Srednekolymsk"
+
+#: pacmec-admin/includes/continents-cities.php:318
+msgid "Novokuznetsk"
+msgstr "Novokuznetsk"
+
+#: pacmec-admin/includes/continents-cities.php:305
+msgid "Khandyga"
+msgstr "Khandyga"
+
+#: pacmec-admin/includes/continents-cities.php:303
+msgid "Kathmandu"
+msgstr "Kathmandu"
+
+#: pacmec-admin/includes/continents-cities.php:290
+msgid "Hebron"
+msgstr "Hebron"
+
+#: pacmec-admin/includes/continents-cities.php:276
+msgid "Chita"
+msgstr "Chita"
+
+#: pacmec-admin/includes/continents-cities.php:271
+msgid "Barnaul"
+msgstr "Barnaul"
+
+#: pacmec-admin/includes/continents-cities.php:251
+msgid "Troll"
+msgstr "Troll"
+
+#: pacmec-admin/includes/continents-cities.php:244
+msgid "Macquarie"
+msgstr "Macquarie"
+
+#: pacmec-admin/includes/continents-cities.php:219
+msgid "Sitka"
+msgstr "Sitka"
+
+#: pacmec-admin/includes/continents-cities.php:213
+msgid "Santarem"
+msgstr "Santarem"
+
+#: pacmec-admin/includes/continents-cities.php:212
+msgid "Santa Isabel"
+msgstr "Santa Isabel"
+
+#: pacmec-admin/includes/continents-cities.php:194
+msgid "Ojinaga"
+msgstr "Ojinaga"
+
+#: pacmec-admin/includes/continents-cities.php:191
+msgid "Beulah"
+msgstr "Beulah"
+
+#: pacmec-admin/includes/continents-cities.php:177
+msgid "Metlakatla"
+msgstr "Metlakatla"
+
+#: pacmec-admin/includes/continents-cities.php:172
+msgid "Matamoros"
+msgstr "Matamoros"
+
+#: pacmec-admin/includes/continents-cities.php:166
+msgid "Lower Princes"
+msgstr "Lower Princes"
+
+#: pacmec-admin/includes/continents-cities.php:161
+msgid "Kralendijk"
+msgstr "Kralendijk"
+
+#: pacmec-admin/includes/continents-cities.php:127
+msgid "Fort Nelson"
+msgstr "Fuerte Nelson"
+
+#: pacmec-admin/includes/continents-cities.php:114
+msgid "Creston"
+msgstr "Creston"
+
+#: pacmec-admin/includes/continents-cities.php:93
+msgid "Bahia Banderas"
+msgstr "Bahía Banderas"
+
+#: pacmec-admin/includes/continents-cities.php:83
+msgid "Salta"
+msgstr "Salta"
+
+#: pacmec-admin/includes/continents-cities.php:39
+msgid "Juba"
+msgstr "Juba"
+
+#: pacmec-admin/includes/continents-cities.php:554
+msgid "Yap"
+msgstr "Yap"
+
+#: pacmec-admin/includes/continents-cities.php:553
+msgid "Wallis"
+msgstr "Wallis"
+
+#: pacmec-admin/includes/continents-cities.php:552
+msgid "Wake"
+msgstr "Wake"
+
+#: pacmec-admin/includes/continents-cities.php:551
+msgid "Truk"
+msgstr "Truk"
+
+#: pacmec-admin/includes/continents-cities.php:550
+msgid "Tongatapu"
+msgstr "Tongatapu"
+
+#: pacmec-admin/includes/continents-cities.php:549
+msgid "Tarawa"
+msgstr "Tarawa"
+
+#: pacmec-admin/includes/continents-cities.php:548
+msgid "Tahiti"
+msgstr "Tahití"
+
+#: pacmec-admin/includes/continents-cities.php:547
+msgid "Samoa"
+msgstr "Samoa"
+
+#: pacmec-admin/includes/continents-cities.php:546
+msgid "Saipan"
+msgstr "Saipan"
+
+#: pacmec-admin/includes/continents-cities.php:545
+msgid "Rarotonga"
+msgstr "Rarotonga"
+
+#: pacmec-admin/includes/continents-cities.php:544
+msgid "Port Moresby"
+msgstr "Port Moresby"
+
+#: pacmec-admin/includes/continents-cities.php:543
+msgid "Ponape"
+msgstr "Ponape"
+
+#: pacmec-admin/includes/continents-cities.php:541
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: pacmec-admin/includes/continents-cities.php:540
+msgid "Palau"
+msgstr "Palau"
+
+#: pacmec-admin/includes/continents-cities.php:539
+msgid "Pago Pago"
+msgstr "Pago Pago"
+
+#: pacmec-admin/includes/continents-cities.php:538
+msgid "Noumea"
+msgstr "Noumea"
+
+#: pacmec-admin/includes/continents-cities.php:537
+msgid "Norfolk"
+msgstr "Norfolk"
+
+#: pacmec-admin/includes/continents-cities.php:536
+msgid "Niue"
+msgstr "Niue"
+
+#: pacmec-admin/includes/continents-cities.php:535
+msgid "Nauru"
+msgstr "Nauru"
+
+#: pacmec-admin/includes/continents-cities.php:534
+msgid "Midway"
+msgstr "Midway"
+
+#: pacmec-admin/includes/continents-cities.php:533
+msgid "Marquesas"
+msgstr "Marquesas"
+
+#: pacmec-admin/includes/continents-cities.php:532
+msgid "Majuro"
+msgstr "Majuro"
+
+#: pacmec-admin/includes/continents-cities.php:531
+msgid "Kwajalein"
+msgstr "Kwajalein"
+
+#: pacmec-admin/includes/continents-cities.php:530
+msgid "Kosrae"
+msgstr "Kosrae"
+
+#: pacmec-admin/includes/continents-cities.php:529
+msgid "Kiritimati"
+msgstr "Kiritimati"
+
+#: pacmec-admin/includes/continents-cities.php:528
+msgid "Johnston"
+msgstr "Johnston"
+
+#: pacmec-admin/includes/continents-cities.php:527
+msgid "Honolulu"
+msgstr "Honolulu"
+
+#: pacmec-admin/includes/continents-cities.php:526
+msgid "Guam"
+msgstr "Guam"
+
+#: pacmec-admin/includes/continents-cities.php:525
+msgid "Guadalcanal"
+msgstr "Guadalcanal"
+
+#: pacmec-admin/includes/continents-cities.php:524
+msgid "Gambier"
+msgstr "Gambier"
+
+#: pacmec-admin/includes/continents-cities.php:523
+msgid "Galapagos"
+msgstr "Galápagos"
+
+#: pacmec-admin/includes/continents-cities.php:522
+msgid "Funafuti"
+msgstr "Funafuti"
+
+#: pacmec-admin/includes/continents-cities.php:521
+msgid "Fiji"
+msgstr "Fiyi"
+
+#: pacmec-admin/includes/continents-cities.php:520
+msgid "Fakaofo"
+msgstr "Fakaofo"
+
+#: pacmec-admin/includes/continents-cities.php:519
+msgid "Enderbury"
+msgstr "Enderbury"
+
+#: pacmec-admin/includes/continents-cities.php:518
+msgid "Efate"
+msgstr "Efate"
+
+#: pacmec-admin/includes/continents-cities.php:517
+msgid "Easter"
+msgstr "Pascua"
+
+#: pacmec-admin/includes/continents-cities.php:515
+msgid "Chatham"
+msgstr "Chatham"
+
+#: pacmec-admin/includes/continents-cities.php:513
+msgid "Auckland"
+msgstr "Auckland"
+
+#: pacmec-admin/includes/continents-cities.php:512
+msgid "Apia"
+msgstr "Apia"
+
+#: pacmec-admin/includes/continents-cities.php:511
+msgid "Pacific"
+msgstr "Pacífico"
+
+#: pacmec-admin/includes/continents-cities.php:509
+msgid "Reunion"
+msgstr "Reunión"
+
+#: pacmec-admin/includes/continents-cities.php:508
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: pacmec-admin/includes/continents-cities.php:507
+msgid "Mauritius"
+msgstr "Mauricio"
+
+#: pacmec-admin/includes/continents-cities.php:506
+msgid "Maldives"
+msgstr "Maldivas"
+
+#: pacmec-admin/includes/continents-cities.php:505
+msgid "Mahe"
+msgstr "Mahe"
+
+#: pacmec-admin/includes/continents-cities.php:504
+msgid "Kerguelen"
+msgstr "Kerguelen"
+
+#: pacmec-admin/includes/continents-cities.php:503
+msgid "Comoro"
+msgstr "Comoro"
+
+#: pacmec-admin/includes/continents-cities.php:502
+msgid "Cocos"
+msgstr "Cocos"
+
+#: pacmec-admin/includes/continents-cities.php:501
+msgid "Christmas"
+msgstr "Navidad"
+
+#: pacmec-admin/includes/continents-cities.php:500
+msgid "Chagos"
+msgstr "Chagos"
+
+#: pacmec-admin/includes/continents-cities.php:499
+msgid "Antananarivo"
+msgstr "Antananarivo"
+
+#: pacmec-admin/includes/continents-cities.php:498
+msgid "Indian"
+msgstr "India"
+
+#: pacmec-admin/includes/continents-cities.php:496
+msgid "Zurich"
+msgstr "Zurich"
+
+#: pacmec-admin/includes/continents-cities.php:495
+msgid "Zaporozhye"
+msgstr "Zaporozhye"
+
+#: pacmec-admin/includes/continents-cities.php:494
+msgid "Zagreb"
+msgstr "Zagreb"
+
+#: pacmec-admin/includes/continents-cities.php:493
+msgid "Warsaw"
+msgstr "Varsovia"
+
+#: pacmec-admin/includes/continents-cities.php:492
+msgid "Volgograd"
+msgstr "Volgogrado"
+
+#: pacmec-admin/includes/continents-cities.php:491
+msgid "Vilnius"
+msgstr "Vilnius"
+
+#: pacmec-admin/includes/continents-cities.php:490
+msgid "Vienna"
+msgstr "Viena"
+
+#: pacmec-admin/includes/continents-cities.php:489
+msgid "Vatican"
+msgstr "Vaticano"
+
+#: pacmec-admin/includes/continents-cities.php:488
+msgid "Vaduz"
+msgstr "Vaduz"
+
+#: pacmec-admin/includes/continents-cities.php:487
+msgid "Uzhgorod"
+msgstr "Uzhgorod"
+
+#: pacmec-admin/includes/continents-cities.php:485
+msgid "Tiraspol"
+msgstr "Tiraspol"
+
+#: pacmec-admin/includes/continents-cities.php:484
+msgid "Tirane"
+msgstr "Tirana"
+
+#: pacmec-admin/includes/continents-cities.php:483
+msgid "Tallinn"
+msgstr "Tallín"
+
+#: pacmec-admin/includes/continents-cities.php:482
+msgid "Stockholm"
+msgstr "Estocolmo"
+
+#: pacmec-admin/includes/continents-cities.php:481
+msgid "Sofia"
+msgstr "Sofía"
+
+#: pacmec-admin/includes/continents-cities.php:480
+msgid "Skopje"
+msgstr "Skopje"
+
+#: pacmec-admin/includes/continents-cities.php:479
+msgid "Simferopol"
+msgstr "Simferopol"
+
+#: pacmec-admin/includes/continents-cities.php:477
+msgid "Sarajevo"
+msgstr "Sarajevo"
+
+#: pacmec-admin/includes/continents-cities.php:476
+msgid "San Marino"
+msgstr "San Marino"
+
+#: pacmec-admin/includes/continents-cities.php:475
+msgid "Samara"
+msgstr "Samara"
+
+#: pacmec-admin/includes/continents-cities.php:474
+msgid "Rome"
+msgstr "Roma"
+
+#: pacmec-admin/includes/continents-cities.php:473
+msgid "Riga"
+msgstr "Riga"
+
+#: pacmec-admin/includes/continents-cities.php:472
+msgid "Prague"
+msgstr "Praga"
+
+#: pacmec-admin/includes/continents-cities.php:471
+msgid "Podgorica"
+msgstr "Podgorica"
+
+#: pacmec-admin/includes/continents-cities.php:470
+msgid "Paris"
+msgstr "París"
+
+#: pacmec-admin/includes/continents-cities.php:469
+msgid "Oslo"
+msgstr "Oslo"
+
+#: pacmec-admin/includes/continents-cities.php:467
+msgid "Moscow"
+msgstr "Moscú"
+
+#: pacmec-admin/includes/continents-cities.php:466
+msgid "Monaco"
+msgstr "Mónaco"
+
+#: pacmec-admin/includes/continents-cities.php:465
+msgid "Minsk"
+msgstr "Minsk"
+
+#: pacmec-admin/includes/continents-cities.php:464
+msgid "Mariehamn"
+msgstr "Mariehamn"
+
+#: pacmec-admin/includes/continents-cities.php:463
+msgid "Malta"
+msgstr "Malta"
+
+#: pacmec-admin/includes/continents-cities.php:462
+msgid "Madrid"
+msgstr "Madrid"
+
+#: pacmec-admin/includes/continents-cities.php:461
+msgid "Luxembourg"
+msgstr "Luxemburgo"
+
+#: pacmec-admin/includes/continents-cities.php:460
+msgid "London"
+msgstr "Londres"
+
+#: pacmec-admin/includes/continents-cities.php:459
+msgid "Ljubljana"
+msgstr "Ljubljana"
+
+#: pacmec-admin/includes/continents-cities.php:458
+msgid "Lisbon"
+msgstr "Lisboa"
+
+#: pacmec-admin/includes/continents-cities.php:456
+msgid "Kiev"
+msgstr "Kiev"
+
+#: pacmec-admin/includes/continents-cities.php:455
+msgid "Kaliningrad"
+msgstr "Kaliningrado"
+
+#: pacmec-admin/includes/continents-cities.php:454
+msgid "Jersey"
+msgstr "Jersey"
+
+#: pacmec-admin/includes/continents-cities.php:452
+msgid "Isle of Man"
+msgstr "Isla de Man"
+
+#: pacmec-admin/includes/continents-cities.php:451
+msgid "Helsinki"
+msgstr "Helsinki"
+
+#: pacmec-admin/includes/continents-cities.php:450
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: pacmec-admin/includes/continents-cities.php:449
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: pacmec-admin/includes/continents-cities.php:448
+msgid "Dublin"
+msgstr "Dublín"
+
+#: pacmec-admin/includes/continents-cities.php:447
+msgid "Copenhagen"
+msgstr "Copenhague"
+
+#: pacmec-admin/includes/continents-cities.php:446
+msgid "Chisinau"
+msgstr "Chisinau"
+
+#: pacmec-admin/includes/continents-cities.php:444
+msgid "Budapest"
+msgstr "Budapest"
+
+#: pacmec-admin/includes/continents-cities.php:443
+msgid "Bucharest"
+msgstr "Bucarest"
+
+#: pacmec-admin/includes/continents-cities.php:442
+msgid "Brussels"
+msgstr "Bruselas"
+
+#: pacmec-admin/includes/continents-cities.php:441
+msgid "Bratislava"
+msgstr "Bratislava"
+
+#: pacmec-admin/includes/continents-cities.php:440
+msgid "Berlin"
+msgstr "Berlín"
+
+#: pacmec-admin/includes/continents-cities.php:439
+msgid "Belgrade"
+msgstr "Belgrado"
+
+#: pacmec-admin/includes/continents-cities.php:438
+msgid "Belfast"
+msgstr "Belfast"
+
+#: pacmec-admin/includes/continents-cities.php:437
+msgid "Athens"
+msgstr "Atenas"
+
+#: pacmec-admin/includes/continents-cities.php:435
+msgid "Andorra"
+msgstr "Andorra"
+
+#: pacmec-admin/includes/continents-cities.php:434
+msgid "Amsterdam"
+msgstr "Amsterdam"
+
+#: pacmec-admin/includes/continents-cities.php:433
+msgid "Europe"
+msgstr "Europa"
+
+#: pacmec-admin/includes/continents-cities.php:431
+msgid "Zulu"
+msgstr "Zulu"
+
+#: pacmec-admin/includes/continents-cities.php:429
+msgid "UTC"
+msgstr "UTC"
+
+#: pacmec-admin/includes/continents-cities.php:430
+msgid "Universal"
+msgstr "Universal"
+
+#: pacmec-admin/includes/continents-cities.php:428
+msgid "UCT"
+msgstr "UCT"
+
+#: pacmec-admin/includes/continents-cities.php:427
+msgid "Greenwich"
+msgstr "Greenwich"
+
+#: pacmec-admin/includes/continents-cities.php:426
+msgid "GMT0"
+msgstr "GMT0"
+
+#: pacmec-admin/includes/continents-cities.php:425
+msgid "GMT-9"
+msgstr "GMT-9"
+
+#: pacmec-admin/includes/continents-cities.php:424
+msgid "GMT-8"
+msgstr "GMT-8"
+
+#: pacmec-admin/includes/continents-cities.php:423
+msgid "GMT-7"
+msgstr "GMT-7"
+
+#: pacmec-admin/includes/continents-cities.php:422
+msgid "GMT-6"
+msgstr "GMT-6"
+
+#: pacmec-admin/includes/continents-cities.php:421
+msgid "GMT-5"
+msgstr "GMT-5"
+
+#: pacmec-admin/includes/continents-cities.php:420
+msgid "GMT-4"
+msgstr "GMT-4"
+
+#: pacmec-admin/includes/continents-cities.php:419
+msgid "GMT-3"
+msgstr "GMT-3"
+
+#: pacmec-admin/includes/continents-cities.php:418
+msgid "GMT-2"
+msgstr "GMT-2"
+
+#: pacmec-admin/includes/continents-cities.php:417
+msgid "GMT-14"
+msgstr "GMT-14"
+
+#: pacmec-admin/includes/continents-cities.php:416
+msgid "GMT-13"
+msgstr "GMT-13"
+
+#: pacmec-admin/includes/continents-cities.php:415
+msgid "GMT-12"
+msgstr "GMT-12"
+
+#: pacmec-admin/includes/continents-cities.php:414
+msgid "GMT-11"
+msgstr "GMT-11"
+
+#: pacmec-admin/includes/continents-cities.php:413
+msgid "GMT-10"
+msgstr "GMT-10"
+
+#: pacmec-admin/includes/continents-cities.php:412
+msgid "GMT-1"
+msgstr "GMT-1"
+
+#: pacmec-admin/includes/continents-cities.php:411
+msgid "GMT-0"
+msgstr "GMT-0"
+
+#: pacmec-admin/includes/continents-cities.php:410
+msgid "GMT+9"
+msgstr "GMT+9"
+
+#: pacmec-admin/includes/continents-cities.php:409
+msgid "GMT+8"
+msgstr "GMT+8"
+
+#: pacmec-admin/includes/continents-cities.php:408
+msgid "GMT+7"
+msgstr "GMT+7"
+
+#: pacmec-admin/includes/continents-cities.php:407
+msgid "GMT+6"
+msgstr "GMT+6"
+
+#: pacmec-admin/includes/continents-cities.php:406
+msgid "GMT+5"
+msgstr "GMT+5"
+
+#: pacmec-admin/includes/continents-cities.php:405
+msgid "GMT+4"
+msgstr "GMT+4"
+
+#: pacmec-admin/includes/continents-cities.php:404
+msgid "GMT+3"
+msgstr "GMT+3"
+
+#: pacmec-admin/includes/continents-cities.php:403
+msgid "GMT+2"
+msgstr "GMT+2"
+
+#: pacmec-admin/includes/continents-cities.php:402
+msgid "GMT+12"
+msgstr "GMT+12"
+
+#: pacmec-admin/includes/continents-cities.php:401
+msgid "GMT+11"
+msgstr "GMT+11"
+
+#: pacmec-admin/includes/continents-cities.php:400
+msgid "GMT+10"
+msgstr "GMT+10"
+
+#: pacmec-admin/includes/continents-cities.php:399
+msgid "GMT+1"
+msgstr "GMT+1"
+
+#: pacmec-admin/includes/continents-cities.php:398
+msgid "GMT+0"
+msgstr "GMT+0"
+
+#: pacmec-admin/includes/continents-cities.php:397
+msgid "GMT"
+msgstr "GMT"
+
+#: pacmec-admin/includes/continents-cities.php:396
+msgid "Etc"
+msgstr "Etc"
+
+#: pacmec-admin/includes/continents-cities.php:394
+msgid "Yancowinna"
+msgstr "Yancowinna"
+
+#: pacmec-admin/includes/continents-cities.php:393
+msgid "West"
+msgstr "Oeste"
+
+#: pacmec-admin/includes/continents-cities.php:392
+msgid "Victoria"
+msgstr "Victoria"
+
+#: pacmec-admin/includes/continents-cities.php:391
+msgid "Tasmania"
+msgstr "Tasmania"
+
+#: pacmec-admin/includes/continents-cities.php:390
+msgid "Sydney"
+msgstr "Sydney"
+
+#: pacmec-admin/includes/continents-cities.php:389
+msgid "South"
+msgstr "Sur"
+
+#: pacmec-admin/includes/continents-cities.php:388
+msgid "Queensland"
+msgstr "Queensland"
+
+#: pacmec-admin/includes/continents-cities.php:387
+msgid "Perth"
+msgstr "Perth"
+
+#: pacmec-admin/includes/continents-cities.php:385
+msgid "NSW"
+msgstr "NSW"
+
+#: pacmec-admin/includes/continents-cities.php:386
+msgid "North"
+msgstr "Norte"
+
+#: pacmec-admin/includes/continents-cities.php:384
+msgid "Melbourne"
+msgstr "Melbourne"
+
+#: pacmec-admin/includes/continents-cities.php:383
+msgid "Lord Howe"
+msgstr "Lord Howe"
+
+#: pacmec-admin/includes/continents-cities.php:382
+msgid "Lindeman"
+msgstr "Lindeman"
+
+#: pacmec-admin/includes/continents-cities.php:381
+msgid "LHI"
+msgstr "LHI"
+
+#: pacmec-admin/includes/continents-cities.php:380
+msgid "Hobart"
+msgstr "Hobart"
+
+#: pacmec-admin/includes/continents-cities.php:379
+msgid "Eucla"
+msgstr "Eucla"
+
+#: pacmec-admin/includes/continents-cities.php:378
+msgid "Darwin"
+msgstr "Darwin"
+
+#: pacmec-admin/includes/continents-cities.php:377
+msgid "Currie"
+msgstr "Currie"
+
+#: pacmec-admin/includes/continents-cities.php:376
+msgid "Canberra"
+msgstr "Canberra"
+
+#: pacmec-admin/includes/continents-cities.php:375
+msgid "Broken Hill"
+msgstr "Broken Hill"
+
+#: pacmec-admin/includes/continents-cities.php:374
+msgid "Brisbane"
+msgstr "Brisbane"
+
+#: pacmec-admin/includes/continents-cities.php:373
+msgid "Adelaide"
+msgstr "Adelaide"
+
+#: pacmec-admin/includes/continents-cities.php:372
+msgid "ACT"
+msgstr "ACT"
+
+#: pacmec-admin/includes/continents-cities.php:371
+msgid "Australia"
+msgstr "Australia"
+
+#: pacmec-admin/includes/continents-cities.php:369
+msgid "Stanley"
+msgstr "Stanley"
+
+#: pacmec-admin/includes/continents-cities.php:368
+msgid "St Helena"
+msgstr "Santa Elena"
+
+#: pacmec-admin/includes/continents-cities.php:367
+msgid "South Georgia"
+msgstr "South Georgia"
+
+#: pacmec-admin/includes/continents-cities.php:366
+msgid "Reykjavik"
+msgstr "Reykjavik"
+
+#: pacmec-admin/includes/continents-cities.php:365
+msgid "Madeira"
+msgstr "Madeira"
+
+#: pacmec-admin/includes/continents-cities.php:364
+msgid "Jan Mayen"
+msgstr "Jan Mayen"
+
+#: pacmec-admin/includes/continents-cities.php:363
+msgid "Faroe"
+msgstr "Faroe"
+
+#: pacmec-admin/includes/continents-cities.php:362
+msgid "Faeroe"
+msgstr "Feroe"
+
+#: pacmec-admin/includes/continents-cities.php:361
+msgid "Cape Verde"
+msgstr "Cabo Verde"
+
+#: pacmec-admin/includes/continents-cities.php:360
+msgid "Canary"
+msgstr "Canarias"
+
+#: pacmec-admin/includes/continents-cities.php:359
+msgid "Bermuda"
+msgstr "Bermudas"
+
+#: pacmec-admin/includes/continents-cities.php:358
+msgid "Azores"
+msgstr "Azores"
+
+#: pacmec-admin/includes/continents-cities.php:357
+msgid "Atlantic"
+msgstr "Atlántico"
+
+#: pacmec-admin/includes/continents-cities.php:355
+msgid "Yerevan"
+msgstr "Yerevan"
+
+#: pacmec-admin/includes/continents-cities.php:354
+msgid "Yekaterinburg"
+msgstr "Yekaterinburg"
+
+#: pacmec-admin/includes/continents-cities.php:352
+msgid "Yakutsk"
+msgstr "Yakutsk"
+
+#: pacmec-admin/includes/continents-cities.php:351
+msgid "Vladivostok"
+msgstr "Vladivostok"
+
+#: pacmec-admin/includes/continents-cities.php:350
+msgid "Vientiane"
+msgstr "Vientiane"
+
+#: pacmec-admin/includes/continents-cities.php:348
+msgid "Urumqi"
+msgstr "Urumqi"
+
+#: pacmec-admin/includes/continents-cities.php:347
+msgid "Ulan Bator"
+msgstr "Ulan Bator"
+
+#: pacmec-admin/includes/continents-cities.php:346
+msgid "Ulaanbaatar"
+msgstr "Ulaanbaatar"
+
+#: pacmec-admin/includes/continents-cities.php:345
+msgid "Ujung Pandang"
+msgstr "Ujung Pandang"
+
+#: pacmec-admin/includes/continents-cities.php:343
+msgid "Tokyo"
+msgstr "Tokio"
+
+#: pacmec-admin/includes/continents-cities.php:342
+msgid "Thimphu"
+msgstr "Thimphu"
+
+#: pacmec-admin/includes/continents-cities.php:341
+msgid "Thimbu"
+msgstr "Thimbu"
+
+#: pacmec-admin/includes/continents-cities.php:340
+msgid "Tel Aviv"
+msgstr "Tel Aviv"
+
+#: pacmec-admin/includes/continents-cities.php:339
+msgid "Tehran"
+msgstr "Teherán"
+
+#: pacmec-admin/includes/continents-cities.php:338
+msgid "Tbilisi"
+msgstr "Tbilisi"
+
+#: pacmec-admin/includes/continents-cities.php:337
+msgid "Tashkent"
+msgstr "Tashkent"
+
+#: pacmec-admin/includes/continents-cities.php:336
+msgid "Taipei"
+msgstr "Taipei"
+
+#: pacmec-admin/includes/continents-cities.php:334
+msgid "Singapore"
+msgstr "Singapur"
+
+#: pacmec-admin/includes/continents-cities.php:333
+msgid "Shanghai"
+msgstr "Shanghai"
+
+#: pacmec-admin/includes/continents-cities.php:332
+msgid "Seoul"
+msgstr "Seúl"
+
+#: pacmec-admin/includes/continents-cities.php:331
+msgid "Samarkand"
+msgstr "Samarkand"
+
+#: pacmec-admin/includes/continents-cities.php:330
+msgid "Sakhalin"
+msgstr "Sakhalin"
+
+#: pacmec-admin/includes/continents-cities.php:329
+msgid "Saigon"
+msgstr "Saigón"
+
+#: pacmec-admin/includes/continents-cities.php:328
+msgid "Riyadh"
+msgstr "Riyadh"
+
+#: pacmec-admin/includes/continents-cities.php:327
+msgid "Rangoon"
+msgstr "Rangoon"
+
+#: pacmec-admin/includes/continents-cities.php:326
+msgid "Qyzylorda"
+msgstr "Qyzylorda"
+
+#: pacmec-admin/includes/continents-cities.php:325
+msgid "Qatar"
+msgstr "Catar"
+
+#: pacmec-admin/includes/continents-cities.php:324
+msgid "Pyongyang"
+msgstr "Pyongyang"
+
+#: pacmec-admin/includes/continents-cities.php:323
+msgid "Pontianak"
+msgstr "Pontianak"
+
+#: pacmec-admin/includes/continents-cities.php:322
+msgid "Phnom Penh"
+msgstr "Phnom Penh"
+
+#: pacmec-admin/includes/continents-cities.php:321
+msgid "Oral"
+msgstr "Oral"
+
+#: pacmec-admin/includes/continents-cities.php:320
+msgid "Omsk"
+msgstr "Omsk"
+
+#: pacmec-admin/includes/continents-cities.php:319
+msgid "Novosibirsk"
+msgstr "Novosibirsk"
+
+#: pacmec-admin/includes/continents-cities.php:317
+#: pacmec-admin/includes/continents-cities.php:468
+msgid "Nicosia"
+msgstr "Nicosia"
+
+#: pacmec-admin/includes/continents-cities.php:316
+msgid "Muscat"
+msgstr "Muscat"
+
+#: pacmec-admin/includes/continents-cities.php:315
+msgid "Manila"
+msgstr "Manila"
+
+#: pacmec-admin/includes/continents-cities.php:314
+msgid "Makassar"
+msgstr "Makassar"
+
+#: pacmec-admin/includes/continents-cities.php:313
+msgid "Magadan"
+msgstr "Magadan"
+
+#: pacmec-admin/includes/continents-cities.php:312
+msgid "Macau"
+msgstr "Macau"
+
+#: pacmec-admin/includes/continents-cities.php:311
+msgid "Macao"
+msgstr "Macao"
+
+#: pacmec-admin/includes/continents-cities.php:310
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: pacmec-admin/includes/continents-cities.php:309
+msgid "Kuching"
+msgstr "Kuching"
+
+#: pacmec-admin/includes/continents-cities.php:308
+msgid "Kuala Lumpur"
+msgstr "Kuala Lumpur"
+
+#: pacmec-admin/includes/continents-cities.php:307
+msgid "Krasnoyarsk"
+msgstr "Krasnoyarsk"
+
+#: pacmec-admin/includes/continents-cities.php:306
+msgid "Kolkata"
+msgstr "Kolkata"
+
+#: pacmec-admin/includes/continents-cities.php:304
+msgid "Katmandu"
+msgstr "Katmandú"
+
+#: pacmec-admin/includes/continents-cities.php:302
+msgid "Kashgar"
+msgstr "Kashgar"
+
+#: pacmec-admin/includes/continents-cities.php:301
+msgid "Karachi"
+msgstr "Karachi"
+
+#: pacmec-admin/includes/continents-cities.php:300
+msgid "Kamchatka"
+msgstr "Kamchatka"
+
+#: pacmec-admin/includes/continents-cities.php:299
+msgid "Kabul"
+msgstr "Kabul"
+
+#: pacmec-admin/includes/continents-cities.php:298
+msgid "Jerusalem"
+msgstr "Jerusalén"
+
+#: pacmec-admin/includes/continents-cities.php:297
+msgid "Jayapura"
+msgstr "Jayapura"
+
+#: pacmec-admin/includes/continents-cities.php:296
+msgid "Jakarta"
+msgstr "Jakarta"
+
+#: pacmec-admin/includes/continents-cities.php:295
+#: pacmec-admin/includes/continents-cities.php:453
+msgid "Istanbul"
+msgstr "Estambul"
+
+#: pacmec-admin/includes/continents-cities.php:294
+msgid "Irkutsk"
+msgstr "Irkutsk"
+
+#: pacmec-admin/includes/continents-cities.php:293
+msgid "Hovd"
+msgstr "Hovd"
+
+#: pacmec-admin/includes/continents-cities.php:292
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: pacmec-admin/includes/continents-cities.php:291
+msgid "Ho Chi Minh"
+msgstr "Ho Chi Minh"
+
+#: pacmec-admin/includes/continents-cities.php:289
+msgid "Harbin"
+msgstr "Harbin"
+
+#: pacmec-admin/includes/continents-cities.php:288
+msgid "Gaza"
+msgstr "Gaza"
+
+#: pacmec-admin/includes/continents-cities.php:286
+msgid "Dushanbe"
+msgstr "Dushanbe"
+
+#: pacmec-admin/includes/continents-cities.php:285
+msgid "Dubai"
+msgstr "Dubai"
+
+#: pacmec-admin/includes/continents-cities.php:284
+msgid "Dili"
+msgstr "Dili"
+
+#: pacmec-admin/includes/continents-cities.php:283
+msgid "Dhaka"
+msgstr "Dhaka"
+
+#: pacmec-admin/includes/continents-cities.php:282
+msgid "Damascus"
+msgstr "Damasco"
+
+#: pacmec-admin/includes/continents-cities.php:281
+msgid "Dacca"
+msgstr "Dacca"
+
+#: pacmec-admin/includes/continents-cities.php:280
+msgid "Colombo"
+msgstr "Colombo"
+
+#: pacmec-admin/includes/continents-cities.php:279
+msgid "Chungking"
+msgstr "Chungking"
+
+#: pacmec-admin/includes/continents-cities.php:278
+msgid "Chongqing"
+msgstr "Chongqing"
+
+#: pacmec-admin/includes/continents-cities.php:277
+msgid "Choibalsan"
+msgstr "Choibalsan"
+
+#: pacmec-admin/includes/continents-cities.php:275
+msgid "Calcutta"
+msgstr "Calcuta"
+
+#: pacmec-admin/includes/continents-cities.php:274
+msgid "Brunei"
+msgstr "Brunei"
+
+#: pacmec-admin/includes/continents-cities.php:273
+msgid "Bishkek"
+msgstr "Bishkek"
+
+#: pacmec-admin/includes/continents-cities.php:272
+msgid "Beirut"
+msgstr "Beirut"
+
+#: pacmec-admin/includes/continents-cities.php:270
+msgid "Bangkok"
+msgstr "Bangkok"
+
+#: pacmec-admin/includes/continents-cities.php:269
+msgid "Baku"
+msgstr "Bakú"
+
+#: pacmec-admin/includes/continents-cities.php:268
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: pacmec-admin/includes/continents-cities.php:267
+msgid "Baghdad"
+msgstr "Bagdad"
+
+#: pacmec-admin/includes/continents-cities.php:265
+msgid "Ashkhabad"
+msgstr "Ashkhabad"
+
+#: pacmec-admin/includes/continents-cities.php:264
+msgid "Ashgabat"
+msgstr "Ashgabat"
+
+#: pacmec-admin/includes/continents-cities.php:263
+msgid "Aqtobe"
+msgstr "Aqtobe"
+
+#: pacmec-admin/includes/continents-cities.php:262
+msgid "Aqtau"
+msgstr "Aqtau"
+
+#: pacmec-admin/includes/continents-cities.php:261
+msgid "Anadyr"
+msgstr "Anadyr"
+
+#: pacmec-admin/includes/continents-cities.php:260
+msgid "Amman"
+msgstr "Amman"
+
+#: pacmec-admin/includes/continents-cities.php:259
+msgid "Almaty"
+msgstr "Almaty"
+
+#: pacmec-admin/includes/continents-cities.php:258
+msgid "Aden"
+msgstr "Aden"
+
+#: pacmec-admin/includes/continents-cities.php:257
+msgid "Asia"
+msgstr "Asia"
+
+#: pacmec-admin/includes/continents-cities.php:255
+msgid "Longyearbyen"
+msgstr "Longyearbyen"
+
+#: pacmec-admin/includes/continents-cities.php:254
+msgid "Arctic"
+msgstr "Ártico"
+
+#: pacmec-admin/includes/continents-cities.php:252
+msgid "Vostok"
+msgstr "Vostok"
+
+#: pacmec-admin/includes/continents-cities.php:250
+msgid "Syowa"
+msgstr "Syowa"
+
+#: pacmec-admin/includes/continents-cities.php:249
+msgid "South Pole"
+msgstr "Polo Sur"
+
+#: pacmec-admin/includes/continents-cities.php:248
+msgid "Rothera"
+msgstr "Rothera"
+
+#: pacmec-admin/includes/continents-cities.php:247
+msgid "Palmer"
+msgstr "Palmer"
+
+#: pacmec-admin/includes/continents-cities.php:246
+msgid "McMurdo"
+msgstr "McMurdo"
+
+#: pacmec-admin/includes/continents-cities.php:245
+msgid "Mawson"
+msgstr "Mawson"
+
+#: pacmec-admin/includes/continents-cities.php:243
+msgid "DumontDUrville"
+msgstr "DumontDUrville"
+
+#: pacmec-admin/includes/continents-cities.php:242
+msgid "Davis"
+msgstr "Davis"
+
+#: pacmec-admin/includes/continents-cities.php:241
+msgid "Casey"
+msgstr "Casey"
+
+#: pacmec-admin/includes/continents-cities.php:240
+msgid "Antarctica"
+msgstr "Antártida"
+
+#: pacmec-admin/includes/continents-cities.php:238
+msgid "Yellowknife"
+msgstr "Yellowknife"
+
+#: pacmec-admin/includes/continents-cities.php:237
+msgid "Yakutat"
+msgstr "Yakutat"
+
+#: pacmec-admin/includes/continents-cities.php:236
+msgid "Winnipeg"
+msgstr "Winnipeg"
+
+#: pacmec-admin/includes/continents-cities.php:235
+msgid "Whitehorse"
+msgstr "Whitehorse"
+
+#: pacmec-admin/includes/continents-cities.php:234
+msgid "Virgin"
+msgstr "Virgin"
+
+#: pacmec-admin/includes/continents-cities.php:233
+msgid "Vancouver"
+msgstr "Vancouver"
+
+#: pacmec-admin/includes/continents-cities.php:232
+msgid "Tortola"
+msgstr "Tortola"
+
+#: pacmec-admin/includes/continents-cities.php:231
+msgid "Toronto"
+msgstr "Toronto"
+
+#: pacmec-admin/includes/continents-cities.php:230
+msgid "Tijuana"
+msgstr "Tijuana"
+
+#: pacmec-admin/includes/continents-cities.php:229
+msgid "Thunder Bay"
+msgstr "Thunder Bay"
+
+#: pacmec-admin/includes/continents-cities.php:228
+msgid "Thule"
+msgstr "Thule"
+
+#: pacmec-admin/includes/continents-cities.php:227
+msgid "Tegucigalpa"
+msgstr "Tegucigalpa"
+
+#: pacmec-admin/includes/continents-cities.php:226
+msgid "Swift Current"
+msgstr "Swift Current"
+
+#: pacmec-admin/includes/continents-cities.php:225
+msgid "St Vincent"
+msgstr "St Vincent"
+
+#: pacmec-admin/includes/continents-cities.php:224
+msgid "St Thomas"
+msgstr "St Thomas"
+
+#: pacmec-admin/includes/continents-cities.php:223
+msgid "St Lucia"
+msgstr "St Lucia"
+
+#: pacmec-admin/includes/continents-cities.php:222
+msgid "St Kitts"
+msgstr "St Kitts"
+
+#: pacmec-admin/includes/continents-cities.php:221
+msgid "St Johns"
+msgstr "St Johns"
+
+#: pacmec-admin/includes/continents-cities.php:220
+msgid "St Barthelemy"
+msgstr "St Barthelemy"
+
+#: pacmec-admin/includes/continents-cities.php:218
+msgid "Shiprock"
+msgstr "Shiprock"
+
+#: pacmec-admin/includes/continents-cities.php:217
+msgid "Scoresbysund"
+msgstr "Scoresbysund"
+
+#: pacmec-admin/includes/continents-cities.php:216
+msgid "Sao Paulo"
+msgstr "Sao Paulo"
+
+#: pacmec-admin/includes/continents-cities.php:215
+msgid "Santo Domingo"
+msgstr "Santo Domingo"
+
+#: pacmec-admin/includes/continents-cities.php:214
+msgid "Santiago"
+msgstr "Santiago"
+
+#: pacmec-admin/includes/continents-cities.php:211
+msgid "Rosario"
+msgstr "Rosario"
+
+#: pacmec-admin/includes/continents-cities.php:210
+msgid "Rio Branco"
+msgstr "Río Branco"
+
+#: pacmec-admin/includes/continents-cities.php:209
+msgid "Resolute"
+msgstr "Resolute"
+
+#: pacmec-admin/includes/continents-cities.php:208
+msgid "Regina"
+msgstr "Regina"
+
+#: pacmec-admin/includes/continents-cities.php:207
+msgid "Recife"
+msgstr "Recife"
+
+#: pacmec-admin/includes/continents-cities.php:206
+msgid "Rankin Inlet"
+msgstr "Rankin Inlet"
+
+#: pacmec-admin/includes/continents-cities.php:205
+msgid "Rainy River"
+msgstr "Rainy River"
+
+#: pacmec-admin/includes/continents-cities.php:203
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: pacmec-admin/includes/continents-cities.php:202
+msgid "Porto Velho"
+msgstr "Porto Velho"
+
+#: pacmec-admin/includes/continents-cities.php:201
+msgid "Porto Acre"
+msgstr "Porto Acre"
+
+#: pacmec-admin/includes/continents-cities.php:199
+msgid "Port of Spain"
+msgstr "Port of Spain"
+
+#: pacmec-admin/includes/continents-cities.php:200
+msgid "Port-au-Prince"
+msgstr "Puerto Príncipe"
+
+#: pacmec-admin/includes/continents-cities.php:198
+msgid "Phoenix"
+msgstr "Phoenix"
+
+#: pacmec-admin/includes/continents-cities.php:197
+msgid "Paramaribo"
+msgstr "Paramaribo"
+
+#: pacmec-admin/includes/continents-cities.php:196
+msgid "Pangnirtung"
+msgstr "Pangnirtung"
+
+#: pacmec-admin/includes/continents-cities.php:195
+msgid "Panama"
+msgstr "Panamá"
+
+#: pacmec-admin/includes/continents-cities.php:193
+msgid "New Salem"
+msgstr "New Salem"
+
+#: pacmec-admin/includes/continents-cities.php:192
+msgid "Center"
+msgstr "Center"
+
+#: pacmec-admin/includes/continents-cities.php:190
+msgid "North Dakota"
+msgstr "Dakota del Norte"
+
+#: pacmec-admin/includes/continents-cities.php:189
+msgid "Noronha"
+msgstr "Noronha"
+
+#: pacmec-admin/includes/continents-cities.php:188
+msgid "Nome"
+msgstr "Nome"
+
+#: pacmec-admin/includes/continents-cities.php:187
+msgid "Nipigon"
+msgstr "Nipigon"
+
+#: pacmec-admin/includes/continents-cities.php:186
+msgid "New York"
+msgstr "Nueva York"
+
+#: pacmec-admin/includes/continents-cities.php:185
+msgid "Nassau"
+msgstr "Nassau"
+
+#: pacmec-admin/includes/continents-cities.php:184
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: pacmec-admin/includes/continents-cities.php:183
+msgid "Montreal"
+msgstr "Montreal"
+
+#: pacmec-admin/includes/continents-cities.php:182
+msgid "Montevideo"
+msgstr "Montevideo"
+
+#: pacmec-admin/includes/continents-cities.php:181
+msgid "Monterrey"
+msgstr "Monterrey"
+
+#: pacmec-admin/includes/continents-cities.php:180
+msgid "Moncton"
+msgstr "Moncton"
+
+#: pacmec-admin/includes/continents-cities.php:179
+msgid "Miquelon"
+msgstr "Miquelon"
+
+#: pacmec-admin/includes/continents-cities.php:178
+msgid "Mexico City"
+msgstr "Ciudad de México"
+
+#: pacmec-admin/includes/continents-cities.php:176
+msgid "Merida"
+msgstr "Mérida"
+
+#: pacmec-admin/includes/continents-cities.php:175
+msgid "Menominee"
+msgstr "Menominee"
+
+#: pacmec-admin/includes/continents-cities.php:173
+msgid "Mazatlan"
+msgstr "Mazatlan"
+
+#: pacmec-admin/includes/continents-cities.php:171
+msgid "Martinique"
+msgstr "Martinica"
+
+#: pacmec-admin/includes/continents-cities.php:170
+msgid "Marigot"
+msgstr "Marigot"
+
+#: pacmec-admin/includes/continents-cities.php:169
+msgid "Manaus"
+msgstr "Manaus"
+
+#: pacmec-admin/includes/continents-cities.php:168
+msgid "Managua"
+msgstr "Managua"
+
+#: pacmec-admin/includes/continents-cities.php:167
+msgid "Maceio"
+msgstr "Maceio"
+
+#: pacmec-admin/includes/continents-cities.php:164
+msgid "Los Angeles"
+msgstr "Los Ángeles"
+
+#: pacmec-admin/includes/continents-cities.php:163
+msgid "Lima"
+msgstr "Lima"
+
+#: pacmec-admin/includes/continents-cities.php:162
+msgid "La Paz"
+msgstr "La Paz"
+
+#: pacmec-admin/includes/continents-cities.php:160
+msgid "Knox IN"
+msgstr "Knox IN"
+
+#: pacmec-admin/includes/continents-cities.php:159
+msgid "Monticello"
+msgstr "Monticello"
+
+#: pacmec-admin/includes/continents-cities.php:158
+#: pacmec-admin/includes/continents-cities.php:165
+msgid "Louisville"
+msgstr "Louisville"
+
+#: pacmec-admin/includes/continents-cities.php:157
+msgid "Kentucky"
+msgstr "Kentucky"
+
+#: pacmec-admin/includes/continents-cities.php:156
+msgid "Juneau"
+msgstr "Juneau"
+
+#: pacmec-admin/includes/continents-cities.php:154
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: pacmec-admin/includes/continents-cities.php:153
+msgid "Iqaluit"
+msgstr "Iqaluit"
+
+#: pacmec-admin/includes/continents-cities.php:152
+msgid "Inuvik"
+msgstr "Inuvik"
+
+#: pacmec-admin/includes/continents-cities.php:150
+msgid "Winamac"
+msgstr "Winamac"
+
+#: pacmec-admin/includes/continents-cities.php:149
+msgid "Vincennes"
+msgstr "Vincennes"
+
+#: pacmec-admin/includes/continents-cities.php:148
+msgid "Vevay"
+msgstr "Vevay"
+
+#: pacmec-admin/includes/continents-cities.php:147
+msgid "Tell City"
+msgstr "Tell City"
+
+#: pacmec-admin/includes/continents-cities.php:146
+msgid "Petersburg"
+msgstr "San Petersburgo"
+
+#: pacmec-admin/includes/continents-cities.php:145
+msgid "Marengo"
+msgstr "Marengo"
+
+#: pacmec-admin/includes/continents-cities.php:144
+msgid "Knox"
+msgstr "Knox"
+
+#: pacmec-admin/includes/continents-cities.php:143
+#: pacmec-admin/includes/continents-cities.php:151
+msgid "Indianapolis"
+msgstr "Indianapolis"
+
+#: pacmec-admin/includes/continents-cities.php:142
+msgid "Indiana"
+msgstr "Indiana"
+
+#: pacmec-admin/includes/continents-cities.php:141
+msgid "Hermosillo"
+msgstr "Hermosillo"
+
+#: pacmec-admin/includes/continents-cities.php:140
+msgid "Havana"
+msgstr "La Habana"
+
+#: pacmec-admin/includes/continents-cities.php:139
+msgid "Halifax"
+msgstr "Halifax"
+
+#: pacmec-admin/includes/continents-cities.php:138
+msgid "Guyana"
+msgstr "Guyana"
+
+#: pacmec-admin/includes/continents-cities.php:137
+msgid "Guayaquil"
+msgstr "Guayaquil"
+
+#: pacmec-admin/includes/continents-cities.php:136
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: pacmec-admin/includes/continents-cities.php:135
+msgid "Guadeloupe"
+msgstr "Guadalupe"
+
+#: pacmec-admin/includes/continents-cities.php:134
+msgid "Grenada"
+msgstr "Grenada"
+
+#: pacmec-admin/includes/continents-cities.php:133
+msgid "Grand Turk"
+msgstr "Grand Turk"
+
+#: pacmec-admin/includes/continents-cities.php:132
+msgid "Goose Bay"
+msgstr "Goose Bay"
+
+#: pacmec-admin/includes/continents-cities.php:131
+msgid "Godthab"
+msgstr "Godthab"
+
+#: pacmec-admin/includes/continents-cities.php:130
+msgid "Glace Bay"
+msgstr "Glace Bay"
+
+#: pacmec-admin/includes/continents-cities.php:129
+msgid "Fortaleza"
+msgstr "Fortaleza"
+
+#: pacmec-admin/includes/continents-cities.php:128
+msgid "Fort Wayne"
+msgstr "Fort Wayne"
+
+#: pacmec-admin/includes/continents-cities.php:126
+msgid "Ensenada"
+msgstr "Ensenada"
+
+#: pacmec-admin/includes/continents-cities.php:125
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: pacmec-admin/includes/continents-cities.php:124
+msgid "Eirunepe"
+msgstr "Eirunepe"
+
+#: pacmec-admin/includes/continents-cities.php:123
+msgid "Edmonton"
+msgstr "Edmonton"
+
+#: pacmec-admin/includes/continents-cities.php:122
+msgid "Dominica"
+msgstr "Dominica"
+
+#: pacmec-admin/includes/continents-cities.php:121
+msgid "Detroit"
+msgstr "Detroit"
+
+#: pacmec-admin/includes/continents-cities.php:120
+msgid "Denver"
+msgstr "Denver"
+
+#: pacmec-admin/includes/continents-cities.php:119
+msgid "Dawson Creek"
+msgstr "Dawson Creek"
+
+#: pacmec-admin/includes/continents-cities.php:118
+msgid "Dawson"
+msgstr "Dawson"
+
+#: pacmec-admin/includes/continents-cities.php:117
+msgid "Danmarkshavn"
+msgstr "Danmarkshavn"
+
+#: pacmec-admin/includes/continents-cities.php:116
+msgid "Curacao"
+msgstr "Curacao"
+
+#: pacmec-admin/includes/continents-cities.php:115
+msgid "Cuiaba"
+msgstr "Cuiaba"
+
+#: pacmec-admin/includes/continents-cities.php:113
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: pacmec-admin/includes/continents-cities.php:111
+msgid "Coral Harbour"
+msgstr "Coral Harbour"
+
+#: pacmec-admin/includes/continents-cities.php:110
+msgid "Chihuahua"
+msgstr "Chihuahua"
+
+#: pacmec-admin/includes/continents-cities.php:109
+msgid "Chicago"
+msgstr "Chicago"
+
+#: pacmec-admin/includes/continents-cities.php:108
+msgid "Cayman"
+msgstr "Caimán"
+
+#: pacmec-admin/includes/continents-cities.php:107
+msgid "Cayenne"
+msgstr "Cayenne"
+
+#: pacmec-admin/includes/continents-cities.php:105
+msgid "Caracas"
+msgstr "Caracas"
+
+#: pacmec-admin/includes/continents-cities.php:104
+msgid "Cancun"
+msgstr "Cancún"
+
+#: pacmec-admin/includes/continents-cities.php:103
+msgid "Campo Grande"
+msgstr "Campo Grande"
+
+#: pacmec-admin/includes/continents-cities.php:102
+msgid "Cambridge Bay"
+msgstr "Cambridge Bay"
+
+#: pacmec-admin/includes/continents-cities.php:100
+msgid "Boise"
+msgstr "Boise"
+
+#: pacmec-admin/includes/continents-cities.php:99
+msgid "Bogota"
+msgstr "Bogotá"
+
+#: pacmec-admin/includes/continents-cities.php:98
+msgid "Boa Vista"
+msgstr "Boa Vista"
+
+#: pacmec-admin/includes/continents-cities.php:97
+msgid "Blanc-Sablon"
+msgstr "Blanc-Sablon"
+
+#: pacmec-admin/includes/continents-cities.php:96
+msgid "Belize"
+msgstr "Belize"
+
+#: pacmec-admin/includes/continents-cities.php:95
+msgid "Belem"
+msgstr "Belén"
+
+#: pacmec-admin/includes/continents-cities.php:94
+msgid "Barbados"
+msgstr "Barbados"
+
+#: pacmec-admin/includes/continents-cities.php:92
+msgid "Bahia"
+msgstr "Bahia"
+
+#: pacmec-admin/includes/continents-cities.php:91
+msgid "Atka"
+msgstr "Atka"
+
+#: pacmec-admin/includes/continents-cities.php:90
+msgid "Atikokan"
+msgstr "Atikokan"
+
+#: pacmec-admin/includes/continents-cities.php:89
+msgid "Asuncion"
+msgstr "Asunción"
+
+#: pacmec-admin/includes/continents-cities.php:88
+msgid "Aruba"
+msgstr "Aruba"
+
+#: pacmec-admin/includes/continents-cities.php:87
+msgid "Ushuaia"
+msgstr "Ushuaia"
+
+#: pacmec-admin/includes/continents-cities.php:86
+msgid "Tucuman"
+msgstr "Tucumán"
+
+#: pacmec-admin/includes/continents-cities.php:85
+msgid "San Luis"
+msgstr "San Luis"
+
+#: pacmec-admin/includes/continents-cities.php:84
+msgid "San Juan"
+msgstr "San Juan"
+
+#: pacmec-admin/includes/continents-cities.php:82
+msgid "Rio Gallegos"
+msgstr "Rio Gallegos"
+
+#: pacmec-admin/includes/continents-cities.php:81
+#: pacmec-admin/includes/continents-cities.php:174
+msgid "Mendoza"
+msgstr "Mendoza"
+
+#: pacmec-admin/includes/continents-cities.php:80
+msgid "La Rioja"
+msgstr "La Rioja"
+
+#: pacmec-admin/includes/continents-cities.php:79
+#: pacmec-admin/includes/continents-cities.php:155
+msgid "Jujuy"
+msgstr "Jujuy"
+
+#: pacmec-admin/includes/continents-cities.php:78
+#: pacmec-admin/includes/continents-cities.php:112
+msgid "Cordoba"
+msgstr "Córdoba"
+
+#: pacmec-admin/includes/continents-cities.php:77
+msgid "ComodRivadavia"
+msgstr "ComodRivadavia"
+
+#: pacmec-admin/includes/continents-cities.php:76
+#: pacmec-admin/includes/continents-cities.php:106
+msgid "Catamarca"
+msgstr "Catamarca"
+
+#: pacmec-admin/includes/continents-cities.php:75
+#: pacmec-admin/includes/continents-cities.php:101
+msgid "Buenos Aires"
+msgstr "Buenos Aires"
+
+#: pacmec-admin/includes/continents-cities.php:74
+msgid "Argentina"
+msgstr "Argentina"
+
+#: pacmec-admin/includes/continents-cities.php:73
+msgid "Araguaina"
+msgstr "Araguaina"
+
+#: pacmec-admin/includes/continents-cities.php:72
+msgid "Antigua"
+msgstr "Antigua"
+
+#: pacmec-admin/includes/continents-cities.php:71
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: pacmec-admin/includes/continents-cities.php:70
+msgid "Anchorage"
+msgstr "Anchorage"
+
+#: pacmec-admin/includes/continents-cities.php:69
+msgid "Adak"
+msgstr "Adak"
+
+#: pacmec-admin/includes/continents-cities.php:68
+msgid "America"
+msgstr "América"
+
+#: pacmec-admin/includes/continents-cities.php:66
+msgid "Windhoek"
+msgstr "Windhoek"
+
+#: pacmec-admin/includes/continents-cities.php:65
+msgid "Tunis"
+msgstr "Túnez"
+
+#: pacmec-admin/includes/continents-cities.php:64
+msgid "Tripoli"
+msgstr "Trípoli"
+
+#: pacmec-admin/includes/continents-cities.php:63
+msgid "Timbuktu"
+msgstr "Tombuctú"
+
+#: pacmec-admin/includes/continents-cities.php:62
+msgid "Sao Tome"
+msgstr "Santo Tomé"
+
+#: pacmec-admin/includes/continents-cities.php:61
+msgid "Porto-Novo"
+msgstr "Porto-Novo"
+
+#: pacmec-admin/includes/continents-cities.php:60
+msgid "Ouagadougou"
+msgstr "Ouagadougou"
+
+#: pacmec-admin/includes/continents-cities.php:59
+msgid "Nouakchott"
+msgstr "Nouakchott"
+
+#: pacmec-admin/includes/continents-cities.php:58
+msgid "Niamey"
+msgstr "Niamey"
+
+#: pacmec-admin/includes/continents-cities.php:57
+msgid "Ndjamena"
+msgstr "Ndjamena"
+
+#: pacmec-admin/includes/continents-cities.php:56
+msgid "Nairobi"
+msgstr "Nairobi"
+
+#: pacmec-admin/includes/continents-cities.php:55
+msgid "Monrovia"
+msgstr "Monrovia"
+
+#: pacmec-admin/includes/continents-cities.php:54
+msgid "Mogadishu"
+msgstr "Mogadiscio"
+
+#: pacmec-admin/includes/continents-cities.php:53
+msgid "Mbabane"
+msgstr "Mbabane"
+
+#: pacmec-admin/includes/continents-cities.php:52
+msgid "Maseru"
+msgstr "Maseru"
+
+#: pacmec-admin/includes/continents-cities.php:51
+msgid "Maputo"
+msgstr "Maputo"
+
+#: pacmec-admin/includes/continents-cities.php:50
+msgid "Malabo"
+msgstr "Malabo"
+
+#: pacmec-admin/includes/continents-cities.php:49
+msgid "Lusaka"
+msgstr "Lusaka"
+
+#: pacmec-admin/includes/continents-cities.php:48
+msgid "Lubumbashi"
+msgstr "Lubumbashi"
+
+#: pacmec-admin/includes/continents-cities.php:47
+msgid "Luanda"
+msgstr "Luanda"
+
+#: pacmec-admin/includes/continents-cities.php:46
+msgid "Lome"
+msgstr "Lome"
+
+#: pacmec-admin/includes/continents-cities.php:45
+msgid "Libreville"
+msgstr "Libreville"
+
+#: pacmec-admin/includes/continents-cities.php:44
+msgid "Lagos"
+msgstr "Lagos"
+
+#: pacmec-admin/includes/continents-cities.php:43
+msgid "Kinshasa"
+msgstr "Kinshasa"
+
+#: pacmec-admin/includes/continents-cities.php:42
+msgid "Kigali"
+msgstr "Kigali"
+
+#: pacmec-admin/includes/continents-cities.php:41
+msgid "Khartoum"
+msgstr "Khartoum"
+
+#: pacmec-admin/includes/continents-cities.php:40
+msgid "Kampala"
+msgstr "Kampala"
+
+#: pacmec-admin/includes/continents-cities.php:38
+msgid "Johannesburg"
+msgstr "Johanesburgo"
+
+#: pacmec-admin/includes/continents-cities.php:37
+msgid "Harare"
+msgstr "Harare"
+
+#: pacmec-admin/includes/continents-cities.php:36
+msgid "Gaborone"
+msgstr "Gaborone"
+
+#: pacmec-admin/includes/continents-cities.php:35
+msgid "Freetown"
+msgstr "Freetown"
+
+#: pacmec-admin/includes/continents-cities.php:34
+msgid "El Aaiun"
+msgstr "El Aaiun"
+
+#: pacmec-admin/includes/continents-cities.php:33
+msgid "Douala"
+msgstr "Douala"
+
+#: pacmec-admin/includes/continents-cities.php:32
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: pacmec-admin/includes/continents-cities.php:31
+msgid "Dar es Salaam"
+msgstr "Dar es Salaam"
+
+#: pacmec-admin/includes/continents-cities.php:30
+msgid "Dakar"
+msgstr "Dakar"
+
+#: pacmec-admin/includes/continents-cities.php:29
+msgid "Conakry"
+msgstr "Conakry"
+
+#: pacmec-admin/includes/continents-cities.php:28
+msgid "Ceuta"
+msgstr "Ceuta"
+
+#: pacmec-admin/includes/continents-cities.php:27
+msgid "Casablanca"
+msgstr "Casablanca"
+
+#: pacmec-admin/includes/continents-cities.php:26
+msgid "Cairo"
+msgstr "El Cairo"
+
+#: pacmec-admin/includes/continents-cities.php:25
+msgid "Bujumbura"
+msgstr "Bujumbura"
+
+#: pacmec-admin/includes/continents-cities.php:24
+msgid "Brazzaville"
+msgstr "Brazzaville"
+
+#: pacmec-admin/includes/continents-cities.php:23
+msgid "Blantyre"
+msgstr "Blantyre"
+
+#: pacmec-admin/includes/continents-cities.php:22
+msgid "Bissau"
+msgstr "Bissau"
+
+#: pacmec-admin/includes/continents-cities.php:21
+msgid "Banjul"
+msgstr "Banjul"
+
+#: pacmec-admin/includes/continents-cities.php:20
+msgid "Bangui"
+msgstr "Bangui"
+
+#: pacmec-admin/includes/continents-cities.php:19
+msgid "Bamako"
+msgstr "Bamako"
+
+#: pacmec-admin/includes/continents-cities.php:18
+msgid "Asmera"
+msgstr "Asmera"
+
+#: pacmec-admin/includes/continents-cities.php:17
+msgid "Asmara"
+msgstr "Asmara"
+
+#: pacmec-admin/includes/continents-cities.php:16
+msgid "Algiers"
+msgstr "Argelia"
+
+#: pacmec-admin/includes/continents-cities.php:15
+msgid "Addis Ababa"
+msgstr "Addis Abeba"
+
+#: pacmec-admin/includes/continents-cities.php:14
+msgid "Accra"
+msgstr "Accra"
+
+#: pacmec-admin/includes/continents-cities.php:13
+msgid "Abidjan"
+msgstr "Abidjan"
+
+#: pacmec-admin/includes/continents-cities.php:12
+msgid "Africa"
+msgstr "África"
