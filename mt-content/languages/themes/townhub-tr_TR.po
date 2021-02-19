@@ -1,0 +1,2299 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TownHub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-23 13:48+0000\n"
+"PO-Revision-Date: 2020-02-26 05:41+0000\n"
+"Last-Translator: Admin <contact.cththemes@gmail.com>\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: functions.php:21
+msgid "About Us"
+msgstr "Hakkımızda"
+
+#: functions.php:27
+msgid "Our Last News"
+msgstr "Son Haberlerimiz"
+
+#: functions.php:32
+msgid "Our Tweets"
+msgstr "Tweetlerimiz"
+
+#: functions.php:41
+msgid "Subscribe Text"
+msgstr "Metin Abone Ol"
+
+#: functions.php:47
+msgid "Subscribe Form"
+msgstr "Abone Ol Formu"
+
+#: functions.php:100 template-parts/navigation/navigation-top.php:9
+msgid "Top Menu"
+msgstr "Üst Menü"
+
+#: functions.php:250
+msgid "Blog Sidebar"
+msgstr "Blog Kenar Çubuğu"
+
+#: functions.php:252
+msgid ""
+"Add widgets here to appear in your sidebar on blog posts and archive pages."
+msgstr ""
+"Blog yayınlarında ve arşiv sayfalarında kenar çubuğunuzda görünecek "
+"widget'ları buraya ekleyin."
+
+#: functions.php:260
+msgid "Page Sidebar"
+msgstr "Sayfa Kenar Çubuğu"
+
+#: functions.php:262
+msgid "Appears in the sidebar section of the page template."
+msgstr "Sayfa şablonunun kenar çubuğu bölümünde görünür."
+
+#: functions.php:270 includes/redux-sections/shop.php:58
+msgid "Shop Sidebar"
+msgstr "Alışveriş Kenar Çubuğu"
+
+#: functions.php:272
+msgid "Appears in the sidebar section of the shop pages."
+msgstr "Mağaza sayfalarının kenar çubuğu bölümünde görünür."
+
+#: functions.php:280
+msgid "Languages Switcher"
+msgstr "Diller Değiştirici"
+
+#: functions.php:282
+msgid "Appears in the header section of the pages."
+msgstr "Sayfaların başlık bölümünde görünür."
+
+#: functions.php:331
+msgid "Footer Menu"
+msgstr "Altbilgi Menüsü"
+
+#: functions.php:333
+msgid "Appears in the subfooter section."
+msgstr "Alt tabaka bölümünde görünür."
+
+#: functions.php:381
+msgctxt "Raleway font: on or off"
+msgid "on"
+msgstr "üzerinde"
+
+#: functions.php:386
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr "üzerinde"
+
+#: functions.php:511
+msgid "Redux Framework"
+msgstr "Redux Çerçevesi"
+
+#: functions.php:525
+msgid "Elementor Page Builder"
+msgstr "Elementor Sayfa Oluşturucu"
+
+#: functions.php:539
+msgid "Contact Form 7"
+msgstr "İletişim Formu 7"
+
+#: functions.php:553
+msgid "CMB2"
+msgstr "CMB2"
+
+#: functions.php:568
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: functions.php:583
+msgid "TownHub Add-ons"
+msgstr "TownHub Eklentileri"
+
+#: functions.php:598
+msgid "TownHub WooCommerce Payments"
+msgstr "TownHub WooCommerce Ödemeleri"
+
+#: functions.php:616
+msgid "Loco Translate"
+msgstr "Loco Çeviri"
+
+#: functions.php:629
+msgid "One Click Demo Import"
+msgstr "Tek Tıkla Demo İçe Aktar"
+
+#: functions.php:644
+msgid "Regenerate Thumbnails"
+msgstr "Küçük Resimleri Yeniden Oluştur"
+
+#: functions.php:657
+msgid "WP Facebook Login for WordPress"
+msgstr "WordPress için WP Facebook Girişi"
+
+#: functions.php:670
+msgid "WordPress Social Login (Facebook, Google, Twitter)"
+msgstr "WordPress Sosyal Girişi (Facebook, Google, Twitter)"
+
+#. Name of the template
+msgid "Home Page"
+msgstr "Ana Sayfa"
+
+#. Name of the template
+msgid "No Sidebar - Breadcrumbs"
+msgstr "Kenar Çubuğu Yok - Ekmek Kırıntıları"
+
+#: 404.php:20
+msgid "404"
+msgstr "404"
+
+#: 404.php:30 template-parts/page/protected-page.php:29
+msgid "Or"
+msgstr "Veya"
+
+#: 404.php:31 template-parts/page/protected-page.php:30
+msgid "Back to Home Page"
+msgstr "Ana sayfaya geri dön"
+
+#. Name of the template
+msgid "Fullwidth"
+msgstr "Tam genişlik"
+
+#: comments.php:26
+msgid "Comments - "
+msgstr "Yorumlar -"
+
+#: comments.php:36
+msgid "Reply"
+msgstr "cevap"
+
+#: comments.php:58
+msgid "<i class=\"fa fa-angle-left\"></i> Previous Comments"
+msgstr "<i class=\"fa fa-angle-left\"></i> Önceki Yorumlar"
+
+#: comments.php:59
+msgid "Next Comments <i class=\"fa fa-angle-right\"></i>"
+msgstr "Sonraki Yorumlar <i class=\"fa fa-angle-right\"></i>"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Yoruma kapalı."
+
+#: comments.php:83
+msgid "Add Comment"
+msgstr "Yorum ekle"
+
+#: comments.php:86
+msgid "Your Name "
+msgstr "Adınız"
+
+#: comments.php:87
+msgid "Your Email "
+msgstr "E-posta adresiniz"
+
+#: comments.php:90
+msgid "Your Comment:"
+msgstr "Senin yorumun:"
+
+#: comments.php:95
+msgid "Submit Comment"
+msgstr "Yorum Gönder"
+
+#: comments.php:96
+msgid ""
+"You must be <a class=\"comment-log-popup logreg-modal-open\" href=\"#\">"
+"logged in</a> to post a comment."
+msgstr ""
+"Yorum yapabilmek için <a class=\"comment-log-popup logreg-modal-open\" "
+"href=\"#\">giriş</a> yapmalısınız."
+
+#: comments.php:97
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"<a href=\"%1$s\">%2$s olarak giriş yapıldı</a> . <a href=\"%3$s\" title=\" "
+"&quot;Log\" out of  this account\">Çıkış Yap?</a>"
+
+#: comments.php:98
+msgid "Your email is safe with us."
+msgstr "E-postanız bizimle güvende."
+
+#. Name of the template
+msgid "Left Sidebar"
+msgstr "Sol Kenar Çubuğu"
+
+#: search.php:28
+#, php-format
+msgid "Search Results for: %s"
+msgstr "% S için Arama Sonuçları"
+
+#: search.php:30 template-parts/post/content-none.php:15
+msgid "Nothing Found"
+msgstr "Hiçbirşey Bulunamadı"
+
+#. Name of the template
+msgid "Right Sidebar"
+msgstr "Sağ Kenar Çubuğu"
+
+#: footer.php:32
+msgid "Close "
+msgstr "Kapat"
+
+#: footer.php:33
+msgid "Your cart"
+msgstr "Alışveriş sepetiniz"
+
+#. Name of the template
+msgid "Home Fullscreen"
+msgstr "Tam Ekran"
+
+#. Name of the template
+msgid "No Sidebar"
+msgstr "Kenar Çubuğu Yok"
+
+#: searchform.php:9
+msgctxt "search input placeholder"
+msgid "Search..."
+msgstr "Arama..."
+
+#: inc/ajax.php:22 inc/ajax.php:108
+msgid "Sorry, your nonce did not verify."
+msgstr "Maalesef, nonce'niz doğrulanmadı."
+
+#: inc/icon-functions.php:11
+msgid "Please define default parameters in the form of an array."
+msgstr "Lütfen varsayılan parametreleri bir dizi şeklinde tanımlayın."
+
+#: inc/icon-functions.php:16
+msgid "Please define an SVG icon filename."
+msgstr "Lütfen bir SVG simgesi dosya adı tanımlayın."
+
+#: inc/one-click-import-data.php:9 inc/one-click-import-data.php:12
+msgid "TownHub theme - Full Demo Content (widgets included)"
+msgstr "TownHub teması - Tam Demo İçerik (widget'lar dahil)"
+
+#: inc/custom-header.php:46
+msgid "Default Header Image"
+msgstr "Varsayılan Başlık Resmi"
+
+#: inc/custom-header.php:115
+msgid "Play background video"
+msgstr "Arka plan videosunu oynat"
+
+#: inc/custom-header.php:116
+msgid "Pause background video"
+msgstr "Arka plan videosunu duraklat"
+
+#: inc/woo-init.php:161
+msgid "Details"
+msgstr "ayrıntılar"
+
+#: inc/template-tags.php:157
+msgid "Prev Post"
+msgstr "Önceki Yazı"
+
+#: inc/template-tags.php:157 inc/template-tags.php:168
+#, php-format
+msgid "<br /> %s"
+msgstr "<br />  %s"
+
+#: inc/template-tags.php:168
+msgid "Next Post"
+msgstr "Sonraki Gönderi"
+
+#: inc/template-tags.php:203 inc/template-tags.php:249
+#: inc/template-tags.php:435
+msgid "Prev"
+msgstr "Önceki"
+
+#: inc/template-tags.php:212 inc/template-tags.php:258
+#: inc/template-tags.php:439
+msgid "Next"
+msgstr "Sonraki"
+
+#: inc/template-tags.php:310
+msgid "F j, Y g:i a"
+msgstr "F j, Y g: it"
+
+#: inc/template-tags.php:316
+msgid "Your comment is awaiting moderation."
+msgstr "Yorumunuz onay bekliyor."
+
+#: inc/template-tags.php:341
+msgid "<i class=\"fas fa-caret-left\"></i><span>Prev</span>"
+msgstr "<i class=\"fas fa-caret-left\"></i> <span>Önceki</span>"
+
+#: inc/template-tags.php:342
+msgid "<span>Next</span><i class=\"fas fa-caret-right\"></i>"
+msgstr "<span>Sonraki</span> <i class=\"fas fa-caret-right\"></i>"
+
+#: inc/template-tags.php:343
+msgid "Posts navigation"
+msgstr "Mesajlarda gezinme"
+
+#: inc/template-tags.php:381
+msgid "<i class=\"fa fa-chevron-left\"></i>"
+msgstr "<i class=\"fa fa-chevron-left\"></i>"
+
+#: inc/template-tags.php:390
+msgid "<i class=\"fa fa-chevron-right\"></i>"
+msgstr "<i class=\"fa fa-chevron-right\"></i>"
+
+#: inc/template-tags.php:436
+msgid "Previous Projects"
+msgstr "Önceki Projeler"
+
+#: inc/template-tags.php:440
+msgid "Next Projects"
+msgstr "Sonraki Projeler"
+
+#: inc/template-tags.php:460
+msgid "Home"
+msgstr "Ev"
+
+#: inc/template-tags.php:461
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/template-tags.php:468
+msgctxt "listing archive in breadcrumb"
+msgid "Listing"
+msgstr "Liste"
+
+#: inc/template-tags.php:469
+msgctxt "product archive in breadcrumb"
+msgid "Products"
+msgstr "Ürün: %s"
+
+#: inc/template-tags.php:661 inc/template-tags.php:665
+#: inc/template-tags.php:669 inc/template-tags.php:676
+#: inc/template-tags.php:680 inc/template-tags.php:685
+msgid " Archives"
+msgstr "arşiv"
+
+#: inc/template-tags.php:696
+msgid " Author: "
+msgstr "Yazar:"
+
+#: inc/template-tags.php:701
+msgid "Page"
+msgstr "Sayfa"
+
+#: inc/template-tags.php:706
+msgid "Search results for: "
+msgstr "İçin arama sonuçları:"
+
+#: inc/template-tags.php:711
+msgid "Error 404"
+msgstr "Hata 404"
+
+#. %s: Name of current post
+#: inc/template-tags.php:736
+#, php-format
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "<span class=\"screen-reader-text\"> &quot;% S \"</span> düzenle"
+
+#: inc/template-tags.php:791 template-parts/page/content-page-woo.php:27
+#: template-parts/page/content-page.php:27
+#: template-parts/page/content-fullwidth-page.php:20
+msgid "Pages:"
+msgstr "Sayfalar:"
+
+#: inc/template-tags.php:808 inc/template-tags.php:855
+#, php-format
+msgid "<span>By, %s</span>"
+msgstr "<span>Gönderen, %s</span>"
+
+#: inc/template-tags.php:827
+msgid "Read more"
+msgstr "Daha fazla oku"
+
+#: inc/template-tags.php:837 inc/template-tags.php:885
+msgid "Tags: "
+msgstr "Etiketler:"
+
+#: inc/template-tags.php:871
+msgctxt "comment counter None format"
+msgid "0 comment"
+msgstr "0 yorum"
+
+#: inc/template-tags.php:871
+msgctxt "comment counter One format"
+msgid "1 comment"
+msgstr "1 yorum"
+
+#: inc/template-tags.php:871
+#, php-format
+msgctxt "comment counter Plural format"
+msgid "% comments"
+msgstr "% yorum"
+
+#: inc/template-tags.php:894
+msgid "FEATURED"
+msgstr "VİTRİN"
+
+#: inc/template-functions.php:143
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+"Bu içerik şifre korumalıdır. Görüntülemek için lütfen aşağıya şifrenizi "
+"girin:"
+
+#: inc/back-compat.php:37 inc/back-compat.php:49 inc/back-compat.php:64
+#, php-format
+msgid ""
+"TownHub requires at least WordPress version 5.0. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+"TownHub en az WordPress sürüm 5.0 gerektirir. % S sürümünü çalıştırıyorsunuz."
+" Lütfen yeni sürüme geçin ve tekrar deneyin."
+
+#: includes/redux-configs.php:37 includes/redux-configs.php:38
+msgid "TownHub Options"
+msgstr "TownHub Seçenekleri"
+
+#: includes/redux-configs.php:148 includes/redux-configs.php:150
+msgid ""
+"<p><strong>TownHub - Creative  Responsive  Architecture WordPress "
+"Theme</strong> is perfect if you like a clean and modern design. This theme "
+"is ideal for designers, photographers, and those who need an easy, "
+"attractive and effective way to share their work with clients.</p>"
+msgstr ""
+"<p> <strong>TownHub - Yaratıcı ve Duyarlı Mimari WordPress Teması</strong> , "
+"temiz ve modern bir tasarımdan hoşlanıyorsanız mükemmeldir. Bu tema "
+"tasarımcılar, fotoğrafçılar ve işlerini müşterilerle paylaşmak için kolay, "
+"çekici ve etkili bir yola ihtiyaç duyanlar için idealdir. </p>"
+
+#: includes/redux-configs.php:154
+msgid ""
+"Thanks all of you who stay with us, your co-operation is our inspiration."
+msgstr ""
+"Bizimle kalan hepinize teşekkürler, işbirliğiniz bizim ilham kaynağımızdır."
+
+#: includes/redux-configs.php:329
+msgid "Section via hook"
+msgstr "Kanca ile bölüm"
+
+#: includes/redux-configs.php:330
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+"<p class=\"description\"> Bölümler dizisine filtre ekleyerek oluşturulan bir "
+"bölümdür. Alt temalar tarafından seçeneklere bölüm eklemek / seçeneklerden "
+"bölüm kaldırmak için kullanılabilir. </p>"
+
+#: lib/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Gerekli Eklentileri yükleyin"
+
+#: lib/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Eklentileri Yükle"
+
+#. %s: plugin name.
+#: lib/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Eklenti Yükleme: %s"
+
+#. %s: plugin name.
+#: lib/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Eklenti Güncelleniyor: %s"
+
+#: lib/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Eklenti API'sında bir sorun oluştu."
+
+#: lib/class-tgm-plugin-activation.php:341
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Bu tema şu eklentiyi gerektirir:%1$s."
+msgstr[1] "Bu tema şu eklentileri gerektirir:%1$s."
+
+#: lib/class-tgm-plugin-activation.php:347
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Bu tema şu eklentiyi önerir:%1$s."
+msgstr[1] "Bu tema şu eklentileri önerir:%1$s."
+
+#: lib/class-tgm-plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Bu temayla maksimum uyumluluk sağlamak için aşağıdaki eklentinin en son "
+"sürümüne güncellenmesi gerekiyor:%1$s. msgid_plural Bu temayla maksimum "
+"uyumluluk sağlamak için aşağıdaki eklentiler en son sürümlerine "
+"güncellenmelidir:%1$s."
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:359
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Mevcut bir güncelleme var:%1$s."
+msgstr[1] "Şu eklentiler için kullanılabilir güncellemeler var:%1$s."
+
+#: lib/class-tgm-plugin-activation.php:365
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Aşağıdaki gerekli eklenti şu anda etkin değil:%1$s."
+msgstr[1] "Aşağıdaki gerekli eklentiler şu anda etkin değil:%1$s."
+
+#: lib/class-tgm-plugin-activation.php:371
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Aşağıdaki önerilen eklenti şu anda etkin değil:%1$s."
+msgstr[1] "Aşağıdaki önerilen eklentiler şu anda etkin değil:%1$s."
+
+#: lib/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Eklentiyi yüklemeye başlayın"
+msgstr[1] "Eklentileri yüklemeye başlayın"
+
+#: lib/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Eklentiyi güncellemeye başlayın"
+msgstr[1] "Eklentileri güncellemeye başlayın"
+
+#: lib/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Eklentiyi etkinleştirmeye başla"
+msgstr[1] "Eklentileri etkinleştirmeye başlayın"
+
+#: lib/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Gerekli Eklentiler Yükleyicisine Dön"
+
+#: lib/class-tgm-plugin-activation.php:393
+#: lib/class-tgm-plugin-activation.php:912
+#: lib/class-tgm-plugin-activation.php:2626
+#: lib/class-tgm-plugin-activation.php:3689
+msgid "Return to the Dashboard"
+msgstr "Gösterge Tablosuna Dön"
+
+#: lib/class-tgm-plugin-activation.php:394
+#: lib/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr "Eklenti başarıyla etkinleştirildi."
+
+#: lib/class-tgm-plugin-activation.php:395
+#: lib/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgstr "Aşağıdaki eklenti başarıyla etkinleştirildi:"
+
+#. 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Herhangi bir işlem yapılmadı. %1$s eklentisi zaten etkin."
+
+#. 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Eklenti etkinleştirilmedi. Bu tema için %s daha yüksek bir sürümü gerekiyor. "
+"Lütfen eklentiyi güncelleyin."
+
+#. 1: dashboard link.
+#: lib/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tüm eklentiler başarıyla yüklendi ve etkinleştirildi. %1$s"
+
+#: lib/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Bu bildirimi reddet"
+
+#: lib/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Yüklemek, güncellemek veya etkinleştirmek için bir veya daha fazla gerekli "
+"veya önerilen eklenti var."
+
+#: lib/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Lütfen yardım için bu sitenin yöneticisine başvurun."
+
+#: lib/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Bu eklentinin temanızla uyumlu olması için güncellenmesi gerekiyor."
+
+#: lib/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Güncelleştirme gerekli"
+
+#: lib/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Uzak eklenti paketi istenen slug içeren bir klasör içermiyor ve yeniden "
+"adlandırma işe yaramadı."
+
+#: lib/class-tgm-plugin-activation.php:1019
+#: lib/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Lütfen eklenti sağlayıcısına başvurun ve eklentilerini WordPress "
+"yönergelerine göre paketlemelerini isteyin."
+
+#: lib/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Uzak eklenti paketi birden fazla dosyadan oluşur, ancak dosyalar bir "
+"klasörde paketlenmez."
+
+#: lib/class-tgm-plugin-activation.php:1206
+#: lib/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "ve"
+
+#. %s: version number
+#: lib/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr "% S cinsinden TGMPA"
+
+#: lib/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr "gereklidir"
+
+#: lib/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr "Önerilen"
+
+#: lib/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr "WordPress Deposu"
+
+#: lib/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr "Dış kaynak"
+
+#: lib/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr "Ön Paketlenmiş"
+
+#: lib/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr "Yüklü değil"
+
+#: lib/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "Yüklü Ama Etkin Değil"
+
+#: lib/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr "Aktif"
+
+#: lib/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr "Gerekli Güncelleme Mevcut Değil"
+
+#: lib/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr "Güncelleme gerektirir"
+
+#: lib/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr "Tavsiye edilen güncelleme"
+
+#. 1: install status, 2: update status
+#: lib/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s,%2$s"
+
+#. 1: number of plugins.
+#: lib/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Tümü <span class=\"count\">( %s)</span>"
+msgstr[1] "Tümü <span class=\"count\">( %s)</span>"
+
+#. 1: number of plugins.
+#: lib/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Yüklemek için <span class=\"count\">( %s)</span>"
+msgstr[1] "Yüklemek için <span class=\"count\">( %s)</span>"
+
+#. 1: number of plugins.
+#: lib/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Güncelleme Mevcut <span class=\"count\">( %s)</span>"
+msgstr[1] "Güncelleme Mevcut <span class=\"count\">( %s)</span>"
+
+#. 1: number of plugins.
+#: lib/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Etkinleştirmek için <span class=\"count\">( %s)</span>"
+msgstr[1] "Etkinleştirmek için <span class=\"count\">( %s)</span>"
+
+#: lib/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "Bilinmeyen"
+
+#: lib/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr "Yüklü sürüm:"
+
+#: lib/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr "Gereken minimum sürüm:"
+
+#: lib/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr "Mevcut sürüm:"
+
+#: lib/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr "Yüklenecek, güncellenecek veya etkinleştirilecek eklenti yok."
+
+#: lib/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr "Eklenti"
+
+#: lib/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr "Kaynak"
+
+#: lib/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr "tip"
+
+#: lib/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr "versiyon"
+
+#: lib/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr "durum"
+
+#. %2$s: plugin name in screen reader markup
+#: lib/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr "%2$s yükle"
+
+#. %2$s: plugin name in screen reader markup
+#: lib/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr "%2$s güncelleyin"
+
+#. %2$s: plugin name in screen reader markup
+#: lib/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr "%2$s'yi etkinleştir"
+
+#: lib/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr "Eklenti yazarından yeni sürüme geçiş mesajı:"
+
+#: lib/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr "Yüklemek"
+
+#: lib/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr "Güncelleme"
+
+#: lib/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr "etkinleştirme"
+
+#: lib/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Yüklenecek eklenti seçilmedi. Herhangi bir işlem yapılmadı."
+
+#: lib/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Güncellenecek eklenti seçilmedi. Herhangi bir işlem yapılmadı."
+
+#: lib/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr "Şu anda yüklenecek eklenti yok."
+
+#: lib/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr "Şu anda güncellenecek hiçbir eklenti yok."
+
+#: lib/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"Etkinleştirilecek hiçbir eklenti seçilmedi. Herhangi bir işlem yapılmadı."
+
+#: lib/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Şu anda etkinleştirilecek eklenti yok."
+msgstr[1] "Aşağıdaki eklentiler başarıyla etkinleştirildi:"
+
+#: lib/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr "Eklenti etkinleştirilemedi."
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: lib/class-tgm-plugin-activation.php:3607
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Eklenti güncelleniyor%1$s (%2$d /%3$d)"
+
+#. 1: plugin name, 2: error message.
+#: lib/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "%1$s: <strong>%2$s</strong> yüklenirken bir hata oluştu."
+
+#. 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:3612
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "%1$s yüklenemedi."
+
+#: lib/class-tgm-plugin-activation.php:3616
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Yükleme ve etkinleştirme işlemi başlıyor. Bu işlem bazı konakçılarda biraz "
+"zaman alabilir, bu yüzden lütfen sabırlı olun."
+
+#. 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:3618
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s başarıyla yüklendi ve etkinleştirildi."
+
+#: lib/class-tgm-plugin-activation.php:3618
+#: lib/class-tgm-plugin-activation.php:3626
+msgid "Show Details"
+msgstr "Detayları göster"
+
+#: lib/class-tgm-plugin-activation.php:3618
+#: lib/class-tgm-plugin-activation.php:3626
+msgid "Hide Details"
+msgstr "Detayları gizle"
+
+#: lib/class-tgm-plugin-activation.php:3619
+msgid "All installations and activations have been completed."
+msgstr "Tüm kurulumlar ve etkinleştirmeler tamamlandı."
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: lib/class-tgm-plugin-activation.php:3621
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s Eklentisini Yükleme ve Etkinleştirme (%2$d /%3$d)"
+
+#: lib/class-tgm-plugin-activation.php:3624
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Kurulum işlemi başlıyor. Bu işlem bazı konakçılarda biraz zaman alabilir, bu "
+"yüzden lütfen sabırlı olun."
+
+#. 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:3626
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s başarıyla yüklendi."
+
+#: lib/class-tgm-plugin-activation.php:3627
+msgid "All installations have been completed."
+msgstr "Tüm kurulumlar tamamlandı."
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: lib/class-tgm-plugin-activation.php:3629
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s Eklentisi Yükleniyor (%2$d /%3$d)"
+
+#. %s: Quantity.
+#: woocommerce/global/quantity-input.php:28
+#, php-format
+msgid "%s quantity"
+msgstr " %s miktar"
+
+#: woocommerce/global/quantity-input.php:28
+msgid "Quantity"
+msgstr "miktar"
+
+#: woocommerce/global/quantity-input.php:42
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "Adet"
+
+#: includes/redux-sections/404.php:5
+msgid "404 Page"
+msgstr "404 Sayfa"
+
+#: includes/redux-sections/404.php:14
+msgid "Background Image"
+msgstr "Arka plan görüntüsü"
+
+#: includes/redux-sections/404.php:21
+msgid "Additional Message"
+msgstr "Ek Mesaj"
+
+#: includes/redux-sections/404.php:27
+#: includes/redux-sections/blog-single.php:28
+#: includes/redux-sections/blog-single.php:37
+#: includes/redux-sections/blog-single.php:47
+#: includes/redux-sections/blog-single.php:58
+#: includes/redux-sections/blog-single.php:68
+#: includes/redux-sections/blog-single.php:78
+#: includes/redux-sections/blog-single.php:88
+#: includes/redux-sections/blog-single.php:98
+#: includes/redux-sections/blog-single.php:108
+#: includes/redux-sections/colors.php:14
+#: includes/redux-sections/shop-single.php:35
+#: includes/redux-sections/shop-single.php:43
+#: includes/redux-sections/shop.php:14 includes/redux-sections/shop.php:43
+#: includes/redux-sections/thumbnails.php:18
+#: includes/redux-sections/header.php:24 includes/redux-sections/header.php:44
+#: includes/redux-sections/header.php:54 includes/redux-sections/blog.php:14
+#: includes/redux-sections/blog.php:81 includes/redux-sections/blog.php:90
+#: includes/redux-sections/blog.php:99 includes/redux-sections/blog.php:109
+#: includes/redux-sections/blog.php:119 includes/redux-sections/blog.php:129
+#: includes/redux-sections/footer.php:28 includes/redux-sections/general.php:16
+#: includes/redux-sections/general.php:33
+msgid "Yes"
+msgstr "Evet"
+
+#: includes/redux-sections/404.php:28
+#: includes/redux-sections/blog-single.php:29
+#: includes/redux-sections/blog-single.php:38
+#: includes/redux-sections/blog-single.php:48
+#: includes/redux-sections/blog-single.php:59
+#: includes/redux-sections/blog-single.php:69
+#: includes/redux-sections/blog-single.php:79
+#: includes/redux-sections/blog-single.php:89
+#: includes/redux-sections/blog-single.php:99
+#: includes/redux-sections/blog-single.php:109
+#: includes/redux-sections/colors.php:15
+#: includes/redux-sections/shop-single.php:36
+#: includes/redux-sections/shop-single.php:44
+#: includes/redux-sections/shop.php:15 includes/redux-sections/shop.php:44
+#: includes/redux-sections/thumbnails.php:19
+#: includes/redux-sections/header.php:25 includes/redux-sections/header.php:45
+#: includes/redux-sections/header.php:55 includes/redux-sections/blog.php:15
+#: includes/redux-sections/blog.php:82 includes/redux-sections/blog.php:91
+#: includes/redux-sections/blog.php:100 includes/redux-sections/blog.php:110
+#: includes/redux-sections/blog.php:120 includes/redux-sections/blog.php:130
+#: includes/redux-sections/footer.php:29 includes/redux-sections/general.php:17
+#: includes/redux-sections/general.php:34
+msgid "No"
+msgstr "Hayır"
+
+#: includes/redux-sections/404.php:29
+msgid "Show back Home"
+msgstr "Ana Sayfa"
+
+#: includes/redux-sections/blog-single.php:5
+msgid "Blog Single"
+msgstr "Blog Tek"
+
+#: includes/redux-sections/blog-single.php:13
+#: includes/redux-sections/shop.php:83 includes/redux-sections/blog.php:66
+msgid "Sidebar Width"
+msgstr "Kenar Çubuğu Genişliği"
+
+#: includes/redux-sections/blog-single.php:14
+#: includes/redux-sections/shop.php:84 includes/redux-sections/blog.php:67
+msgid "Based on Bootstrap 12 columns."
+msgstr "Bootstrap 12 sütunlarına göre."
+
+#: includes/redux-sections/blog-single.php:16
+#: includes/redux-sections/shop.php:86 includes/redux-sections/blog.php:69
+msgid "2 Columns"
+msgstr "2 Sütun"
+
+#: includes/redux-sections/blog-single.php:17
+#: includes/redux-sections/shop.php:87 includes/redux-sections/blog.php:70
+msgid "3 Columns"
+msgstr "3 Sütun"
+
+#: includes/redux-sections/blog-single.php:18
+#: includes/redux-sections/shop.php:88 includes/redux-sections/blog.php:71
+msgid "4 Columns"
+msgstr "4 Sütun"
+
+#: includes/redux-sections/blog-single.php:19
+#: includes/redux-sections/shop.php:89 includes/redux-sections/blog.php:72
+msgid "5 Columns"
+msgstr "5 Sütun"
+
+#: includes/redux-sections/blog-single.php:20
+#: includes/redux-sections/shop.php:90 includes/redux-sections/blog.php:73
+msgid "6 Columns"
+msgstr "6 Sütun"
+
+#: includes/redux-sections/blog-single.php:30
+msgid "Show Featured Image"
+msgstr "Öne Çıkan Resmi Göster"
+
+#: includes/redux-sections/blog-single.php:39
+#: includes/redux-sections/blog.php:101
+msgid "Show Author"
+msgstr "Yazarı Göster"
+
+#: includes/redux-sections/blog-single.php:49
+#: includes/redux-sections/blog.php:92
+msgid "Show Date"
+msgstr "Tarihi Göster"
+
+#: includes/redux-sections/blog-single.php:60
+#: includes/redux-sections/blog.php:111
+msgid "Show Categories"
+msgstr "Kategorileri Göster"
+
+#: includes/redux-sections/blog-single.php:70
+#: includes/redux-sections/blog.php:121
+msgid "Show Tags"
+msgstr "Etiketleri göster"
+
+#: includes/redux-sections/blog-single.php:80
+#: includes/redux-sections/blog.php:131
+msgid "Show Comments"
+msgstr "Yorumları Göster"
+
+#: includes/redux-sections/blog-single.php:90
+msgid "Show Author Block"
+msgstr "Yazar Bloğunu Göster"
+
+#: includes/redux-sections/blog-single.php:100
+msgid "Show post navigation"
+msgstr "Yazı navigasyonunu göster"
+
+#: includes/redux-sections/blog-single.php:110
+msgid "Next/Prev posts should be in same category"
+msgstr "Sonraki / Önceki yayınlar aynı kategoride olmalıdır"
+
+#: includes/redux-sections/colors.php:5
+msgid "Colors"
+msgstr "Renkler"
+
+#: includes/redux-sections/colors.php:16
+msgid "Use Custom Colors"
+msgstr "Özel Renkler Kullan"
+
+#: includes/redux-sections/colors.php:17
+msgid "Set this option to <b>Yes</b> if you want to use color variants bellow."
+msgstr ""
+"Aşağıdaki renk çeşitlerini kullanmak istiyorsanız bu seçeneği <b>Evet "
+"olarak</b> ayarlayın."
+
+#: includes/redux-sections/colors.php:25
+msgid "Theme Color"
+msgstr "Tema Rengi"
+
+#: includes/redux-sections/colors.php:26
+msgid "Default: #4DB7FE"
+msgstr "Varsayılan: # 4DB7FE"
+
+#: includes/redux-sections/colors.php:32
+msgid "Theme Secondary Color"
+msgstr "Tema İkincil Rengi"
+
+#: includes/redux-sections/colors.php:33
+msgid "Default: #5ECFB1"
+msgstr "Varsayılan: # 5ECFB1"
+
+#: includes/redux-sections/colors.php:39
+msgid "Button Hover Color - Theme third color"
+msgstr "Düğme Vurgulu Rengi - Tema üçüncü rengi"
+
+#: includes/redux-sections/colors.php:40 includes/redux-sections/colors.php:47
+#: includes/redux-sections/colors.php:54
+msgid "Default: #2F3B59"
+msgstr "Varsayılan: # 2F3B59"
+
+#: includes/redux-sections/colors.php:46
+msgid "Body Background Color"
+msgstr "Gövde Arka Plan Rengi"
+
+#: includes/redux-sections/colors.php:53
+msgid "Loader Background Color"
+msgstr "Yükleyici Arka Plan Rengi"
+
+#: includes/redux-sections/colors.php:60
+msgid "Body Text Color"
+msgstr "Gövde Metni Rengi"
+
+#: includes/redux-sections/colors.php:61
+msgid "Default: #000"
+msgstr "Varsayılan: # 000"
+
+#: includes/redux-sections/colors.php:67
+msgid "Paragraph Color"
+msgstr "Paragraf Rengi"
+
+#: includes/redux-sections/colors.php:68
+msgid "Default: #878C9F"
+msgstr "Varsayılan: # 878C9F"
+
+#: includes/redux-sections/colors.php:75
+msgid "Link Color"
+msgstr "Bağlantı rengi"
+
+#: includes/redux-sections/colors.php:88
+msgid "Header Bg Color"
+msgstr "Başlık Bg Rengi"
+
+#: includes/redux-sections/colors.php:89
+msgid "Default: #2e3f6e"
+msgstr "Varsayılan: # 2e3f6e"
+
+#: includes/redux-sections/colors.php:98
+msgid "Header Color"
+msgstr "Başlık Rengi"
+
+#: includes/redux-sections/colors.php:99
+msgid "Default: #ffffff"
+msgstr "Varsayılan: #ffffff"
+
+#: includes/redux-sections/colors.php:105
+msgid "Submenu Background Color"
+msgstr "Alt menü Arka Plan Rengi"
+
+#: includes/redux-sections/colors.php:106
+#: includes/redux-sections/colors.php:150
+msgid "Default: #fff"
+msgstr "Varsayılan: #fff"
+
+#: includes/redux-sections/colors.php:115
+msgid "Menu Color"
+msgstr "Menü Rengi"
+
+#: includes/redux-sections/colors.php:127
+msgid "Submenu Color"
+msgstr "Alt menü Rengi"
+
+#: includes/redux-sections/colors.php:139
+msgid "Footer Background Color"
+msgstr "Altbilgi Arka Plan Rengi"
+
+#: includes/redux-sections/colors.php:140
+msgid "Default: #325096"
+msgstr "Varsayılan: # 325096"
+
+#: includes/redux-sections/colors.php:149
+msgid "Footer Color"
+msgstr "Altbilgi Rengi"
+
+#: includes/redux-sections/colors.php:156
+msgid "Footer Copyright Background Color"
+msgstr "Altbilgi Telif Hakkı Arka Plan Rengi"
+
+#: includes/redux-sections/colors.php:157
+msgid "Default: #253966"
+msgstr "Varsayılan: # 253966"
+
+#: includes/redux-sections/folio-parallax.php:5
+msgid "Parallax Layout"
+msgstr "Paralaks Düzeni"
+
+#: includes/redux-sections/folio-parallax.php:15
+msgid "First Content Side for Parallax layout"
+msgstr "Paralaks düzeni için İlk İçerik Tarafı"
+
+#: includes/redux-sections/folio-parallax.php:24
+#: includes/redux-sections/member.php:80
+msgid "Parallax Dimension"
+msgstr "Paralaks Boyutu"
+
+#: includes/redux-sections/folio-parallax.php:25
+#, php-format
+msgid ""
+"Pixel number. Which we are telling the browser is to move Portfolio Content "
+"down every time we scroll down 100% of the viewport height and move "
+"Portfolio Content up every time we scroll up 100% of the viewport height. Ex:"
+" 200  or -200 for reverse direction."
+msgstr ""
+"Piksel sayısı. Tarayıcıya, görünüm yüksekliğinin% 100'ünü her aşağı "
+"kaydırdığımızda Portföy İçeriğini aşağı taşımak ve görünüm yüksekliğinin% "
+"100'ünü her yukarı kaydırdığımızda Portföy İçeriğini yukarı taşımaktır. Örn: "
+"ters yön için 200 veya -200."
+
+#: includes/redux-sections/folio-parallax.php:31
+msgid "Show Post Excerpt on Parallax layout"
+msgstr "Paralaks düzeninde Gösteri Alıntısını Göster"
+
+#: includes/redux-sections/folio-parallax.php:38
+msgid "Show Post Meta on Parallax layout"
+msgstr "Post Meta'yı Paralaks düzeninde göster"
+
+#: includes/redux-sections/custom-code.php:5
+msgid "Custom Code"
+msgstr "Özel kod"
+
+#: includes/redux-sections/custom-code.php:8
+msgid ""
+"<p>You can use Firebug - Firefox add-on to adjust your wordpress site's "
+"style. For more detail please read this tutorial: <a href=\"https://www."
+"tipsandtricks-hq.com/how-to-use-firebug-to-modify-your-wordpress-sites-css-"
+"video-tutorial-4037\" target=\"_blank\">How to Use Firebug to Modify Your "
+"WordPress Site's CSS (Video Tutorial)</a> by <strong>Tips and Tricks "
+"HQ</strong>.</p>"
+msgstr ""
+"<p> Wordpress sitenizin stilini ayarlamak için Firebug - Firefox eklentisini "
+"kullanabilirsiniz. Daha fazla ayrıntı için lütfen bu öğreticiyi okuyun: <a "
+"href=\"https://www. tipsandtricks-hq.com/how-to-use-firebug-to-modify-your-"
+"wordpress-sites-css- video-tutorial-4037\" target=\"_blank\">WordPress "
+"Sitenizin CSS'sini (Video Eğitimi)</a> <strong>Tips and Tricks HQ</strong> "
+"<a href=\"https://www. tipsandtricks-hq.com/how-to-use-firebug-to-modify-"
+"your-wordpress-sites-css- video-tutorial-4037\" target=\"_blank\">ile "
+"Değiştirmek için Firebug Nasıl Kullanılır</a> . </p>"
+
+#: includes/redux-sections/custom-code.php:15
+msgid "CSS Code - Large Desktop View"
+msgstr "CSS Kodu - Büyük Masaüstü Görünümü"
+
+#: includes/redux-sections/custom-code.php:16
+#: includes/redux-sections/custom-code.php:28
+#: includes/redux-sections/custom-code.php:40
+#: includes/redux-sections/custom-code.php:52
+msgid "Paste your CSS code here."
+msgstr "CSS kodunuzu buraya yapıştırın."
+
+#: includes/redux-sections/custom-code.php:27
+msgid "CSS Code - Medium Desktop View"
+msgstr "CSS Kodu - Orta Masaüstü Görünümü"
+
+#: includes/redux-sections/custom-code.php:39
+msgid "CSS Code - Tablet View"
+msgstr "CSS Kodu - Tablet Görünümü"
+
+#: includes/redux-sections/custom-code.php:51
+msgid "CSS Code - Mobile View"
+msgstr "CSS Kodu - Mobil Görünüm"
+
+#: includes/redux-sections/shop-single.php:5
+msgid "Product Page"
+msgstr "Ürün Sayfası"
+
+#: includes/redux-sections/shop-single.php:37
+msgid "Show Next/Prev products navigation"
+msgstr "Sonraki / Önceki ürünlerde gezinmeyi göster"
+
+#: includes/redux-sections/shop-single.php:45
+msgid "Next/Prev products should be in same category"
+msgstr "Sonraki / Önceki ürünler aynı kategoride olmalıdır"
+
+#: includes/redux-sections/shop-single.php:51
+msgid "Shop List Link"
+msgstr "Mağaza Listesi Bağlantısı"
+
+#: includes/redux-sections/shop-single.php:52
+msgid "Link for shop list icon on single product page."
+msgstr "Tek ürün sayfasında alışveriş listesi simgesi için bağlantı."
+
+#: includes/redux-sections/shop-single.php:70
+msgid "Related Products Count"
+msgstr "İlgili Ürünler Sayısı"
+
+#: includes/redux-sections/shop-single.php:71
+msgid "Set number of related products to show ( -1 for all)."
+msgstr "Gösterilecek ilgili ürün sayısını ayarlayın (tümü için -1)."
+
+#: includes/redux-sections/shop-single.php:102
+msgid "Up-Sells Count"
+msgstr "Yukarı Satış Sayısı"
+
+#: includes/redux-sections/shop-single.php:103
+msgid "Set number of up-sells products to show ( -1 for all)."
+msgstr ""
+"Gösterilecek yukarı satış ürünlerinin sayısını ayarlayın (tümü için -1)."
+
+#: includes/redux-sections/protected.php:5
+msgid "Password Protected Page"
+msgstr "Şifre Korumalı Sayfa"
+
+#: includes/redux-sections/protected.php:15
+msgid "Page Background Image"
+msgstr "Sayfa Arka Plan Resmi"
+
+#: includes/redux-sections/protected.php:18
+msgid ""
+"This image will be used for background image in password protected page."
+msgstr "Bu resim şifre korumalı sayfada arka plan resmi için kullanılacaktır."
+
+#: includes/redux-sections/protected.php:25
+msgid "Show post title"
+msgstr "Yayın başlığını göster"
+
+#: includes/redux-sections/protected.php:32
+msgid "Page Message"
+msgstr "Sayfa Mesajı"
+
+#: includes/redux-sections/member.php:5
+msgid "Members"
+msgstr "Üyeler"
+
+#: includes/redux-sections/member.php:14 includes/redux-sections/folio.php:15
+msgid "Fullwidth Navigation Menu"
+msgstr "Tam Genişlikte Gezinme Menüsü"
+
+#: includes/redux-sections/member.php:21 includes/redux-sections/shop.php:16
+#: includes/redux-sections/blog.php:16
+msgid "Show Header"
+msgstr "başlığı göster"
+
+#: includes/redux-sections/member.php:28
+msgid "Member Heading Text"
+msgstr "Üye Başlık Metni"
+
+#: includes/redux-sections/member.php:36
+msgid "Member Intro Text"
+msgstr "Üye Giriş Metni"
+
+#: includes/redux-sections/member.php:44
+msgid "Header Background Video"
+msgstr "Üstbilgi Arkaplan Videosu"
+
+#: includes/redux-sections/member.php:46 includes/redux-sections/folio.php:48
+msgid ""
+"Please enter your Youtube video ID (ex: oDpSPNIozt8 ) here to use header "
+"background video feature or leave empty to use header background image "
+"selected bellow."
+msgstr ""
+"Üstbilgi arka plan video özelliğini kullanmak için buraya Youtube video "
+"kimliğinizi (ör: oDpSPNIozt8) girin veya altbilgi arka plan resmini aşağıda "
+"seçili kullanmak için boş bırakın."
+
+#: includes/redux-sections/member.php:53
+msgid "Header Background Image"
+msgstr "Üstbilgi Arka Plan Resmi"
+
+#: includes/redux-sections/member.php:63 includes/redux-sections/folio.php:65
+msgid "Show Breadcrumbs"
+msgstr "Ekmek Kırıntılarını Göster"
+
+#: includes/redux-sections/member.php:71
+msgid "First Member Content Side"
+msgstr "İlk Üye İçerik Tarafı"
+
+#: includes/redux-sections/member.php:81
+#, php-format
+msgid ""
+"Pixel number. Which we are telling the browser is to move Member Photo down "
+"every time we scroll down 100% of the viewport height and move Member Photo "
+"up every time we scroll up 100% of the viewport height. Ex: 150  or -150 for "
+"reverse direction."
+msgstr ""
+"Piksel sayısı. Tarayıcıya söylediklerimiz, görüntü alanı yüksekliğinin% "
+"100'ünü her aşağı kaydırdığımızda Üye Fotoğrafını aşağı taşımak ve görünüm "
+"yüksekliğinin% 100'ünü her yukarı kaydırdığımızda Üye Fotoğrafını yukarı "
+"taşımaktır. Örn: ters yön için 150 veya -150."
+
+#: includes/redux-sections/member.php:89
+msgid "Show Read more"
+msgstr "Daha fazla göster"
+
+#: includes/redux-sections/member.php:99
+msgid "Member Sidebar Layout"
+msgstr "Üye Kenar Çubuğu Düzeni"
+
+#: includes/redux-sections/member.php:100
+msgid ""
+"Select main content and sidebar layout. The option 4 is default layout with "
+"right parallax image for TownHub theme."
+msgstr ""
+"Ana içeriği ve kenar çubuğu düzenini seçin. Seçenek 4, TownHub teması için "
+"sağ paralaks görüntüsüyle varsayılan düzendir."
+
+#: includes/redux-sections/member.php:122 includes/redux-sections/folio.php:121
+msgid "Posts per page"
+msgstr "Sayfa başına gönderi"
+
+#: includes/redux-sections/member.php:123 includes/redux-sections/folio.php:122
+msgid "Number of post to show per page, -1 to show all posts."
+msgstr ""
+"Sayfa başına gösterilecek yayın sayısı, tüm yayınları göstermek için -1."
+
+#: includes/redux-sections/member.php:129
+msgid "Order Members By"
+msgstr "Üyeleri Sıralama"
+
+#: includes/redux-sections/member.php:133 includes/redux-sections/folio.php:136
+#: includes/redux-sections/folio.php:159 includes/redux-sections/folio.php:208
+msgid "None"
+msgstr "Yok"
+
+#: includes/redux-sections/member.php:134 includes/redux-sections/folio.php:160
+msgid "Post ID"
+msgstr "Gönderi Kimliği"
+
+#: includes/redux-sections/member.php:135 includes/redux-sections/folio.php:161
+msgid "Post Author"
+msgstr "Yazı Gönder"
+
+#: includes/redux-sections/member.php:136 includes/redux-sections/folio.php:162
+msgid "Post title"
+msgstr "Yazı başlığı"
+
+#: includes/redux-sections/member.php:137 includes/redux-sections/folio.php:163
+msgid "Post name (post slug)"
+msgstr "Posta adı (posta ücreti)"
+
+#: includes/redux-sections/member.php:138 includes/redux-sections/folio.php:164
+msgid "Created Date"
+msgstr "Oluşturma Tarihi"
+
+#: includes/redux-sections/member.php:139 includes/redux-sections/folio.php:165
+msgid "Last modified date"
+msgstr "Son değiştirilme tarihi"
+
+#: includes/redux-sections/member.php:140 includes/redux-sections/folio.php:166
+msgid "Post Parent id"
+msgstr "Kayıt Ebeveyn kimliği"
+
+#: includes/redux-sections/member.php:141 includes/redux-sections/folio.php:167
+msgid "Random"
+msgstr "rasgele"
+
+#: includes/redux-sections/member.php:148
+msgid "Order Members"
+msgstr "Sipariş Üyeleri"
+
+#: includes/redux-sections/member.php:152 includes/redux-sections/folio.php:148
+#: includes/redux-sections/folio.php:178
+msgid "Descending"
+msgstr "Azalan"
+
+#: includes/redux-sections/member.php:153 includes/redux-sections/folio.php:147
+#: includes/redux-sections/folio.php:179
+msgid "Ascending"
+msgstr "yükselen"
+
+#: includes/redux-sections/member.php:162
+msgid "Member List Link"
+msgstr "Üye Listesi Bağlantısı"
+
+#: includes/redux-sections/member.php:163
+msgid ""
+"Link for member list icon on single member page. Default: your_domain.com/?"
+"post_type=townhub_member or your_domain.com/townhub_member/"
+msgstr ""
+"Tek üye sayfasındaki üye listesi simgesi bağlantısı. Varsayılan: alan_adiniz."
+"com/? post_type = townhub_member veya alan_adiniz.com/townhub_member/"
+
+#: includes/redux-sections/shop.php:5
+msgid "Shop"
+msgstr "Dükkan"
+
+#: includes/redux-sections/shop.php:23 includes/redux-sections/blog.php:23
+msgid "Header Title"
+msgstr "Üst Başlık"
+
+#: includes/redux-sections/shop.php:29 includes/redux-sections/blog.php:29
+msgid "Header Intro"
+msgstr "Üstbilgi Girişi"
+
+#: includes/redux-sections/shop.php:36 includes/redux-sections/blog.php:36
+msgid "Header Background"
+msgstr "Üstbilgi Arka Planı"
+
+#: includes/redux-sections/shop.php:45
+msgid "Show Cart"
+msgstr "Sepeti Göster"
+
+#: includes/redux-sections/shop.php:99
+msgid "Desktop Columns"
+msgstr "Masaüstü Sütunları"
+
+#: includes/redux-sections/shop.php:100
+msgid "Number of products per row on desktop view."
+msgstr "Masaüstü görünümünde satır başına ürün sayısı."
+
+#: includes/redux-sections/shop.php:102 includes/redux-sections/shop.php:121
+msgid "One column"
+msgstr "Bir sütun"
+
+#: includes/redux-sections/shop.php:103 includes/redux-sections/shop.php:122
+msgid "Two columns"
+msgstr "İki sütun"
+
+#: includes/redux-sections/shop.php:104 includes/redux-sections/shop.php:123
+msgid "Three columns"
+msgstr "Üç sütun"
+
+#: includes/redux-sections/shop.php:105 includes/redux-sections/shop.php:124
+msgid "Four columns"
+msgstr "Dört sütun"
+
+#: includes/redux-sections/shop.php:106 includes/redux-sections/shop.php:125
+msgid "Five columns"
+msgstr "Beş sütun"
+
+#: includes/redux-sections/shop.php:107 includes/redux-sections/shop.php:126
+msgid "Six columns"
+msgstr "Altı sütun"
+
+#: includes/redux-sections/shop.php:108 includes/redux-sections/shop.php:127
+msgid "Seven columns"
+msgstr "Yedi sütun"
+
+#: includes/redux-sections/shop.php:118
+msgid "Horizontal Tablet Columns"
+msgstr "Yatay Tablet Sütunları"
+
+#: includes/redux-sections/shop.php:119
+msgid "Number of products per row on tablet horizontal view."
+msgstr "Tablet yatay görünümde satır başına ürün sayısı."
+
+#: includes/redux-sections/socials.php:5
+msgid "Social Share"
+msgstr "sosyal paylaşım"
+
+#: includes/redux-sections/socials.php:14
+msgid "Share Names"
+msgstr "Adları Paylaş"
+
+#: includes/redux-sections/socials.php:15
+msgid ""
+"Enter your social share names separated by a comma. List bellow are "
+"available name: facebook,twitter,linkedin,in1,tumblr,digg,googleplus,reddit,"
+"pinterest,stumbleupon,email,vk"
+msgstr ""
+"Sosyal paylaşım adlarınızı virgülle ayırarak girin. Körük listesi mevcut adı:"
+" facebook, twitter, Linkedin, in1, tumblr, digg, googleplus, reddit, "
+"pinterest, stumbleupon, e-posta, vk"
+
+#: includes/redux-sections/thumbnails.php:5
+msgid "Thumbnail Sizes"
+msgstr "Küçük Resim Boyutları"
+
+#: includes/redux-sections/thumbnails.php:8
+msgid ""
+"<p>These settings affect the display and dimensions of images in your pages."
+"</p>\n"
+"        <p><em> Enter 9999 as Width value and uncheck Hard Crop to make your "
+"thumbnail dynamic width.</em></p>\n"
+"        <p><em> Enter 9999 as Height value and uncheck Hard Crop to make "
+"your thumbnail dynamic height.</em></p>\n"
+"        <p><em> Enter 9999 as Width and Height values to use full size image."
+"</em></p>\n"
+"<p>After changing these settings you may need to <a href=\"http://wordpress."
+"org/extend/plugins/regenerate-thumbnails/\" target=\"_blank\">regenerate "
+"your thumbnails</a>.</p>"
+msgstr ""
+"<p> Bu ayarlar, sayfalarınızdaki görüntülerin görüntülenmesini ve "
+"boyutlarını etkiler. </p>  n <p> <em>Genişlik değeri olarak 9999 girin ve "
+"küçük resminizi dinamik genişlik haline getirmek için Sert Kırpma işaretini "
+"kaldırın.</em> </p>  n <p> <em>Yükseklik değeri olarak 9999 girin ve küçük "
+"resminizi dinamik yükseklik yapmak için Sert Kırpma işaretini kaldırın.</em> "
+"</p>  n <p> <em>Tam boyutlu resmi kullanmak için Genişlik ve Yükseklik "
+"değerleri olarak 9999 girin.</em> </p>  n <p> Bu ayarları değiştirdikten "
+"sonra <a href=\"http://wordpress. org/extend/plugins/regenerate-"
+"thumbnails/\" target=\"_blank\">küçük resimlerinizi yeniden oluşturmanız</a> "
+"gerekebilir. </p>"
+
+#: includes/redux-sections/thumbnails.php:20
+msgid "Enable Custom Image Sizes"
+msgstr "Özel Görüntü Boyutlarını Etkinleştir"
+
+#: includes/redux-sections/thumbnails.php:26
+msgid "Listing Gallery"
+msgstr "İlan Galerisi"
+
+#: includes/redux-sections/thumbnails.php:27
+#: includes/redux-sections/thumbnails.php:39
+msgid "Demo: Width - 424, Height - 280, Hard crop - checked"
+msgstr "Demo: Genişlik - 424, Yükseklik - 280, Sert mahsul - işaretli"
+
+#: includes/redux-sections/thumbnails.php:38
+msgid "Listing Grid"
+msgstr "Liste Tablosu"
+
+#: includes/redux-sections/thumbnails.php:50
+msgid "Listing Category Size One"
+msgstr "İlan Kategorisi Bir Boyut"
+
+#: includes/redux-sections/thumbnails.php:51
+msgid "Demo: Width - 388, Height - 257, Hard crop - checked"
+msgstr "Demo: Genişlik - 388, Yükseklik - 257, Sert mahsul - işaretli"
+
+#: includes/redux-sections/thumbnails.php:61
+msgid "Listing Category Size Two"
+msgstr "Liste Kategorisi Boyut İki"
+
+#: includes/redux-sections/thumbnails.php:62
+msgid "Demo: Width - 795, Height - 257, Hard crop - checked"
+msgstr "Demo: Genişlik - 795, Yükseklik - 257, Sert mahsul - işaretli"
+
+#: includes/redux-sections/thumbnails.php:72
+msgid "Listing Category Size Three"
+msgstr "İlan Kategorisi Boyutu Üç"
+
+#: includes/redux-sections/thumbnails.php:73
+msgid "Demo: Width - 1200, Height - 532, Hard crop - checked"
+msgstr "Demo: Genişlik - 1200, Yükseklik - 532, Sert mahsul - işaretli"
+
+#: includes/redux-sections/thumbnails.php:83
+msgid "Post Grid Thumbnail"
+msgstr "Kılavuz Izgarası Küçük Resmi"
+
+#: includes/redux-sections/thumbnails.php:84
+msgid "Demo: Width - 381, Height - 240, Hard crop - checked"
+msgstr "Demo: Genişlik - 381, Yükseklik - 240, Sert mahsul - işaretli"
+
+#: includes/redux-sections/thumbnails.php:94
+msgid "Blog Thumbnail"
+msgstr "Blog Küçük Resmi"
+
+#: includes/redux-sections/thumbnails.php:95
+#: includes/redux-sections/thumbnails.php:107
+msgid "Demo: Width - 786, Height - 524, Hard crop - checked"
+msgstr "Demo: Genişlik - 786, Yükseklik - 524, Sert mahsul - işaretli"
+
+#: includes/redux-sections/thumbnails.php:106
+msgid "Blog Single Thumbnail"
+msgstr "Blog Tek Küçük Resmi"
+
+#: includes/redux-sections/thumbnails.php:117
+msgid "Recent Post Widget"
+msgstr "Son Gönderi Widget'ı"
+
+#: includes/redux-sections/thumbnails.php:118
+msgid "Demo: Width - 150, Height - 100, Hard crop - checked"
+msgstr "Demo: Genişlik - 150, Yükseklik - 100, Sert mahsul - işaretli"
+
+#: includes/redux-sections/header.php:5
+msgid "Header Options"
+msgstr "Üstbilgi Seçenekleri"
+
+#: includes/redux-sections/header.php:16
+msgid "Header Contacts Info"
+msgstr "Üstbilgi İletişim Bilgileri"
+
+#: includes/redux-sections/header.php:17
+msgid ""
+"Enter header contacts info for your site. Notice: only visible on large "
+"screen."
+msgstr ""
+"Siteniz için başlık iletişim bilgileri girin. Uyarı: sadece büyük ekranda "
+"görünür."
+
+#: includes/redux-sections/header.php:26
+msgid "Show Search?"
+msgstr "Arama Gösterilsin mi?"
+
+#: includes/redux-sections/header.php:46
+msgid "Show Wishlist (Bookmarked listings)?"
+msgstr "İstek Listesini Göster (Yer işaretli girişler)?"
+
+#: includes/redux-sections/header.php:56
+msgid "Show User Profile?"
+msgstr "Kullanıcı Profili gösterilsin mi?"
+
+#: includes/redux-sections/header.php:67
+msgid "Logged In Style"
+msgstr "Giriş Yapılmış Stil"
+
+#: includes/redux-sections/header.php:69
+msgid "Style One"
+msgstr "Birinci Stil"
+
+#: includes/redux-sections/header.php:70
+msgid "Style Two"
+msgstr "Stil İki"
+
+#: includes/redux-sections/fonts.php:5
+msgid "Fonts"
+msgstr "Yazı"
+
+#: includes/redux-sections/fonts.php:16
+msgid "Body Font"
+msgstr "Gövde Yazı Tipi"
+
+#: includes/redux-sections/fonts.php:17
+msgid ""
+"<p>Specify the body font properties.</br> Default </br>font-family: Roboto "
+"</br>font-size: 12px </br>font-weight: 400 </br>color: #000000</p>"
+msgstr ""
+"<p> Gövde yazı tipi özelliklerini belirtin. </br> Varsayılan </br> font-"
+"ailesi: Roboto </br> yazı tipi boyutu: 12 piksel </br> yazı tipi ağırlığı: "
+"400 </br> renk: # 000000 </p>"
+
+#: includes/redux-sections/fonts.php:25
+msgid "Hyperlink Font"
+msgstr "Köprü Yazı Tipi"
+
+#: includes/redux-sections/fonts.php:26
+msgid ""
+"<p>Hyperlink font properties.</br> Default </br>font-family: Roboto </br>"
+"font-size: 12px </br>font-weight: 400 </br>color: #000000</p>"
+msgstr ""
+"<p> Köprü yazı tipi özellikleri. </br> Varsayılan </br> font-ailesi: Roboto "
+"</br> yazı tipi boyutu: 12 piksel </br> yazı tipi ağırlığı: 400 </br> renk: "
+"# 000000 </p>"
+
+#: includes/redux-sections/fonts.php:35
+msgid "Hyperlink Hover Font"
+msgstr "Köprü Hover Yazı Tipi"
+
+#: includes/redux-sections/fonts.php:36
+msgid ""
+"<p>Hyperlink hover font properties.</br> Default </br>font-family: Roboto "
+"</br>font-size: 12px </br>font-weight: 400 </br>color: #000000</p>"
+msgstr ""
+"<p> Köprü vurgulu yazı tipi özellikleri. </br> Varsayılan </br> font-ailesi: "
+"Roboto </br> yazı tipi boyutu: 12 piksel </br> yazı tipi ağırlığı: 400 </br> "
+"renk: # 000000 </p>"
+
+#: includes/redux-sections/fonts.php:45
+msgid "Paragraph Font"
+msgstr "Paragraf Yazı Tipi"
+
+#: includes/redux-sections/fonts.php:46
+msgid ""
+"<p>Specify paragraph font properties. Default </br>font-family: Roboto </br>"
+"font-size: 15px </br>line-height: 24px</br>font-weight: 400</br>color: "
+"#000000</p>"
+msgstr ""
+"<p> Paragraf yazı tipi özelliklerini belirtin. Varsayılan </br> font-ailesi: "
+"Roboto </br> yazı tipi boyutu: 15 piksel </br> satır yüksekliği: 24px </br> "
+"yazı tipi ağırlığı: 400 </br> renk: # 000000 </p>"
+
+#: includes/redux-sections/fonts.php:55
+msgid "Title-Header Font"
+msgstr "Başlık-Başlık Yazı Tipi"
+
+#: includes/redux-sections/fonts.php:56
+msgid ""
+"<p>Specify the title and heading font properties.</br> Default </br>font-"
+"family: Roboto </br>color: #000000</p>"
+msgstr ""
+"<p> Başlık ve başlık yazı tipi özelliklerini belirtin. </br> Varsayılan </br>"
+" font- ailesi: Roboto </br> renk: # 000000 </p>"
+
+#: includes/redux-sections/fonts.php:66
+msgid "TownHub Theme Bolder Font"
+msgstr "TownHub Tema Kalın Yazı Tipi"
+
+#: includes/redux-sections/fonts.php:67
+msgid ""
+"<p>This is bolder font used in the theme. Default </br>font-family: Muli</p>"
+msgstr ""
+"<p> Bu, temada kullanılan daha kalın yazı tipidir. Varsayılan </br> font-"
+"ailesi: Muli </p>"
+
+#: includes/redux-sections/fonts.php:81
+msgid "TownHub Theme Italic Font"
+msgstr "TownHub Tema İtalik Yazı Tipi"
+
+#: includes/redux-sections/fonts.php:82
+msgid ""
+"<p>Theme italic font. Default </br>font-family: Georgia, \"Times New Roman\","
+" Times, serif </br>font-style: italic</p>"
+msgstr ""
+"<p> Tema italik yazı tipi. Varsayılan </br> font-family: Gürcistan,  &quot;"
+"Times New Roman \", Times, serif </br> yazı tipi stili: italik </p>"
+
+#: includes/redux-sections/fonts.php:90
+msgid "TownHub Theme Navigation Font"
+msgstr "TownHub Tema Navigasyon Yazı Tipi"
+
+#: includes/redux-sections/fonts.php:91
+msgid ""
+"<p>Theme navigation font. Default </br>font-family: Muli </br>font-size: "
+"10px </br>line-height: 10px</br>font-weight: 600</br>color: #ffffff</p>"
+msgstr ""
+"<p> Tema gezinti yazı tipi. Varsayılan </br> font-ailesi: Muli </br> yazı "
+"tipi boyutu: 10 piksel </br> satır yüksekliği: 10px </br> yazı tipi ağırlığı:"
+" 600 </br> renk: #ffffff </p>"
+
+#: includes/redux-sections/fonts.php:99
+msgid "TownHub Theme Navigation Hover Font"
+msgstr "TownHub Theme Navigation Hover Fontları"
+
+#: includes/redux-sections/fonts.php:100
+msgid ""
+"<p>Theme navigation hover font. Default </br>font-family: Muli </br>font-"
+"size: 10px </br>line-height: 10px</br>font-weight: 600</br>color: #e5e5e5</p>"
+msgstr ""
+"<p> Tema gezinti vurgulu yazı tipi. Varsayılan </br> font-ailesi: Muli </br> "
+"yazı tipi boyutu: 10 piksel </br> satır yüksekliği: 10px </br> yazı tipi "
+"ağırlığı: 600 </br> renk: # e5e5e5 </p>"
+
+#: includes/redux-sections/fonts.php:108
+msgid "TownHub Left Title Font"
+msgstr "TownHub Sol Başlık Yazı Tipi"
+
+#: includes/redux-sections/fonts.php:109
+msgid ""
+"<p>Theme left title font. Default </br>font-family: Muli </br>font-size: "
+"10px </br>line-height: 16px</br>font-weight: 600</br>color: #ffffff</p>"
+msgstr ""
+"<p> Tema sol başlık yazı tipi. Varsayılan </br> font-ailesi: Muli </br> yazı "
+"tipi boyutu: 10 piksel </br> satır yüksekliği: 16px </br> yazı tipi ağırlığı:"
+" 600 </br> renk: #ffffff </p>"
+
+#: includes/redux-sections/fonts.php:118
+msgid "TownHub Header Title Font"
+msgstr "TownHub Üstbilgi Başlığı Yazı Tipi"
+
+#: includes/redux-sections/fonts.php:119
+msgid ""
+"<p>Theme header title font. Default </br>font-family: Muli </br>font-size: "
+"38px </br>font-weight: 600 </br>color: #ffffff</p>"
+msgstr ""
+"<p> Tema başlık başlık yazı tipi. Varsayılan </br> font-ailesi: Muli </br> "
+"yazı tipi boyutu: 38 piksel </br> yazı tipi ağırlığı: 600 </br> renk: "
+"#ffffff </p>"
+
+#: includes/redux-sections/fonts.php:129
+msgid "TownHub Header SubTitle Font"
+msgstr "TownHub Header SubTitle Yazı Tipi"
+
+#: includes/redux-sections/fonts.php:130
+msgid ""
+"<p>Theme header sub-title font. Default </br>font-family: Roboto </br>font-"
+"size: 18px </br>font-weight: 200 </br>color: #ffffff</p>"
+msgstr ""
+"<p> Tema başlığı alt başlık yazı tipi. Varsayılan </br> font-ailesi: Roboto "
+"</br> yazı tipi boyutu: 18 piksel </br> yazı tipi ağırlığı: 200 </br> renk: "
+"#ffffff </p>"
+
+#: includes/redux-sections/fonts.php:140
+msgid "Page Section Title Font"
+msgstr "Sayfa Bölümü Başlık Yazı Tipi"
+
+#: includes/redux-sections/fonts.php:141
+msgid ""
+"<p>Theme page section title font. Default </br>font-family: Roboto </br>font-"
+"size: 40px </br>line-height: 64px </br>font-weight: 100</p>"
+msgstr ""
+"<p> Tema sayfası bölüm başlığı yazı tipi. Varsayılan </br> font-ailesi: "
+"Roboto </br> yazı tipi boyutu: 40 piksel </br> satır yüksekliği: 64px </br> "
+"yazı tipi ağırlığı: 100 </p>"
+
+#: includes/redux-sections/blog.php:5
+msgid "Blog Options"
+msgstr "Blog Seçenekleri"
+
+#: includes/redux-sections/blog.php:43
+msgid "Blog Sidebar Layout"
+msgstr "Blog Kenar Çubuğu Düzeni"
+
+#: includes/redux-sections/blog.php:83
+msgid "Show Post Format on posts page"
+msgstr "Yayınlar sayfasında Yayın Formatını Göster"
+
+#: includes/redux-sections/footer.php:5
+msgid "Footer"
+msgstr "Alt Bilgi"
+
+#: includes/redux-sections/footer.php:14
+msgid "Footer Logo"
+msgstr "Altbilgi Logosu"
+
+#: includes/redux-sections/footer.php:21
+msgid "Copyright Text"
+msgstr "Telif Hakkı Metni"
+
+#: includes/redux-sections/footer.php:30
+msgid "Show currencies switcher?"
+msgstr "Para birimi değiştirici gösterilsin mi?"
+
+#: includes/redux-sections/footer.php:38
+msgid "Top Footer Widgets"
+msgstr "En İyi Altbilgi Widget'ları"
+
+#: includes/redux-sections/footer.php:46
+msgid "Footer Widgets"
+msgstr "Altbilgi Widget'ları"
+
+#: includes/redux-sections/general.php:6
+msgid "General"
+msgstr "Genel"
+
+#: includes/redux-sections/general.php:18
+msgid "Show Loader"
+msgstr "Yükleyiciyi Göster"
+
+#: includes/redux-sections/general.php:26
+msgid "Loader Icon"
+msgstr "Yükleyici Simgesi"
+
+#: includes/redux-sections/general.php:35
+msgid "Enable Auto Update"
+msgstr "Otomatik Güncellemeyi Etkinleştir"
+
+#: includes/redux-sections/general.php:36
+msgid "Note: auto update feature is not for Envato Elements download."
+msgstr ""
+"Not: otomatik güncelleme özelliği Envato Elements indirmek için değildir."
+
+#: includes/redux-sections/folio.php:5
+msgid "Portfolio"
+msgstr "Portföy"
+
+#: includes/redux-sections/folio.php:23
+msgid "Show Portfolio Header"
+msgstr "Portföy Başlığını Göster"
+
+#: includes/redux-sections/folio.php:30
+msgid "Portfolio Heading Text"
+msgstr "Portföy Başlık Metni"
+
+#: includes/redux-sections/folio.php:38
+msgid "Portfolio Intro Text"
+msgstr "Portföy Giriş Metni"
+
+#: includes/redux-sections/folio.php:46
+msgid "Portfolio Header Video"
+msgstr "Portföy Başlığı Videosu"
+
+#: includes/redux-sections/folio.php:55
+msgid "Portfolio Header Image"
+msgstr "Portföy Başlık Resmi"
+
+#: includes/redux-sections/folio.php:73
+msgid "Show Content Footer"
+msgstr "İçerik Altbilgisini Göster"
+
+#: includes/redux-sections/folio.php:81
+msgid "Portfolio Layout"
+msgstr "Portföy Düzeni"
+
+#: includes/redux-sections/folio.php:98
+msgid "Portfolio Columns"
+msgstr "Portföy Sütunları"
+
+#: includes/redux-sections/folio.php:100
+msgid "Vertical columns for Horizontal layout"
+msgstr "Yatay düzen için dikey sütunlar"
+
+#: includes/redux-sections/folio.php:107
+msgid "Show Filter"
+msgstr "Filtreyi Göster"
+
+#: includes/redux-sections/folio.php:114
+msgid "Show Counter"
+msgstr "Sayacı Göster"
+
+#: includes/redux-sections/folio.php:128
+msgid "Order Filter By"
+msgstr "Filtreleme ölçütü"
+
+#: includes/redux-sections/folio.php:132
+msgid "ID"
+msgstr "İD"
+
+#: includes/redux-sections/folio.php:133
+msgid "Count"
+msgstr "Miktar"
+
+#: includes/redux-sections/folio.php:134
+msgid "Name"
+msgstr "ad"
+
+#: includes/redux-sections/folio.php:135
+msgid "Slug"
+msgstr "sümüklüböcek"
+
+#: includes/redux-sections/folio.php:143
+msgid "Order Filter"
+msgstr "Sipariş Filtresi"
+
+#: includes/redux-sections/folio.php:155
+msgid "Order Portfolio By"
+msgstr "Sipariş Portföyü"
+
+#: includes/redux-sections/folio.php:174
+msgid "Order Portfolio"
+msgstr "Sipariş Portföyü"
+
+#: includes/redux-sections/folio.php:187
+msgid "Show Info"
+msgstr "Bilgi göster"
+
+#: includes/redux-sections/folio.php:191
+msgid "Show On Hover"
+msgstr "Fareyle Üzerine Gelince Göster"
+
+#: includes/redux-sections/folio.php:192
+msgid "Show"
+msgstr "Göstermek"
+
+#: includes/redux-sections/folio.php:193
+msgid "Hide"
+msgstr "Saklamak"
+
+#: includes/redux-sections/folio.php:202
+msgid "Spacing"
+msgstr "aralığı"
+
+#: includes/redux-sections/folio.php:203
+msgid "The space between portfolio grid items."
+msgstr "Portföy ızgarası öğeleri arasındaki boşluk."
+
+#: includes/redux-sections/folio.php:206
+msgid "Small"
+msgstr "Küçük"
+
+#: includes/redux-sections/folio.php:207
+msgid "Big"
+msgstr "Büyük"
+
+#: includes/redux-sections/folio.php:215
+msgid "Enable Image Gallery on Portfolio Grid"
+msgstr "Portföy Izgarasında Resim Galerisi'ni etkinleştir"
+
+#: includes/redux-sections/folio.php:222
+msgid "Disbale Image Overlay Effect"
+msgstr "Görüntü Bindirme Efektini Devre Dışı Bırakma"
+
+#: includes/redux_add_fields/field_cthimage.php:60
+#: includes/redux_add_fields/field_image_url.php:54
+#: includes/redux_add_fields/field_image_url.php:54
+#: includes/redux_add_fields/field_image_id.php:52
+#: includes/redux_add_fields/field_image_id.php:52
+msgid "Upload Image"
+msgstr "Fotoğraf yükleniyor"
+
+#: includes/redux_add_fields/field_cthimage.php:61
+#: includes/redux_add_fields/field_image_url.php:55
+#: includes/redux_add_fields/field_image_id.php:53
+msgid "Remove"
+msgstr "Kaldırmak"
+
+#: includes/redux_add_fields/tmpl-fwidget.php:17
+msgid "Widget Title"
+msgstr "Widget Başlığı"
+
+#: includes/redux_add_fields/tmpl-fwidget.php:18
+msgid "Widget Classes"
+msgstr "Widget Sınıfları"
+
+#: includes/redux_add_fields/tmpl-fwidget.php:19
+msgid "Widget ID"
+msgstr "Widget Kimliği"
+
+#: includes/redux_add_fields/field_fwidget.php:60
+msgid "Add Widget"
+msgstr "Widget Ekle"
+
+#: includes/redux_add_fields/field_thumbnail_size.php:76
+msgid "Width "
+msgstr "Genişlik"
+
+#: includes/redux_add_fields/field_thumbnail_size.php:77
+msgid "Width"
+msgstr "Genişlik"
+
+#: includes/redux_add_fields/field_thumbnail_size.php:92
+msgid "Height "
+msgstr "Yükseklik"
+
+#: includes/redux_add_fields/field_thumbnail_size.php:93
+msgid "Height"
+msgstr "Yükseklik"
+
+#: includes/redux_add_fields/field_thumbnail_size.php:110
+msgid "Hard Crop "
+msgstr "Sert Mahsul"
+
+#: template-parts/page/protected-page.php:18
+msgid "Protected"
+msgstr "korumalı"
+
+#: template-parts/post/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"İlk paylaşımını yapmak için hazır mısın? <a href=\"%1$s\">Buradan "
+"başlayın</a> ."
+
+#: template-parts/post/content-none.php:23
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Aradığınızı bulamıyoruz. Belki arama yardımcı olabilir."
+
+#: template-parts/single/author-block.php:38
+msgctxt "Show author socials on single post page: yes or no"
+msgid "yes"
+msgstr "Evet"
+
+#: lib/update/inc/items.php:54 lib/update/inc/items.php:58
+#: lib/update/inc/update.php:47 lib/update/inc/update.php:56
+#: lib/update/inc/api.php:29 lib/update/inc/api.php:33
+msgid "Cheatin&#8217; huh?"
+msgstr "Hile mi ha?"
+
+#: lib/update/inc/api.php:57
+msgid "An API token is required."
+msgstr "Bir API jetonu gereklidir."
+
+#: lib/update/inc/api.php:81 lib/update/inc/api.php:85
+msgid "An unknown API error occurred."
+msgstr "Bilinmeyen bir API hatası oluştu."
+
+#: lib/update/inc/admin/admin.php:78
+msgid "TownHub - Directory & Listing WordPress Theme"
+msgstr "TownHub - Rehber ve Liste WordPress Teması"
+
+#: lib/update/inc/admin/admin.php:79
+msgid ""
+"From version 2.1.0 we provide new update system which allow you update our "
+"theme and its add-ons plugin directly from WordPress Themes/Plugins screen."
+msgstr ""
+"2.1.0 sürümünden, temamızı ve eklentiler eklentisini doğrudan WordPress "
+"Temaları / Eklentileri ekranından güncellemenizi sağlayan yeni güncelleme "
+"sistemi sunuyoruz."
+
+#: lib/update/inc/admin/admin.php:80
+msgid "You do not need to delete and reinstall add-ons plugins anymore."
+msgstr ""
+"Artık eklenti eklentilerini silmenize ve yeniden yüklemenize gerek yoktur."
+
+#: lib/update/inc/admin/admin.php:80
+#: lib/update/inc/admin/options/purchase_code.php:8
+msgid "See guide -->"
+msgstr "Rehbere bakın ->"
+
+#: lib/update/inc/admin/admin.php:81
+msgid "And your purchase code is REQUIRED"
+msgstr "Ve satın alma kodunuz GEREKLİ"
+
+#: lib/update/inc/admin/admin.php:82
+msgid "ADD PURCHASE CODE"
+msgstr "SATIN ALMA KODU EKLE"
+
+#: lib/update/inc/admin/admin.php:120
+msgid "CTHthemes Update"
+msgstr "CTHthemes Güncellemesi"
+
+#: lib/update/inc/admin/admin.php:147
+msgid "TownHub Theme Purchase Code"
+msgstr "TownHub Tema Satın Alma Kodu"
+
+#: lib/update/inc/admin/admin.php:154
+msgid "Purchase Code"
+msgstr "Satın alma kodu"
+
+#: lib/update/inc/admin/options/purchase_code.php:4
+msgid ""
+"Enter your purchase code for the theme to receive demo data and its add-ons "
+"plugins."
+msgstr ""
+"Demo verilerini ve eklenti eklentilerini almak için temanın satın alma "
+"kodunuzu girin."
+
+#: lib/update/inc/admin/options/purchase_code.php:6
+msgid ""
+"It also allow you receive updates from WordPress themes/plugins screens like "
+"others."
+msgstr ""
+"Ayrıca, diğerleri gibi WordPress tema / eklenti ekranlarından güncellemeler "
+"almanıza izin verir."
+
+#: lib/update/inc/admin/options/purchase_code.php:8
+msgid " You do not need to delete and reinstall add-ons plugins anymore."
+msgstr ""
+"Artık eklenti eklentilerini silmenize ve yeniden yüklemenize gerek yoktur."
+
+#: lib/update/inc/admin/options/settings/purchase_code.php:6
+msgid "Where Is My Purchase Code?"
+msgstr "Satın Alma Kodum Nerede?"
+
+#: lib/update/inc/admin/options/settings/purchase_code.php:9
+msgid "Log into your Envato Market account."
+msgstr "Envato Market hesabınıza giriş yapın."
+
+#: lib/update/inc/admin/options/settings/purchase_code.php:10
+msgid "Hover the mouse over your username at the top of the screen."
+msgstr "Fareyi ekranın üst kısmındaki kullanıcı adınızın üzerine getirin."
+
+#: lib/update/inc/admin/options/settings/purchase_code.php:11
+msgid "Click \"Downloads\" from the drop down menu."
+msgstr "Açılır menüden  &quot;İndirilenler \" i tıklayın."
+
+#: lib/update/inc/admin/options/settings/purchase_code.php:11
+msgid " Go to Downloads -->"
+msgstr "İndirilenler'e gidin ->"
+
+#: lib/update/inc/admin/options/settings/purchase_code.php:12
+msgid ""
+"Click \"License certificate & purchase code\" (available as PDF or text file)"
+"."
+msgstr ""
+" &quot;Lisans sertifikası ve satın alma kodu \" (PDF veya metin dosyası "
+"olarak kullanılabilir) seçeneğini tıklayın."
+
+#: lib/update/inc/admin/options/settings/purchase_code.php:15
+#, php-format
+msgid ""
+"Read <a href=\"%s\" target=\"_blank\">Envato guide</a> for more details."
+msgstr ""
+"Daha fazla bilgi için <a href=\"%s\" target=\"_blank\">Envato kılavuzunu</a> "
+"okuyun."
+
+#. Name of the theme
+msgid "TownHub"
+msgstr "TownHub"
+
+#. Description of the theme
+msgid "Directory &amp; Listing WordPress Theme"
+msgstr "Dizin ve Liste WordPress Teması"
+
+#. URI of the theme
+msgid "https://townhub.cththemes.com/"
+msgstr "https://townhub.cththemes.com/"
+
+#. Author of the theme
+msgid "CTHthemes"
+msgstr "CTHthemes"
+
+#. Author URI of the theme
+msgid "http://themeforest.net/user/cththemes"
+msgstr "http://themeforest.net/user/cththemes"

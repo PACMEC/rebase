@@ -1,0 +1,496 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TownHub Woo Payments\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-08 04:34+0000\n"
+"PO-Revision-Date: 2020-02-26 05:53+0000\n"
+"Last-Translator: Admin <contact.cththemes@gmail.com>\n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#. 1. URL link.
+#: townhub-woo-payments.php:22
+#, php-format
+msgid ""
+"TownHub WooCommerce Payments requires WooCommerce to be installed and active."
+" You can download %s here."
+msgstr "TownHub WooCommerce Payments需要安装并激活WooCommerce。您可以在此处下载％s。"
+
+#. 1. URL link.
+#: townhub-woo-payments.php:27
+msgid ""
+"TownHub WooCommerce Payments requires TownHub Add-Ons to be installed and "
+"active. You can install it from Appearance -> Install Plugins screen."
+msgstr "TownHub WooCommerce Payments需要安装并激活TownHub附加组件。您可以从外观->安装插件屏幕进行安装。"
+
+#: includes/payfast/payfast.php:25
+msgid "Proceed to PayFast"
+msgstr "继续进行PayFast"
+
+#: includes/payfast/payfast.php:26
+msgid "TownHub PayFast"
+msgstr "TownHub PayFast"
+
+#. %s: Link to WC system status page
+#: includes/payfast/payfast.php:28
+msgid ""
+"This is currently needed for selling RECURRING membership package. It "
+"redirects customers to PayFast to enter their payment information."
+msgstr "当前需要销售RECURRING会员套餐。它将客户重定向到PayFast输入他们的付款信息。"
+
+#. %s: Link to PayFast sandbox testing guide page
+#: includes/payfast/payfast.php:54
+#, php-format
+msgid ""
+"SANDBOX ENABLED. You can use sandbox testing accounts only. See the <a "
+"href=\"%s\">PayFast Sandbox Testing Guide</a> for more details."
+msgstr "沙盒已启用。您只能使用沙盒测试帐户。有关更多详细信息，请参见《 <a  href=\"%s\">PayFast沙盒测试指南》</a> 。"
+
+#: includes/payfast/payfast.php:107 includes/paypal/paypal.php:103
+msgid "Gateway disabled"
+msgstr "网关已禁用"
+
+#: includes/payfast/payfast.php:107
+msgid "PayFast does not support your store currency."
+msgstr "PayFast不支持您的商店货币。"
+
+#: includes/payfast/payfast.php:124
+msgid "PayFast acceptance mark"
+msgstr "PayFast接受标记"
+
+#: includes/payfast/payfast-ipn.php:360 includes/paypal/paypal-ipn.php:159
+msgid "IPN payment completed"
+msgstr "IPN付款已完成"
+
+#: includes/payfast/payfast-ipn.php:368 includes/paypal/paypal-ipn.php:167
+msgid ""
+"Payment authorized. Change payment status to processing or complete to "
+"capture funds."
+msgstr "授权付款。将付款状态更改为处理中或完成以获取资金。"
+
+#. %s: pending reason.
+#: includes/payfast/payfast-ipn.php:371 includes/paypal/paypal-ipn.php:170
+#, php-format
+msgid "Payment pending (%s)."
+msgstr "待付款（％s）。"
+
+#. %s: currency code.
+#: includes/payfast/payfast-ipn.php:441
+#, php-format
+msgid "Validation error: PayFast currencies do not match (code %s)."
+msgstr "验证错误：PayFast货币不匹配（代码％s）。"
+
+#. %s: Amount.
+#: includes/payfast/payfast-ipn.php:457
+#, php-format
+msgid "Validation error: PayFast amounts do not match (gross %s)."
+msgstr "验证错误：PayFast金额不匹配（总收入％s）。"
+
+#. %s: email address .
+#: includes/payfast/payfast-ipn.php:474
+#, php-format
+msgid ""
+"Validation error: PayFast IPN response from a different email address (%s)."
+msgstr "验证错误：来自其他电子邮件地址（％s）的PayFast IPN响应。"
+
+#. %s: order link.
+#: includes/payfast/payfast-ipn.php:506 includes/paypal/paypal-ipn.php:311
+#, php-format
+msgid "Payment for cancelled order %s received"
+msgstr "已收到已取消订单％s的付款"
+
+#. %s: order ID.
+#: includes/payfast/payfast-ipn.php:508
+#, php-format
+msgid ""
+"Order #%s has been marked paid by PayFast IPN, but was previously cancelled. "
+"Admin handling required."
+msgstr "PayFast IPN已将订单＃％s标记为已付款，但先前已被取消。需要管理员处理。"
+
+#: includes/payfast/settings-payfast.php:13
+#: includes/paypal/settings-paypal.php:13
+msgid "Enable/Disable"
+msgstr "启用/禁用"
+
+#: includes/payfast/settings-payfast.php:15
+msgid "Enable PayFast Recurring"
+msgstr "启用PayFast定期"
+
+#: includes/payfast/settings-payfast.php:19
+#: includes/paypal/settings-paypal.php:19
+msgid "Title"
+msgstr "标题"
+
+#: includes/payfast/settings-payfast.php:21
+#: includes/paypal/settings-paypal.php:21
+msgid "This controls the title which the user sees during checkout."
+msgstr "这控制了用户在结帐时看到的标题。"
+
+#: includes/payfast/settings-payfast.php:26
+#: includes/paypal/settings-paypal.php:26
+msgid "Description"
+msgstr "描述"
+
+#: includes/payfast/settings-payfast.php:29
+#: includes/paypal/settings-paypal.php:29
+msgid "This controls the description which the user sees during checkout."
+msgstr "这控制了用户在结帐时看到的描述。"
+
+#: includes/payfast/settings-payfast.php:34
+msgid "Merchant options"
+msgstr "商户选择"
+
+#: includes/payfast/settings-payfast.php:40
+msgid "Merchant ID"
+msgstr "商户编号"
+
+#: includes/payfast/settings-payfast.php:42
+msgid "You PayFast merchant id"
+msgstr "您PayFast商家编号"
+
+#: includes/payfast/settings-payfast.php:48
+msgid "Merchant Key"
+msgstr "商户密码"
+
+#: includes/payfast/settings-payfast.php:50
+msgid "You PayFast merchant key"
+msgstr "您的PayFast商家密钥"
+
+#: includes/payfast/settings-payfast.php:56
+msgid "Merchant passphrase"
+msgstr "商家密码"
+
+#: includes/payfast/settings-payfast.php:58
+#, php-format
+msgid ""
+"Enter your PayFast passphrase. Learn how to create your <a href=\"%s\">"
+"PayFast passphrase</a>.<br /><a href=\"%s\">WooCommerce PayFast Payment "
+"Gateway</a>"
+msgstr ""
+"输入您的PayFast密码。了解如何创建您的<a href=\"%s\">PayFast密码短语</a> 。 <br /> <a href=\"%s\">"
+"WooCommerce PayFast付款网关</a>"
+
+#: includes/payfast/settings-payfast.php:64
+msgid "Email Confirmation?"
+msgstr "邮件确认？"
+
+#: includes/payfast/settings-payfast.php:66
+msgid "Enable email confirmation"
+msgstr "启用电子邮件确认"
+
+#: includes/payfast/settings-payfast.php:68
+msgid "Whether to send email confirmation to the merchant of the transaction."
+msgstr "是否发送电子邮件确认给交易的商人。"
+
+#: includes/payfast/settings-payfast.php:71
+msgid "Confirmation Email Address"
+msgstr "确认电子邮件地址"
+
+#: includes/payfast/settings-payfast.php:73
+msgid "The address to send the confirmation email to."
+msgstr "发送确认电子邮件的地址。"
+
+#: includes/payfast/settings-payfast.php:81
+#: includes/paypal/settings-paypal.php:41
+msgid "Advanced options"
+msgstr "高级选项"
+
+#: includes/payfast/settings-payfast.php:86
+msgid "PayFast sandbox"
+msgstr "PayFast沙箱"
+
+#: includes/payfast/settings-payfast.php:88
+msgid "Enable PayFast sandbox"
+msgstr "启用PayFast沙箱"
+
+#. %s: URL
+#: includes/payfast/settings-payfast.php:91
+#, php-format
+msgid ""
+"PayFast sandbox can be used to test payments. Sign up for a <a href=\"%s\">"
+"developer account</a>."
+msgstr "PayFast沙箱可用于测试付款。注册一个<a href=\"%s\">开发者帐户</a> 。"
+
+#: includes/payfast/settings-payfast.php:94
+#: includes/paypal/settings-paypal.php:54
+msgid "Debug log"
+msgstr "调试日志"
+
+#: includes/payfast/settings-payfast.php:96
+#: includes/paypal/settings-paypal.php:56
+msgid "Enable logging"
+msgstr "启用记录"
+
+#. %s: URL
+#: includes/payfast/settings-payfast.php:99
+#, php-format
+msgid ""
+"Log PayFast events, such as IPN requests, inside %s Note: this may log "
+"personal information. We recommend using this for debugging purposes only "
+"and deleting the logs when finished."
+msgstr "在％s内记录PayFast事件，例如IPN请求。注意：这可能会记录个人信息。我们建议仅将此用于调试目的，并在完成后删除日志。"
+
+#: includes/payfast/payfast-request.php:263
+#: includes/paypal/paypal-request.php:207
+msgid "Order"
+msgstr "订购"
+
+#: includes/paypal/settings-paypal.php:15
+msgid "Enable PayPal Standard"
+msgstr "启用贝宝标准"
+
+#: includes/paypal/settings-paypal.php:22 includes/paypal/paypal.php:26
+msgid "TownHub PayPal"
+msgstr "TownHub贝宝"
+
+#: includes/paypal/settings-paypal.php:30
+msgid ""
+"Pay via PayPal; you can pay with your credit card if you don't have a PayPal "
+"account."
+msgstr "通过贝宝付款；如果您没有PayPal帐户，则可以使用信用卡付款。"
+
+#: includes/paypal/settings-paypal.php:33
+msgid "PayPal email"
+msgstr "贝宝电子邮件"
+
+#: includes/paypal/settings-paypal.php:35
+msgid ""
+"Please enter your PayPal email address; this is needed in order to take "
+"payment."
+msgstr "请输入您的贝宝电子邮件地址；这是付款的必要条件。"
+
+#: includes/paypal/settings-paypal.php:46
+msgid "PayPal sandbox"
+msgstr "贝宝沙箱"
+
+#: includes/paypal/settings-paypal.php:48
+msgid "Enable PayPal sandbox"
+msgstr "启用PayPal沙箱"
+
+#. %s: URL
+#: includes/paypal/settings-paypal.php:51
+#, php-format
+msgid ""
+"PayPal sandbox can be used to test payments. Sign up for a <a href=\"%s\">"
+"developer account</a>."
+msgstr "PayPal沙箱可用于测试付款。注册一个<a href=\"%s\">开发者帐户</a> 。"
+
+#. %s: URL
+#: includes/paypal/settings-paypal.php:59
+#, php-format
+msgid ""
+"Log PayPal events, such as IPN requests, inside %s Note: this may log "
+"personal information. We recommend using this for debugging purposes only "
+"and deleting the logs when finished."
+msgstr "在％s内记录PayPal事件，例如IPN请求。注意：这可能会记录个人信息。我们建议仅将此用于调试目的，并在完成后删除日志。"
+
+#: includes/paypal/settings-paypal.php:62
+msgid "IPN Email Notifications"
+msgstr "IPN电子邮件通知"
+
+#: includes/paypal/settings-paypal.php:64
+msgid "Enable IPN email notifications"
+msgstr "启用IPN电子邮件通知"
+
+#: includes/paypal/settings-paypal.php:66
+msgid ""
+"Send notifications when an IPN is received from PayPal indicating refunds, "
+"chargebacks and cancellations."
+msgstr "从PayPal收到IPN时发送通知，指示退款，退款和取消。"
+
+#: includes/paypal/settings-paypal.php:69
+msgid "Receiver email"
+msgstr "收件人电子邮件"
+
+#: includes/paypal/settings-paypal.php:71
+msgid ""
+"If your main PayPal email differs from the PayPal email entered above, input "
+"your main receiver email for your PayPal account here. This is used to "
+"validate IPN requests."
+msgstr ""
+"如果您的主要PayPal电子邮件与上面输入的PayPal电子邮件不同，请在此处输入您的PayPal帐户的主要收件人电子邮件。这用于验证IPN请求。"
+
+#: includes/paypal/settings-paypal.php:77
+msgid "PayPal identity token"
+msgstr "贝宝身份令牌"
+
+#: includes/paypal/settings-paypal.php:79
+msgid ""
+"Optionally enable \"Payment Data Transfer\" (Profile > Profile and Settings >"
+" My Selling Tools > Website Preferences) and then copy your identity token "
+"here. This will allow payments to be verified without the need for PayPal "
+"IPN."
+msgstr ""
+"（可选）启用“付款数据传输”（配置文件 >配置文件和设置 >我的销售工具 >网站偏好设置），然后在此处复制您的身份令牌。这样一来，无需PayPal "
+"IPN即可验证付款。"
+
+#: includes/paypal/settings-paypal.php:85
+msgid "Invoice prefix"
+msgstr "发票前缀"
+
+#: includes/paypal/settings-paypal.php:87
+msgid ""
+"Please enter a prefix for your invoice numbers. If you use your PayPal "
+"account for multiple stores ensure this prefix is unique as PayPal will not "
+"allow orders with the same invoice number."
+msgstr "请输入发票编号的前缀。如果您将PayPal帐户用于多个商店，请确保此前缀是唯一的，因为PayPal不允许使用具有相同发票编号的订单。"
+
+#: includes/paypal/settings-paypal.php:92
+msgid "Shipping details"
+msgstr "送货细节"
+
+#: includes/paypal/settings-paypal.php:94
+msgid "Send shipping details to PayPal instead of billing."
+msgstr "将运送详细信息发送到PayPal而不是进行计费。"
+
+#: includes/paypal/settings-paypal.php:95
+msgid ""
+"PayPal allows us to send one address. If you are using PayPal for shipping "
+"labels you may prefer to send the shipping address rather than billing. "
+"Turning this option off may prevent PayPal Seller protection from applying."
+msgstr ""
+"贝宝允许我们发送一个地址。如果您使用贝宝（PayPal）来运送标签，您可能更希望发送运送地址而不是开票。关闭此选项可能会阻止应用贝宝卖家保护。"
+
+#: includes/paypal/settings-paypal.php:99
+msgid "Address override"
+msgstr "地址覆盖"
+
+#: includes/paypal/settings-paypal.php:101
+msgid ""
+"Enable \"address_override\" to prevent address information from being "
+"changed."
+msgstr "启用“ address_override ”以防止更改地址信息。"
+
+#: includes/paypal/settings-paypal.php:102
+msgid ""
+"PayPal verifies addresses therefore this setting can cause errors (we "
+"recommend keeping it disabled)."
+msgstr "贝宝（PayPal）会验证地址，因此此设置可能会导致错误（我们建议将其禁用）。"
+
+#: includes/paypal/settings-paypal.php:106
+msgid "Payment action"
+msgstr "付款动作"
+
+#: includes/paypal/settings-paypal.php:109
+msgid ""
+"Choose whether you wish to capture funds immediately or authorize payment "
+"only."
+msgstr "选择您是希望立即获取资金还是仅授权付款。"
+
+#: includes/paypal/settings-paypal.php:113
+msgid "Capture"
+msgstr "捕获"
+
+#: includes/paypal/settings-paypal.php:114
+msgid "Authorize"
+msgstr "授权"
+
+#: includes/paypal/settings-paypal.php:118
+msgid "Page style"
+msgstr "页面样式"
+
+#: includes/paypal/settings-paypal.php:120
+msgid ""
+"Optionally enter the name of the page style you wish to use. These are "
+"defined within your PayPal account. This affects classic PayPal checkout "
+"screens."
+msgstr "（可选）输入您要使用的页面样式的名称。这些在您的PayPal帐户中定义。这会影响传统的PayPal结帐屏幕。"
+
+#: includes/paypal/settings-paypal.php:123
+#: includes/paypal/settings-paypal.php:131
+msgid "Optional"
+msgstr "可选的"
+
+#: includes/paypal/settings-paypal.php:126
+msgid "Image url"
+msgstr "图片网址"
+
+#: includes/paypal/settings-paypal.php:128
+msgid ""
+"Optionally enter the URL to a 150x50px image displayed as your logo in the "
+"upper left corner of the PayPal checkout pages."
+msgstr "（可选）输入在PayPal结帐页面左上角显示为徽标的150x50px图像的URL。"
+
+#: includes/paypal/paypal.php:25
+msgid "Proceed to PayPal"
+msgstr "进入贝宝"
+
+#. %s: Link to WC system status page
+#: includes/paypal/paypal.php:28
+msgid ""
+"This is currently needed for selling RECURRING membership package. It "
+"redirects customers to PayPal to enter their payment information."
+msgstr "当前需要销售RECURRING会员套餐。它将客户重定向到PayPal以输入他们的付款信息。"
+
+#. %s: Link to PayPal sandbox testing guide page
+#: includes/paypal/paypal.php:50
+#, php-format
+msgid ""
+"SANDBOX ENABLED. You can use sandbox testing accounts only. See the <a "
+"href=\"%s\">PayPal Sandbox Testing Guide</a> for more details."
+msgstr "沙盒已启用。您只能使用沙盒测试帐户。有关更多详细信息，请参见《 <a  href=\"%s\">PayPal沙箱测试指南》</a> 。"
+
+#: includes/paypal/paypal.php:103
+msgid "PayPal does not support your store currency."
+msgstr "PayPal不支持您的商店货币。"
+
+#: includes/paypal/paypal.php:122
+msgid "PayPal acceptance mark"
+msgstr "贝宝接受标记"
+
+#: includes/paypal/paypal.php:125
+msgid "What is PayPal?"
+msgstr "什么是贝宝？"
+
+#. %s: currency code.
+#: includes/paypal/paypal-ipn.php:246
+#, php-format
+msgid "Validation error: PayPal currencies do not match (code %s)."
+msgstr "验证错误：PayPal货币不匹配（代码％s）。"
+
+#. %s: Amount.
+#: includes/paypal/paypal-ipn.php:262
+#, php-format
+msgid "Validation error: PayPal amounts do not match (gross %s)."
+msgstr "验证错误：PayPal金额不匹配（总收入％s）。"
+
+#. %s: email address .
+#: includes/paypal/paypal-ipn.php:279
+#, php-format
+msgid ""
+"Validation error: PayPal IPN response from a different email address (%s)."
+msgstr "验证错误：来自其他电子邮件地址（％s）的PayPal IPN响应。"
+
+#. %s: order ID.
+#: includes/paypal/paypal-ipn.php:313
+#, php-format
+msgid ""
+"Order #%s has been marked paid by PayPal IPN, but was previously cancelled. "
+"Admin handling required."
+msgstr "PayPal IPN已将订单＃％s标记为已付款，但先前已取消。需要管理员处理。"
+
+#. Name of the plugin
+msgid "TownHub Woo Payments"
+msgstr "TownHub Woo付款"
+
+#. Description of the plugin
+msgid "A custom plugin for TownHub - Directory & Listing WordPress Theme"
+msgstr "TownHub的自定义插件-目录和列表WordPress主题"
+
+#. URI of the plugin
+msgid "https://townhub.cththemes.com"
+msgstr "https://townhub.cththemes.com"
+
+#. Author of the plugin
+msgid "CTHthemes"
+msgstr "CTH主题"
+
+#. Author URI of the plugin
+msgid "http://themeforest.net/user/cththemes"
+msgstr "http://themeforest.net/user/cththemes"

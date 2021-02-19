@@ -1,0 +1,2309 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TownHub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-23 13:48+0000\n"
+"PO-Revision-Date: 2020-02-26 05:41+0000\n"
+"Last-Translator: Admin <contact.cththemes@gmail.com>\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: functions.php:21
+msgid "About Us"
+msgstr "Насчет нас"
+
+#: functions.php:27
+msgid "Our Last News"
+msgstr "Наши последние новости"
+
+#: functions.php:32
+msgid "Our Tweets"
+msgstr "Наши твиты"
+
+#: functions.php:41
+msgid "Subscribe Text"
+msgstr "Текст подписки"
+
+#: functions.php:47
+msgid "Subscribe Form"
+msgstr "Форма подписки"
+
+#: functions.php:100 template-parts/navigation/navigation-top.php:9
+msgid "Top Menu"
+msgstr "Верхнее меню"
+
+#: functions.php:250
+msgid "Blog Sidebar"
+msgstr "Боковая панель блога"
+
+#: functions.php:252
+msgid ""
+"Add widgets here to appear in your sidebar on blog posts and archive pages."
+msgstr ""
+"Добавьте виджеты сюда, чтобы они появлялись на боковой панели в сообщениях "
+"блога и на страницах архива."
+
+#: functions.php:260
+msgid "Page Sidebar"
+msgstr "Боковая панель страницы"
+
+#: functions.php:262
+msgid "Appears in the sidebar section of the page template."
+msgstr "Появляется в разделе боковой панели шаблона страницы."
+
+#: functions.php:270 includes/redux-sections/shop.php:58
+msgid "Shop Sidebar"
+msgstr "Боковая панель магазина"
+
+#: functions.php:272
+msgid "Appears in the sidebar section of the shop pages."
+msgstr "Появляется в разделе боковой панели страниц магазина."
+
+#: functions.php:280
+msgid "Languages Switcher"
+msgstr "Переключатель языков"
+
+#: functions.php:282
+msgid "Appears in the header section of the pages."
+msgstr "Появляется в разделе заголовка страниц."
+
+#: functions.php:331
+msgid "Footer Menu"
+msgstr "Меню нижнего колонтитула"
+
+#: functions.php:333
+msgid "Appears in the subfooter section."
+msgstr "Появляется в разделе нижнего колонтитула."
+
+#: functions.php:381
+msgctxt "Raleway font: on or off"
+msgid "on"
+msgstr "на"
+
+#: functions.php:386
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr "на"
+
+#: functions.php:511
+msgid "Redux Framework"
+msgstr "Redux Framework"
+
+#: functions.php:525
+msgid "Elementor Page Builder"
+msgstr "Elementor Page Builder"
+
+#: functions.php:539
+msgid "Contact Form 7"
+msgstr "Контактная форма 7"
+
+#: functions.php:553
+msgid "CMB2"
+msgstr "CMB2"
+
+#: functions.php:568
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: functions.php:583
+msgid "TownHub Add-ons"
+msgstr "TownHub Дополнения"
+
+#: functions.php:598
+msgid "TownHub WooCommerce Payments"
+msgstr "TownHub WooCommerce Payments"
+
+#: functions.php:616
+msgid "Loco Translate"
+msgstr "Loco Перевести"
+
+#: functions.php:629
+msgid "One Click Demo Import"
+msgstr "Импорт клика в один клик"
+
+#: functions.php:644
+msgid "Regenerate Thumbnails"
+msgstr "Восстановить миниатюры"
+
+#: functions.php:657
+msgid "WP Facebook Login for WordPress"
+msgstr "WP Facebook Логин для WordPress"
+
+#: functions.php:670
+msgid "WordPress Social Login (Facebook, Google, Twitter)"
+msgstr "Вход в WordPress для социальных сетей (Facebook, Google, Twitter)"
+
+#. Name of the template
+msgid "Home Page"
+msgstr "Домашняя страница"
+
+#. Name of the template
+msgid "No Sidebar - Breadcrumbs"
+msgstr "Нет боковой панели - панировочные сухари"
+
+#: 404.php:20
+msgid "404"
+msgstr "404"
+
+#: 404.php:30 template-parts/page/protected-page.php:29
+msgid "Or"
+msgstr "Или"
+
+#: 404.php:31 template-parts/page/protected-page.php:30
+msgid "Back to Home Page"
+msgstr "Вернуться на главную страницу"
+
+#. Name of the template
+msgid "Fullwidth"
+msgstr "Полная ширина"
+
+#: comments.php:26
+msgid "Comments - "
+msgstr "Комментарии -"
+
+#: comments.php:36
+msgid "Reply"
+msgstr "Ответить"
+
+#: comments.php:58
+msgid "<i class=\"fa fa-angle-left\"></i> Previous Comments"
+msgstr "<i class=\"fa fa-angle-left\"></i> Предыдущие комментарии"
+
+#: comments.php:59
+msgid "Next Comments <i class=\"fa fa-angle-right\"></i>"
+msgstr "Следующие комментарии <i class=\"fa fa-angle-right\"></i>"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: comments.php:83
+msgid "Add Comment"
+msgstr "Добавить комментарий"
+
+#: comments.php:86
+msgid "Your Name "
+msgstr "Ваше имя"
+
+#: comments.php:87
+msgid "Your Email "
+msgstr "Ваш адрес электронной почты"
+
+#: comments.php:90
+msgid "Your Comment:"
+msgstr "Ваш комментарий:"
+
+#: comments.php:95
+msgid "Submit Comment"
+msgstr "Отправить комментарий"
+
+#: comments.php:96
+msgid ""
+"You must be <a class=\"comment-log-popup logreg-modal-open\" href=\"#\">"
+"logged in</a> to post a comment."
+msgstr ""
+"Вы должны <a class=\"comment-log-popup logreg-modal-open\" href=\"#\">войти "
+"в систему,</a> чтобы <a class=\"comment-log-popup logreg-modal-open\" "
+"href=\"#\">оставить</a> комментарий."
+
+#: comments.php:97
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Вы вошли как <a href=\"%1$s\">%2$s</a> . <a href=\"%3$s\" title=\"\"Журнал\" "
+"out of  this account\">Выйти?</a>"
+
+#: comments.php:98
+msgid "Your email is safe with us."
+msgstr "Ваша электронная почта в безопасности с нами."
+
+#. Name of the template
+msgid "Left Sidebar"
+msgstr "Левая боковая панель"
+
+#: search.php:28
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для:% S"
+
+#: search.php:30 template-parts/post/content-none.php:15
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#. Name of the template
+msgid "Right Sidebar"
+msgstr "Правая боковая панель"
+
+#: footer.php:32
+msgid "Close "
+msgstr "близко"
+
+#: footer.php:33
+msgid "Your cart"
+msgstr "Ваша корзина"
+
+#. Name of the template
+msgid "Home Fullscreen"
+msgstr "Домашний полноэкранный"
+
+#. Name of the template
+msgid "No Sidebar"
+msgstr "Нет боковой панели"
+
+#: searchform.php:9
+msgctxt "search input placeholder"
+msgid "Search..."
+msgstr "Поиск..."
+
+#: inc/ajax.php:22 inc/ajax.php:108
+msgid "Sorry, your nonce did not verify."
+msgstr "Извините, ваш одноразовый номер не проверен."
+
+#: inc/icon-functions.php:11
+msgid "Please define default parameters in the form of an array."
+msgstr "Пожалуйста, определите параметры по умолчанию в виде массива."
+
+#: inc/icon-functions.php:16
+msgid "Please define an SVG icon filename."
+msgstr "Пожалуйста, определите имя файла SVG-иконки."
+
+#: inc/one-click-import-data.php:9 inc/one-click-import-data.php:12
+msgid "TownHub theme - Full Demo Content (widgets included)"
+msgstr "Тема TownHub - полный демо-контент (включая виджеты)"
+
+#: inc/custom-header.php:46
+msgid "Default Header Image"
+msgstr "Изображение заголовка по умолчанию"
+
+#: inc/custom-header.php:115
+msgid "Play background video"
+msgstr "Воспроизвести фоновое видео"
+
+#: inc/custom-header.php:116
+msgid "Pause background video"
+msgstr "Пауза фоновое видео"
+
+#: inc/woo-init.php:161
+msgid "Details"
+msgstr "Детали"
+
+#: inc/template-tags.php:157
+msgid "Prev Post"
+msgstr "Предыдущая запись"
+
+#: inc/template-tags.php:157 inc/template-tags.php:168
+#, php-format
+msgid "<br /> %s"
+msgstr "<br />  %s"
+
+#: inc/template-tags.php:168
+msgid "Next Post"
+msgstr "Следующая запись"
+
+#: inc/template-tags.php:203 inc/template-tags.php:249
+#: inc/template-tags.php:435
+msgid "Prev"
+msgstr "Предыдущая"
+
+#: inc/template-tags.php:212 inc/template-tags.php:258
+#: inc/template-tags.php:439
+msgid "Next"
+msgstr "следующий"
+
+#: inc/template-tags.php:310
+msgid "F j, Y g:i a"
+msgstr "F j, Y g: это"
+
+#: inc/template-tags.php:316
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+#: inc/template-tags.php:341
+msgid "<i class=\"fas fa-caret-left\"></i><span>Prev</span>"
+msgstr "<i class=\"fas fa-caret-left\"></i> <span>Предыдущая</span>"
+
+#: inc/template-tags.php:342
+msgid "<span>Next</span><i class=\"fas fa-caret-right\"></i>"
+msgstr "<span>следующий</span> <i class=\"fas fa-caret-right\"></i>"
+
+#: inc/template-tags.php:343
+msgid "Posts navigation"
+msgstr "Сообщения навигации"
+
+#: inc/template-tags.php:381
+msgid "<i class=\"fa fa-chevron-left\"></i>"
+msgstr "<i class=\"fa fa-chevron-left\"></i>"
+
+#: inc/template-tags.php:390
+msgid "<i class=\"fa fa-chevron-right\"></i>"
+msgstr "<i class=\"fa fa-chevron-right\"></i>"
+
+#: inc/template-tags.php:436
+msgid "Previous Projects"
+msgstr "Предыдущие проекты"
+
+#: inc/template-tags.php:440
+msgid "Next Projects"
+msgstr "Следующие проекты"
+
+#: inc/template-tags.php:460
+msgid "Home"
+msgstr "Дом"
+
+#: inc/template-tags.php:461
+msgid "Blog"
+msgstr "Блог"
+
+#: inc/template-tags.php:468
+msgctxt "listing archive in breadcrumb"
+msgid "Listing"
+msgstr "Листинг"
+
+#: inc/template-tags.php:469
+msgctxt "product archive in breadcrumb"
+msgid "Products"
+msgstr "Товары"
+
+#: inc/template-tags.php:661 inc/template-tags.php:665
+#: inc/template-tags.php:669 inc/template-tags.php:676
+#: inc/template-tags.php:680 inc/template-tags.php:685
+msgid " Archives"
+msgstr "архив"
+
+#: inc/template-tags.php:696
+msgid " Author: "
+msgstr "Автор:"
+
+#: inc/template-tags.php:701
+msgid "Page"
+msgstr "страница"
+
+#: inc/template-tags.php:706
+msgid "Search results for: "
+msgstr "Результаты поиска для:"
+
+#: inc/template-tags.php:711
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#. %s: Name of current post
+#: inc/template-tags.php:736
+#, php-format
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Изменить <span class=\"screen-reader-text\"> &quot; %s \"</span>"
+
+#: inc/template-tags.php:791 template-parts/page/content-page-woo.php:27
+#: template-parts/page/content-page.php:27
+#: template-parts/page/content-fullwidth-page.php:20
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: inc/template-tags.php:808 inc/template-tags.php:855
+#, php-format
+msgid "<span>By, %s</span>"
+msgstr "<span>% S</span>"
+
+#: inc/template-tags.php:827
+msgid "Read more"
+msgstr "Подробнее"
+
+#: inc/template-tags.php:837 inc/template-tags.php:885
+msgid "Tags: "
+msgstr "Метки:"
+
+#: inc/template-tags.php:871
+msgctxt "comment counter None format"
+msgid "0 comment"
+msgstr "0 комментариев"
+
+#: inc/template-tags.php:871
+msgctxt "comment counter One format"
+msgid "1 comment"
+msgstr "1 Комментарий"
+
+#: inc/template-tags.php:871
+#, php-format
+msgctxt "comment counter Plural format"
+msgid "% comments"
+msgstr "% Комментарии"
+
+#: inc/template-tags.php:894
+msgid "FEATURED"
+msgstr "ЛУЧШЕЕ"
+
+#: inc/template-functions.php:143
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr "Этот контент защищен паролем. Для просмотра введите пароль ниже:"
+
+#: inc/back-compat.php:37 inc/back-compat.php:49 inc/back-compat.php:64
+#, php-format
+msgid ""
+"TownHub requires at least WordPress version 5.0. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+"TownHub требует как минимум WordPress версии 5.0. Вы используете версию %s. "
+"Пожалуйста, обновите и попробуйте снова."
+
+#: includes/redux-configs.php:37 includes/redux-configs.php:38
+msgid "TownHub Options"
+msgstr "Параметры TownHub"
+
+#: includes/redux-configs.php:148 includes/redux-configs.php:150
+msgid ""
+"<p><strong>TownHub - Creative  Responsive  Architecture WordPress "
+"Theme</strong> is perfect if you like a clean and modern design. This theme "
+"is ideal for designers, photographers, and those who need an easy, "
+"attractive and effective way to share their work with clients.</p>"
+msgstr ""
+"<p> <strong>TownHub - креативная адаптивная архитектура WordPress "
+"Theme</strong> идеально подходит, если вам нравится чистый и современный "
+"дизайн. Эта тема идеально подходит для дизайнеров, фотографов и тех, кому "
+"нужен простой, привлекательный и эффективный способ поделиться своей работой "
+"с клиентами. </p>"
+
+#: includes/redux-configs.php:154
+msgid ""
+"Thanks all of you who stay with us, your co-operation is our inspiration."
+msgstr ""
+"Спасибо всем, кто остается с нами, ваше сотрудничество является нашим "
+"вдохновением."
+
+#: includes/redux-configs.php:329
+msgid "Section via hook"
+msgstr "Раздел через крючок"
+
+#: includes/redux-configs.php:330
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+"<p class=\"description\"> Это раздел, созданный добавлением фильтра в массив "
+"разделов. Может использоваться дочерними темами для добавления / удаления "
+"разделов из параметров. </p>"
+
+#: lib/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Установите необходимые плагины"
+
+#: lib/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Установить плагины"
+
+#. %s: plugin name.
+#: lib/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Установка плагина: %s"
+
+#. %s: plugin name.
+#: lib/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Обновление плагина: %s"
+
+#: lib/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Что-то пошло не так с API плагинов."
+
+#: lib/class-tgm-plugin-activation.php:341
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Для этой темы требуется следующий плагин:%1$s."
+msgstr[1] "Для этой темы требуются следующие плагины:%1$s."
+
+#: lib/class-tgm-plugin-activation.php:347
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Эта тема рекомендует следующий плагин:%1$s."
+msgstr[1] "В этой теме рекомендуются следующие плагины:%1$s."
+
+#: lib/class-tgm-plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Следующий плагин необходимо обновить до последней версии, чтобы обеспечить "
+"максимальную совместимость с этой темой:%1$s. msgid_plural Следующие плагины "
+"необходимо обновить до последней версии, чтобы обеспечить максимальную "
+"совместимость с этой темой:%1$s."
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:359
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Доступно обновление для:%1$s."
+msgstr[1] "Доступны обновления для следующих плагинов:%1$s."
+
+#: lib/class-tgm-plugin-activation.php:365
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Следующий обязательный плагин в настоящее время неактивен:%1$s."
+msgstr[1] "Следующие необходимые плагины в настоящее время неактивны:%1$s."
+
+#: lib/class-tgm-plugin-activation.php:371
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Следующий рекомендуемый плагин в настоящее время неактивен:%1$s."
+msgstr[1] "Следующие рекомендуемые плагины в настоящее время неактивны:%1$s."
+
+#: lib/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Начать установку плагина"
+msgstr[1] "Начать установку плагинов"
+
+#: lib/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Начните обновлять плагин"
+msgstr[1] "Начните обновлять плагины"
+
+#: lib/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Начните активировать плагин"
+msgstr[1] "Начните активировать плагины"
+
+#: lib/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Вернуться к программе установки необходимых плагинов"
+
+#: lib/class-tgm-plugin-activation.php:393
+#: lib/class-tgm-plugin-activation.php:912
+#: lib/class-tgm-plugin-activation.php:2626
+#: lib/class-tgm-plugin-activation.php:3689
+msgid "Return to the Dashboard"
+msgstr "Вернуться на панель инструментов"
+
+#: lib/class-tgm-plugin-activation.php:394
+#: lib/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr "Плагин успешно активирован."
+
+#: lib/class-tgm-plugin-activation.php:395
+#: lib/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgstr "Следующий плагин был успешно активирован:"
+
+#. 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Никаких действий не принимается. Плагин%1$s уже был активен."
+
+#. 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Плагин не активирован. Для этой темы требуется более высокая версия %s. "
+"Пожалуйста, обновите плагин."
+
+#. 1: dashboard link.
+#: lib/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Все плагины установлены и успешно активированы. %1$s"
+
+#: lib/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Закрыть это уведомление"
+
+#: lib/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Существует один или несколько необходимых или рекомендуемых плагинов для "
+"установки, обновления или активации."
+
+#: lib/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Пожалуйста, обратитесь к администратору этого сайта за помощью."
+
+#: lib/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Этот плагин должен быть обновлен, чтобы быть совместимым с вашей темой."
+
+#: lib/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Требуется обновление"
+
+#: lib/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Пакет удаленного плагина не содержит папку с нужным слагом и переименование "
+"не работает."
+
+#: lib/class-tgm-plugin-activation.php:1019
+#: lib/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Пожалуйста, свяжитесь с поставщиком плагинов и попросите их упаковать плагин "
+"в соответствии с рекомендациями WordPress."
+
+#: lib/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Пакет удаленного плагина состоит из более чем одного файла, но файлы не "
+"упакованы в папку."
+
+#: lib/class-tgm-plugin-activation.php:1206
+#: lib/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "и"
+
+#. %s: version number
+#: lib/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA в %s"
+
+#: lib/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr "необходимые"
+
+#: lib/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr "рекомендуемые"
+
+#: lib/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr "WordPress Репозиторий"
+
+#: lib/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr "Внешний источник"
+
+#: lib/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr "Расфасованных"
+
+#: lib/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr "Не установлено"
+
+#: lib/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "Установленные но не активированы"
+
+#: lib/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr "активный"
+
+#: lib/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr "Требуемое обновление недоступно"
+
+#: lib/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr "Требуется обновление"
+
+#: lib/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr "Обновление рекомендуется"
+
+#. 1: install status, 2: update status
+#: lib/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s,%2$s"
+
+#. 1: number of plugins.
+#: lib/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Все <span class=\"count\">( %s)</span>"
+msgstr[1] "Все <span class=\"count\">( %s)</span>"
+
+#. 1: number of plugins.
+#: lib/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Установить <span class=\"count\">( %s)</span>"
+msgstr[1] "Установить <span class=\"count\">( %s)</span>"
+
+#. 1: number of plugins.
+#: lib/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Доступно обновление <span class=\"count\">( %s)</span>"
+msgstr[1] "Доступно обновление <span class=\"count\">( %s)</span>"
+
+#. 1: number of plugins.
+#: lib/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Активировать <span class=\"count\">( %s)</span>"
+msgstr[1] "Активировать <span class=\"count\">( %s)</span>"
+
+#: lib/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "неизвестный"
+
+#: lib/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr "Установленная версия:"
+
+#: lib/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr "Минимально необходимая версия:"
+
+#: lib/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr "Доступная версия:"
+
+#: lib/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr "Нет плагинов для установки, обновления или активации."
+
+#: lib/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr "Plugin"
+
+#: lib/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr "Источник"
+
+#: lib/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr "Тип"
+
+#: lib/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr "Версия"
+
+#: lib/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr "Положение дел"
+
+#. %2$s: plugin name in screen reader markup
+#: lib/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr "Установить%2$s"
+
+#. %2$s: plugin name in screen reader markup
+#: lib/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr "Обновить%2$s"
+
+#. %2$s: plugin name in screen reader markup
+#: lib/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr "Активировать%2$s"
+
+#: lib/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr "Обновление сообщения от автора плагина:"
+
+#: lib/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr "устанавливать"
+
+#: lib/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr "Обновить"
+
+#: lib/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr "Активировать"
+
+#: lib/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Не было выбрано никаких плагинов для установки. Никаких действий не "
+"принимается."
+
+#: lib/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Не было выбрано плагинов для обновления. Никаких действий не принимается."
+
+#: lib/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr "На данный момент нет доступных плагинов для установки."
+
+#: lib/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr "На данный момент нет доступных плагинов для обновления."
+
+#: lib/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"Не было выбрано ни одного плагина для активации. Никаких действий не "
+"принимается."
+
+#: lib/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "На данный момент нет доступных плагинов для активации."
+msgstr[1] "Следующие плагины были успешно активированы:"
+
+#: lib/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr "Активация плагина не удалась."
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: lib/class-tgm-plugin-activation.php:3607
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Обновление плагина%1$s (%2$d /%3$d)"
+
+#. 1: plugin name, 2: error message.
+#: lib/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Произошла ошибка при установке%1$s: <strong>%2$s</strong> ."
+
+#. 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:3612
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Не удалось установить%1$s."
+
+#: lib/class-tgm-plugin-activation.php:3616
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Процесс установки и активации начинается. На некоторых хостах этот процесс "
+"может занять некоторое время, поэтому наберитесь терпения."
+
+#. 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:3618
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s установлен и успешно активирован."
+
+#: lib/class-tgm-plugin-activation.php:3618
+#: lib/class-tgm-plugin-activation.php:3626
+msgid "Show Details"
+msgstr "Показать детали"
+
+#: lib/class-tgm-plugin-activation.php:3618
+#: lib/class-tgm-plugin-activation.php:3626
+msgid "Hide Details"
+msgstr "Скрыть детали"
+
+#: lib/class-tgm-plugin-activation.php:3619
+msgid "All installations and activations have been completed."
+msgstr "Все установки и активации были завершены."
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: lib/class-tgm-plugin-activation.php:3621
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка и активация плагина%1$s (%2$d /%3$d)"
+
+#: lib/class-tgm-plugin-activation.php:3624
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Процесс установки начинается. На некоторых хостах этот процесс может занять "
+"некоторое время, поэтому наберитесь терпения."
+
+#. 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:3626
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s успешно установлен."
+
+#: lib/class-tgm-plugin-activation.php:3627
+msgid "All installations have been completed."
+msgstr "Все установки были завершены."
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: lib/class-tgm-plugin-activation.php:3629
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка плагина%1$s (%2$d /%3$d)"
+
+#. %s: Quantity.
+#: woocommerce/global/quantity-input.php:28
+#, php-format
+msgid "%s quantity"
+msgstr " %s количество"
+
+#: woocommerce/global/quantity-input.php:28
+msgid "Quantity"
+msgstr "Количество"
+
+#: woocommerce/global/quantity-input.php:42
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "Кол-во"
+
+#: includes/redux-sections/404.php:5
+msgid "404 Page"
+msgstr "404 Page"
+
+#: includes/redux-sections/404.php:14
+msgid "Background Image"
+msgstr "Фоновая картинка"
+
+#: includes/redux-sections/404.php:21
+msgid "Additional Message"
+msgstr "Дополнительное сообщение"
+
+#: includes/redux-sections/404.php:27
+#: includes/redux-sections/blog-single.php:28
+#: includes/redux-sections/blog-single.php:37
+#: includes/redux-sections/blog-single.php:47
+#: includes/redux-sections/blog-single.php:58
+#: includes/redux-sections/blog-single.php:68
+#: includes/redux-sections/blog-single.php:78
+#: includes/redux-sections/blog-single.php:88
+#: includes/redux-sections/blog-single.php:98
+#: includes/redux-sections/blog-single.php:108
+#: includes/redux-sections/colors.php:14
+#: includes/redux-sections/shop-single.php:35
+#: includes/redux-sections/shop-single.php:43
+#: includes/redux-sections/shop.php:14 includes/redux-sections/shop.php:43
+#: includes/redux-sections/thumbnails.php:18
+#: includes/redux-sections/header.php:24 includes/redux-sections/header.php:44
+#: includes/redux-sections/header.php:54 includes/redux-sections/blog.php:14
+#: includes/redux-sections/blog.php:81 includes/redux-sections/blog.php:90
+#: includes/redux-sections/blog.php:99 includes/redux-sections/blog.php:109
+#: includes/redux-sections/blog.php:119 includes/redux-sections/blog.php:129
+#: includes/redux-sections/footer.php:28 includes/redux-sections/general.php:16
+#: includes/redux-sections/general.php:33
+msgid "Yes"
+msgstr "да"
+
+#: includes/redux-sections/404.php:28
+#: includes/redux-sections/blog-single.php:29
+#: includes/redux-sections/blog-single.php:38
+#: includes/redux-sections/blog-single.php:48
+#: includes/redux-sections/blog-single.php:59
+#: includes/redux-sections/blog-single.php:69
+#: includes/redux-sections/blog-single.php:79
+#: includes/redux-sections/blog-single.php:89
+#: includes/redux-sections/blog-single.php:99
+#: includes/redux-sections/blog-single.php:109
+#: includes/redux-sections/colors.php:15
+#: includes/redux-sections/shop-single.php:36
+#: includes/redux-sections/shop-single.php:44
+#: includes/redux-sections/shop.php:15 includes/redux-sections/shop.php:44
+#: includes/redux-sections/thumbnails.php:19
+#: includes/redux-sections/header.php:25 includes/redux-sections/header.php:45
+#: includes/redux-sections/header.php:55 includes/redux-sections/blog.php:15
+#: includes/redux-sections/blog.php:82 includes/redux-sections/blog.php:91
+#: includes/redux-sections/blog.php:100 includes/redux-sections/blog.php:110
+#: includes/redux-sections/blog.php:120 includes/redux-sections/blog.php:130
+#: includes/redux-sections/footer.php:29 includes/redux-sections/general.php:17
+#: includes/redux-sections/general.php:34
+msgid "No"
+msgstr "нет"
+
+#: includes/redux-sections/404.php:29
+msgid "Show back Home"
+msgstr "Показать назад Главная"
+
+#: includes/redux-sections/blog-single.php:5
+msgid "Blog Single"
+msgstr "Блог Single"
+
+#: includes/redux-sections/blog-single.php:13
+#: includes/redux-sections/shop.php:83 includes/redux-sections/blog.php:66
+msgid "Sidebar Width"
+msgstr "Ширина боковой панели"
+
+#: includes/redux-sections/blog-single.php:14
+#: includes/redux-sections/shop.php:84 includes/redux-sections/blog.php:67
+msgid "Based on Bootstrap 12 columns."
+msgstr "На основе Bootstrap 12 столбцов."
+
+#: includes/redux-sections/blog-single.php:16
+#: includes/redux-sections/shop.php:86 includes/redux-sections/blog.php:69
+msgid "2 Columns"
+msgstr "2 колонки"
+
+#: includes/redux-sections/blog-single.php:17
+#: includes/redux-sections/shop.php:87 includes/redux-sections/blog.php:70
+msgid "3 Columns"
+msgstr "3 колонки"
+
+#: includes/redux-sections/blog-single.php:18
+#: includes/redux-sections/shop.php:88 includes/redux-sections/blog.php:71
+msgid "4 Columns"
+msgstr "4 колонки"
+
+#: includes/redux-sections/blog-single.php:19
+#: includes/redux-sections/shop.php:89 includes/redux-sections/blog.php:72
+msgid "5 Columns"
+msgstr "5 столбцов"
+
+#: includes/redux-sections/blog-single.php:20
+#: includes/redux-sections/shop.php:90 includes/redux-sections/blog.php:73
+msgid "6 Columns"
+msgstr "6 столбцов"
+
+#: includes/redux-sections/blog-single.php:30
+msgid "Show Featured Image"
+msgstr "Показать избранные изображения"
+
+#: includes/redux-sections/blog-single.php:39
+#: includes/redux-sections/blog.php:101
+msgid "Show Author"
+msgstr "Показать автора"
+
+#: includes/redux-sections/blog-single.php:49
+#: includes/redux-sections/blog.php:92
+msgid "Show Date"
+msgstr "Дата показа"
+
+#: includes/redux-sections/blog-single.php:60
+#: includes/redux-sections/blog.php:111
+msgid "Show Categories"
+msgstr "Показать категории"
+
+#: includes/redux-sections/blog-single.php:70
+#: includes/redux-sections/blog.php:121
+msgid "Show Tags"
+msgstr "Показать теги"
+
+#: includes/redux-sections/blog-single.php:80
+#: includes/redux-sections/blog.php:131
+msgid "Show Comments"
+msgstr "Показать комментарии"
+
+#: includes/redux-sections/blog-single.php:90
+msgid "Show Author Block"
+msgstr "Показать авторский блок"
+
+#: includes/redux-sections/blog-single.php:100
+msgid "Show post navigation"
+msgstr "Показать пост навигации"
+
+#: includes/redux-sections/blog-single.php:110
+msgid "Next/Prev posts should be in same category"
+msgstr "Следующие / Предыдущие сообщения должны быть в той же категории"
+
+#: includes/redux-sections/colors.php:5
+msgid "Colors"
+msgstr "Цвета"
+
+#: includes/redux-sections/colors.php:16
+msgid "Use Custom Colors"
+msgstr "Используйте пользовательские цвета"
+
+#: includes/redux-sections/colors.php:17
+msgid "Set this option to <b>Yes</b> if you want to use color variants bellow."
+msgstr ""
+"Установите этот параметр на <b>Да,</b> если вы хотите использовать варианты "
+"цвета ниже."
+
+#: includes/redux-sections/colors.php:25
+msgid "Theme Color"
+msgstr "Цвет темы"
+
+#: includes/redux-sections/colors.php:26
+msgid "Default: #4DB7FE"
+msgstr "По умолчанию: # 4DB7FE"
+
+#: includes/redux-sections/colors.php:32
+msgid "Theme Secondary Color"
+msgstr "Тема вторичного цвета"
+
+#: includes/redux-sections/colors.php:33
+msgid "Default: #5ECFB1"
+msgstr "По умолчанию: # 5ECFB1"
+
+#: includes/redux-sections/colors.php:39
+msgid "Button Hover Color - Theme third color"
+msgstr "Кнопка Hover Color - тема третьего цвета"
+
+#: includes/redux-sections/colors.php:40 includes/redux-sections/colors.php:47
+#: includes/redux-sections/colors.php:54
+msgid "Default: #2F3B59"
+msgstr "По умолчанию: # 2F3B59"
+
+#: includes/redux-sections/colors.php:46
+msgid "Body Background Color"
+msgstr "Цвет кузова"
+
+#: includes/redux-sections/colors.php:53
+msgid "Loader Background Color"
+msgstr "Цвет фона загрузчика"
+
+#: includes/redux-sections/colors.php:60
+msgid "Body Text Color"
+msgstr "Цвет основного текста"
+
+#: includes/redux-sections/colors.php:61
+msgid "Default: #000"
+msgstr "По умолчанию: # 000"
+
+#: includes/redux-sections/colors.php:67
+msgid "Paragraph Color"
+msgstr "Цвет абзаца"
+
+#: includes/redux-sections/colors.php:68
+msgid "Default: #878C9F"
+msgstr "По умолчанию: # 878C9F"
+
+#: includes/redux-sections/colors.php:75
+msgid "Link Color"
+msgstr "Цвет ссылки"
+
+#: includes/redux-sections/colors.php:88
+msgid "Header Bg Color"
+msgstr "Цвет заголовка Bg"
+
+#: includes/redux-sections/colors.php:89
+msgid "Default: #2e3f6e"
+msgstr "По умолчанию: # 2e3f6e"
+
+#: includes/redux-sections/colors.php:98
+msgid "Header Color"
+msgstr "Цвет заголовка"
+
+#: includes/redux-sections/colors.php:99
+msgid "Default: #ffffff"
+msgstr "По умолчанию: #ffffff"
+
+#: includes/redux-sections/colors.php:105
+msgid "Submenu Background Color"
+msgstr "Подменю Цвет фона"
+
+#: includes/redux-sections/colors.php:106
+#: includes/redux-sections/colors.php:150
+msgid "Default: #fff"
+msgstr "По умолчанию: #fff"
+
+#: includes/redux-sections/colors.php:115
+msgid "Menu Color"
+msgstr "Цвет меню"
+
+#: includes/redux-sections/colors.php:127
+msgid "Submenu Color"
+msgstr "Подменю Цвет"
+
+#: includes/redux-sections/colors.php:139
+msgid "Footer Background Color"
+msgstr "Цвет нижнего колонтитула"
+
+#: includes/redux-sections/colors.php:140
+msgid "Default: #325096"
+msgstr "По умолчанию: # 325096"
+
+#: includes/redux-sections/colors.php:149
+msgid "Footer Color"
+msgstr "Цвет нижнего колонтитула"
+
+#: includes/redux-sections/colors.php:156
+msgid "Footer Copyright Background Color"
+msgstr "Цвет фона нижнего колонтитула авторского права"
+
+#: includes/redux-sections/colors.php:157
+msgid "Default: #253966"
+msgstr "По умолчанию: # 253966"
+
+#: includes/redux-sections/folio-parallax.php:5
+msgid "Parallax Layout"
+msgstr "Параллакс макет"
+
+#: includes/redux-sections/folio-parallax.php:15
+msgid "First Content Side for Parallax layout"
+msgstr "Первая сторона контента для макета параллакса"
+
+#: includes/redux-sections/folio-parallax.php:24
+#: includes/redux-sections/member.php:80
+msgid "Parallax Dimension"
+msgstr "Параллакс Размер"
+
+#: includes/redux-sections/folio-parallax.php:25
+#, php-format
+msgid ""
+"Pixel number. Which we are telling the browser is to move Portfolio Content "
+"down every time we scroll down 100% of the viewport height and move "
+"Portfolio Content up every time we scroll up 100% of the viewport height. Ex:"
+" 200  or -200 for reverse direction."
+msgstr ""
+"Пиксельный номер. Мы говорим браузеру о том, чтобы перемещать содержимое "
+"портфолио вниз каждый раз, когда мы прокручиваем на 100% высоту области "
+"просмотра, и перемещаем содержимое портфолио вверх каждый раз, когда мы "
+"перемещаемся на 100% высоты области просмотра. Пример: 200 или -200 для "
+"обратного направления."
+
+#: includes/redux-sections/folio-parallax.php:31
+msgid "Show Post Excerpt on Parallax layout"
+msgstr "Показать пост отрывок о макете параллакса"
+
+#: includes/redux-sections/folio-parallax.php:38
+msgid "Show Post Meta on Parallax layout"
+msgstr "Показать мета-пост на макете параллакса"
+
+#: includes/redux-sections/custom-code.php:5
+msgid "Custom Code"
+msgstr "Пользовательский код"
+
+#: includes/redux-sections/custom-code.php:8
+msgid ""
+"<p>You can use Firebug - Firefox add-on to adjust your wordpress site's "
+"style. For more detail please read this tutorial: <a href=\"https://www."
+"tipsandtricks-hq.com/how-to-use-firebug-to-modify-your-wordpress-sites-css-"
+"video-tutorial-4037\" target=\"_blank\">How to Use Firebug to Modify Your "
+"WordPress Site's CSS (Video Tutorial)</a> by <strong>Tips and Tricks "
+"HQ</strong>.</p>"
+msgstr ""
+"<p> Вы можете использовать Firebug - дополнение Firefox, чтобы настроить "
+"стиль вашего WordPress сайта. Для получения более подробной информации, "
+"пожалуйста, прочитайте этот учебник: <a href=\"https://www. tipsandtricks-hq."
+"com/how-to-use-firebug-to-modify-your-wordpress-sites-css- video-tutorial-"
+"4037\" target=\"_blank\">Как использовать Firebug для изменения CSS (видео-"
+"учебник) вашего WordPress сайта с</a> помощью <strong>Tips and Tricks "
+"HQ</strong> . </p>"
+
+#: includes/redux-sections/custom-code.php:15
+msgid "CSS Code - Large Desktop View"
+msgstr "Код CSS - Большой вид рабочего стола"
+
+#: includes/redux-sections/custom-code.php:16
+#: includes/redux-sections/custom-code.php:28
+#: includes/redux-sections/custom-code.php:40
+#: includes/redux-sections/custom-code.php:52
+msgid "Paste your CSS code here."
+msgstr "Вставьте свой код CSS здесь."
+
+#: includes/redux-sections/custom-code.php:27
+msgid "CSS Code - Medium Desktop View"
+msgstr "CSS-код - средний вид рабочего стола"
+
+#: includes/redux-sections/custom-code.php:39
+msgid "CSS Code - Tablet View"
+msgstr "Код CSS - Вид планшета"
+
+#: includes/redux-sections/custom-code.php:51
+msgid "CSS Code - Mobile View"
+msgstr "CSS-код - мобильный вид"
+
+#: includes/redux-sections/shop-single.php:5
+msgid "Product Page"
+msgstr "Страница продукта"
+
+#: includes/redux-sections/shop-single.php:37
+msgid "Show Next/Prev products navigation"
+msgstr "Показать следующую / предыдущую навигацию по продуктам"
+
+#: includes/redux-sections/shop-single.php:45
+msgid "Next/Prev products should be in same category"
+msgstr "Следующая / Предыдущая продукция должна быть в той же категории"
+
+#: includes/redux-sections/shop-single.php:51
+msgid "Shop List Link"
+msgstr "Ссылка на список магазинов"
+
+#: includes/redux-sections/shop-single.php:52
+msgid "Link for shop list icon on single product page."
+msgstr "Ссылка на значок списка магазинов на странице одного товара."
+
+#: includes/redux-sections/shop-single.php:70
+msgid "Related Products Count"
+msgstr "Сопутствующие товары Count"
+
+#: includes/redux-sections/shop-single.php:71
+msgid "Set number of related products to show ( -1 for all)."
+msgstr ""
+"Установите количество связанных продуктов, чтобы показать (-1 для всех)."
+
+#: includes/redux-sections/shop-single.php:102
+msgid "Up-Sells Count"
+msgstr "Up-Sells Count"
+
+#: includes/redux-sections/shop-single.php:103
+msgid "Set number of up-sells products to show ( -1 for all)."
+msgstr "Установите количество продуктов для показа (-1 для всех)."
+
+#: includes/redux-sections/protected.php:5
+msgid "Password Protected Page"
+msgstr "Страница, защищенная паролем"
+
+#: includes/redux-sections/protected.php:15
+msgid "Page Background Image"
+msgstr "Фоновое изображение страницы"
+
+#: includes/redux-sections/protected.php:18
+msgid ""
+"This image will be used for background image in password protected page."
+msgstr ""
+"Это изображение будет использоваться для фонового изображения на защищенной "
+"паролем странице."
+
+#: includes/redux-sections/protected.php:25
+msgid "Show post title"
+msgstr "Показать заголовок сообщения"
+
+#: includes/redux-sections/protected.php:32
+msgid "Page Message"
+msgstr "Сообщение страницы"
+
+#: includes/redux-sections/member.php:5
+msgid "Members"
+msgstr "члены"
+
+#: includes/redux-sections/member.php:14 includes/redux-sections/folio.php:15
+msgid "Fullwidth Navigation Menu"
+msgstr "Полноэкранное меню навигации"
+
+#: includes/redux-sections/member.php:21 includes/redux-sections/shop.php:16
+#: includes/redux-sections/blog.php:16
+msgid "Show Header"
+msgstr "Показать заголовок"
+
+#: includes/redux-sections/member.php:28
+msgid "Member Heading Text"
+msgstr "Текст заголовка члена"
+
+#: includes/redux-sections/member.php:36
+msgid "Member Intro Text"
+msgstr "Вступительный текст"
+
+#: includes/redux-sections/member.php:44
+msgid "Header Background Video"
+msgstr "Заголовок Фоновое видео"
+
+#: includes/redux-sections/member.php:46 includes/redux-sections/folio.php:48
+msgid ""
+"Please enter your Youtube video ID (ex: oDpSPNIozt8 ) here to use header "
+"background video feature or leave empty to use header background image "
+"selected bellow."
+msgstr ""
+"Пожалуйста, введите свой идентификатор видео Youtube (например: oDpSPNIozt8) "
+"здесь, чтобы использовать функцию фонового видео заголовка, или оставьте "
+"пустым, чтобы использовать фоновое изображение заголовка, выбранное ниже."
+
+#: includes/redux-sections/member.php:53
+msgid "Header Background Image"
+msgstr "Фоновое изображение заголовка"
+
+#: includes/redux-sections/member.php:63 includes/redux-sections/folio.php:65
+msgid "Show Breadcrumbs"
+msgstr "Показать панировочные сухари"
+
+#: includes/redux-sections/member.php:71
+msgid "First Member Content Side"
+msgstr "Первый участник Content Side"
+
+#: includes/redux-sections/member.php:81
+#, php-format
+msgid ""
+"Pixel number. Which we are telling the browser is to move Member Photo down "
+"every time we scroll down 100% of the viewport height and move Member Photo "
+"up every time we scroll up 100% of the viewport height. Ex: 150  or -150 for "
+"reverse direction."
+msgstr ""
+"Пиксельный номер. Мы говорим браузеру о том, чтобы перемещать фотографию "
+"участника вниз каждый раз, когда мы прокручиваем вниз на 100% высоты области "
+"просмотра, и перемещать фотографию участника вверх каждый раз, когда мы "
+"прокручиваем вверх на 100% высоты области просмотра. Пример: 150 или -150 "
+"для обратного направления."
+
+#: includes/redux-sections/member.php:89
+msgid "Show Read more"
+msgstr "Показать подробнее"
+
+#: includes/redux-sections/member.php:99
+msgid "Member Sidebar Layout"
+msgstr "Макет боковой панели пользователя"
+
+#: includes/redux-sections/member.php:100
+msgid ""
+"Select main content and sidebar layout. The option 4 is default layout with "
+"right parallax image for TownHub theme."
+msgstr ""
+"Выберите основной контент и макет боковой панели. Опция 4 является макетом "
+"по умолчанию с правым изображением параллакса для темы TownHub."
+
+#: includes/redux-sections/member.php:122 includes/redux-sections/folio.php:121
+msgid "Posts per page"
+msgstr "Сообщений на странице"
+
+#: includes/redux-sections/member.php:123 includes/redux-sections/folio.php:122
+msgid "Number of post to show per page, -1 to show all posts."
+msgstr ""
+"Количество сообщений для отображения на странице, -1, чтобы показать все "
+"сообщения."
+
+#: includes/redux-sections/member.php:129
+msgid "Order Members By"
+msgstr "Заказать участников"
+
+#: includes/redux-sections/member.php:133 includes/redux-sections/folio.php:136
+#: includes/redux-sections/folio.php:159 includes/redux-sections/folio.php:208
+msgid "None"
+msgstr "Никто"
+
+#: includes/redux-sections/member.php:134 includes/redux-sections/folio.php:160
+msgid "Post ID"
+msgstr "ID сообщения"
+
+#: includes/redux-sections/member.php:135 includes/redux-sections/folio.php:161
+msgid "Post Author"
+msgstr "Автор сообщения"
+
+#: includes/redux-sections/member.php:136 includes/redux-sections/folio.php:162
+msgid "Post title"
+msgstr "Заголовок поста"
+
+#: includes/redux-sections/member.php:137 includes/redux-sections/folio.php:163
+msgid "Post name (post slug)"
+msgstr "Название сообщения (post slug)"
+
+#: includes/redux-sections/member.php:138 includes/redux-sections/folio.php:164
+msgid "Created Date"
+msgstr "Дата создания"
+
+#: includes/redux-sections/member.php:139 includes/redux-sections/folio.php:165
+msgid "Last modified date"
+msgstr "Дата последнего изменения"
+
+#: includes/redux-sections/member.php:140 includes/redux-sections/folio.php:166
+msgid "Post Parent id"
+msgstr "ID родителя"
+
+#: includes/redux-sections/member.php:141 includes/redux-sections/folio.php:167
+msgid "Random"
+msgstr "случайный"
+
+#: includes/redux-sections/member.php:148
+msgid "Order Members"
+msgstr "Участники заказа"
+
+#: includes/redux-sections/member.php:152 includes/redux-sections/folio.php:148
+#: includes/redux-sections/folio.php:178
+msgid "Descending"
+msgstr "По убыванию"
+
+#: includes/redux-sections/member.php:153 includes/redux-sections/folio.php:147
+#: includes/redux-sections/folio.php:179
+msgid "Ascending"
+msgstr "по возрастанию"
+
+#: includes/redux-sections/member.php:162
+msgid "Member List Link"
+msgstr "Ссылка на список участников"
+
+#: includes/redux-sections/member.php:163
+msgid ""
+"Link for member list icon on single member page. Default: your_domain.com/?"
+"post_type=townhub_member or your_domain.com/townhub_member/"
+msgstr ""
+"Ссылка на значок списка участников на странице одного участника. По "
+"умолчанию: your_domain.com/? post_type = townhub_member или your_domain."
+"com/townhub_member/"
+
+#: includes/redux-sections/shop.php:5
+msgid "Shop"
+msgstr "Магазин"
+
+#: includes/redux-sections/shop.php:23 includes/redux-sections/blog.php:23
+msgid "Header Title"
+msgstr "Заголовок заголовка"
+
+#: includes/redux-sections/shop.php:29 includes/redux-sections/blog.php:29
+msgid "Header Intro"
+msgstr "Заголовок Введение"
+
+#: includes/redux-sections/shop.php:36 includes/redux-sections/blog.php:36
+msgid "Header Background"
+msgstr "Фон заголовка"
+
+#: includes/redux-sections/shop.php:45
+msgid "Show Cart"
+msgstr "Показать корзину"
+
+#: includes/redux-sections/shop.php:99
+msgid "Desktop Columns"
+msgstr "Колонны рабочего стола"
+
+#: includes/redux-sections/shop.php:100
+msgid "Number of products per row on desktop view."
+msgstr "Количество продуктов в строке на рабочем столе."
+
+#: includes/redux-sections/shop.php:102 includes/redux-sections/shop.php:121
+msgid "One column"
+msgstr "Один столбец"
+
+#: includes/redux-sections/shop.php:103 includes/redux-sections/shop.php:122
+msgid "Two columns"
+msgstr "Две колонки"
+
+#: includes/redux-sections/shop.php:104 includes/redux-sections/shop.php:123
+msgid "Three columns"
+msgstr "Три колонны"
+
+#: includes/redux-sections/shop.php:105 includes/redux-sections/shop.php:124
+msgid "Four columns"
+msgstr "Четыре колонны"
+
+#: includes/redux-sections/shop.php:106 includes/redux-sections/shop.php:125
+msgid "Five columns"
+msgstr "Пять столбцов"
+
+#: includes/redux-sections/shop.php:107 includes/redux-sections/shop.php:126
+msgid "Six columns"
+msgstr "Шесть столбцов"
+
+#: includes/redux-sections/shop.php:108 includes/redux-sections/shop.php:127
+msgid "Seven columns"
+msgstr "Семь колонн"
+
+#: includes/redux-sections/shop.php:118
+msgid "Horizontal Tablet Columns"
+msgstr "Горизонтальные планшетные колонны"
+
+#: includes/redux-sections/shop.php:119
+msgid "Number of products per row on tablet horizontal view."
+msgstr "Количество продуктов в строке на планшете горизонтальный вид."
+
+#: includes/redux-sections/socials.php:5
+msgid "Social Share"
+msgstr "Поделиться в соцсетях"
+
+#: includes/redux-sections/socials.php:14
+msgid "Share Names"
+msgstr "Поделиться именами"
+
+#: includes/redux-sections/socials.php:15
+msgid ""
+"Enter your social share names separated by a comma. List bellow are "
+"available name: facebook,twitter,linkedin,in1,tumblr,digg,googleplus,reddit,"
+"pinterest,stumbleupon,email,vk"
+msgstr ""
+"Введите имена социальных сетей, разделенные запятой. Список ниже доступны "
+"имя: Facebook, Twitter, linkedin, In1, Tumblr, Digg, GooglePlus, Reddit, "
+"Pinterest, Stumbleupon, электронная почта, VK"
+
+#: includes/redux-sections/thumbnails.php:5
+msgid "Thumbnail Sizes"
+msgstr "Размеры миниатюр"
+
+#: includes/redux-sections/thumbnails.php:8
+msgid ""
+"<p>These settings affect the display and dimensions of images in your pages."
+"</p>\n"
+"        <p><em> Enter 9999 as Width value and uncheck Hard Crop to make your "
+"thumbnail dynamic width.</em></p>\n"
+"        <p><em> Enter 9999 as Height value and uncheck Hard Crop to make "
+"your thumbnail dynamic height.</em></p>\n"
+"        <p><em> Enter 9999 as Width and Height values to use full size image."
+"</em></p>\n"
+"<p>After changing these settings you may need to <a href=\"http://wordpress."
+"org/extend/plugins/regenerate-thumbnails/\" target=\"_blank\">regenerate "
+"your thumbnails</a>.</p>"
+msgstr ""
+"<p> Эти настройки влияют на отображение и размеры изображений на ваших "
+"страницах. </p>  п <p> <em>Введите 9999 в качестве значения ширины и снимите "
+"флажок Hard Crop, чтобы сделать миниатюру динамической ширины.</em> </p>  п "
+"<p> <em>Введите 9999 в качестве значения высоты и снимите флажок Hard Crop, "
+"чтобы сделать миниатюру динамической высоты.</em> </p>  п <p> <em>Введите "
+"9999 в качестве значений ширины и высоты, чтобы использовать полноразмерное "
+"изображение.</em> </p>  п <p> После изменения этих настроек вам может "
+"понадобиться <a href=\"http://wordpress. org/extend/plugins/regenerate-"
+"thumbnails/\" target=\"_blank\">восстановить ваши эскизы</a> . </p>"
+
+#: includes/redux-sections/thumbnails.php:20
+msgid "Enable Custom Image Sizes"
+msgstr "Включить пользовательские размеры изображений"
+
+#: includes/redux-sections/thumbnails.php:26
+msgid "Listing Gallery"
+msgstr "Галерея листинга"
+
+#: includes/redux-sections/thumbnails.php:27
+#: includes/redux-sections/thumbnails.php:39
+msgid "Demo: Width - 424, Height - 280, Hard crop - checked"
+msgstr "Демо: Ширина - 424, Высота - 280, Твердый урожай - проверено"
+
+#: includes/redux-sections/thumbnails.php:38
+msgid "Listing Grid"
+msgstr "Листинг Сетка"
+
+#: includes/redux-sections/thumbnails.php:50
+msgid "Listing Category Size One"
+msgstr "Размер листинга Категория Один"
+
+#: includes/redux-sections/thumbnails.php:51
+msgid "Demo: Width - 388, Height - 257, Hard crop - checked"
+msgstr "Демо: Ширина - 388, Высота - 257, Твердый урожай - проверено"
+
+#: includes/redux-sections/thumbnails.php:61
+msgid "Listing Category Size Two"
+msgstr "Листинг Категория Размер Два"
+
+#: includes/redux-sections/thumbnails.php:62
+msgid "Demo: Width - 795, Height - 257, Hard crop - checked"
+msgstr "Демо: Ширина - 795, Высота - 257, Твердый урожай - проверено"
+
+#: includes/redux-sections/thumbnails.php:72
+msgid "Listing Category Size Three"
+msgstr "Листинг Категория Размер Три"
+
+#: includes/redux-sections/thumbnails.php:73
+msgid "Demo: Width - 1200, Height - 532, Hard crop - checked"
+msgstr "Демо: Ширина - 1200, Высота - 532, Твердый урожай - проверено"
+
+#: includes/redux-sections/thumbnails.php:83
+msgid "Post Grid Thumbnail"
+msgstr "Миниатюра Post Grid"
+
+#: includes/redux-sections/thumbnails.php:84
+msgid "Demo: Width - 381, Height - 240, Hard crop - checked"
+msgstr "Демо: Ширина - 381, Высота - 240, Твердый урожай - проверено"
+
+#: includes/redux-sections/thumbnails.php:94
+msgid "Blog Thumbnail"
+msgstr "Миниатюра блога"
+
+#: includes/redux-sections/thumbnails.php:95
+#: includes/redux-sections/thumbnails.php:107
+msgid "Demo: Width - 786, Height - 524, Hard crop - checked"
+msgstr "Демо: Ширина - 786, Высота - 524, Твердый урожай - проверено"
+
+#: includes/redux-sections/thumbnails.php:106
+msgid "Blog Single Thumbnail"
+msgstr "Блог одиночный эскиз"
+
+#: includes/redux-sections/thumbnails.php:117
+msgid "Recent Post Widget"
+msgstr "Недавний пост виджет"
+
+#: includes/redux-sections/thumbnails.php:118
+msgid "Demo: Width - 150, Height - 100, Hard crop - checked"
+msgstr "Демо: Ширина - 150, Высота - 100, Твердый урожай - проверено"
+
+#: includes/redux-sections/header.php:5
+msgid "Header Options"
+msgstr "Параметры заголовка"
+
+#: includes/redux-sections/header.php:16
+msgid "Header Contacts Info"
+msgstr "Заголовок Контактная информация"
+
+#: includes/redux-sections/header.php:17
+msgid ""
+"Enter header contacts info for your site. Notice: only visible on large "
+"screen."
+msgstr ""
+"Введите заголовок контактной информации для вашего сайта. Примечание: виден "
+"только на большом экране."
+
+#: includes/redux-sections/header.php:26
+msgid "Show Search?"
+msgstr "Показать поиск?"
+
+#: includes/redux-sections/header.php:46
+msgid "Show Wishlist (Bookmarked listings)?"
+msgstr "Показать список желаний (добавленные в закладки)?"
+
+#: includes/redux-sections/header.php:56
+msgid "Show User Profile?"
+msgstr "Показать профиль пользователя?"
+
+#: includes/redux-sections/header.php:67
+msgid "Logged In Style"
+msgstr "Вошли в стиль"
+
+#: includes/redux-sections/header.php:69
+msgid "Style One"
+msgstr "Стиль Один"
+
+#: includes/redux-sections/header.php:70
+msgid "Style Two"
+msgstr "Стиль Два"
+
+#: includes/redux-sections/fonts.php:5
+msgid "Fonts"
+msgstr "шрифты"
+
+#: includes/redux-sections/fonts.php:16
+msgid "Body Font"
+msgstr "Шрифт тела"
+
+#: includes/redux-sections/fonts.php:17
+msgid ""
+"<p>Specify the body font properties.</br> Default </br>font-family: Roboto "
+"</br>font-size: 12px </br>font-weight: 400 </br>color: #000000</p>"
+msgstr ""
+"<p> Укажите свойства основного шрифта. </br> По умолчанию </br> семейство "
+"шрифтов: Roboto </br> размер шрифта: 12 пикселей </br> Вес шрифта: 400 </br> "
+"цвет: # 000000 </p>"
+
+#: includes/redux-sections/fonts.php:25
+msgid "Hyperlink Font"
+msgstr "Шрифт гиперссылки"
+
+#: includes/redux-sections/fonts.php:26
+msgid ""
+"<p>Hyperlink font properties.</br> Default </br>font-family: Roboto </br>"
+"font-size: 12px </br>font-weight: 400 </br>color: #000000</p>"
+msgstr ""
+"<p> Свойства шрифта гиперссылки. </br> По умолчанию </br> семейство шрифтов: "
+"Roboto </br> размер шрифта: 12 пикселей </br> Вес шрифта: 400 </br> цвет: # "
+"000000 </p>"
+
+#: includes/redux-sections/fonts.php:35
+msgid "Hyperlink Hover Font"
+msgstr "Шрифт гиперссылки Hover"
+
+#: includes/redux-sections/fonts.php:36
+msgid ""
+"<p>Hyperlink hover font properties.</br> Default </br>font-family: Roboto "
+"</br>font-size: 12px </br>font-weight: 400 </br>color: #000000</p>"
+msgstr ""
+"<p> Свойства шрифта гиперссылки при наведении. </br> По умолчанию </br> "
+"семейство шрифтов: Roboto </br> размер шрифта: 12 пикселей </br> Вес шрифта: "
+"400 </br> цвет: # 000000 </p>"
+
+#: includes/redux-sections/fonts.php:45
+msgid "Paragraph Font"
+msgstr "Абзацный шрифт"
+
+#: includes/redux-sections/fonts.php:46
+msgid ""
+"<p>Specify paragraph font properties. Default </br>font-family: Roboto </br>"
+"font-size: 15px </br>line-height: 24px</br>font-weight: 400</br>color: "
+"#000000</p>"
+msgstr ""
+"<p> Укажите свойства шрифта абзаца. По умолчанию </br> семейство шрифтов: "
+"Roboto </br> размер шрифта: 15 пикселей </br> высота строки: 24px </br> Вес "
+"шрифта: 400 </br> цвет: # 000000 </p>"
+
+#: includes/redux-sections/fonts.php:55
+msgid "Title-Header Font"
+msgstr "Шрифт заголовка заголовка"
+
+#: includes/redux-sections/fonts.php:56
+msgid ""
+"<p>Specify the title and heading font properties.</br> Default </br>font-"
+"family: Roboto </br>color: #000000</p>"
+msgstr ""
+"<p> Укажите свойства шрифта заголовка и заголовка. </br> По умолчанию </br> "
+"семейство шрифтов: Roboto </br> цвет: # 000000 </p>"
+
+#: includes/redux-sections/fonts.php:66
+msgid "TownHub Theme Bolder Font"
+msgstr "TownHub Theme Bolder Шрифт"
+
+#: includes/redux-sections/fonts.php:67
+msgid ""
+"<p>This is bolder font used in the theme. Default </br>font-family: Muli</p>"
+msgstr ""
+"<p> Это более смелый шрифт, используемый в теме. По умолчанию </br> "
+"семейство шрифтов: Muli </p>"
+
+#: includes/redux-sections/fonts.php:81
+msgid "TownHub Theme Italic Font"
+msgstr "TownHub Theme Italic Шрифт"
+
+#: includes/redux-sections/fonts.php:82
+msgid ""
+"<p>Theme italic font. Default </br>font-family: Georgia, \"Times New Roman\","
+" Times, serif </br>font-style: italic</p>"
+msgstr ""
+"<p> Тема курсивного шрифта. По умолчанию </br> font-family: Грузия,  &quot;"
+"Times New Roman \", Times, с засечками </br> Стиль шрифта: курсив </p>"
+
+#: includes/redux-sections/fonts.php:90
+msgid "TownHub Theme Navigation Font"
+msgstr "TownHub Theme Навигационный шрифт"
+
+#: includes/redux-sections/fonts.php:91
+msgid ""
+"<p>Theme navigation font. Default </br>font-family: Muli </br>font-size: "
+"10px </br>line-height: 10px</br>font-weight: 600</br>color: #ffffff</p>"
+msgstr ""
+"<p> Тема навигационного шрифта. По умолчанию </br> семейство шрифтов: Muli "
+"</br> размер шрифта: 10 пикселей </br> высота строки: 10 пикселей </br> Вес "
+"шрифта: 600 </br> цвет: #ffffff </p>"
+
+#: includes/redux-sections/fonts.php:99
+msgid "TownHub Theme Navigation Hover Font"
+msgstr "TownHub Тема Навигация Шрифт Hover"
+
+#: includes/redux-sections/fonts.php:100
+msgid ""
+"<p>Theme navigation hover font. Default </br>font-family: Muli </br>font-"
+"size: 10px </br>line-height: 10px</br>font-weight: 600</br>color: #e5e5e5</p>"
+msgstr ""
+"<p> Тема навигации при наведении шрифта. По умолчанию </br> семейство "
+"шрифтов: Muli </br> размер шрифта: 10 пикселей </br> высота строки: 10 "
+"пикселей </br> Вес шрифта: 600 </br> цвет: # e5e5e5 </p>"
+
+#: includes/redux-sections/fonts.php:108
+msgid "TownHub Left Title Font"
+msgstr "TownHub Левый заголовок шрифта"
+
+#: includes/redux-sections/fonts.php:109
+msgid ""
+"<p>Theme left title font. Default </br>font-family: Muli </br>font-size: "
+"10px </br>line-height: 16px</br>font-weight: 600</br>color: #ffffff</p>"
+msgstr ""
+"<p> Тема оставлена заголовком шрифта. По умолчанию </br> семейство шрифтов: "
+"Muli </br> размер шрифта: 10 пикселей </br> высота строки: 16 пикселей </br> "
+"Вес шрифта: 600 </br> цвет: #ffffff </p>"
+
+#: includes/redux-sections/fonts.php:118
+msgid "TownHub Header Title Font"
+msgstr "Заголовок шрифта заголовка TownHub"
+
+#: includes/redux-sections/fonts.php:119
+msgid ""
+"<p>Theme header title font. Default </br>font-family: Muli </br>font-size: "
+"38px </br>font-weight: 600 </br>color: #ffffff</p>"
+msgstr ""
+"<p> Шрифт заголовка заголовка темы. По умолчанию </br> семейство шрифтов: "
+"Muli </br> размер шрифта: 38 пикселей </br> Вес шрифта: 600 </br> цвет: "
+"#ffffff </p>"
+
+#: includes/redux-sections/fonts.php:129
+msgid "TownHub Header SubTitle Font"
+msgstr "Заголовок шрифта TownHub SubTitle"
+
+#: includes/redux-sections/fonts.php:130
+msgid ""
+"<p>Theme header sub-title font. Default </br>font-family: Roboto </br>font-"
+"size: 18px </br>font-weight: 200 </br>color: #ffffff</p>"
+msgstr ""
+"<p> Шрифт подзаголовка заголовка темы. По умолчанию </br> семейство шрифтов: "
+"Roboto </br> размер шрифта: 18 пикселей </br> Вес шрифта: 200 </br> цвет: "
+"#ffffff </p>"
+
+#: includes/redux-sections/fonts.php:140
+msgid "Page Section Title Font"
+msgstr "Шрифт заголовка раздела страницы"
+
+#: includes/redux-sections/fonts.php:141
+msgid ""
+"<p>Theme page section title font. Default </br>font-family: Roboto </br>font-"
+"size: 40px </br>line-height: 64px </br>font-weight: 100</p>"
+msgstr ""
+"<p> Шрифт заголовка раздела страницы темы. По умолчанию </br> семейство "
+"шрифтов: Roboto </br> размер шрифта: 40 пикселей </br> высота строки: 64px "
+"</br> Вес шрифта: 100 </p>"
+
+#: includes/redux-sections/blog.php:5
+msgid "Blog Options"
+msgstr "Настройки блога"
+
+#: includes/redux-sections/blog.php:43
+msgid "Blog Sidebar Layout"
+msgstr "Макет боковой панели блога"
+
+#: includes/redux-sections/blog.php:83
+msgid "Show Post Format on posts page"
+msgstr "Показать формат сообщения на странице сообщений"
+
+#: includes/redux-sections/footer.php:5
+msgid "Footer"
+msgstr "нижний колонтитул"
+
+#: includes/redux-sections/footer.php:14
+msgid "Footer Logo"
+msgstr "Логотип нижнего колонтитула"
+
+#: includes/redux-sections/footer.php:21
+msgid "Copyright Text"
+msgstr "Авторский текст"
+
+#: includes/redux-sections/footer.php:30
+msgid "Show currencies switcher?"
+msgstr "Показать переключатель валют?"
+
+#: includes/redux-sections/footer.php:38
+msgid "Top Footer Widgets"
+msgstr "Виджеты верхнего колонтитула"
+
+#: includes/redux-sections/footer.php:46
+msgid "Footer Widgets"
+msgstr "Виджеты нижнего колонтитула"
+
+#: includes/redux-sections/general.php:6
+msgid "General"
+msgstr "Общая"
+
+#: includes/redux-sections/general.php:18
+msgid "Show Loader"
+msgstr "Показать загрузчик"
+
+#: includes/redux-sections/general.php:26
+msgid "Loader Icon"
+msgstr "Значок загрузчика"
+
+#: includes/redux-sections/general.php:35
+msgid "Enable Auto Update"
+msgstr "Включить автообновление"
+
+#: includes/redux-sections/general.php:36
+msgid "Note: auto update feature is not for Envato Elements download."
+msgstr ""
+"Примечание: функция автоматического обновления не предназначена для загрузки "
+"Envato Elements."
+
+#: includes/redux-sections/folio.php:5
+msgid "Portfolio"
+msgstr "портфолио"
+
+#: includes/redux-sections/folio.php:23
+msgid "Show Portfolio Header"
+msgstr "Показать заголовок портфолио"
+
+#: includes/redux-sections/folio.php:30
+msgid "Portfolio Heading Text"
+msgstr "Текст заголовка портфолио"
+
+#: includes/redux-sections/folio.php:38
+msgid "Portfolio Intro Text"
+msgstr "Портфолио Интро Текст"
+
+#: includes/redux-sections/folio.php:46
+msgid "Portfolio Header Video"
+msgstr "Портфолио Заголовок Видео"
+
+#: includes/redux-sections/folio.php:55
+msgid "Portfolio Header Image"
+msgstr "Заголовок портфолио"
+
+#: includes/redux-sections/folio.php:73
+msgid "Show Content Footer"
+msgstr "Показать содержимое нижнего колонтитула"
+
+#: includes/redux-sections/folio.php:81
+msgid "Portfolio Layout"
+msgstr "Макет портфолио"
+
+#: includes/redux-sections/folio.php:98
+msgid "Portfolio Columns"
+msgstr "Портфолио Колонны"
+
+#: includes/redux-sections/folio.php:100
+msgid "Vertical columns for Horizontal layout"
+msgstr "Вертикальные столбцы для горизонтального расположения"
+
+#: includes/redux-sections/folio.php:107
+msgid "Show Filter"
+msgstr "Показать фильтр"
+
+#: includes/redux-sections/folio.php:114
+msgid "Show Counter"
+msgstr "Показать счетчик"
+
+#: includes/redux-sections/folio.php:128
+msgid "Order Filter By"
+msgstr "Заказать фильтр по"
+
+#: includes/redux-sections/folio.php:132
+msgid "ID"
+msgstr "Я БЫ"
+
+#: includes/redux-sections/folio.php:133
+msgid "Count"
+msgstr "подсчитывать"
+
+#: includes/redux-sections/folio.php:134
+msgid "Name"
+msgstr "имя"
+
+#: includes/redux-sections/folio.php:135
+msgid "Slug"
+msgstr "слизень"
+
+#: includes/redux-sections/folio.php:143
+msgid "Order Filter"
+msgstr "Фильтр заказа"
+
+#: includes/redux-sections/folio.php:155
+msgid "Order Portfolio By"
+msgstr "Заказать портфолио"
+
+#: includes/redux-sections/folio.php:174
+msgid "Order Portfolio"
+msgstr "Портфолио заказов"
+
+#: includes/redux-sections/folio.php:187
+msgid "Show Info"
+msgstr "Показать информацию"
+
+#: includes/redux-sections/folio.php:191
+msgid "Show On Hover"
+msgstr "Показывать при наведении"
+
+#: includes/redux-sections/folio.php:192
+msgid "Show"
+msgstr "Показать"
+
+#: includes/redux-sections/folio.php:193
+msgid "Hide"
+msgstr "Спрятать"
+
+#: includes/redux-sections/folio.php:202
+msgid "Spacing"
+msgstr "Разнос"
+
+#: includes/redux-sections/folio.php:203
+msgid "The space between portfolio grid items."
+msgstr "Пространство между элементами сетки портфеля."
+
+#: includes/redux-sections/folio.php:206
+msgid "Small"
+msgstr "Небольшой"
+
+#: includes/redux-sections/folio.php:207
+msgid "Big"
+msgstr "большой"
+
+#: includes/redux-sections/folio.php:215
+msgid "Enable Image Gallery on Portfolio Grid"
+msgstr "Включить галерею изображений в сетке портфолио"
+
+#: includes/redux-sections/folio.php:222
+msgid "Disbale Image Overlay Effect"
+msgstr "Disbale Image Overlay Effect"
+
+#: includes/redux_add_fields/field_cthimage.php:60
+#: includes/redux_add_fields/field_image_url.php:54
+#: includes/redux_add_fields/field_image_url.php:54
+#: includes/redux_add_fields/field_image_id.php:52
+#: includes/redux_add_fields/field_image_id.php:52
+msgid "Upload Image"
+msgstr "Загрузить изображение"
+
+#: includes/redux_add_fields/field_cthimage.php:61
+#: includes/redux_add_fields/field_image_url.php:55
+#: includes/redux_add_fields/field_image_id.php:53
+msgid "Remove"
+msgstr "удалять"
+
+#: includes/redux_add_fields/tmpl-fwidget.php:17
+msgid "Widget Title"
+msgstr "Заголовок виджета"
+
+#: includes/redux_add_fields/tmpl-fwidget.php:18
+msgid "Widget Classes"
+msgstr "Классы виджетов"
+
+#: includes/redux_add_fields/tmpl-fwidget.php:19
+msgid "Widget ID"
+msgstr "ID виджета"
+
+#: includes/redux_add_fields/field_fwidget.php:60
+msgid "Add Widget"
+msgstr "Добавить виджет"
+
+#: includes/redux_add_fields/field_thumbnail_size.php:76
+msgid "Width "
+msgstr "ширина"
+
+#: includes/redux_add_fields/field_thumbnail_size.php:77
+msgid "Width"
+msgstr "ширина"
+
+#: includes/redux_add_fields/field_thumbnail_size.php:92
+msgid "Height "
+msgstr "Высота"
+
+#: includes/redux_add_fields/field_thumbnail_size.php:93
+msgid "Height"
+msgstr "Высота"
+
+#: includes/redux_add_fields/field_thumbnail_size.php:110
+msgid "Hard Crop "
+msgstr "Hard Crop"
+
+#: template-parts/page/protected-page.php:18
+msgid "Protected"
+msgstr "защищенный"
+
+#: template-parts/post/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Готовы опубликовать свой первый пост? <a href=\"%1$s\">Начните здесь</a> ."
+
+#: template-parts/post/content-none.php:23
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Кажется, мы не можем найти то, что вы ищете. Возможно, поиск может помочь."
+
+#: template-parts/single/author-block.php:38
+msgctxt "Show author socials on single post page: yes or no"
+msgid "yes"
+msgstr "да"
+
+#: lib/update/inc/items.php:54 lib/update/inc/items.php:58
+#: lib/update/inc/update.php:47 lib/update/inc/update.php:56
+#: lib/update/inc/api.php:29 lib/update/inc/api.php:33
+msgid "Cheatin&#8217; huh?"
+msgstr "Обман?"
+
+#: lib/update/inc/api.php:57
+msgid "An API token is required."
+msgstr "Требуется токен API."
+
+#: lib/update/inc/api.php:81 lib/update/inc/api.php:85
+msgid "An unknown API error occurred."
+msgstr "Произошла неизвестная ошибка API."
+
+#: lib/update/inc/admin/admin.php:78
+msgid "TownHub - Directory & Listing WordPress Theme"
+msgstr "TownHub - каталог и листинг WordPress Theme"
+
+#: lib/update/inc/admin/admin.php:79
+msgid ""
+"From version 2.1.0 we provide new update system which allow you update our "
+"theme and its add-ons plugin directly from WordPress Themes/Plugins screen."
+msgstr ""
+"Начиная с версии 2.1.0 мы предоставляем новую систему обновлений, которая "
+"позволяет обновлять нашу тему и ее плагин надстроек прямо с экрана WordPress "
+"Themes / Plugins."
+
+#: lib/update/inc/admin/admin.php:80
+msgid "You do not need to delete and reinstall add-ons plugins anymore."
+msgstr "Вам больше не нужно удалять и переустанавливать плагины дополнений."
+
+#: lib/update/inc/admin/admin.php:80
+#: lib/update/inc/admin/options/purchase_code.php:8
+msgid "See guide -->"
+msgstr "Смотрите руководство ->"
+
+#: lib/update/inc/admin/admin.php:81
+msgid "And your purchase code is REQUIRED"
+msgstr "И ваш код покупки ТРЕБУЕТСЯ"
+
+#: lib/update/inc/admin/admin.php:82
+msgid "ADD PURCHASE CODE"
+msgstr "ДОБАВИТЬ КОД ПОКУПКИ"
+
+#: lib/update/inc/admin/admin.php:120
+msgid "CTHthemes Update"
+msgstr "CTHthemes Обновление"
+
+#: lib/update/inc/admin/admin.php:147
+msgid "TownHub Theme Purchase Code"
+msgstr "Код покупки TownHub Theme"
+
+#: lib/update/inc/admin/admin.php:154
+msgid "Purchase Code"
+msgstr "Код покупки"
+
+#: lib/update/inc/admin/options/purchase_code.php:4
+msgid ""
+"Enter your purchase code for the theme to receive demo data and its add-ons "
+"plugins."
+msgstr ""
+"Введите код покупки для темы, чтобы получать демонстрационные данные и "
+"плагины для надстроек."
+
+#: lib/update/inc/admin/options/purchase_code.php:6
+msgid ""
+"It also allow you receive updates from WordPress themes/plugins screens like "
+"others."
+msgstr ""
+"Он также позволяет получать обновления с экранов тем / плагинов WordPress, "
+"как и другие."
+
+#: lib/update/inc/admin/options/purchase_code.php:8
+msgid " You do not need to delete and reinstall add-ons plugins anymore."
+msgstr "Вам больше не нужно удалять и переустанавливать плагины дополнений."
+
+#: lib/update/inc/admin/options/settings/purchase_code.php:6
+msgid "Where Is My Purchase Code?"
+msgstr "Где мой код покупки?"
+
+#: lib/update/inc/admin/options/settings/purchase_code.php:9
+msgid "Log into your Envato Market account."
+msgstr "Войдите в свою учетную запись Envato Market."
+
+#: lib/update/inc/admin/options/settings/purchase_code.php:10
+msgid "Hover the mouse over your username at the top of the screen."
+msgstr ""
+"Наведите указатель мыши на свое имя пользователя в верхней части экрана."
+
+#: lib/update/inc/admin/options/settings/purchase_code.php:11
+msgid "Click \"Downloads\" from the drop down menu."
+msgstr "Нажмите  &quot;Загрузки \" в раскрывающемся меню."
+
+#: lib/update/inc/admin/options/settings/purchase_code.php:11
+msgid " Go to Downloads -->"
+msgstr "Перейти к загрузкам ->"
+
+#: lib/update/inc/admin/options/settings/purchase_code.php:12
+msgid ""
+"Click \"License certificate & purchase code\" (available as PDF or text file)"
+"."
+msgstr ""
+"Нажмите  &quot;Сертификат лицензии и код покупки \" (доступно в формате PDF "
+"или текстовом файле)."
+
+#: lib/update/inc/admin/options/settings/purchase_code.php:15
+#, php-format
+msgid ""
+"Read <a href=\"%s\" target=\"_blank\">Envato guide</a> for more details."
+msgstr ""
+"Прочитайте <a href=\"%s\" target=\"_blank\">руководство Envato</a> для более "
+"подробной информации."
+
+#. Name of the theme
+msgid "TownHub"
+msgstr "TownHub"
+
+#. Description of the theme
+msgid "Directory &amp; Listing WordPress Theme"
+msgstr "Каталог и листинг WordPress Theme"
+
+#. URI of the theme
+msgid "https://townhub.cththemes.com/"
+msgstr "https://townhub.cththemes.com/"
+
+#. Author of the theme
+msgid "CTHthemes"
+msgstr "CTHthemes"
+
+#. Author URI of the theme
+msgid "http://themeforest.net/user/cththemes"
+msgstr "http://themeforest.net/user/cththemes"

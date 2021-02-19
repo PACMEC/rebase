@@ -1,0 +1,514 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TownHub Woo Payments\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-08 04:34+0000\n"
+"PO-Revision-Date: 2020-02-26 05:53+0000\n"
+"Last-Translator: Admin <contact.cththemes@gmail.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#. 1. URL link.
+#: townhub-woo-payments.php:22
+#, php-format
+msgid ""
+"TownHub WooCommerce Payments requires WooCommerce to be installed and active."
+" You can download %s here."
+msgstr ""
+"TownHub WooCommerce "
+"Paymentsでは、WooCommerceをインストールしてアクティブにする必要があります。ここから％sをダウンロードできます。"
+
+#. 1. URL link.
+#: townhub-woo-payments.php:27
+msgid ""
+"TownHub WooCommerce Payments requires TownHub Add-Ons to be installed and "
+"active. You can install it from Appearance -> Install Plugins screen."
+msgstr ""
+"TownHub WooCommerce Paymentsでは、TownHubアドオンをインストールしてアクティブにする必要があります。 [外観]-> "
+"[プラグインのインストール]画面からインストールできます。"
+
+#: includes/payfast/payfast.php:25
+msgid "Proceed to PayFast"
+msgstr "PayFastに進む"
+
+#: includes/payfast/payfast.php:26
+msgid "TownHub PayFast"
+msgstr "TownHub PayFast"
+
+#. %s: Link to WC system status page
+#: includes/payfast/payfast.php:28
+msgid ""
+"This is currently needed for selling RECURRING membership package. It "
+"redirects customers to PayFast to enter their payment information."
+msgstr ""
+"これは現在、RECURRINGメンバーシップパッケージを販売するために必要です。顧客をPayFastにリダイレクトして、支払い情報を入力します。"
+
+#. %s: Link to PayFast sandbox testing guide page
+#: includes/payfast/payfast.php:54
+#, php-format
+msgid ""
+"SANDBOX ENABLED. You can use sandbox testing accounts only. See the <a "
+"href=\"%s\">PayFast Sandbox Testing Guide</a> for more details."
+msgstr ""
+"サンドボックス対応。サンドボックステストアカウントのみを使用できます。詳細については、 <a  href=\"%s\">PayFast Sandbox "
+"Testing Guide</a>をご覧ください。"
+
+#: includes/payfast/payfast.php:107 includes/paypal/paypal.php:103
+msgid "Gateway disabled"
+msgstr "ゲートウェイが無効です"
+
+#: includes/payfast/payfast.php:107
+msgid "PayFast does not support your store currency."
+msgstr "PayFastはストア通貨をサポートしていません。"
+
+#: includes/payfast/payfast.php:124
+msgid "PayFast acceptance mark"
+msgstr "PayFast受け入れマーク"
+
+#: includes/payfast/payfast-ipn.php:360 includes/paypal/paypal-ipn.php:159
+msgid "IPN payment completed"
+msgstr "IPN支払い完了"
+
+#: includes/payfast/payfast-ipn.php:368 includes/paypal/paypal-ipn.php:167
+msgid ""
+"Payment authorized. Change payment status to processing or complete to "
+"capture funds."
+msgstr "支払いが承認されました。支払いステータスを処理に変更するか、完了して資金を獲得します。"
+
+#. %s: pending reason.
+#: includes/payfast/payfast-ipn.php:371 includes/paypal/paypal-ipn.php:170
+#, php-format
+msgid "Payment pending (%s)."
+msgstr "支払い保留中（％s）。"
+
+#. %s: currency code.
+#: includes/payfast/payfast-ipn.php:441
+#, php-format
+msgid "Validation error: PayFast currencies do not match (code %s)."
+msgstr "検証エラー：PayFast通貨が一致しません（コード％s）。"
+
+#. %s: Amount.
+#: includes/payfast/payfast-ipn.php:457
+#, php-format
+msgid "Validation error: PayFast amounts do not match (gross %s)."
+msgstr "検証エラー：PayFastの金額が一致しません（グロス％s）。"
+
+#. %s: email address .
+#: includes/payfast/payfast-ipn.php:474
+#, php-format
+msgid ""
+"Validation error: PayFast IPN response from a different email address (%s)."
+msgstr "検証エラー：別のメールアドレス（％s）からのPayFast IPN応答。"
+
+#. %s: order link.
+#: includes/payfast/payfast-ipn.php:506 includes/paypal/paypal-ipn.php:311
+#, php-format
+msgid "Payment for cancelled order %s received"
+msgstr "キャンセルされた注文の支払い％s"
+
+#. %s: order ID.
+#: includes/payfast/payfast-ipn.php:508
+#, php-format
+msgid ""
+"Order #%s has been marked paid by PayFast IPN, but was previously cancelled. "
+"Admin handling required."
+msgstr "注文番号％sはPayFast IPNによって支払い済みとマークされていますが、以前にキャンセルされました。管理者による処理が必要です。"
+
+#: includes/payfast/settings-payfast.php:13
+#: includes/paypal/settings-paypal.php:13
+msgid "Enable/Disable"
+msgstr "有効化/無効化"
+
+#: includes/payfast/settings-payfast.php:15
+msgid "Enable PayFast Recurring"
+msgstr "PayFast Recurringを有効にする"
+
+#: includes/payfast/settings-payfast.php:19
+#: includes/paypal/settings-paypal.php:19
+msgid "Title"
+msgstr "題名"
+
+#: includes/payfast/settings-payfast.php:21
+#: includes/paypal/settings-paypal.php:21
+msgid "This controls the title which the user sees during checkout."
+msgstr "これにより、チェックアウト時にユーザーに表示されるタイトルが制御されます。"
+
+#: includes/payfast/settings-payfast.php:26
+#: includes/paypal/settings-paypal.php:26
+msgid "Description"
+msgstr "説明"
+
+#: includes/payfast/settings-payfast.php:29
+#: includes/paypal/settings-paypal.php:29
+msgid "This controls the description which the user sees during checkout."
+msgstr "これは、チェックアウト中にユーザーに表示される説明を制御します。"
+
+#: includes/payfast/settings-payfast.php:34
+msgid "Merchant options"
+msgstr "マーチャントオプション"
+
+#: includes/payfast/settings-payfast.php:40
+msgid "Merchant ID"
+msgstr "販売者ID"
+
+#: includes/payfast/settings-payfast.php:42
+msgid "You PayFast merchant id"
+msgstr "PayFastマーチャントID"
+
+#: includes/payfast/settings-payfast.php:48
+msgid "Merchant Key"
+msgstr "マーチャントキー"
+
+#: includes/payfast/settings-payfast.php:50
+msgid "You PayFast merchant key"
+msgstr "PayFastマーチャントキー"
+
+#: includes/payfast/settings-payfast.php:56
+msgid "Merchant passphrase"
+msgstr "マーチャントパスフレーズ"
+
+#: includes/payfast/settings-payfast.php:58
+#, php-format
+msgid ""
+"Enter your PayFast passphrase. Learn how to create your <a href=\"%s\">"
+"PayFast passphrase</a>.<br /><a href=\"%s\">WooCommerce PayFast Payment "
+"Gateway</a>"
+msgstr ""
+"PayFastパスフレーズを入力します。 <a href=\"%s\">PayFastパスフレーズの</a>作成方法を学びます。 <br /> <a "
+"href=\"%s\">WooCommerce PayFast Payment Gateway</a>"
+
+#: includes/payfast/settings-payfast.php:64
+msgid "Email Confirmation?"
+msgstr "メール確認？"
+
+#: includes/payfast/settings-payfast.php:66
+msgid "Enable email confirmation"
+msgstr "確認メールを有効にする"
+
+#: includes/payfast/settings-payfast.php:68
+msgid "Whether to send email confirmation to the merchant of the transaction."
+msgstr "取引の販売者に確認メールを送信するかどうか。"
+
+#: includes/payfast/settings-payfast.php:71
+msgid "Confirmation Email Address"
+msgstr "確認メールアドレス"
+
+#: includes/payfast/settings-payfast.php:73
+msgid "The address to send the confirmation email to."
+msgstr "確認メールの送信先アドレス。"
+
+#: includes/payfast/settings-payfast.php:81
+#: includes/paypal/settings-paypal.php:41
+msgid "Advanced options"
+msgstr "高度なオプション"
+
+#: includes/payfast/settings-payfast.php:86
+msgid "PayFast sandbox"
+msgstr "PayFastサンドボックス"
+
+#: includes/payfast/settings-payfast.php:88
+msgid "Enable PayFast sandbox"
+msgstr "PayFastサンドボックスを有効にする"
+
+#. %s: URL
+#: includes/payfast/settings-payfast.php:91
+#, php-format
+msgid ""
+"PayFast sandbox can be used to test payments. Sign up for a <a href=\"%s\">"
+"developer account</a>."
+msgstr ""
+"PayFastサンドボックスを使用して、支払いをテストできます。 <a href=\"%s\">開発者アカウントに</a>サインアップ<a "
+"href=\"%s\">します</a> 。"
+
+#: includes/payfast/settings-payfast.php:94
+#: includes/paypal/settings-paypal.php:54
+msgid "Debug log"
+msgstr "デバッグログ"
+
+#: includes/payfast/settings-payfast.php:96
+#: includes/paypal/settings-paypal.php:56
+msgid "Enable logging"
+msgstr "ロギングを有効にします"
+
+#. %s: URL
+#: includes/payfast/settings-payfast.php:99
+#, php-format
+msgid ""
+"Log PayFast events, such as IPN requests, inside %s Note: this may log "
+"personal information. We recommend using this for debugging purposes only "
+"and deleting the logs when finished."
+msgstr ""
+"IPNリクエストなどのPayFastイベントを％s内に記録する注：これは個人情報を記録する場合があります。これはデバッグ目的でのみ使用し、終了したらログを削除することをお勧めします。"
+
+#: includes/payfast/payfast-request.php:263
+#: includes/paypal/paypal-request.php:207
+msgid "Order"
+msgstr "注文"
+
+#: includes/paypal/settings-paypal.php:15
+msgid "Enable PayPal Standard"
+msgstr "PayPal標準を有効にする"
+
+#: includes/paypal/settings-paypal.php:22 includes/paypal/paypal.php:26
+msgid "TownHub PayPal"
+msgstr "TownHub PayPal"
+
+#: includes/paypal/settings-paypal.php:30
+msgid ""
+"Pay via PayPal; you can pay with your credit card if you don't have a PayPal "
+"account."
+msgstr "PayPalで支払います。 PayPalアカウントをお持ちでない場合は、クレジットカードでお支払いいただけます。"
+
+#: includes/paypal/settings-paypal.php:33
+msgid "PayPal email"
+msgstr "PayPalメール"
+
+#: includes/paypal/settings-paypal.php:35
+msgid ""
+"Please enter your PayPal email address; this is needed in order to take "
+"payment."
+msgstr "PayPalのメールアドレスを入力してください。これは支払いを受けるために必要です。"
+
+#: includes/paypal/settings-paypal.php:46
+msgid "PayPal sandbox"
+msgstr "PayPalサンドボックス"
+
+#: includes/paypal/settings-paypal.php:48
+msgid "Enable PayPal sandbox"
+msgstr "PayPalサンドボックスを有効にする"
+
+#. %s: URL
+#: includes/paypal/settings-paypal.php:51
+#, php-format
+msgid ""
+"PayPal sandbox can be used to test payments. Sign up for a <a href=\"%s\">"
+"developer account</a>."
+msgstr ""
+"PayPalサンドボックスを使用して、支払いをテストできます。 <a href=\"%s\">開発者アカウントに</a>サインアップ<a "
+"href=\"%s\">します</a> 。"
+
+#. %s: URL
+#: includes/paypal/settings-paypal.php:59
+#, php-format
+msgid ""
+"Log PayPal events, such as IPN requests, inside %s Note: this may log "
+"personal information. We recommend using this for debugging purposes only "
+"and deleting the logs when finished."
+msgstr ""
+"IPNリクエストなどのPayPalイベントを％s内に記録する注：これは個人情報を記録する場合があります。これはデバッグ目的でのみ使用し、終了したらログを削除することをお勧めします。"
+
+#: includes/paypal/settings-paypal.php:62
+msgid "IPN Email Notifications"
+msgstr "IPN電子メール通知"
+
+#: includes/paypal/settings-paypal.php:64
+msgid "Enable IPN email notifications"
+msgstr "IPN電子メール通知を有効にする"
+
+#: includes/paypal/settings-paypal.php:66
+msgid ""
+"Send notifications when an IPN is received from PayPal indicating refunds, "
+"chargebacks and cancellations."
+msgstr "PayPalからIPNを受け取ったときに、返金、チャージバック、キャンセルを示す通知を送信します。"
+
+#: includes/paypal/settings-paypal.php:69
+msgid "Receiver email"
+msgstr "受信者のメール"
+
+#: includes/paypal/settings-paypal.php:71
+msgid ""
+"If your main PayPal email differs from the PayPal email entered above, input "
+"your main receiver email for your PayPal account here. This is used to "
+"validate IPN requests."
+msgstr ""
+"メインのPayPalメールが上記で入力したPayPalメールと異なる場合は、PayPalアカウントのメイン受信者メールをここに入力します。これは、IPN要求を検証するために使用されます。"
+
+#: includes/paypal/settings-paypal.php:77
+msgid "PayPal identity token"
+msgstr "PayPal IDトークン"
+
+#: includes/paypal/settings-paypal.php:79
+msgid ""
+"Optionally enable \"Payment Data Transfer\" (Profile > Profile and Settings >"
+" My Selling Tools > Website Preferences) and then copy your identity token "
+"here. This will allow payments to be verified without the need for PayPal "
+"IPN."
+msgstr ""
+"オプションで &quot;Payment Data Transfer \"（[プロファイル] > [プロファイルと設定] > [マイセリングツール] > "
+"[ウェブサイトの設定]）を有効にしてから、ここにIDトークンをコピーします。これにより、PayPal IPNを使用せずに支払いを確認できます。"
+
+#: includes/paypal/settings-paypal.php:85
+msgid "Invoice prefix"
+msgstr "請求書プレフィックス"
+
+#: includes/paypal/settings-paypal.php:87
+msgid ""
+"Please enter a prefix for your invoice numbers. If you use your PayPal "
+"account for multiple stores ensure this prefix is unique as PayPal will not "
+"allow orders with the same invoice number."
+msgstr ""
+"請求書番号のプレフィックスを入力してください。複数の店舗でPayPalアカウントを使用する場合、PayPalは同じ請求書番号の注文を許可しないため、このプレフィックスが一意であることを確認してください。"
+
+#: includes/paypal/settings-paypal.php:92
+msgid "Shipping details"
+msgstr "発送詳細"
+
+#: includes/paypal/settings-paypal.php:94
+msgid "Send shipping details to PayPal instead of billing."
+msgstr "請求の代わりに、PayPalに配送の詳細を送信します。"
+
+#: includes/paypal/settings-paypal.php:95
+msgid ""
+"PayPal allows us to send one address. If you are using PayPal for shipping "
+"labels you may prefer to send the shipping address rather than billing. "
+"Turning this option off may prevent PayPal Seller protection from applying."
+msgstr ""
+"PayPalでは、1つのアドレスを送信できます。ラベルの配送にPayPalを使用している場合は、請求ではなく配送先住所を送信することをお勧めします。このオプションをオフにすると、PayPal販売者保護が適用されなくなる場合があります。"
+
+#: includes/paypal/settings-paypal.php:99
+msgid "Address override"
+msgstr "アドレスの上書き"
+
+#: includes/paypal/settings-paypal.php:101
+msgid ""
+"Enable \"address_override\" to prevent address information from being "
+"changed."
+msgstr " &quot;address_override \"を有効にして、アドレス情報が変更されないようにします。"
+
+#: includes/paypal/settings-paypal.php:102
+msgid ""
+"PayPal verifies addresses therefore this setting can cause errors (we "
+"recommend keeping it disabled)."
+msgstr "PayPalはアドレスを確認するため、この設定によりエラーが発生する可能性があります（無効にしておくことをお勧めします）。"
+
+#: includes/paypal/settings-paypal.php:106
+msgid "Payment action"
+msgstr "支払いアクション"
+
+#: includes/paypal/settings-paypal.php:109
+msgid ""
+"Choose whether you wish to capture funds immediately or authorize payment "
+"only."
+msgstr "すぐに資金を獲得するか、支払いのみを許可するかを選択します。"
+
+#: includes/paypal/settings-paypal.php:113
+msgid "Capture"
+msgstr "キャプチャー"
+
+#: includes/paypal/settings-paypal.php:114
+msgid "Authorize"
+msgstr "許可する"
+
+#: includes/paypal/settings-paypal.php:118
+msgid "Page style"
+msgstr "ページスタイル"
+
+#: includes/paypal/settings-paypal.php:120
+msgid ""
+"Optionally enter the name of the page style you wish to use. These are "
+"defined within your PayPal account. This affects classic PayPal checkout "
+"screens."
+msgstr ""
+"必要に応じて、使用するページスタイルの名前を入力します。これらはPayPalアカウント内で定義されます。これは、従来のPayPalチェックアウト画面に影響します。"
+
+#: includes/paypal/settings-paypal.php:123
+#: includes/paypal/settings-paypal.php:131
+msgid "Optional"
+msgstr "オプショナル"
+
+#: includes/paypal/settings-paypal.php:126
+msgid "Image url"
+msgstr "画像のURL"
+
+#: includes/paypal/settings-paypal.php:128
+msgid ""
+"Optionally enter the URL to a 150x50px image displayed as your logo in the "
+"upper left corner of the PayPal checkout pages."
+msgstr "オプションで、PayPalチェックアウトページの左上隅にロゴとして表示される150x50px画像のURLを入力します。"
+
+#: includes/paypal/paypal.php:25
+msgid "Proceed to PayPal"
+msgstr "PayPalに進む"
+
+#. %s: Link to WC system status page
+#: includes/paypal/paypal.php:28
+msgid ""
+"This is currently needed for selling RECURRING membership package. It "
+"redirects customers to PayPal to enter their payment information."
+msgstr ""
+"これは現在、RECURRINGメンバーシップパッケージを販売するために必要です。顧客をPayPalにリダイレクトして、支払い情報を入力します。"
+
+#. %s: Link to PayPal sandbox testing guide page
+#: includes/paypal/paypal.php:50
+#, php-format
+msgid ""
+"SANDBOX ENABLED. You can use sandbox testing accounts only. See the <a "
+"href=\"%s\">PayPal Sandbox Testing Guide</a> for more details."
+msgstr ""
+"サンドボックス対応。サンドボックステストアカウントのみを使用できます。詳細については、 <a  href=\"%s\">PayPal Sandbox "
+"Testing Guide</a>をご覧ください。"
+
+#: includes/paypal/paypal.php:103
+msgid "PayPal does not support your store currency."
+msgstr "PayPalはストア通貨をサポートしていません。"
+
+#: includes/paypal/paypal.php:122
+msgid "PayPal acceptance mark"
+msgstr "PayPal受け入れマーク"
+
+#: includes/paypal/paypal.php:125
+msgid "What is PayPal?"
+msgstr "PayPalとは何ですか？"
+
+#. %s: currency code.
+#: includes/paypal/paypal-ipn.php:246
+#, php-format
+msgid "Validation error: PayPal currencies do not match (code %s)."
+msgstr "検証エラー：PayPal通貨が一致しません（コード％s）。"
+
+#. %s: Amount.
+#: includes/paypal/paypal-ipn.php:262
+#, php-format
+msgid "Validation error: PayPal amounts do not match (gross %s)."
+msgstr "検証エラー：PayPalの金額が一致しません（グロス％s）。"
+
+#. %s: email address .
+#: includes/paypal/paypal-ipn.php:279
+#, php-format
+msgid ""
+"Validation error: PayPal IPN response from a different email address (%s)."
+msgstr "検証エラー：別のメールアドレス（％s）からのPayPal IPN応答。"
+
+#. %s: order ID.
+#: includes/paypal/paypal-ipn.php:313
+#, php-format
+msgid ""
+"Order #%s has been marked paid by PayPal IPN, but was previously cancelled. "
+"Admin handling required."
+msgstr "注文番号％sはPayPal IPNによって支払い済みとマークされていますが、以前にキャンセルされました。管理者による処理が必要です。"
+
+#. Name of the plugin
+msgid "TownHub Woo Payments"
+msgstr "TownHub Wooの支払い"
+
+#. Description of the plugin
+msgid "A custom plugin for TownHub - Directory & Listing WordPress Theme"
+msgstr "TownHubのカスタムプラグイン-ディレクトリとリストのWordPressテーマ"
+
+#. URI of the plugin
+msgid "https://townhub.cththemes.com"
+msgstr "https://townhub.cththemes.com"
+
+#. Author of the plugin
+msgid "CTHthemes"
+msgstr "CTHthemes"
+
+#. Author URI of the plugin
+msgid "http://themeforest.net/user/cththemes"
+msgstr "http://themeforest.net/user/cththemes"

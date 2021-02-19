@@ -1,0 +1,255 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TownHub Import\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-12 03:06+0000\n"
+"PO-Revision-Date: 2020-02-26 06:02+0000\n"
+"Last-Translator: Admin <contact.cththemes@gmail.com>\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: includes/fields.php:9
+msgid "Address/Contacts"
+msgstr "Adres / İletişim"
+
+#: includes/fields.php:20
+msgid "Listing Address (Google address is recommended)"
+msgstr "Liste Adresi (Google adresi önerilir)"
+
+#: includes/fields.php:28
+msgid "Listing Coordinates"
+msgstr "Liste Koordinatları"
+
+#: includes/fields.php:77
+msgid "Phone"
+msgstr "Telefon"
+
+#: includes/fields.php:85
+msgid "Email"
+msgstr "E-posta"
+
+#: includes/fields.php:93
+msgid "Website"
+msgstr "İnternet sitesi"
+
+#: includes/fields.php:103
+msgid "Socials"
+msgstr "sosyal"
+
+#: includes/fields.php:119
+msgid "Price Options"
+msgstr "Fiyat Seçenekleri"
+
+#: includes/fields.php:131
+msgid "Price Status"
+msgstr "Fiyat Durumu"
+
+#: includes/fields.php:146
+msgid "Price From - Main Price"
+msgstr "Fiyat Başlangıç Fiyatı - Ana Fiyat"
+
+#: includes/fields.php:154
+msgid "Price To"
+msgstr "Fiyat"
+
+#: includes/fields.php:162
+msgid "Claim Status (Empty for Not claimed)"
+msgstr "Hak Talebi Durumu (Hak talebi için Boş)"
+
+#: includes/fields.php:178
+msgid "Media Options"
+msgstr "Medya Seçenekleri"
+
+#: includes/fields.php:189
+msgid "Listing Featured Image"
+msgstr "Liste Öne Çıkan Resim"
+
+#: includes/fields.php:201
+msgid "Gallery/Slider Images"
+msgstr "Galeri / Kaydırıcı Resimleri"
+
+#: includes/fields.php:214
+msgid "Header Images"
+msgstr "Başlık Resimleri"
+
+#: includes/fields.php:238
+msgid ""
+"Listing Header Type. Images for header are from <strong>Listing Header "
+"Images</strong> section"
+msgstr ""
+"Liste Üstbilgisi Türü. <strong>Üstbilgi resimleri Üstbilgi Resimleri "
+"Listeleme</strong> bölümündedir"
+
+#: includes/fields.php:249
+msgid "Youtube Background ( video ID. Ex: Hg5iNVSp2z8 )"
+msgstr "Youtube Arka Planı (video kimliği. Örn: Hg5iNVSp2z8)"
+
+#: includes/fields.php:260
+msgid "Vimeo Background ( video ID. Ex: 97871257 )"
+msgstr "Vimeo Arkaplan (video kimliği. Örn: 97871257)"
+
+#: includes/fields.php:271
+msgid "Vimeo URL (.MP4)"
+msgstr "Vimeo URL'si (.MP4)"
+
+#: includes/fields.php:317
+msgid "Listing Video ( YouTube, Vimeo or .mp4 video url )"
+msgstr "Liste Videosu (YouTube, Vimeo veya .mp4 video URL'si)"
+
+#: includes/fields.php:350
+msgid "Event Start Date (Format: 2020-02-20 08:30:00)"
+msgstr "Etkinlik Başlangıç Tarihi (Biçim: 2020-02-20 08:30:00)"
+
+#: includes/fields.php:361
+msgid "Event Date End (Format: 2020-02-20 16:30:00)"
+msgstr "Etkinlik Tarihi Sonu (Biçim: 2020-02-20 16:30:00)"
+
+#: includes/fields.php:373
+msgid "Working Hours"
+msgstr "Çalışma saatleri"
+
+#: includes/fields.php:385
+msgid ""
+"Available Dates - separate with semicolon. Ex: 2020-03-02;2020-03-18;2020-03-"
+"31"
+msgstr ""
+"Kullanılabilir Tarihler - noktalı virgülle ayrı. Örn: 2020-03-02; 2020-03-18;"
+" 2020-03-31"
+
+#: includes/fields.php:399
+msgid "Other Options"
+msgstr "Diğer seçenekler"
+
+#: includes/fields.php:411
+msgid ""
+"Listing Type ID (Optional) - <a href=\"https://www.youtube.com/watch?v=Tn7-"
+"F630lO4&list=PL8lnIVh9k3Ptfsumpmxf4CH4oIdMl9GLe\" target=\"_blank\">What's "
+"the Listing Type?</a>"
+msgstr ""
+"Liste Türü Kimliği (İsteğe Bağlı) - <a href=\"https://www.youtube.com/watch?"
+"v=Tn7- F630lO4&list=PL8lnIVh9k3Ptfsumpmxf4CH4oIdMl9GLe\" target=\"_blank\">"
+"Liste Türü Nedir?</a>"
+
+#: includes/fields.php:420
+msgid "Listing Plan ID (Optional)"
+msgstr "Liste Planı Kimliği (İsteğe bağlı)"
+
+#: includes/fields.php:422
+msgid ""
+"Membership package ID ( Listing Plans post ), which this listing get field "
+"settings from."
+msgstr ""
+"Bu listenin alan ayarlarını aldığı üyelik paketi kimliği (Liste Planları "
+"gönderisi)."
+
+#: includes/fields.php:429
+msgid "Listing Expire Date (Format: 2020-02-20 16:30:00)"
+msgstr "İlan Bitiş Tarihi (Biçim: 2020-02-20 16:30:00)"
+
+#: includes/fields.php:451
+msgid "Search by Address"
+msgstr "Adrese Göre Ara"
+
+#: includes/fields.php:454
+msgid ""
+"Enter your Google Developers API key to fetch coordinates from google "
+"(Required services: Google Maps Geocoding API - And set your Google "
+"Application Restrictions to None: http://prntscr.com/kp1xhc )."
+msgstr ""
+"Google'dan koordinatları almak için Google Developers API anahtarınızı girin "
+"(Gerekli hizmetler: Google Maps Geocoding API'sı - Ve Google Uygulama "
+"Kısıtlamalarınızı Yok olarak ayarlayın: http://prntscr.com/kp1xhc)."
+
+#: includes/fields.php:461
+msgid "Or Coordinate values"
+msgstr "Veya Koordinat değerleri"
+
+#: includes/fields.php:462
+msgid "Latitude"
+msgstr "Enlem"
+
+#: includes/fields.php:463
+msgid "Longitude"
+msgstr "Boylam"
+
+#: includes/fields.php:473
+msgid "Image Background (from Header Images)"
+msgstr "Görüntü Arka Planı (Başlık Resimlerinden)"
+
+#: includes/fields.php:475
+msgid "Video Background"
+msgstr "Video Arkaplanı"
+
+#: includes/fields.php:476
+msgid "Youtube Video ID. Ex: Hg5iNVSp2z8"
+msgstr "Youtube Video Kimliği. Örn: Hg5iNVSp2z8"
+
+#: includes/fields.php:477
+msgid "Or Vimeo Video ID. Ex: 97871257"
+msgstr "Veya Vimeo Video Kimliği. Örn: 97871257"
+
+#: includes/fields.php:478
+msgid "Or Vimeo URL (.MP4)"
+msgstr "Veya Vimeo URL'si (.MP4)"
+
+#: includes/fields.php:480
+msgid "Slider (from Header Images)"
+msgstr "Kaydırıcı (Başlık Resimlerinden)"
+
+#: includes/fields.php:481
+msgid "Slideshow (from Header Images)"
+msgstr "Slayt Gösterisi (Başlık Resimlerinden)"
+
+#: includes/fields.php:507
+msgid ""
+"Timezone String. Default is your site timezone. Ex: America/New_York.<br><a "
+"href=\"http://php.net/manual/en/timezones.php\" target=\"_blank\">Available "
+"values</a>"
+msgstr ""
+"Saat Dilimi Dizesi. Varsayılan, site saat diliminizdir. Örn: Amerika / "
+"New_York. <br> <a  href=\"http://php.net/manual/en/timezones.php\" "
+"target=\"_blank\">Kullanılabilir değerler</a>"
+
+#: includes/fields.php:516
+msgid ""
+"Days and hours. Ex: Mon,09:00:00,19:00:00|Tue,09:00:00,19:00:00|Wed,09:00:00,"
+"19:00:00|Thu,09:00:00,19:00:00|Fri,09:00:00,19:00:00|Sat,09:00:00,19:00:"
+"00|Sun,closeAllDay"
+msgstr ""
+"Günler ve saatler. Örn: Pzt, 09: 00: 00,19: 00: 00 | Sal, 09: 00: 00,19: 00: "
+"00 | Çar, 09: 00: 00, 19: 00: 00 | Per, 09: 00: 00,19: 00: 00 | Cum, 09: 00: "
+"00,19: 00: 00 | Cts, 09: 00: 00,19: 00: 00 | Güneş, kapatTümGün"
+
+#: includes/fields.php:519
+msgid ""
+"Format: Mon,OpenTime,CloseTime|Tue,OpenTime1,CloseTime1;OpenTime2,CloseTime2 "
+"and so on"
+msgstr ""
+"Biçim: Pzt, OpenTime, CloseTime | Salı, OpenTime1, CloseTime1; OpenTime2, "
+"CloseTime2 vb."
+
+#. Name of the plugin
+msgid "TownHub Import"
+msgstr "TownHub Import"
+
+#. Description of the plugin
+msgid "A custom plugin for TownHub - Directory & Listing WordPress Theme"
+msgstr "TownHub için özel bir eklenti - Dizin ve Liste WordPress Teması"
+
+#. URI of the plugin
+msgid "https://townhub.cththemes.com"
+msgstr "https://townhub.cththemes.com"
+
+#. Author of the plugin
+msgid "CTHthemes"
+msgstr "CTHthemes"
+
+#. Author URI of the plugin
+msgid "http://themeforest.net/user/cththemes"
+msgstr "http://themeforest.net/user/cththemes"

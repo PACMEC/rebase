@@ -1,0 +1,552 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TownHub Woo Payments\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-08 04:34+0000\n"
+"PO-Revision-Date: 2020-02-26 05:54+0000\n"
+"Last-Translator: Admin <contact.cththemes@gmail.com>\n"
+"Language-Team: Vietnamese (Viet Nam)\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#. 1. URL link.
+#: townhub-woo-payments.php:22
+#, php-format
+msgid ""
+"TownHub WooCommerce Payments requires WooCommerce to be installed and active."
+" You can download %s here."
+msgstr ""
+"TownHub WooC Commerce Thanh toán yêu cầu WooC Commerce phải được cài đặt và "
+"hoạt động. Bạn có thể tải xuống %s tại đây."
+
+#. 1. URL link.
+#: townhub-woo-payments.php:27
+msgid ""
+"TownHub WooCommerce Payments requires TownHub Add-Ons to be installed and "
+"active. You can install it from Appearance -> Install Plugins screen."
+msgstr ""
+"Thanh toán TownHub WooC Commerce yêu cầu Bổ trợ TownHub phải được cài đặt và "
+"hoạt động. Bạn có thể cài đặt nó từ Giao diện -> Cài đặt màn hình Plugins."
+
+#: includes/payfast/payfast.php:25
+msgid "Proceed to PayFast"
+msgstr "Tiếp tục với PayFast"
+
+#: includes/payfast/payfast.php:26
+msgid "TownHub PayFast"
+msgstr "TownHub PayFast"
+
+#. %s: Link to WC system status page
+#: includes/payfast/payfast.php:28
+msgid ""
+"This is currently needed for selling RECURRING membership package. It "
+"redirects customers to PayFast to enter their payment information."
+msgstr ""
+"Điều này hiện đang cần thiết để bán gói thành viên RECURRING. Nó chuyển "
+"hướng khách hàng đến PayFast để nhập thông tin thanh toán của họ."
+
+#. %s: Link to PayFast sandbox testing guide page
+#: includes/payfast/payfast.php:54
+#, php-format
+msgid ""
+"SANDBOX ENABLED. You can use sandbox testing accounts only. See the <a "
+"href=\"%s\">PayFast Sandbox Testing Guide</a> for more details."
+msgstr ""
+"SANDBOX ENABLED. Bạn chỉ có thể sử dụng tài khoản thử nghiệm hộp cát. Xem <a "
+" href=\"%s\">Hướng dẫn kiểm tra hộp cát PayFast</a> để biết thêm chi tiết."
+
+#: includes/payfast/payfast.php:107 includes/paypal/paypal.php:103
+msgid "Gateway disabled"
+msgstr "Cổng bị vô hiệu hóa"
+
+#: includes/payfast/payfast.php:107
+msgid "PayFast does not support your store currency."
+msgstr "PayFast không hỗ trợ tiền tệ cửa hàng của bạn."
+
+#: includes/payfast/payfast.php:124
+msgid "PayFast acceptance mark"
+msgstr "Dấu chấp nhận PayFast"
+
+#: includes/payfast/payfast-ipn.php:360 includes/paypal/paypal-ipn.php:159
+msgid "IPN payment completed"
+msgstr "Đã hoàn tất thanh toán IPN"
+
+#: includes/payfast/payfast-ipn.php:368 includes/paypal/paypal-ipn.php:167
+msgid ""
+"Payment authorized. Change payment status to processing or complete to "
+"capture funds."
+msgstr ""
+"Thanh toán ủy quyền. Thay đổi trạng thái thanh toán để xử lý hoặc hoàn thành "
+"để nắm bắt tiền."
+
+#. %s: pending reason.
+#: includes/payfast/payfast-ipn.php:371 includes/paypal/paypal-ipn.php:170
+#, php-format
+msgid "Payment pending (%s)."
+msgstr "Thanh toán đang chờ xử lý ( %s)."
+
+#. %s: currency code.
+#: includes/payfast/payfast-ipn.php:441
+#, php-format
+msgid "Validation error: PayFast currencies do not match (code %s)."
+msgstr "Lỗi xác thực: Tiền tệ PayFast không khớp (mã %s)."
+
+#. %s: Amount.
+#: includes/payfast/payfast-ipn.php:457
+#, php-format
+msgid "Validation error: PayFast amounts do not match (gross %s)."
+msgstr "Lỗi xác thực: Số tiền PayFast không khớp (tổng %s)."
+
+#. %s: email address .
+#: includes/payfast/payfast-ipn.php:474
+#, php-format
+msgid ""
+"Validation error: PayFast IPN response from a different email address (%s)."
+msgstr ""
+"Lỗi xác thực: Phản hồi IPN của PayFast từ một địa chỉ email khác ( %s)."
+
+#. %s: order link.
+#: includes/payfast/payfast-ipn.php:506 includes/paypal/paypal-ipn.php:311
+#, php-format
+msgid "Payment for cancelled order %s received"
+msgstr "Thanh toán cho đơn hàng đã hủy %s nhận được"
+
+#. %s: order ID.
+#: includes/payfast/payfast-ipn.php:508
+#, php-format
+msgid ""
+"Order #%s has been marked paid by PayFast IPN, but was previously cancelled. "
+"Admin handling required."
+msgstr ""
+"Đơn hàng # %s đã được đánh dấu thanh toán bằng IPN của PayFast, nhưng trước "
+"đó đã bị hủy. Yêu cầu xử lý quản trị viên."
+
+#: includes/payfast/settings-payfast.php:13
+#: includes/paypal/settings-paypal.php:13
+msgid "Enable/Disable"
+msgstr "Cho phép vô hiệu hóa"
+
+#: includes/payfast/settings-payfast.php:15
+msgid "Enable PayFast Recurring"
+msgstr "Kích hoạt định kỳ PayFast"
+
+#: includes/payfast/settings-payfast.php:19
+#: includes/paypal/settings-paypal.php:19
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: includes/payfast/settings-payfast.php:21
+#: includes/paypal/settings-paypal.php:21
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+"Điều này kiểm soát tiêu đề mà người dùng nhìn thấy trong quá trình thanh "
+"toán."
+
+#: includes/payfast/settings-payfast.php:26
+#: includes/paypal/settings-paypal.php:26
+msgid "Description"
+msgstr "Sự miêu tả"
+
+#: includes/payfast/settings-payfast.php:29
+#: includes/paypal/settings-paypal.php:29
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+"Điều này kiểm soát mô tả mà người dùng nhìn thấy trong quá trình thanh toán."
+
+#: includes/payfast/settings-payfast.php:34
+msgid "Merchant options"
+msgstr "Tùy chọn người bán"
+
+#: includes/payfast/settings-payfast.php:40
+msgid "Merchant ID"
+msgstr "ID người bán"
+
+#: includes/payfast/settings-payfast.php:42
+msgid "You PayFast merchant id"
+msgstr "Bạn id người bán PayFast"
+
+#: includes/payfast/settings-payfast.php:48
+msgid "Merchant Key"
+msgstr "Khóa thương gia"
+
+#: includes/payfast/settings-payfast.php:50
+msgid "You PayFast merchant key"
+msgstr "Khóa thương gia PayFast của bạn"
+
+#: includes/payfast/settings-payfast.php:56
+msgid "Merchant passphrase"
+msgstr "Cụm mật khẩu của người bán"
+
+#: includes/payfast/settings-payfast.php:58
+#, php-format
+msgid ""
+"Enter your PayFast passphrase. Learn how to create your <a href=\"%s\">"
+"PayFast passphrase</a>.<br /><a href=\"%s\">WooCommerce PayFast Payment "
+"Gateway</a>"
+msgstr ""
+"Nhập cụm mật khẩu PayFast của bạn. Tìm hiểu cách tạo <a href=\"%s\">cụm mật "
+"khẩu PayFast</a> của bạn. <br /> <a href=\"%s\">Cổng thanh toán WooF "
+"Commerce PayFast</a>"
+
+#: includes/payfast/settings-payfast.php:64
+msgid "Email Confirmation?"
+msgstr "Xác nhận thư điện tử?"
+
+#: includes/payfast/settings-payfast.php:66
+msgid "Enable email confirmation"
+msgstr "Cho phép xác nhận email"
+
+#: includes/payfast/settings-payfast.php:68
+msgid "Whether to send email confirmation to the merchant of the transaction."
+msgstr "Có gửi email xác nhận cho người bán giao dịch hay không."
+
+#: includes/payfast/settings-payfast.php:71
+msgid "Confirmation Email Address"
+msgstr "Địa chỉ email xác nhận"
+
+#: includes/payfast/settings-payfast.php:73
+msgid "The address to send the confirmation email to."
+msgstr "Địa chỉ để gửi email xác nhận đến."
+
+#: includes/payfast/settings-payfast.php:81
+#: includes/paypal/settings-paypal.php:41
+msgid "Advanced options"
+msgstr "Tùy chọn nâng cao"
+
+#: includes/payfast/settings-payfast.php:86
+msgid "PayFast sandbox"
+msgstr "Hộp cát PayFast"
+
+#: includes/payfast/settings-payfast.php:88
+msgid "Enable PayFast sandbox"
+msgstr "Kích hoạt hộp cát PayFast"
+
+#. %s: URL
+#: includes/payfast/settings-payfast.php:91
+#, php-format
+msgid ""
+"PayFast sandbox can be used to test payments. Sign up for a <a href=\"%s\">"
+"developer account</a>."
+msgstr ""
+"Hộp cát PayFast có thể được sử dụng để kiểm tra thanh toán. Đăng ký <a "
+"href=\"%s\">tài khoản nhà phát triển</a> ."
+
+#: includes/payfast/settings-payfast.php:94
+#: includes/paypal/settings-paypal.php:54
+msgid "Debug log"
+msgstr "Nhật ký gỡ lỗi"
+
+#: includes/payfast/settings-payfast.php:96
+#: includes/paypal/settings-paypal.php:56
+msgid "Enable logging"
+msgstr "Cho phép đăng nhập"
+
+#. %s: URL
+#: includes/payfast/settings-payfast.php:99
+#, php-format
+msgid ""
+"Log PayFast events, such as IPN requests, inside %s Note: this may log "
+"personal information. We recommend using this for debugging purposes only "
+"and deleting the logs when finished."
+msgstr ""
+"Ghi nhật ký các sự kiện PayFast, chẳng hạn như yêu cầu IPN, bên trong %s Lưu "
+"ý: điều này có thể ghi thông tin cá nhân. Chúng tôi khuyên bạn chỉ nên sử "
+"dụng mục đích này để gỡ lỗi và xóa nhật ký khi hoàn tất."
+
+#: includes/payfast/payfast-request.php:263
+#: includes/paypal/paypal-request.php:207
+msgid "Order"
+msgstr "Đặt hàng"
+
+#: includes/paypal/settings-paypal.php:15
+msgid "Enable PayPal Standard"
+msgstr "Kích hoạt tiêu chuẩn PayPal"
+
+#: includes/paypal/settings-paypal.php:22 includes/paypal/paypal.php:26
+msgid "TownHub PayPal"
+msgstr "PayPal thị trấn"
+
+#: includes/paypal/settings-paypal.php:30
+msgid ""
+"Pay via PayPal; you can pay with your credit card if you don't have a PayPal "
+"account."
+msgstr ""
+"Thanh toán qua PayPal; bạn có thể thanh toán bằng thẻ tín dụng nếu bạn không "
+"có tài khoản PayPal."
+
+#: includes/paypal/settings-paypal.php:33
+msgid "PayPal email"
+msgstr "Paypal Email"
+
+#: includes/paypal/settings-paypal.php:35
+msgid ""
+"Please enter your PayPal email address; this is needed in order to take "
+"payment."
+msgstr ""
+"Vui lòng nhập địa chỉ email PayPal của bạn; điều này là cần thiết để thanh "
+"toán."
+
+#: includes/paypal/settings-paypal.php:46
+msgid "PayPal sandbox"
+msgstr "Hộp cát PayPal"
+
+#: includes/paypal/settings-paypal.php:48
+msgid "Enable PayPal sandbox"
+msgstr "Kích hoạt hộp cát PayPal"
+
+#. %s: URL
+#: includes/paypal/settings-paypal.php:51
+#, php-format
+msgid ""
+"PayPal sandbox can be used to test payments. Sign up for a <a href=\"%s\">"
+"developer account</a>."
+msgstr ""
+"PayPal sandbox có thể được sử dụng để kiểm tra thanh toán. Đăng ký <a "
+"href=\"%s\">tài khoản nhà phát triển</a> ."
+
+#. %s: URL
+#: includes/paypal/settings-paypal.php:59
+#, php-format
+msgid ""
+"Log PayPal events, such as IPN requests, inside %s Note: this may log "
+"personal information. We recommend using this for debugging purposes only "
+"and deleting the logs when finished."
+msgstr ""
+"Ghi nhật ký các sự kiện PayPal, chẳng hạn như yêu cầu IPN, bên trong %s Lưu "
+"ý: điều này có thể ghi thông tin cá nhân. Chúng tôi khuyên bạn chỉ nên sử "
+"dụng mục đích này để gỡ lỗi và xóa nhật ký khi hoàn tất."
+
+#: includes/paypal/settings-paypal.php:62
+msgid "IPN Email Notifications"
+msgstr "Thông báo email IPN"
+
+#: includes/paypal/settings-paypal.php:64
+msgid "Enable IPN email notifications"
+msgstr "Bật thông báo email IPN"
+
+#: includes/paypal/settings-paypal.php:66
+msgid ""
+"Send notifications when an IPN is received from PayPal indicating refunds, "
+"chargebacks and cancellations."
+msgstr ""
+"Gửi thông báo khi nhận được IPN từ PayPal cho biết hoàn lại tiền, bồi hoàn "
+"và hủy bỏ."
+
+#: includes/paypal/settings-paypal.php:69
+msgid "Receiver email"
+msgstr "Nhận email"
+
+#: includes/paypal/settings-paypal.php:71
+msgid ""
+"If your main PayPal email differs from the PayPal email entered above, input "
+"your main receiver email for your PayPal account here. This is used to "
+"validate IPN requests."
+msgstr ""
+"Nếu email PayPal chính của bạn khác với email PayPal được nhập ở trên, hãy "
+"nhập email người nhận chính cho tài khoản PayPal của bạn tại đây. Điều này "
+"được sử dụng để xác nhận các yêu cầu IPN."
+
+#: includes/paypal/settings-paypal.php:77
+msgid "PayPal identity token"
+msgstr "Mã thông báo nhận dạng PayPal"
+
+#: includes/paypal/settings-paypal.php:79
+msgid ""
+"Optionally enable \"Payment Data Transfer\" (Profile > Profile and Settings >"
+" My Selling Tools > Website Preferences) and then copy your identity token "
+"here. This will allow payments to be verified without the need for PayPal "
+"IPN."
+msgstr ""
+"Tùy chọn bật  &quot;Truyền dữ liệu thanh toán \" (Hồ sơ > Cấu hình và cài "
+"đặt > Công cụ bán hàng của tôi > Tùy chọn trang web) và sau đó sao chép mã "
+"thông báo nhận dạng của bạn tại đây. Điều này sẽ cho phép thanh toán được "
+"xác minh mà không cần PayPal IPN."
+
+#: includes/paypal/settings-paypal.php:85
+msgid "Invoice prefix"
+msgstr "Tiền tố hóa đơn"
+
+#: includes/paypal/settings-paypal.php:87
+msgid ""
+"Please enter a prefix for your invoice numbers. If you use your PayPal "
+"account for multiple stores ensure this prefix is unique as PayPal will not "
+"allow orders with the same invoice number."
+msgstr ""
+"Vui lòng nhập một tiền tố cho số hóa đơn của bạn. Nếu bạn sử dụng tài khoản "
+"PayPal của mình cho nhiều cửa hàng, hãy đảm bảo tiền tố này là duy nhất vì "
+"PayPal sẽ không cho phép các đơn hàng có cùng số hóa đơn."
+
+#: includes/paypal/settings-paypal.php:92
+msgid "Shipping details"
+msgstr "Chi tiết vận chuyển"
+
+#: includes/paypal/settings-paypal.php:94
+msgid "Send shipping details to PayPal instead of billing."
+msgstr "Gửi chi tiết vận chuyển đến PayPal thay vì thanh toán."
+
+#: includes/paypal/settings-paypal.php:95
+msgid ""
+"PayPal allows us to send one address. If you are using PayPal for shipping "
+"labels you may prefer to send the shipping address rather than billing. "
+"Turning this option off may prevent PayPal Seller protection from applying."
+msgstr ""
+"PayPal cho phép chúng tôi gửi một địa chỉ. Nếu bạn đang sử dụng PayPal để "
+"vận chuyển nhãn, bạn có thể muốn gửi địa chỉ giao hàng hơn là thanh toán. "
+"Tắt tùy chọn này có thể ngăn việc bảo vệ người bán PayPal áp dụng."
+
+#: includes/paypal/settings-paypal.php:99
+msgid "Address override"
+msgstr "Ghi đè địa chỉ"
+
+#: includes/paypal/settings-paypal.php:101
+msgid ""
+"Enable \"address_override\" to prevent address information from being "
+"changed."
+msgstr "Bật  &quot;address_override \" để ngăn thông tin địa chỉ bị thay đổi."
+
+#: includes/paypal/settings-paypal.php:102
+msgid ""
+"PayPal verifies addresses therefore this setting can cause errors (we "
+"recommend keeping it disabled)."
+msgstr ""
+"PayPal xác minh địa chỉ do đó cài đặt này có thể gây ra lỗi (chúng tôi "
+"khuyên bạn nên tắt nó)."
+
+#: includes/paypal/settings-paypal.php:106
+msgid "Payment action"
+msgstr "Hành động thanh toán"
+
+#: includes/paypal/settings-paypal.php:109
+msgid ""
+"Choose whether you wish to capture funds immediately or authorize payment "
+"only."
+msgstr "Chọn xem bạn muốn thu tiền ngay lập tức hay chỉ cho phép thanh toán."
+
+#: includes/paypal/settings-paypal.php:113
+msgid "Capture"
+msgstr "Chiếm lấy"
+
+#: includes/paypal/settings-paypal.php:114
+msgid "Authorize"
+msgstr "Ủy quyền"
+
+#: includes/paypal/settings-paypal.php:118
+msgid "Page style"
+msgstr "Kiểu trang"
+
+#: includes/paypal/settings-paypal.php:120
+msgid ""
+"Optionally enter the name of the page style you wish to use. These are "
+"defined within your PayPal account. This affects classic PayPal checkout "
+"screens."
+msgstr ""
+"Tùy chọn nhập tên của kiểu trang bạn muốn sử dụng. Chúng được xác định trong "
+"tài khoản PayPal của bạn. Điều này ảnh hưởng đến màn hình thanh toán PayPal "
+"cổ điển."
+
+#: includes/paypal/settings-paypal.php:123
+#: includes/paypal/settings-paypal.php:131
+msgid "Optional"
+msgstr "Không bắt buộc"
+
+#: includes/paypal/settings-paypal.php:126
+msgid "Image url"
+msgstr "URL hình ảnh"
+
+#: includes/paypal/settings-paypal.php:128
+msgid ""
+"Optionally enter the URL to a 150x50px image displayed as your logo in the "
+"upper left corner of the PayPal checkout pages."
+msgstr ""
+"Tùy chọn nhập URL tới hình ảnh 150x50px được hiển thị dưới dạng logo của bạn "
+"ở góc trên bên trái của trang thanh toán PayPal."
+
+#: includes/paypal/paypal.php:25
+msgid "Proceed to PayPal"
+msgstr "Tiếp tục với PayPal"
+
+#. %s: Link to WC system status page
+#: includes/paypal/paypal.php:28
+msgid ""
+"This is currently needed for selling RECURRING membership package. It "
+"redirects customers to PayPal to enter their payment information."
+msgstr ""
+"Điều này hiện đang cần thiết để bán gói thành viên RECURRING. Nó chuyển "
+"hướng khách hàng đến PayPal để nhập thông tin thanh toán của họ."
+
+#. %s: Link to PayPal sandbox testing guide page
+#: includes/paypal/paypal.php:50
+#, php-format
+msgid ""
+"SANDBOX ENABLED. You can use sandbox testing accounts only. See the <a "
+"href=\"%s\">PayPal Sandbox Testing Guide</a> for more details."
+msgstr ""
+"SANDBOX ENABLED. Bạn chỉ có thể sử dụng tài khoản thử nghiệm hộp cát. Xem <a "
+" href=\"%s\">Hướng dẫn kiểm tra PayPal Sandbox</a> để biết thêm chi tiết."
+
+#: includes/paypal/paypal.php:103
+msgid "PayPal does not support your store currency."
+msgstr "PayPal không hỗ trợ tiền tệ cửa hàng của bạn."
+
+#: includes/paypal/paypal.php:122
+msgid "PayPal acceptance mark"
+msgstr "Dấu chấp nhận PayPal"
+
+#: includes/paypal/paypal.php:125
+msgid "What is PayPal?"
+msgstr "PayPal là gì?"
+
+#. %s: currency code.
+#: includes/paypal/paypal-ipn.php:246
+#, php-format
+msgid "Validation error: PayPal currencies do not match (code %s)."
+msgstr "Lỗi xác thực: Tiền tệ PayPal không khớp (mã %s)."
+
+#. %s: Amount.
+#: includes/paypal/paypal-ipn.php:262
+#, php-format
+msgid "Validation error: PayPal amounts do not match (gross %s)."
+msgstr "Lỗi xác thực: Số tiền PayPal không khớp (tổng %s)."
+
+#. %s: email address .
+#: includes/paypal/paypal-ipn.php:279
+#, php-format
+msgid ""
+"Validation error: PayPal IPN response from a different email address (%s)."
+msgstr "Lỗi xác thực: Phản hồi PayPal IPN từ một địa chỉ email khác ( %s)."
+
+#. %s: order ID.
+#: includes/paypal/paypal-ipn.php:313
+#, php-format
+msgid ""
+"Order #%s has been marked paid by PayPal IPN, but was previously cancelled. "
+"Admin handling required."
+msgstr ""
+"Đơn hàng # %s đã được đánh dấu thanh toán bằng PayPal IPN, nhưng trước đó đã "
+"bị hủy. Yêu cầu xử lý quản trị viên."
+
+#. Name of the plugin
+msgid "TownHub Woo Payments"
+msgstr "Thanh toán TownHub Woo"
+
+#. Description of the plugin
+msgid "A custom plugin for TownHub - Directory & Listing WordPress Theme"
+msgstr ""
+"Một plugin tùy chỉnh cho TownHub - Danh mục &amp; Danh sách WordPress Theme"
+
+#. URI of the plugin
+msgid "https://townhub.cththemes.com"
+msgstr "https://towlahoma.cththeme.com"
+
+#. Author of the plugin
+msgid "CTHthemes"
+msgstr "CTHtheme"
+
+#. Author URI of the plugin
+msgid "http://themeforest.net/user/cththemes"
+msgstr "http://themeforest.net/user/cththeme"

@@ -1,0 +1,562 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TownHub Woo Payments\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-08 04:34+0000\n"
+"PO-Revision-Date: 2020-02-26 05:54+0000\n"
+"Last-Translator: Admin <contact.cththemes@gmail.com>\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#. 1. URL link.
+#: townhub-woo-payments.php:22
+#, php-format
+msgid ""
+"TownHub WooCommerce Payments requires WooCommerce to be installed and active."
+" You can download %s here."
+msgstr ""
+"TownHub WooCommerce Payments richiede che WooCommerce sia installato e "
+"attivo. Puoi scaricare %s qui."
+
+#. 1. URL link.
+#: townhub-woo-payments.php:27
+msgid ""
+"TownHub WooCommerce Payments requires TownHub Add-Ons to be installed and "
+"active. You can install it from Appearance -> Install Plugins screen."
+msgstr ""
+"TownHub WooCommerce Payments richiede che i componenti aggiuntivi TownHub "
+"siano installati e attivi. Puoi installarlo dalla schermata Aspetto -> "
+"Installa plug-in."
+
+#: includes/payfast/payfast.php:25
+msgid "Proceed to PayFast"
+msgstr "Passa a PayFast"
+
+#: includes/payfast/payfast.php:26
+msgid "TownHub PayFast"
+msgstr "TownHub PayFast"
+
+#. %s: Link to WC system status page
+#: includes/payfast/payfast.php:28
+msgid ""
+"This is currently needed for selling RECURRING membership package. It "
+"redirects customers to PayFast to enter their payment information."
+msgstr ""
+"Questo è attualmente necessario per vendere il pacchetto di abbonamento "
+"RECURRING. Reindirizza i clienti a PayFast per inserire le informazioni di "
+"pagamento."
+
+#. %s: Link to PayFast sandbox testing guide page
+#: includes/payfast/payfast.php:54
+#, php-format
+msgid ""
+"SANDBOX ENABLED. You can use sandbox testing accounts only. See the <a "
+"href=\"%s\">PayFast Sandbox Testing Guide</a> for more details."
+msgstr ""
+"SABBIA ABILITATA. È possibile utilizzare solo account di test sandbox. "
+"Consulta la <a  href=\"%s\">Guida</a> ai <a  href=\"%s\">test Sandbox "
+"PayFast</a> per maggiori dettagli."
+
+#: includes/payfast/payfast.php:107 includes/paypal/paypal.php:103
+msgid "Gateway disabled"
+msgstr "Gateway disabilitato"
+
+#: includes/payfast/payfast.php:107
+msgid "PayFast does not support your store currency."
+msgstr "PayFast non supporta la valuta del tuo negozio."
+
+#: includes/payfast/payfast.php:124
+msgid "PayFast acceptance mark"
+msgstr "Contrassegno di accettazione PayFast"
+
+#: includes/payfast/payfast-ipn.php:360 includes/paypal/paypal-ipn.php:159
+msgid "IPN payment completed"
+msgstr "Pagamento IPN completato"
+
+#: includes/payfast/payfast-ipn.php:368 includes/paypal/paypal-ipn.php:167
+msgid ""
+"Payment authorized. Change payment status to processing or complete to "
+"capture funds."
+msgstr ""
+"Pagamento autorizzato Cambia lo stato del pagamento in elaborazione o "
+"completa per acquisire fondi."
+
+#. %s: pending reason.
+#: includes/payfast/payfast-ipn.php:371 includes/paypal/paypal-ipn.php:170
+#, php-format
+msgid "Payment pending (%s)."
+msgstr "Pagamento in sospeso ( %s)."
+
+#. %s: currency code.
+#: includes/payfast/payfast-ipn.php:441
+#, php-format
+msgid "Validation error: PayFast currencies do not match (code %s)."
+msgstr "Errore di convalida: le valute PayFast non corrispondono (codice %s)."
+
+#. %s: Amount.
+#: includes/payfast/payfast-ipn.php:457
+#, php-format
+msgid "Validation error: PayFast amounts do not match (gross %s)."
+msgstr ""
+"Errore di convalida: gli importi PayFast non corrispondono (% l lordo)."
+
+#. %s: email address .
+#: includes/payfast/payfast-ipn.php:474
+#, php-format
+msgid ""
+"Validation error: PayFast IPN response from a different email address (%s)."
+msgstr ""
+"Errore di convalida: risposta IPN PayFast da un indirizzo di posta "
+"elettronica diverso ( %s)."
+
+#. %s: order link.
+#: includes/payfast/payfast-ipn.php:506 includes/paypal/paypal-ipn.php:311
+#, php-format
+msgid "Payment for cancelled order %s received"
+msgstr "Pagamento per ordine annullato %s ricevuto"
+
+#. %s: order ID.
+#: includes/payfast/payfast-ipn.php:508
+#, php-format
+msgid ""
+"Order #%s has been marked paid by PayFast IPN, but was previously cancelled. "
+"Admin handling required."
+msgstr ""
+"L'ordine n.% S è stato contrassegnato come pagato da PayFast IPN, ma è stato "
+"precedentemente annullato. Gestione dell'amministratore richiesta."
+
+#: includes/payfast/settings-payfast.php:13
+#: includes/paypal/settings-paypal.php:13
+msgid "Enable/Disable"
+msgstr "Abilita / Disabilita"
+
+#: includes/payfast/settings-payfast.php:15
+msgid "Enable PayFast Recurring"
+msgstr "Abilita PayFast ricorrenti"
+
+#: includes/payfast/settings-payfast.php:19
+#: includes/paypal/settings-paypal.php:19
+msgid "Title"
+msgstr "Titolo"
+
+#: includes/payfast/settings-payfast.php:21
+#: includes/paypal/settings-paypal.php:21
+msgid "This controls the title which the user sees during checkout."
+msgstr "Questo controlla il titolo che l'utente vede durante il checkout."
+
+#: includes/payfast/settings-payfast.php:26
+#: includes/paypal/settings-paypal.php:26
+msgid "Description"
+msgstr "Descrizione"
+
+#: includes/payfast/settings-payfast.php:29
+#: includes/paypal/settings-paypal.php:29
+msgid "This controls the description which the user sees during checkout."
+msgstr "Questo controlla la descrizione che l'utente vede durante il checkout."
+
+#: includes/payfast/settings-payfast.php:34
+msgid "Merchant options"
+msgstr "Opzioni del commerciante"
+
+#: includes/payfast/settings-payfast.php:40
+msgid "Merchant ID"
+msgstr "identificativo del venditore"
+
+#: includes/payfast/settings-payfast.php:42
+msgid "You PayFast merchant id"
+msgstr "ID commerciante PayFast"
+
+#: includes/payfast/settings-payfast.php:48
+msgid "Merchant Key"
+msgstr "Chiave del commerciante"
+
+#: includes/payfast/settings-payfast.php:50
+msgid "You PayFast merchant key"
+msgstr "La chiave del commerciante PayFast"
+
+#: includes/payfast/settings-payfast.php:56
+msgid "Merchant passphrase"
+msgstr "Passphrase mercantile"
+
+#: includes/payfast/settings-payfast.php:58
+#, php-format
+msgid ""
+"Enter your PayFast passphrase. Learn how to create your <a href=\"%s\">"
+"PayFast passphrase</a>.<br /><a href=\"%s\">WooCommerce PayFast Payment "
+"Gateway</a>"
+msgstr ""
+"Inserisci la passphrase PayFast. Scopri come creare la tua <a href=\"%s\">"
+"passphrase PayFast</a> . <br /> <a href=\"%s\">WooCommerce PayFast Payment "
+"Gateway</a>"
+
+#: includes/payfast/settings-payfast.php:64
+msgid "Email Confirmation?"
+msgstr "Conferma via email?"
+
+#: includes/payfast/settings-payfast.php:66
+msgid "Enable email confirmation"
+msgstr "Abilita conferma e-mail"
+
+#: includes/payfast/settings-payfast.php:68
+msgid "Whether to send email confirmation to the merchant of the transaction."
+msgstr "Se inviare una conferma e-mail al commerciante della transazione."
+
+#: includes/payfast/settings-payfast.php:71
+msgid "Confirmation Email Address"
+msgstr "Indirizzo e-mail di conferma"
+
+#: includes/payfast/settings-payfast.php:73
+msgid "The address to send the confirmation email to."
+msgstr "L'indirizzo a cui inviare l'e-mail di conferma."
+
+#: includes/payfast/settings-payfast.php:81
+#: includes/paypal/settings-paypal.php:41
+msgid "Advanced options"
+msgstr "Opzioni avanzate"
+
+#: includes/payfast/settings-payfast.php:86
+msgid "PayFast sandbox"
+msgstr "Sandbox PayFast"
+
+#: includes/payfast/settings-payfast.php:88
+msgid "Enable PayFast sandbox"
+msgstr "Abilita sandbox PayFast"
+
+#. %s: URL
+#: includes/payfast/settings-payfast.php:91
+#, php-format
+msgid ""
+"PayFast sandbox can be used to test payments. Sign up for a <a href=\"%s\">"
+"developer account</a>."
+msgstr ""
+"La sandbox PayFast può essere utilizzata per testare i pagamenti. Iscriviti "
+"per un <a href=\"%s\">account sviluppatore</a> ."
+
+#: includes/payfast/settings-payfast.php:94
+#: includes/paypal/settings-paypal.php:54
+msgid "Debug log"
+msgstr "Registro di debug"
+
+#: includes/payfast/settings-payfast.php:96
+#: includes/paypal/settings-paypal.php:56
+msgid "Enable logging"
+msgstr "Abilita registrazione"
+
+#. %s: URL
+#: includes/payfast/settings-payfast.php:99
+#, php-format
+msgid ""
+"Log PayFast events, such as IPN requests, inside %s Note: this may log "
+"personal information. We recommend using this for debugging purposes only "
+"and deleting the logs when finished."
+msgstr ""
+"Registra eventi PayFast, come richieste IPN, all'interno di %s Nota: questo "
+"può registrare informazioni personali. Si consiglia di utilizzarlo solo a "
+"scopo di debug e di eliminare i registri al termine."
+
+#: includes/payfast/payfast-request.php:263
+#: includes/paypal/paypal-request.php:207
+msgid "Order"
+msgstr "Ordine"
+
+#: includes/paypal/settings-paypal.php:15
+msgid "Enable PayPal Standard"
+msgstr "Abilita PayPal standard"
+
+#: includes/paypal/settings-paypal.php:22 includes/paypal/paypal.php:26
+msgid "TownHub PayPal"
+msgstr "TownHub PayPal"
+
+#: includes/paypal/settings-paypal.php:30
+msgid ""
+"Pay via PayPal; you can pay with your credit card if you don't have a PayPal "
+"account."
+msgstr ""
+"Paga tramite PayPal; puoi pagare con la tua carta di credito se non hai un "
+"conto PayPal."
+
+#: includes/paypal/settings-paypal.php:33
+msgid "PayPal email"
+msgstr "Email PayPal"
+
+#: includes/paypal/settings-paypal.php:35
+msgid ""
+"Please enter your PayPal email address; this is needed in order to take "
+"payment."
+msgstr ""
+"Inserisci il tuo indirizzo email PayPal; questo è necessario per accettare "
+"il pagamento."
+
+#: includes/paypal/settings-paypal.php:46
+msgid "PayPal sandbox"
+msgstr "Sandbox PayPal"
+
+#: includes/paypal/settings-paypal.php:48
+msgid "Enable PayPal sandbox"
+msgstr "Abilita sandbox PayPal"
+
+#. %s: URL
+#: includes/paypal/settings-paypal.php:51
+#, php-format
+msgid ""
+"PayPal sandbox can be used to test payments. Sign up for a <a href=\"%s\">"
+"developer account</a>."
+msgstr ""
+"La sandbox PayPal può essere utilizzata per testare i pagamenti. Iscriviti "
+"per un <a href=\"%s\">account sviluppatore</a> ."
+
+#. %s: URL
+#: includes/paypal/settings-paypal.php:59
+#, php-format
+msgid ""
+"Log PayPal events, such as IPN requests, inside %s Note: this may log "
+"personal information. We recommend using this for debugging purposes only "
+"and deleting the logs when finished."
+msgstr ""
+"Registra eventi PayPal, come richieste IPN, all'interno di %s Nota: questo "
+"può registrare informazioni personali. Si consiglia di utilizzarlo solo a "
+"scopo di debug e di eliminare i registri al termine."
+
+#: includes/paypal/settings-paypal.php:62
+msgid "IPN Email Notifications"
+msgstr "Notifiche e-mail IPN"
+
+#: includes/paypal/settings-paypal.php:64
+msgid "Enable IPN email notifications"
+msgstr "Abilita notifiche e-mail IPN"
+
+#: includes/paypal/settings-paypal.php:66
+msgid ""
+"Send notifications when an IPN is received from PayPal indicating refunds, "
+"chargebacks and cancellations."
+msgstr ""
+"Invia notifiche quando un IPN viene ricevuto da PayPal indicando rimborsi, "
+"storni di addebito e cancellazioni."
+
+#: includes/paypal/settings-paypal.php:69
+msgid "Receiver email"
+msgstr "Email del destinatario"
+
+#: includes/paypal/settings-paypal.php:71
+msgid ""
+"If your main PayPal email differs from the PayPal email entered above, input "
+"your main receiver email for your PayPal account here. This is used to "
+"validate IPN requests."
+msgstr ""
+"Se l'e-mail principale di PayPal differisce dall'e-mail PayPal inserita "
+"sopra, inserisci qui l'e-mail del destinatario principale per il tuo account "
+"PayPal. Viene utilizzato per convalidare le richieste IPN."
+
+#: includes/paypal/settings-paypal.php:77
+msgid "PayPal identity token"
+msgstr "Token di identità PayPal"
+
+#: includes/paypal/settings-paypal.php:79
+msgid ""
+"Optionally enable \"Payment Data Transfer\" (Profile > Profile and Settings >"
+" My Selling Tools > Website Preferences) and then copy your identity token "
+"here. This will allow payments to be verified without the need for PayPal "
+"IPN."
+msgstr ""
+"Abilita facoltativamente  &quot;Trasferimento dei dati di pagamento \" "
+"(Profilo > Profilo e impostazioni > I miei strumenti di vendita > Preferenze "
+"del sito Web), quindi copia il token di identità qui. Ciò consentirà di "
+"verificare i pagamenti senza la necessità di PayPal IPN."
+
+#: includes/paypal/settings-paypal.php:85
+msgid "Invoice prefix"
+msgstr "Prefisso fattura"
+
+#: includes/paypal/settings-paypal.php:87
+msgid ""
+"Please enter a prefix for your invoice numbers. If you use your PayPal "
+"account for multiple stores ensure this prefix is unique as PayPal will not "
+"allow orders with the same invoice number."
+msgstr ""
+"Inserisci un prefisso per i numeri di fattura. Se utilizzi il tuo conto "
+"PayPal per più negozi, assicurati che questo prefisso sia unico in quanto "
+"PayPal non consentirà gli ordini con lo stesso numero di fattura."
+
+#: includes/paypal/settings-paypal.php:92
+msgid "Shipping details"
+msgstr "Dettagli di spedizione"
+
+#: includes/paypal/settings-paypal.php:94
+msgid "Send shipping details to PayPal instead of billing."
+msgstr "Invia i dettagli di spedizione a PayPal anziché la fatturazione."
+
+#: includes/paypal/settings-paypal.php:95
+msgid ""
+"PayPal allows us to send one address. If you are using PayPal for shipping "
+"labels you may prefer to send the shipping address rather than billing. "
+"Turning this option off may prevent PayPal Seller protection from applying."
+msgstr ""
+"PayPal ci consente di inviare un indirizzo. Se si utilizza PayPal per le "
+"etichette di spedizione, è preferibile inviare l'indirizzo di spedizione "
+"anziché fatturare. La disattivazione di questa opzione potrebbe impedire "
+"l'applicazione della protezione del venditore PayPal."
+
+#: includes/paypal/settings-paypal.php:99
+msgid "Address override"
+msgstr "Sostituzione indirizzo"
+
+#: includes/paypal/settings-paypal.php:101
+msgid ""
+"Enable \"address_override\" to prevent address information from being "
+"changed."
+msgstr ""
+"Abilita  &quot;address_override \" per impedire la modifica delle "
+"informazioni sull'indirizzo."
+
+#: includes/paypal/settings-paypal.php:102
+msgid ""
+"PayPal verifies addresses therefore this setting can cause errors (we "
+"recommend keeping it disabled)."
+msgstr ""
+"PayPal verifica gli indirizzi, pertanto questa impostazione può causare "
+"errori (si consiglia di tenerlo disabilitato)."
+
+#: includes/paypal/settings-paypal.php:106
+msgid "Payment action"
+msgstr "Azione di pagamento"
+
+#: includes/paypal/settings-paypal.php:109
+msgid ""
+"Choose whether you wish to capture funds immediately or authorize payment "
+"only."
+msgstr ""
+"Scegli se desideri acquisire fondi immediatamente o autorizzare solo il "
+"pagamento."
+
+#: includes/paypal/settings-paypal.php:113
+msgid "Capture"
+msgstr "Catturare"
+
+#: includes/paypal/settings-paypal.php:114
+msgid "Authorize"
+msgstr "Autorizzare"
+
+#: includes/paypal/settings-paypal.php:118
+msgid "Page style"
+msgstr "Stile di pagina"
+
+#: includes/paypal/settings-paypal.php:120
+msgid ""
+"Optionally enter the name of the page style you wish to use. These are "
+"defined within your PayPal account. This affects classic PayPal checkout "
+"screens."
+msgstr ""
+"Facoltativamente, inserisci il nome dello stile di pagina che desideri "
+"utilizzare. Questi sono definiti all'interno del tuo conto PayPal. Ciò "
+"influisce sulle classiche schermate di pagamento PayPal."
+
+#: includes/paypal/settings-paypal.php:123
+#: includes/paypal/settings-paypal.php:131
+msgid "Optional"
+msgstr "Opzionale"
+
+#: includes/paypal/settings-paypal.php:126
+msgid "Image url"
+msgstr "URL dell'immagine"
+
+#: includes/paypal/settings-paypal.php:128
+msgid ""
+"Optionally enter the URL to a 150x50px image displayed as your logo in the "
+"upper left corner of the PayPal checkout pages."
+msgstr ""
+"Facoltativamente, inserisci l'URL di un'immagine 150x50px visualizzata come "
+"logo nell'angolo in alto a sinistra delle pagine di pagamento di PayPal."
+
+#: includes/paypal/paypal.php:25
+msgid "Proceed to PayPal"
+msgstr "Procedere con PayPal"
+
+#. %s: Link to WC system status page
+#: includes/paypal/paypal.php:28
+msgid ""
+"This is currently needed for selling RECURRING membership package. It "
+"redirects customers to PayPal to enter their payment information."
+msgstr ""
+"Questo è attualmente necessario per vendere il pacchetto di abbonamento "
+"RECURRING. Reindirizza i clienti a PayPal per inserire le informazioni di "
+"pagamento."
+
+#. %s: Link to PayPal sandbox testing guide page
+#: includes/paypal/paypal.php:50
+#, php-format
+msgid ""
+"SANDBOX ENABLED. You can use sandbox testing accounts only. See the <a "
+"href=\"%s\">PayPal Sandbox Testing Guide</a> for more details."
+msgstr ""
+"SABBIA ABILITATA. È possibile utilizzare solo account di test sandbox. "
+"Consulta la <a  href=\"%s\">Guida</a> ai <a  href=\"%s\">test di PayPal "
+"Sandbox</a> per maggiori dettagli."
+
+#: includes/paypal/paypal.php:103
+msgid "PayPal does not support your store currency."
+msgstr "PayPal non supporta la valuta del tuo negozio."
+
+#: includes/paypal/paypal.php:122
+msgid "PayPal acceptance mark"
+msgstr "Contrassegno di accettazione PayPal"
+
+#: includes/paypal/paypal.php:125
+msgid "What is PayPal?"
+msgstr "Cos'è PayPal?"
+
+#. %s: currency code.
+#: includes/paypal/paypal-ipn.php:246
+#, php-format
+msgid "Validation error: PayPal currencies do not match (code %s)."
+msgstr "Errore di convalida: le valute PayPal non corrispondono (codice %s)."
+
+#. %s: Amount.
+#: includes/paypal/paypal-ipn.php:262
+#, php-format
+msgid "Validation error: PayPal amounts do not match (gross %s)."
+msgstr "Errore di convalida: gli importi PayPal non corrispondono (% l lordo)."
+
+#. %s: email address .
+#: includes/paypal/paypal-ipn.php:279
+#, php-format
+msgid ""
+"Validation error: PayPal IPN response from a different email address (%s)."
+msgstr ""
+"Errore di convalida: risposta IPN PayPal da un indirizzo email diverso ( %s)."
+
+#. %s: order ID.
+#: includes/paypal/paypal-ipn.php:313
+#, php-format
+msgid ""
+"Order #%s has been marked paid by PayPal IPN, but was previously cancelled. "
+"Admin handling required."
+msgstr ""
+"L'ordine n.% S è stato contrassegnato come pagato da PayPal IPN, ma è stato "
+"precedentemente annullato. Gestione dell'amministratore richiesta."
+
+#. Name of the plugin
+msgid "TownHub Woo Payments"
+msgstr "TownHub Woo Payments"
+
+#. Description of the plugin
+msgid "A custom plugin for TownHub - Directory & Listing WordPress Theme"
+msgstr ""
+"Un plug-in personalizzato per TownHub - Directory e elenco di temi WordPress"
+
+#. URI of the plugin
+msgid "https://townhub.cththemes.com"
+msgstr "https://townhub.cththemes.com"
+
+#. Author of the plugin
+msgid "CTHthemes"
+msgstr "CTHthemes"
+
+#. Author URI of the plugin
+msgid "http://themeforest.net/user/cththemes"
+msgstr "http://themeforest.net/user/cththemes"

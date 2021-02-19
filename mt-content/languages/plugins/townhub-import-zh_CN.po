@@ -1,0 +1,246 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TownHub Import\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-12 03:06+0000\n"
+"PO-Revision-Date: 2020-02-26 06:03+0000\n"
+"Last-Translator: Admin <contact.cththemes@gmail.com>\n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: includes/fields.php:9
+msgid "Address/Contacts"
+msgstr "地址/联系方式"
+
+#: includes/fields.php:20
+msgid "Listing Address (Google address is recommended)"
+msgstr "商家信息地址（建议使用Google地址）"
+
+#: includes/fields.php:28
+msgid "Listing Coordinates"
+msgstr "列表坐标"
+
+#: includes/fields.php:77
+msgid "Phone"
+msgstr "电话"
+
+#: includes/fields.php:85
+msgid "Email"
+msgstr "电子邮件"
+
+#: includes/fields.php:93
+msgid "Website"
+msgstr "网站"
+
+#: includes/fields.php:103
+msgid "Socials"
+msgstr "社会的"
+
+#: includes/fields.php:119
+msgid "Price Options"
+msgstr "价格选项"
+
+#: includes/fields.php:131
+msgid "Price Status"
+msgstr "价格状态"
+
+#: includes/fields.php:146
+msgid "Price From - Main Price"
+msgstr "价格从-主价格"
+
+#: includes/fields.php:154
+msgid "Price To"
+msgstr "价格至"
+
+#: includes/fields.php:162
+msgid "Claim Status (Empty for Not claimed)"
+msgstr "声明状态（未声明为空）"
+
+#: includes/fields.php:178
+msgid "Media Options"
+msgstr "媒体选项"
+
+#: includes/fields.php:189
+msgid "Listing Featured Image"
+msgstr "列出特色图片"
+
+#: includes/fields.php:201
+msgid "Gallery/Slider Images"
+msgstr "画廊/滑块图像"
+
+#: includes/fields.php:214
+msgid "Header Images"
+msgstr "标题图片"
+
+#: includes/fields.php:238
+msgid ""
+"Listing Header Type. Images for header are from <strong>Listing Header "
+"Images</strong> section"
+msgstr "列表标题类型。标<strong>头的图片</strong>来自“ <strong>列出标头图片”</strong>部分"
+
+#: includes/fields.php:249
+msgid "Youtube Background ( video ID. Ex: Hg5iNVSp2z8 )"
+msgstr "Youtube背景（视频ID。例如：Hg5iNVSp2z8）"
+
+#: includes/fields.php:260
+msgid "Vimeo Background ( video ID. Ex: 97871257 )"
+msgstr "Vimeo背景（视频ID。例如：97871257）"
+
+#: includes/fields.php:271
+msgid "Vimeo URL (.MP4)"
+msgstr "Vimeo URL（.MP4）"
+
+#: includes/fields.php:317
+msgid "Listing Video ( YouTube, Vimeo or .mp4 video url )"
+msgstr "列出视频（YouTube，Vimeo或.mp4视频网址）"
+
+#: includes/fields.php:350
+msgid "Event Start Date (Format: 2020-02-20 08:30:00)"
+msgstr "活动开始日期（格式：2020-02-20 08:30:00）"
+
+#: includes/fields.php:361
+msgid "Event Date End (Format: 2020-02-20 16:30:00)"
+msgstr "活动日期结束（格式：2020-02-20 16:30:00）"
+
+#: includes/fields.php:373
+msgid "Working Hours"
+msgstr "工作时间"
+
+#: includes/fields.php:385
+msgid ""
+"Available Dates - separate with semicolon. Ex: 2020-03-02;2020-03-18;2020-03-"
+"31"
+msgstr "可用日期-用分号分隔。例如：2020-03-02; 2020-03-18; 2020-03- 31"
+
+#: includes/fields.php:399
+msgid "Other Options"
+msgstr "其他选择"
+
+#: includes/fields.php:411
+msgid ""
+"Listing Type ID (Optional) - <a href=\"https://www.youtube.com/watch?v=Tn7-"
+"F630lO4&list=PL8lnIVh9k3Ptfsumpmxf4CH4oIdMl9GLe\" target=\"_blank\">What's "
+"the Listing Type?</a>"
+msgstr ""
+"列表类型ID（可选）- <a href=\"https://www.youtube.com/watch?v=Tn7- "
+"F630lO4&list=PL8lnIVh9k3Ptfsumpmxf4CH4oIdMl9GLe\" target=\"_blank\">"
+"列表类型是什么？</a>"
+
+#: includes/fields.php:420
+msgid "Listing Plan ID (Optional)"
+msgstr "上市计划编号（可选）"
+
+#: includes/fields.php:422
+msgid ""
+"Membership package ID ( Listing Plans post ), which this listing get field "
+"settings from."
+msgstr "成员资格软件包ID（列表计划帖子），此列表从中获取字段设置。"
+
+#: includes/fields.php:429
+msgid "Listing Expire Date (Format: 2020-02-20 16:30:00)"
+msgstr "上市失效日期（格式：2020-02-20 16:30:00）"
+
+#: includes/fields.php:451
+msgid "Search by Address"
+msgstr "按地址搜索"
+
+#: includes/fields.php:454
+msgid ""
+"Enter your Google Developers API key to fetch coordinates from google "
+"(Required services: Google Maps Geocoding API - And set your Google "
+"Application Restrictions to None: http://prntscr.com/kp1xhc )."
+msgstr ""
+"输入您的Google Developers API密钥以从google获取坐标（必需的服务：Google Maps Geocoding API-"
+"并将您的Google Application Restrictions设置为None：http://prntscr.com/kp1xhc）。"
+
+#: includes/fields.php:461
+msgid "Or Coordinate values"
+msgstr "或坐标值"
+
+#: includes/fields.php:462
+msgid "Latitude"
+msgstr "纬度"
+
+#: includes/fields.php:463
+msgid "Longitude"
+msgstr "经度"
+
+#: includes/fields.php:473
+msgid "Image Background (from Header Images)"
+msgstr "图片背景（来自页眉图片）"
+
+#: includes/fields.php:475
+msgid "Video Background"
+msgstr "影片背景"
+
+#: includes/fields.php:476
+msgid "Youtube Video ID. Ex: Hg5iNVSp2z8"
+msgstr "YouTube视频ID。例如：Hg5iNVSp2z8"
+
+#: includes/fields.php:477
+msgid "Or Vimeo Video ID. Ex: 97871257"
+msgstr "或Vimeo视频ID。例如：97871257"
+
+#: includes/fields.php:478
+msgid "Or Vimeo URL (.MP4)"
+msgstr "或Vimeo URL（.MP4）"
+
+#: includes/fields.php:480
+msgid "Slider (from Header Images)"
+msgstr "滑块（来自页眉图像）"
+
+#: includes/fields.php:481
+msgid "Slideshow (from Header Images)"
+msgstr "幻灯片放映（来自页眉图片）"
+
+#: includes/fields.php:507
+msgid ""
+"Timezone String. Default is your site timezone. Ex: America/New_York.<br><a "
+"href=\"http://php.net/manual/en/timezones.php\" target=\"_blank\">Available "
+"values</a>"
+msgstr ""
+"时区字符串。默认值为您的网站时区。例如：美国/纽约。 <br> <a  href=\"http://php."
+"net/manual/en/timezones.php\" target=\"_blank\">可用值</a>"
+
+#: includes/fields.php:516
+msgid ""
+"Days and hours. Ex: Mon,09:00:00,19:00:00|Tue,09:00:00,19:00:00|Wed,09:00:00,"
+"19:00:00|Thu,09:00:00,19:00:00|Fri,09:00:00,19:00:00|Sat,09:00:00,19:00:"
+"00|Sun,closeAllDay"
+msgstr ""
+"几天又几小时。例如：星期一，09：00：00,19：00：00 |星期二，09：00：00,19：00：00 "
+"|星期三，09：00：00，19：00：00 |星期四，09：00： 00,19：00：00 |星期五，09：00：00,19：00：00 "
+"|星期六，09：00：00,19：00：00 |星期日，关闭全天"
+
+#: includes/fields.php:519
+msgid ""
+"Format: Mon,OpenTime,CloseTime|Tue,OpenTime1,CloseTime1;OpenTime2,CloseTime2 "
+"and so on"
+msgstr ""
+"格式：Mon，OpenTime，CloseTime | Tue，OpenTime1，CloseTime1； OpenTime2，CloseTime2等"
+
+#. Name of the plugin
+msgid "TownHub Import"
+msgstr "TownHub导入"
+
+#. Description of the plugin
+msgid "A custom plugin for TownHub - Directory & Listing WordPress Theme"
+msgstr "TownHub的自定义插件-目录和列表WordPress主题"
+
+#. URI of the plugin
+msgid "https://townhub.cththemes.com"
+msgstr "https://townhub.cththemes.com"
+
+#. Author of the plugin
+msgid "CTHthemes"
+msgstr "CTH主题"
+
+#. Author URI of the plugin
+msgid "http://themeforest.net/user/cththemes"
+msgstr "http://themeforest.net/user/cththemes"

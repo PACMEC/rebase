@@ -1,0 +1,256 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TownHub Import\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-12 03:06+0000\n"
+"PO-Revision-Date: 2020-02-26 06:03+0000\n"
+"Last-Translator: Admin <contact.cththemes@gmail.com>\n"
+"Language-Team: French (France)\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: includes/fields.php:9
+msgid "Address/Contacts"
+msgstr "Adresse / Contacts"
+
+#: includes/fields.php:20
+msgid "Listing Address (Google address is recommended)"
+msgstr "Adresse de l'annonce (l'adresse Google est recommandée)"
+
+#: includes/fields.php:28
+msgid "Listing Coordinates"
+msgstr "Liste des coordonnées"
+
+#: includes/fields.php:77
+msgid "Phone"
+msgstr "Téléphone"
+
+#: includes/fields.php:85
+msgid "Email"
+msgstr "Email"
+
+#: includes/fields.php:93
+msgid "Website"
+msgstr "Site Internet"
+
+#: includes/fields.php:103
+msgid "Socials"
+msgstr "Social"
+
+#: includes/fields.php:119
+msgid "Price Options"
+msgstr "Options de prix"
+
+#: includes/fields.php:131
+msgid "Price Status"
+msgstr "Statut des prix"
+
+#: includes/fields.php:146
+msgid "Price From - Main Price"
+msgstr "Prix De - Prix Principal"
+
+#: includes/fields.php:154
+msgid "Price To"
+msgstr "Prix à"
+
+#: includes/fields.php:162
+msgid "Claim Status (Empty for Not claimed)"
+msgstr "Statut de la réclamation (vide pour Non réclamé)"
+
+#: includes/fields.php:178
+msgid "Media Options"
+msgstr "Options média"
+
+#: includes/fields.php:189
+msgid "Listing Featured Image"
+msgstr "Annonce Image vedette"
+
+#: includes/fields.php:201
+msgid "Gallery/Slider Images"
+msgstr "Galerie / Slider Images"
+
+#: includes/fields.php:214
+msgid "Header Images"
+msgstr "Images d'en-tête"
+
+#: includes/fields.php:238
+msgid ""
+"Listing Header Type. Images for header are from <strong>Listing Header "
+"Images</strong> section"
+msgstr ""
+"Type d'en-tête de liste. Les images pour l'en-tête proviennent de la section "
+"<strong>Liste des images d'en-tête</strong>"
+
+#: includes/fields.php:249
+msgid "Youtube Background ( video ID. Ex: Hg5iNVSp2z8 )"
+msgstr "Fond d'écran Youtube (ID vidéo. Ex: Hg5iNVSp2z8)"
+
+#: includes/fields.php:260
+msgid "Vimeo Background ( video ID. Ex: 97871257 )"
+msgstr "Fond Vimeo (ID vidéo. Ex: 97871257)"
+
+#: includes/fields.php:271
+msgid "Vimeo URL (.MP4)"
+msgstr "URL Vimeo (.MP4)"
+
+#: includes/fields.php:317
+msgid "Listing Video ( YouTube, Vimeo or .mp4 video url )"
+msgstr "Liste des vidéos (URL de vidéo YouTube, Vimeo ou .mp4)"
+
+#: includes/fields.php:350
+msgid "Event Start Date (Format: 2020-02-20 08:30:00)"
+msgstr "Date de début de l'événement (Format: 2020-02-20 08:30:00)"
+
+#: includes/fields.php:361
+msgid "Event Date End (Format: 2020-02-20 16:30:00)"
+msgstr "Date de fin de l'événement (Format: 2020-02-20 16:30:00)"
+
+#: includes/fields.php:373
+msgid "Working Hours"
+msgstr "Heures d'ouverture"
+
+#: includes/fields.php:385
+msgid ""
+"Available Dates - separate with semicolon. Ex: 2020-03-02;2020-03-18;2020-03-"
+"31"
+msgstr ""
+"Dates disponibles - séparées par un point-virgule. Ex: 2020-03-02; 2020-03-"
+"18; 2020-03- 31"
+
+#: includes/fields.php:399
+msgid "Other Options"
+msgstr "Autres options"
+
+#: includes/fields.php:411
+msgid ""
+"Listing Type ID (Optional) - <a href=\"https://www.youtube.com/watch?v=Tn7-"
+"F630lO4&list=PL8lnIVh9k3Ptfsumpmxf4CH4oIdMl9GLe\" target=\"_blank\">What's "
+"the Listing Type?</a>"
+msgstr ""
+"ID du type de liste (facultatif) - <a href=\"https://www.youtube.com/watch?"
+"v=Tn7- F630lO4&list=PL8lnIVh9k3Ptfsumpmxf4CH4oIdMl9GLe\" target=\"_blank\">"
+"Quel est le type de liste?</a>"
+
+#: includes/fields.php:420
+msgid "Listing Plan ID (Optional)"
+msgstr "ID du plan de référencement (facultatif)"
+
+#: includes/fields.php:422
+msgid ""
+"Membership package ID ( Listing Plans post ), which this listing get field "
+"settings from."
+msgstr ""
+"ID du package d'adhésion (publication des plans de référencement), dont "
+"cette liste obtient les paramètres de champ."
+
+#: includes/fields.php:429
+msgid "Listing Expire Date (Format: 2020-02-20 16:30:00)"
+msgstr "Date d'expiration de l'annonce (Format: 2020-02-20 16:30:00)"
+
+#: includes/fields.php:451
+msgid "Search by Address"
+msgstr "Recherche par adresse"
+
+#: includes/fields.php:454
+msgid ""
+"Enter your Google Developers API key to fetch coordinates from google "
+"(Required services: Google Maps Geocoding API - And set your Google "
+"Application Restrictions to None: http://prntscr.com/kp1xhc )."
+msgstr ""
+"Entrez votre clé API Google Developers pour récupérer les coordonnées de "
+"Google (Services requis: API Google Maps Geocoding - Et définissez vos "
+"restrictions d'application Google sur Aucune: http://prntscr.com/kp1xhc)."
+
+#: includes/fields.php:461
+msgid "Or Coordinate values"
+msgstr "Ou coordonnées"
+
+#: includes/fields.php:462
+msgid "Latitude"
+msgstr "Latitude"
+
+#: includes/fields.php:463
+msgid "Longitude"
+msgstr "Longitude"
+
+#: includes/fields.php:473
+msgid "Image Background (from Header Images)"
+msgstr "Fond d'image (à partir des images d'en-tête)"
+
+#: includes/fields.php:475
+msgid "Video Background"
+msgstr "Fond vidéo"
+
+#: includes/fields.php:476
+msgid "Youtube Video ID. Ex: Hg5iNVSp2z8"
+msgstr "ID vidéo YouTube. Ex: Hg5iNVSp2z8"
+
+#: includes/fields.php:477
+msgid "Or Vimeo Video ID. Ex: 97871257"
+msgstr "Ou ID vidéo Vimeo. Ex: 97871257"
+
+#: includes/fields.php:478
+msgid "Or Vimeo URL (.MP4)"
+msgstr "Ou URL Vimeo (.MP4)"
+
+#: includes/fields.php:480
+msgid "Slider (from Header Images)"
+msgstr "Curseur (à partir des images d'en-tête)"
+
+#: includes/fields.php:481
+msgid "Slideshow (from Header Images)"
+msgstr "Diaporama (à partir des images d'en-tête)"
+
+#: includes/fields.php:507
+msgid ""
+"Timezone String. Default is your site timezone. Ex: America/New_York.<br><a "
+"href=\"http://php.net/manual/en/timezones.php\" target=\"_blank\">Available "
+"values</a>"
+msgstr ""
+"Fuseau horaire. La valeur par défaut est le fuseau horaire de votre site. Ex:"
+" Amérique / New_York. <br> <a  href=\"http://php.net/manual/en/timezones."
+"php\" target=\"_blank\">Valeurs disponibles</a>"
+
+#: includes/fields.php:516
+msgid ""
+"Days and hours. Ex: Mon,09:00:00,19:00:00|Tue,09:00:00,19:00:00|Wed,09:00:00,"
+"19:00:00|Thu,09:00:00,19:00:00|Fri,09:00:00,19:00:00|Sat,09:00:00,19:00:"
+"00|Sun,closeAllDay"
+msgstr ""
+"Jours et heures. Ex: lun, 09: 00: 00, 19: 00: 00 | mar, 09: 00: 00, 19: 00: "
+"00 | mer, 09: 00: 00, 19: 00: 00 | jeu, 09: 00: 00,19: 00: 00 | ven., 09: 00:"
+" 00,19: 00: 00 | sam., 09: 00: 00,19: 00: 00 | dim, closeAllDay"
+
+#: includes/fields.php:519
+msgid ""
+"Format: Mon,OpenTime,CloseTime|Tue,OpenTime1,CloseTime1;OpenTime2,CloseTime2 "
+"and so on"
+msgstr ""
+"Format: Lun, OpenTime, CloseTime | Mar, OpenTime1, CloseTime1; OpenTime2, "
+"CloseTime2 et ainsi de suite"
+
+#. Name of the plugin
+msgid "TownHub Import"
+msgstr "Importation TownHub"
+
+#. Description of the plugin
+msgid "A custom plugin for TownHub - Directory & Listing WordPress Theme"
+msgstr ""
+"Un plugin personnalisé pour TownHub - Répertoire et liste de thèmes WordPress"
+
+#. URI of the plugin
+msgid "https://townhub.cththemes.com"
+msgstr "https://townhub.cththemes.com"
+
+#. Author of the plugin
+msgid "CTHthemes"
+msgstr "CTHthemes"
+
+#. Author URI of the plugin
+msgid "http://themeforest.net/user/cththemes"
+msgstr "http://themeforest.net/user/cththemes"
