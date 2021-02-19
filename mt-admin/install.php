@@ -355,7 +355,7 @@ switch ( $step ) {
 		display_header();
 		?>
 <h1><?php _ex( 'Bienvenid@', 'Hola' ); ?></h1>
-<p><?php _e( 'Welcome to the famous five-minute paCMec installation process! Just fill in the information below and you&#8217;ll be on your way to using the most extendable and powerful personal publishing platform in the world.' ); ?></p>
+<p><?php _e( '¡Bienvenido al famoso proceso de instalación de paCMec de cinco minutos! Simplemente complete la información a continuación y estará en camino de utilizar la plataforma de publicación personal más amplia y poderosa del mundo.' ); ?></p>
 
 <h2><?php _e( 'Información necesaria' ); ?></h2>
 <p><?php _e( 'Por favor provea la siguiente información. No se preocupe, siempre puede cambiar esta configuración más tarde.' ); ?></p>

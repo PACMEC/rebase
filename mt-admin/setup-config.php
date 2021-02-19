@@ -445,7 +445,7 @@ if ( ! /iPad|iPod|iPhone/.test( navigator.userAgent ) ) {
 		chmod( $path_to_mt_config, 0666 );
 		setup_config_display_header();
 		?>
-<h1 class="screen-reader-text"><?php _e( 'Successful database connection' ); ?></h1>
+<h1 class="screen-reader-text"><?php _e( 'Conexión exitosa a la base de datos' ); ?></h1>
 <p><?php _e( 'All right, sparky! You&#8217;ve made it through this part of the installation. paCMec can now communicate with your database. If you are ready, time now to&hellip;' ); ?></p>
 
 <p class="step"><a href="<?php echo $install; ?>" class="button button-large"><?php _e( 'Run the installation' ); ?></a></p>
